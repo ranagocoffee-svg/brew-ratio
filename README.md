@@ -1,7 +1,7 @@
 # Brew Ratio
 
 A tiny command-line tool that calculates how much coffee and water you need
-based on your prefered brew ratio.
+based on your preferred brew ratio.
 
 ## Usage
 
