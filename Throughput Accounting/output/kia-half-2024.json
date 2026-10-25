@@ -1,0 +1,65 @@
+{
+  "periods": [
+    {
+      "label": "2024",
+      "revenue": 53780758000000,
+      "cogs": 40898973000000,
+      "sga": 5812343000000,
+      "costNature": {
+        "wipFgChange": null,
+        "materialsUsed": null,
+        "merchandisePurchased": 0
+      },
+      "inventory": {
+        "wcaiEnd": null,
+        "contractAssetEnd": 0
+      },
+      "nonOperating": {
+        "otherIncomeExpense": 31465000000,
+        "financialIncomeExpense": 288224000000,
+        "equityMethodGainLoss": null
+      },
+      "interestPaid": null,
+      "taxExpense": 2058822000000,
+      "comprehensiveIncomeAdjustments": {
+        "discontinuedOps": 0,
+        "oci": 1202144000000,
+        "accountingPolicyChange": 0,
+        "ani": null
+      },
+      "employees": 35636,
+      "laborCost": 1548982000000,
+      "balanceSheet": {
+        "currentAssets": 38954552000000,
+        "cash": 13370542000000,
+        "receivables": 4079678000000,
+        "nonCurrentAssets": 47091305000000,
+        "totalAssets": 86045857000000,
+        "payables": 9897016000000,
+        "shortTermDebt": 186340000000,
+        "currentLiabilities": 26821042000000,
+        "longTermDebt": 0,
+        "nonCurrentLiabilities": 8393089000000,
+        "totalLiabilities": 35214131000000,
+        "totalEquity": 50831726000000
+      },
+      "opening": {
+        "comprehensiveWcaiBegin": null,
+        "balanceSheet": {
+          "currentAssets": 37466302000000,
+          "cash": 14353142000000,
+          "receivables": 2475015000000,
+          "nonCurrentAssets": 43161524000000,
+          "totalAssets": 80627826000000,
+          "payables": 10369375000000,
+          "shortTermDebt": 128765000000,
+          "currentLiabilities": 25674105000000,
+          "longTermDebt": 200000000000,
+          "nonCurrentLiabilities": 8395486000000,
+          "totalLiabilities": 34069591000000,
+          "totalEquity": 46558235000000
+        }
+      }
+    }
+  ]
+}

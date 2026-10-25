@@ -1,0 +1,9 @@
+.cache/
+node_modules/
+.dart-api-key
+.env
+
+# Source material (563MB of proprietary xls/pptx/docx/pdf) - not program
+# code, too large to track in git. Keep it locally instead.
+data analysis/
+~$*.pptx

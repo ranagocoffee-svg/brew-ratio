@@ -1,0 +1,94 @@
+{
+  "_comment": "Synthetic example (KRW millions), not real company data. See README.md for field definitions.",
+  "periods": [
+    {
+      "label": "2023",
+      "revenue": 100000,
+      "cogs": 75000,
+      "sga": 15000,
+      "costNature": {
+        "wipFgChange": 1000,
+        "materialsUsed": 50000,
+        "merchandisePurchased": 0
+      },
+      "inventory": {
+        "wcaiEnd": 7600,
+        "contractAssetEnd": 0
+      },
+      "nonOperating": {
+        "otherIncomeExpense": -200,
+        "financialIncomeExpense": -800,
+        "equityMethodGainLoss": 100
+      },
+      "interestPaid": 900,
+      "taxExpense": 2000,
+      "comprehensiveIncomeAdjustments": {
+        "oci": 100,
+        "ani": 1800
+      },
+      "employees": 120,
+      "laborCost": 18000,
+      "balanceSheet": {
+        "currentAssets": 60000,
+        "cash": 10000,
+        "receivables": 20000,
+        "nonCurrentAssets": 80000,
+        "payables": 15000,
+        "shortTermDebt": 10000,
+        "longTermDebt": 20000,
+        "totalEquity": 95000
+      },
+      "opening": {
+        "comprehensiveWcaiBegin": 7000,
+        "balanceSheet": {
+          "currentAssets": 55000,
+          "cash": 9000,
+          "receivables": 18000,
+          "nonCurrentAssets": 75000,
+          "payables": 14000,
+          "shortTermDebt": 9000,
+          "longTermDebt": 18000,
+          "totalEquity": 89000
+        }
+      }
+    },
+    {
+      "label": "2024",
+      "revenue": 115000,
+      "cogs": 84000,
+      "sga": 16500,
+      "costNature": {
+        "wipFgChange": 800,
+        "materialsUsed": 56000,
+        "merchandisePurchased": 0
+      },
+      "inventory": {
+        "wcaiEnd": 8200,
+        "contractAssetEnd": 0
+      },
+      "nonOperating": {
+        "otherIncomeExpense": -150,
+        "financialIncomeExpense": -850,
+        "equityMethodGainLoss": 150
+      },
+      "interestPaid": 850,
+      "taxExpense": 3000,
+      "comprehensiveIncomeAdjustments": {
+        "oci": 120,
+        "ani": 2000
+      },
+      "employees": 125,
+      "laborCost": 19500,
+      "balanceSheet": {
+        "currentAssets": 66000,
+        "cash": 12000,
+        "receivables": 22000,
+        "nonCurrentAssets": 84000,
+        "payables": 16000,
+        "shortTermDebt": 9000,
+        "longTermDebt": 19000,
+        "totalEquity": 106000
+      }
+    }
+  ]
+}
