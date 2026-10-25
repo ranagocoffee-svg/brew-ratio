@@ -33,6 +33,23 @@ Run the test suite:
 npm test
 ```
 
+## Web app
+
+```bash
+npm run web        # or: node src/server.js   (PORT env var overrides 3000)
+```
+
+Open <http://localhost:3000>. The app walks through three steps: (1) load data
+via a DART company search + fetch, or paste/load JSON; (2) review and fill in
+the highlighted required fields (cost-by-nature and WCAI figures from the
+report notes); (3) run the analysis and see side-by-side Legacy vs Throughput
+P&L, ROI metrics, and AtMAN cash-flow tables with a per-period summary. Display
+units (원/백만원/억원) can be switched without re-running.
+
+The server binds to `127.0.0.1` only. The DART key is taken from the page's
+key field if filled, otherwise from `DART_API_KEY`, otherwise from the
+gitignored `.dart-api-key` file; it is never stored by the app.
+
 ## Pulling source data from DART (dart.fss.or.kr 정기공시)
 
 Instead of hand-typing every figure, you can pull a company's periodic-report

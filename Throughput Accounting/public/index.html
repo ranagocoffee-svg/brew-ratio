@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Throughput Accounting 분석기</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="wrap">
+      <h1>Throughput Accounting 분석기</h1>
+      <p class="sub">DART 정기공시 → Throughput 손익 · 생산성/ROI · AtMAN 현금흐름 지표</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card" id="source-card">
+      <h2><span class="step">1</span> 데이터 불러오기</h2>
+      <div class="tabs" role="tablist">
+        <button class="tab active" role="tab" data-tab="dart" aria-selected="true">DART 조회</button>
+        <button class="tab" role="tab" data-tab="json" aria-selected="false">JSON 직접 입력</button>
+      </div>
+
+      <div class="tab-panel" id="panel-dart">
+        <div class="row">
+          <label class="grow">회사명
+            <input id="company-query" type="text" placeholder="예: 현대모비스" autocomplete="off">
+          </label>
+          <button id="btn-lookup" class="btn">검색</button>
+        </div>
+        <div id="lookup-results" class="chips" aria-live="polite"></div>
+
+        <div class="row">
+          <label>회계연도 (쉼표 구분)
+            <input id="years" type="text" value="2022, 2023, 2024">
+          </label>
+          <label>보고서
+            <select id="report">
+              <option value="annual">사업보고서</option>
+              <option value="half">반기보고서</option>
+              <option value="q1">1분기보고서</option>
+              <option value="q3">3분기보고서</option>
+            </select>
+          </label>
+          <label>재무제표
+            <select id="fs">
+              <option value="cfs">연결</option>
+              <option value="ofs">별도</option>
+            </select>
+          </label>
+        </div>
+        <div class="row">
+          <label class="grow">DART API 키 <span class="hint" id="key-hint"></span>
+            <input id="api-key" type="password" placeholder="비워두면 서버에 설정된 키 사용" autocomplete="off">
+          </label>
+          <button id="btn-fetch" class="btn primary">DART에서 가져오기</button>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="panel-json" hidden>
+        <label>periods JSON (배열 또는 {"periods": [...]})
+          <textarea id="json-input" rows="10" spellcheck="false" placeholder='{"periods": [ ... ]}'></textarea>
+        </label>
+        <div class="row">
+          <button id="btn-json-load" class="btn primary">불러오기</button>
+          <button id="btn-sample" class="btn">샘플 데이터</button>
+        </div>
+      </div>
+
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+    </section>
+
+    <section class="card" id="edit-card" hidden>
+      <h2><span class="step">2</span> 입력값 확인 · 보완</h2>
+      <p class="muted">DART 표준 API로 가져올 수 없는 항목(주석 정보)은 <span class="needs-badge">필수</span>로 표시됩니다.
+        사업보고서 주석의 「비용의 성격별 분류」와 「재고자산」을 보고 직접 입력하세요.</p>
+      <div id="warnings"></div>
+      <div id="periods"></div>
+      <div class="row end">
+        <label>입력 데이터 단위
+          <select id="input-unit">
+            <option value="1">원</option>
+            <option value="1000">천원</option>
+            <option value="1000000">백만원</option>
+          </select>
+        </label>
+        <button id="btn-analyze" class="btn primary">분석 실행</button>
+      </div>
+    </section>
+
+    <section class="card" id="result-card" hidden>
+      <h2><span class="step">3</span> 분석 결과</h2>
+      <div class="row end">
+        <label>표시 단위
+          <select id="display-unit">
+            <option value="1">원</option>
+            <option value="1000000" selected>백만원</option>
+            <option value="100000000">억원</option>
+          </select>
+        </label>
+        <button id="btn-download" class="btn">결과 JSON 내려받기</button>
+      </div>
+      <div id="results"></div>
+    </section>
+  </main>
+
+  <footer class="wrap muted foot">
+    공식: README.md 참고 · 이 앱은 로컬(127.0.0.1)에서만 실행되며 입력한 API 키를 저장하지 않습니다.
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>

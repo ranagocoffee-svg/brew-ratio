@@ -43,4 +43,27 @@ function findCorpByName(list, query) {
   return list.filter((c) => c.corp_name.replace(/\s+/g, "").includes(normalized));
 }
 
-module.exports = { loadCorpCodeList, findCorpByName, CACHE_PATH };
+/**
+ * Resolves `query` to a single DART company. An 8-digit query is treated as
+ * a corp_code directly (useful to disambiguate when a name matches more
+ * than one company); otherwise it is looked up by name, and must match
+ * exactly one company.
+ */
+async function resolveCorp(query, apiKey) {
+  if (/^\d{8}$/.test(query)) {
+    return { corp_code: query, corp_name: `(corp_code ${query})` };
+  }
+  const list = await loadCorpCodeList(apiKey);
+  const matches = findCorpByName(list, query);
+  if (matches.length === 0) throw new Error(`No DART company found matching "${query}"`);
+  if (matches.length > 1) {
+    const names = matches.slice(0, 10).map((m) => `${m.corp_name} (${m.corp_code})`).join(", ");
+    throw new Error(
+      `"${query}" matches multiple companies, please re-run with one of their corp_code values ` +
+        `as the company argument: ${names}`
+    );
+  }
+  return matches[0];
+}
+
+module.exports = { loadCorpCodeList, findCorpByName, resolveCorp, CACHE_PATH };

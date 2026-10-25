@@ -6,7 +6,8 @@
   "type": "commonjs",
   "scripts": {
     "start": "node src/cli.js",
-    "test": "node --test test/taEngine.test.js test/dartZipXml.test.js test/dartMapping.test.js"
+    "test": "node --test test/taEngine.test.js test/dartZipXml.test.js test/dartMapping.test.js test/server.test.js",
+    "web": "node src/server.js"
   },
   "license": "UNLICENSED"
 }
