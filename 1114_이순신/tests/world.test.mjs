@@ -71,12 +71,16 @@ test("세계 트랙 41건: 지역별(전쟁 20·동아시아 7·유럽 8·세계
 });
 
 const SILLOK_VERIFIED = ["ev-1593-pyongyang-retaken", "ev-1593-japan-leaves-hanseong", "ev-1593-jinju-2", "ev-1597-namwon", "ev-1598-hideyoshi-death-rumor", "ev-1598-dosan-withdrawal", "ev-1598-yegyo-withdrawal", "ev-1593-haengju", "ev-1597-kato-tadaepo", "ev-1592-daedong-crossing"];
-test("세계 사건의 verified 는 근거가 있는 것만: 실록으로 확정 10건(사건 verified), 일기로 확정된 오보 기록 1건(날짜만), 나머지는 unverified", () => {
+test("세계 사건의 verified 는 근거가 있는 것만: 실록으로 확정 10건(사건 verified), 일기로 확정된 오보 기록 1건(날짜만), 한성 수복 1건은 disputed, 나머지는 unverified", () => {
   for (const e of world) {
     if (SILLOK_VERIFIED.includes(e.id)) {
       assert.equal(e.verified, true, e.id);
       assert.equal(e.date.certainty, "verified", e.id);
       assert.ok((e.date.basis_records ?? []).length > 0, `${e.id}: 실록 근거 필요`);
+    } else if (e.id === "ev-1593-hanseong-retaken") {
+      assert.equal(e.verified, false);
+      assert.equal(e.date.certainty, "disputed"); // 위키 5/19 vs 명 측 서술 5/20
+      assert.ok(!(e.date.basis_records ?? []).length);
     } else if (e.id === "ev-1596-hideyoshi-rumor") {
       assert.equal(e.verified, false);
       assert.equal(e.date.certainty, "verified");

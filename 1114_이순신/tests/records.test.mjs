@@ -31,9 +31,10 @@ function mutated(fname, fn) {
 }
 const ev = (d, id) => d.find((e) => e.id === id);
 
-test("실록 기사 18건: 헤더 일간지가 그날의 실제 일간지와 일치하고 날짜는 verified (일기와 같은 방식의 확정)", () => {
-  assert.equal(records.length, 18);
+test("실록 기사 19건: 헤더 일간지가 그날의 실제 일간지와 일치하고 날짜는 verified (일기와 같은 방식의 확정)", () => {
+  assert.equal(records.length, 19);
   const want = {
+    "rec-sillok-seonjo-26-04-26-004": ["庚戌", "1593-05-26"],
     "rec-sillok-seonjo-25-06-18-006": ["丙午", "1592-07-26"], "rec-sillok-seonjo-25-06-26-002": ["甲寅", "1592-08-03"],
     "rec-sillok-seonjo-30-01-23-003": ["甲寅", "1597-03-10"],
     "rec-sillok-seonjo-31-09-06-006": ["戊子", "1598-10-05"], "rec-sillok-seonjo-34-04-25-011": ["壬辰", "1601-05-26"],
@@ -74,9 +75,9 @@ test("인용된 음력 날짜에서 도출한 양력이 사건 날짜와 일치 
   assert.equal(eById["ev-1593-jinju-2"].date.basis_records[0].bridge_entry_id, "de-autograph-b2-1593-06-29");
 });
 
-test("실록과 위키 연표가 일치/불일치하는 지점이 기록돼 있다 (한성 철수 일치, 명군 입성일 미확인, 남원 포위 하루 차이)", () => {
+test("실록과 위키 연표가 일치/불일치하는 지점이 기록돼 있다 (한성 철수 일치, 명군 입성일 disputed, 남원 포위 하루 차이)", () => {
   assert.equal(eById["ev-1593-japan-leaves-hanseong"].date.gregorian, "1593-05-18"); // 위키 'abandoned it on 18 May'
-  assert.equal(eById["ev-1593-hanseong-retaken"].date.certainty, "unverified"); // 명군 입성일(5/19)은 실록에 없음
+  assert.equal(eById["ev-1593-hanseong-retaken"].date.certainty, "disputed"); // 위키 5/19 vs 명 측 서술 4/20(5/20)
   assert.ok(eById["ev-1593-hanseong-retaken"].date.note.includes("입성일(4/19)은 실록으로 확인되지 않는다"));
   assert.ok(eById["ev-1597-namwon"].date.note.includes("하루 차이"));
   assert.ok(eById["ev-1593-jinju-2"].date.note.includes("함락일을 직접 명시하지는 않음"));
