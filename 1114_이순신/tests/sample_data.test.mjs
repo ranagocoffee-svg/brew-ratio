@@ -1,4 +1,4 @@
-// 샘플 데이터(1596-1598)의 핵심 불변식. 데이터를 다시 가져오거나 분할기를 고칠 때 회귀를 잡는다.
+// 샘플 데이터(1592-1598)의 핵심 불변식. 데이터를 다시 가져오거나 분할기를 고칠 때 회귀를 잡는다.
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -130,4 +130,80 @@ test("1598 사건: 일기 근거 사건은 verified, 일기 밖 사건은 unveri
     assert.equal(byId[id].date.certainty, "unverified", id);
     assert.equal(byId[id].verified, false, id);
   }
+});
+
+// ---- 1책~3책 (1592~1594) ----
+const inMonthMissing = (es) => {
+  const sorted = [...es].sort((a, b) => key(a) - key(b));
+  const miss = [];
+  for (let i = 1; i < sorted.length; i++) {
+    const a = sorted[i - 1].date.original, b = sorted[i].date.original;
+    if (a.month === b.month && !a.leap_month && b.day - a.day > 1) for (let d = a.day + 1; d < b.day; d++) miss.push(`${a.month}/${d}`);
+  }
+  return miss;
+};
+
+test("1~3책 입력 일수 (1책 1592 19 / 1593 49, 2책 127, 3책 315)", () => {
+  assert.equal(vol("1책 임진일기", 1592).length, 19);
+  assert.equal(vol("1책 임진일기", 1593).length, 49);
+  assert.equal(vol("2책 계사일기").length, 127);
+  assert.equal(vol("3책 갑오일기").length, 315);
+});
+
+test("1책 1592: 일간지 없는 머리 → 전부 unverified, 날짜는 변환기 계산값", () => {
+  for (const e of vol("1책 임진일기", 1592)) {
+    assert.equal(e.day_ganji, null, e.id);
+    assert.equal(e.date.certainty, "unverified", e.id);
+    assert.equal(e.date.gregorian, e.date.computed_gregorian, e.id);
+  }
+  const days = vol("1책 임진일기", 1592).map((e) => `${e.date.original.month}/${e.date.original.day}`);
+  assert.deepEqual(days.filter((d) => d.startsWith("8/")), ["8/24", "8/25", "8/26", "8/27", "8/28"]);
+  assert.ok(days.includes("5/29") && days.includes("6/9") && !days.includes("5/5"));
+});
+
+test("1책 1593: 2월 30일 + 3월 19일, 전부 verified, 판독문 월 머리 '二月'은 3월로 보정", () => {
+  const e = vol("1책 임진일기", 1593);
+  assert.equal(e.filter((x) => x.date.original.month === 2).length, 30);
+  assert.equal(e.filter((x) => x.date.original.month === 3).length, 19);
+  for (const x of e) assert.equal(x.date.certainty, "verified", x.id);
+  assert.equal(e.find((x) => x.date.original.month === 2 && x.date.original.day === 1).date.gregorian, "1593-03-03"); // 丙戌
+  const m31 = e.find((x) => x.date.original.month === 3 && x.date.original.day === 1);
+  assert.equal(m31.day_ganji, "丙辰");
+  assert.equal(m31.date.gregorian, "1593-04-02");
+  assert.ok(m31.note.includes("3월로 배정"));
+  assert.deepEqual(inMonthMissing(e), ["3/17"]);
+});
+
+test("2책: 5/1~9/14 전부 verified, 빠진 날 5개, 9/14 본문에 9/15 부록이 섞이지 않음, 괄호 머리 8건 보존", () => {
+  const b2 = vol("2책 계사일기");
+  for (const e of b2) { assert.equal(e.date.certainty, "verified", e.id); assert.equal(e.date.gregorian, e.date.computed_gregorian, e.id); }
+  assert.deepEqual(inMonthMissing(b2), ["5/3", "5/7", "5/25", "5/26", "7/21"]);
+  const last = b2.find((e) => e.date.original.month === 9 && e.date.original.day === 14);
+  assert.ok(last.text_han.endsWith("順天還來"));
+  assert.ok(!last.text_han.includes("夷性輕剽"));
+  assert.equal(b2.filter((e) => e.note && e.note.includes("괄호 글자")).length, 8);
+});
+
+test("3책: 1/1~11/28 315일, 이의는 5/8(己酉≠乙酉) 한 건뿐", () => {
+  const b3 = vol("3책 갑오일기");
+  const odd = b3.filter((e) => e.date.certainty !== "verified");
+  assert.deepEqual(odd.map((e) => e.id), ["de-autograph-b3-1594-05-08"]);
+  assert.equal(odd[0].date.ganji_check.expected, "乙酉");
+  assert.equal(odd[0].date.ganji_check.stem_match, false);
+  assert.deepEqual(inMonthMissing(b3), ["2/23", "2/24", "2/25", "2/26", "2/27", "7/20", "7/23"]);
+  const last = [...b3].sort((a, b) => key(a) - key(b)).at(-1);
+  assert.equal(`${last.date.original.month}/${last.date.original.day}`, "11/28");
+});
+
+test("1592 사건 4건: 문서 날짜와 변환기 일치, 일기 공백이라 unverified", () => {
+  for (const id of ["ev-1592-war-begins", "ev-1592-okpo", "ev-1592-hansando", "ev-1592-busanpo"]) {
+    const ev = events.find((e) => e.id === id);
+    assert.ok(ev, id);
+    assert.equal(ev.date.certainty, "unverified", id);
+    assert.equal(ev.verified, false, id);
+    assert.equal(ev.date.gregorian, ev.date.computed_gregorian, id);
+  }
+  // 이 사건들의 음력 날짜에 해당하는 일기는 현존 초고본에 없다
+  const has = (m, d) => entries.some((e) => e.date.original.year === 1592 && e.date.original.month === m && e.date.original.day === d);
+  assert.ok(!has(5, 7) && !has(7, 8) && !has(9, 1));
 });

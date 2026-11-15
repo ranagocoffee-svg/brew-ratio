@@ -13,8 +13,9 @@ const chip = (kind, text) => `<span class="chip ${kind}">${esc(text)}</span>`;
 const certChip = (c) => chip(c, CERT[c] ?? c);
 
 const D = {};
-const YEARS = [1596, 1597, 1598];
-const DEFAULT_EVENT = { 1596: null, 1597: "ev-1597-myeongnyang", 1598: "ev-1598-joint-assault" };
+const YEARS = [1592, 1593, 1594, 1595, 1596, 1597, 1598];
+const DEFAULT_EVENT = { 1592: "ev-1592-hansando", 1593: null, 1594: null, 1595: null, 1596: null, 1597: "ev-1597-myeongnyang", 1598: "ev-1598-joint-assault" };
+const DEFAULT_MONTH = { 1592: 5, 1593: 5, 1594: 5, 1595: 1, 1596: 9, 1597: 9, 1598: 9 }; // 일기가 있는 달로 시작
 const state = { tab: "timeline", year: 1597, eventId: DEFAULT_EVENT[1597], month: 9 };
 
 async function load() {
@@ -96,8 +97,10 @@ function diaryMonthCell(entries) {
   if (!w.length) return '<span class="empty">입력된 일기 없음 (≠ 일기가 없다는 뜻, "입력되지 않음")</span>';
   return [...byVolume(w)].map(([vol, es]) => {
     const bad = es.filter((e) => e.date.ganji_check).length;
+    const noGj = es.filter((e) => !e.day_ganji).length;
+    const gjChip = bad ? chip("disputed", `일간지 불일치 ${bad}일`) : noGj === es.length ? chip("unverified", "일간지 없음 · 변환기 기준(미검증)") : noGj ? chip("unverified", `일간지 없는 날 ${noGj}일`) : chip("verified", "일간지 전부 일치");
     const rows = es.map((e) => { const o = e.date.original; return `<tr><td style="width:56px">${o.leap_month ? "윤" : ""}${o.month}/${o.day}</td><td style="width:150px">${e.date.gregorian ?? "—"} ${checkChip(e)}</td><td class="note">${esc(e.text_han.slice(0, 46))}…</td></tr>`; }).join("");
-    return `<div style="margin-bottom:8px"><b>${esc(vol)} · ${es.length}일 입력</b> ${bad ? chip("disputed", `일간지 불일치 ${bad}일`) : chip("verified", "일간지 전부 일치")}
+    return `<div style="margin-bottom:8px"><b>${esc(vol)} · ${es.length}일 입력</b> ${gjChip}
       <details style="margin-top:4px"><summary>일기 목록 열기</summary><table>${rows}</table></details></div>`;
   }).join("");
 }
@@ -170,13 +173,16 @@ function editions() {
   return `<section class="card"><h2>난중일기 판본 계보</h2>
     <p class="note">친필 초고 → 필사·간행·탈초 → 교감본. 번역은 표시용이며 분석은 한문 판독본에서 합니다.</p>
     <ul class="tree">${D.editions.map(li).join("")}</ul></section>
-    <section class="card"><h2>1596~1598년 일기 입력 현황</h2>
+    <section class="card"><h2>1592~1598년 일기 입력 현황</h2>
     ${monthSummary()}
-    <p class="note">초고본 4책~7책 본문은 국가유산포털 원문텍스트(판독 주체·이용 조건 미확인, 미검수). 기준 판본(교감본) 본문은 아직 비어 있습니다(placeholder). 가져오기: <code>tools/research/fetch_heritage_text.mjs</code> → <code>build_diary_tsv.mjs</code> → <code>import_diary.mjs</code></p>
+    <p class="note">초고본 1책~7책 본문은 국가유산포털 원문텍스트(판독 주체·이용 조건 미확인, 미검수). 기준 판본(교감본) 본문은 아직 비어 있습니다(placeholder). 가져오기: <code>tools/research/fetch_heritage_text.mjs</code> → <code>build_diary_tsv.mjs</code> → <code>import_diary.mjs</code></p>
     <h3>결측 기록</h3><table><tr><th>기간</th><th>판본</th><th>상태</th><th>메모</th></tr>${D.coverage.map((c) => `<tr><td>${esc(c.period)}</td><td>${esc(D.byId[c.edition_id]?.title)}</td><td>${chip("", COVER[c.status])}</td><td class="note">${esc(c.note)}</td></tr>`).join("")}</table></section>`;
 }
 
 const NOTE = {
+  "1책 임진일기": "1592년 19일(5/1~5/4, 5/29, 6/1~6/9, 8/24~8/28)은 날짜 머리에 일간지가 없어 변환기 기준(미검증). 1593년 49일(2/1~3/20)은 일간지가 전부 일치. 판독문의 월 표기 '二月'(실제 3월 1일)은 일간지와 맞지 않아 3월로 배정.",
+  "2책 계사일기": "5/1~9/14 127일, 일간지 전부 일치. 빠진 날 5/3·5/7·5/25·5/26·7/21. 날짜 머리 8곳의 일간지에 괄호 글자(삭제·정정 표기일 가능성)가 있고 괄호를 뺀 글자가 달력과 맞음.",
+  "3책 갑오일기": "1/1~11/28 315일. 314일이 일치하고 5/8 하나만 己酉(달력상 乙酉). 포털 해제문 목록은 7/28까지라 적었으나 판독문은 11/28까지(목록 오기 추정). 빠진 날 2/23~2/27, 7/20, 7/23.",
   "4책 병신일기": "1/1~10/11 305일(윤8월 포함) 일간지가 전부 달력·변환기와 일치. 일기가 없는 날은 6/24, 윤8/24뿐. 9/12·9/14·9/15의 '女眞' 표기는 판독 쟁점 후보(결측 기록 참조).",
   "5책 정유일기": "4~6월은 전부 일치. 7/4~10/3은 천간은 맞고 지지가 일관되게 +2(일기 자체의 간지 오기 가능성, 가설).",
   "6책 속정유일기": "일간지가 처음부터 끝까지 달력과 일치. 1597 9월 29일은 변환기보다 +1일(변환기 표 오류), 8/30은 변환기에 없는 날(변환기는 8월을 29일로 봄). 1598 정월 1~4일은 변환기와 일치.",
@@ -192,10 +198,12 @@ function monthSummary() {
       const yr = Math.floor(key / 10000), m = Math.floor((key % 10000) / 100), lp = key % 100 === 50;
       const es = all.filter((e) => ym(e) === key);
       const bad = es.filter((e) => e.date.ganji_check);
+      const ok = es.filter((e) => e.day_ganji && !e.date.ganji_check).length; // 일간지가 있고 달력과 일치
+      const noGj = es.filter((e) => !e.day_ganji).length;
       const shifts = [...new Set(bad.map((e) => e.date.ganji_check.branch_shift))].map((s) => (s > 0 ? "+" : "") + s).join(", ");
       const adj = es.filter((e) => e.date.computed_gregorian && e.date.gregorian !== e.date.computed_gregorian).length;
       const noConv = es.filter((e) => !e.date.computed_gregorian).length;
-      return `<tr><td>${yr}년 음력 ${lp ? "윤" : ""}${m}월</td><td>${es.length}일</td><td>${es.length - bad.length}</td><td>${bad.length ? `${chip("disputed", `${bad.length}일`)} 지지 ${shifts}, 천간 불일치 ${bad.filter((e) => !e.date.ganji_check.stem_match).length}` : "—"}</td><td>${adj ? `${chip("disputed", `${adj}일`)} 변환기보다 +1일` : "—"}${noConv ? ` ${chip("unverified", `${noConv}일 변환기에 없음`)}` : ""}</td></tr>`;
+      return `<tr><td>${yr}년 음력 ${lp ? "윤" : ""}${m}월</td><td>${es.length}일</td><td>${ok}${noGj ? ` ${chip("unverified", `간지 없음 ${noGj}`)}` : ""}</td><td>${bad.length ? `${chip("disputed", `${bad.length}일`)} 지지 ${shifts}, 천간 불일치 ${bad.filter((e) => !e.date.ganji_check.stem_match).length}` : "—"}</td><td>${adj ? `${chip("disputed", `${adj}일`)} 변환기보다 +1일` : "—"}${noConv ? ` ${chip("unverified", `${noConv}일 변환기에 없음`)}` : ""}</td></tr>`;
     }).join("");
     return `<h3>${esc(vol)} · ${all.length}일</h3><table><tr><th>월</th><th>입력</th><th>간지 일치</th><th>간지 불일치</th><th>양력 조정(변환기 대비)</th></tr>${rows}</table>
       <p class="note">${esc(NOTE[vol] ?? "")}</p>`;
@@ -211,7 +219,7 @@ document.addEventListener("click", (ev) => {
   const t = ev.target.closest("[data-tab],[data-ev],[data-year]");
   if (!t) return;
   ev.preventDefault();
-  if (t.dataset.year) { state.year = Number(t.dataset.year); state.eventId = DEFAULT_EVENT[state.year]; state.month = 9; state.tab = "timeline"; }
+  if (t.dataset.year) { state.year = Number(t.dataset.year); state.eventId = DEFAULT_EVENT[state.year]; state.month = DEFAULT_MONTH[state.year] ?? 9; state.tab = "timeline"; }
   if (t.dataset.tab) state.tab = t.dataset.tab;
   if (t.dataset.ev) { state.eventId = t.dataset.ev; state.tab = "timeline"; }
   render();

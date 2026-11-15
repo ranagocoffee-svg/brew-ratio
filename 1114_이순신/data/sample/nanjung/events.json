@@ -28,6 +28,34 @@
     "source_ids": ["src-standard-chronology"], "verified": false, "note": null
   },
   {
+    "id": "ev-1592-war-begins", "track": "yi",
+    "title_ko": "임진왜란 개전 (일본군 상륙)", "title_en": "Japanese invasion begins",
+    "category": "war",
+    "date": {"original": {"calendar": "lunisolar", "year": 1592, "month": 4, "day": 13, "leap_month": false}, "gregorian": "1592-05-23", "julian": "1592-05-13", "computed_gregorian": "1592-05-23", "converter": "korean-lunar-calendar@0.4.0", "precision": "day", "certainty": "unverified", "note": "crosscheck 문서(음력 4월 13일, 양력 5.23)와 변환기가 일치. 현존 초고본 일기는 5/1부터이고 4/13은 없다(1592 5/1 앞은 결락)."},
+    "source_ids": ["src-crosscheck-md", "src-wiki-chronology"], "verified": false, "note": null
+  },
+  {
+    "id": "ev-1592-okpo", "track": "yi",
+    "title_ko": "옥포해전 (첫 승전)", "title_en": "Battle of Okpo",
+    "category": "battle",
+    "date": {"original": {"calendar": "lunisolar", "year": 1592, "month": 5, "day": 7, "leap_month": false}, "gregorian": "1592-06-16", "julian": "1592-06-06", "computed_gregorian": "1592-06-16", "converter": "korean-lunar-calendar@0.4.0", "precision": "day", "certainty": "unverified", "note": "crosscheck 문서는 양력 6.16만 적었다. 음력 5월 7일은 변환기 역산값. 현존 일기에 5/5~5/28이 없어 일간지로 대조할 수 없다."},
+    "source_ids": ["src-crosscheck-md", "src-wiki-chronology"], "verified": false, "note": null
+  },
+  {
+    "id": "ev-1592-hansando", "track": "yi",
+    "title_ko": "한산도 대첩", "title_en": "Battle of Hansan Island",
+    "category": "battle",
+    "date": {"original": {"calendar": "lunisolar", "year": 1592, "month": 7, "day": 8, "leap_month": false}, "gregorian": "1592-08-14", "julian": "1592-08-04", "computed_gregorian": "1592-08-14", "converter": "korean-lunar-calendar@0.4.0", "precision": "day", "certainty": "unverified", "note": "crosscheck 문서(음력 7월 8일, 양력 8.14)와 변환기가 일치. 현존 일기에 6/10~8/23이 없어 일간지로 대조할 수 없다."},
+    "source_ids": ["src-crosscheck-md", "src-wiki-chronology"], "verified": false, "note": null
+  },
+  {
+    "id": "ev-1592-busanpo", "track": "yi",
+    "title_ko": "부산포 해전", "title_en": "Battle of Busanpo",
+    "category": "battle",
+    "date": {"original": {"calendar": "lunisolar", "year": 1592, "month": 9, "day": 1, "leap_month": false}, "gregorian": "1592-10-05", "julian": "1592-09-25", "computed_gregorian": "1592-10-05", "converter": "korean-lunar-calendar@0.4.0", "precision": "day", "certainty": "unverified", "note": "crosscheck 문서는 양력 10.5만 적었다. 음력 9월 1일은 변환기 역산값. 현존 일기에 8/29~12/30이 없어 일간지로 대조할 수 없다."},
+    "source_ids": ["src-crosscheck-md", "src-wiki-chronology"], "verified": false, "note": null
+  },
+  {
     "id": "ev-1598-fleet-departure", "track": "yi",
     "title_ko": "진 도독과 함께 출병, 나로도 도착", "title_en": "Sets out with Commander Chen; reaches Naro Island",
     "category": "campaign",
