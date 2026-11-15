@@ -31,9 +31,10 @@ function mutated(fname, fn) {
 }
 const ev = (d, id) => d.find((e) => e.id === id);
 
-test("실록 기사 23건: 헤더 일간지가 그날의 실제 일간지와 일치하고 날짜는 verified (일기와 같은 방식의 확정)", () => {
-  assert.equal(records.length, 23);
+test("실록 기사 24건: 헤더 일간지가 그날의 실제 일간지와 일치하고 날짜는 verified (일기와 같은 방식의 확정)", () => {
+  assert.equal(records.length, 24);
   const want = {
+    "rec-sillok-seonjo-29-01-21-002": ["戊子", "1596-02-18"],
     "rec-sillok-seonjo-31-10-01-006": ["癸丑", "1598-10-30"],
     "rec-sillok-seonjo-31-09-26-011": ["戊申", "1598-10-25"],
     "rec-sillok-seonjo-30-12-28-004": ["甲申", "1598-02-03"], "rec-sillok-seonjo-31-01-09-003": ["乙未", "1598-02-14"],
