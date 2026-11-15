@@ -16,7 +16,7 @@ npm run serve      # MVP 화면: http://127.0.0.1:5173/ (연표·사료 층위·
 3. 오류가 하나도 없을 때만 저장된다. 같은 id는 교체, 나머지는 유지. 월별 입력 일수가 출력된다.
 4. `npm run validate`로 최종 확인.
 
-**국가유산포털 원문 가져오기(초고본 5책)**: `node tools/research/fetch_heritage_text.mjs 5` → `node tools/research/build_diary_tsv.mjs 5 4 data/input/heritage-1597.tsv 1` → `node tools/import_diary.mjs data/input/heritage-1597.tsv data/sample/1597 --year 1597 --by <이름> --edition ed-autograph --reading rd-heritage-portal`. 포털은 펼침면(2쪽) 단위로 응답하므로 중복 면을 제거하고, 날짜 번호를 기준으로 일별 분할한다. 포털 판독문은 미검수이며 이용 조건(공공누리 유형)을 확인하기 전에는 공개 배포하지 않는다.
+**국가유산포털 원문 가져오기(초고본 5책·6책)**: `node tools/research/fetch_heritage_text.mjs <책>` → `node tools/research/build_diary_tsv.mjs <책> <시작 음력 월> <출력.tsv> <시작 일>` → `node tools/import_diary.mjs <tsv> data/sample/1597 --year 1597 --by <이름> --edition ed-autograph --reading rd-heritage-portal --volume "<책 이름>" --tag <b5|b6>`. 5책은 시작 `4 … 1`, 6책은 `8 … 6`(8/4~8/5는 훼손 단편이라 8/6부터). 월 머리(`九月初一日…`)가 있으면 롤오버 추정보다 우선하고, 무술년(1598) 정월 이후는 1597 입력에서 제외한다. 같은 날짜가 여러 책에 있어 항목은 `volume`으로 구분한다. 포털은 펼침면(2쪽) 단위로 응답하므로 중복 면을 제거하고, 날짜 번호를 기준으로 일별 분할한다. 포털 판독문은 미검수이며 이용 조건(공공누리 유형)을 확인하기 전에는 공개 배포하지 않는다.
 
 **일간지 불일치(`ganji_check`)**: 일기에 적힌 간지가 변환값 ±3일의 어떤 날과도 맞지 않으면 거부하지 않고 `certainty: disputed`와 `ganji_check`(적힌 값, 기대값, 천간 일치, 지지 이동)로 기록한다. 이때 양력은 천간이 맞는 날(변환값 ±1일)을 우선한다. 1597년 5책은 7/4~10/3에서 천간은 맞고 지지가 일관되게 +2라 이 경로를 탄다.
 

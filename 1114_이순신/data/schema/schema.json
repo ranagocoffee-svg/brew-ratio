@@ -22,6 +22,7 @@
         "julian": {"type": ["string", "null"], "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$"},
         "computed_gregorian": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "변환기가 계산한 양력. 사료/입력값(gregorian)과 다르면 certainty=disputed 로 병기한다."},
         "converter": {"type": ["string", "null"]},
+        "basis_entry_ids": {"type": ["array", "null"], "items": {"type": "string"}, "description": "이 날짜를 일간지로 확정한 일기 항목 id. 검증기가 해당 항목의 양력·일간지 확정 여부를 확인한다."},
         "ganji_check": {
           "type": ["object", "null"],
           "description": "일기에 적힌 일간지가 gregorian 날짜의 실제 일간지와 다를 때의 구조화 기록. 숨기지 않고 병기한다.",
@@ -116,6 +117,7 @@
         "edition_id": {"type": "string"},
         "reading_id": {"type": "string"},
         "date": {"$ref": "#/$defs/DateRecord"},
+        "volume": {"type": ["string", "null"], "description": "같은 판본 안의 책(예: 친필 초고의 5책 정유일기 / 6책 속정유일기). 같은 날짜가 여러 책에 있을 수 있다."},
         "day_ganji": {"type": ["string", "null"], "pattern": "^[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥]$", "description": "일기 날짜 머리의 일간지. 양력 날짜를 직접 식별하는 근거(역법 차이와 무관)."},
         "text_han": {"type": ["string", "null"], "description": "분석 대상은 한문 판독본."},
         "text_ko": {"type": ["string", "null"], "description": "표시용 번역. 분석에 쓰지 않는다."},

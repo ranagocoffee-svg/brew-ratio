@@ -52,7 +52,7 @@ function check(value, schema, path, errors) {
 
 export { gregorianToJulian };
 
-function checkDate(rec, path, errors, dayGanji = null) {
+function checkDate(rec, path, errors, dayGanji = null, basisOk = false) {
   const { gregorian: g, julian: j } = rec;
   if (g && j && g.length === 10 && j.length === 10) {
     try {
@@ -80,11 +80,12 @@ function checkDate(rec, path, errors, dayGanji = null) {
   if (o?.calendar === "lunisolar" && rec.precision === "day" && o.month != null && o.day != null) {
     const calc = lunarToGregorian(o.year, o.month, o.day, o.leap_month);
     if (!calc) {
-      if (rec.certainty !== "disputed") errors.push(`${path}: 변환기 표에 없는 음력 날짜 (certainty=disputed 로 명시 필요)`);
+      // 변환기 표에 없는 날짜(예: 변환기가 29일로 보는 달의 30일). 일간지로 확정됐거나 disputed 면 허용.
+      if (rec.certainty !== "disputed" && !ganjiOk && !basisOk) errors.push(`${path}: 변환기 표에 없는 음력 날짜 (일간지로 확정하거나 certainty=disputed 로 명시 필요)`);
     } else {
       if (rec.computed_gregorian && rec.computed_gregorian !== calc.gregorian)
         errors.push(`${path}: 저장된 computed_gregorian ${rec.computed_gregorian} 가 재계산값 ${calc.gregorian} 과 다름`);
-      if (g && g.length === 10 && g !== calc.gregorian && rec.certainty !== "disputed" && !ganjiOk)
+      if (g && g.length === 10 && g !== calc.gregorian && rec.certainty !== "disputed" && !ganjiOk && !basisOk)
         errors.push(`${path}: gregorian ${g} 가 변환값 ${calc.gregorian} 과 다름 (certainty=disputed 로 명시하고 computed_gregorian 기록 필요)`);
       if (g && g.length === 10 && g !== calc.gregorian && !rec.computed_gregorian)
         errors.push(`${path}: 불일치인데 computed_gregorian 미기록`);
@@ -118,7 +119,18 @@ export function validateDir(dir) {
 
   for (const ev of data["events.json"]) {
     (ev.source_ids ?? []).forEach((s) => ref("sources.json", s, ev.id));
-    if (ev.date) checkDate(ev.date, ev.id, errors);
+    // 일기 일간지로 확정한 사건 날짜: basis_entry_ids 의 항목이 같은 양력·확정 상태·일간지를 가져야 인정.
+    let basisOk = false;
+    const basis = ev.date?.basis_entry_ids ?? [];
+    if (basis.length) {
+      const bad = basis.filter((id) => {
+        const de = data["diary_entries.json"].find((x) => x.id === id);
+        return !(de && de.day_ganji && de.date.certainty === "verified" && de.date.gregorian === ev.date.gregorian);
+      });
+      if (bad.length) errors.push(`${ev.id}: basis_entry_ids ${bad.join(", ")} 가 존재하지 않거나 같은 양력으로 확정(verified, 일간지 있음)되지 않음`);
+      else basisOk = true;
+    }
+    if (ev.date) checkDate(ev.date, ev.id, errors, null, basisOk);
     if (ev.verified && ev.date?.certainty !== "verified") errors.push(`${ev.id}: verified=true 인데 date.certainty 가 verified 아님`);
   }
   for (const cl of data["claims.json"]) {
@@ -141,8 +153,8 @@ export function validateDir(dir) {
   const dayKeys = new Map();
   for (const de of data["diary_entries.json"]) {
     const o = de.date.original;
-    const k = `${de.edition_id}|${de.reading_id}|${o.year}-${o.leap_month ? "L" : ""}${o.month}-${o.day}`;
-    if (dayKeys.has(k)) errors.push(`${de.id}: 같은 판본·판독·날짜 중복 (${dayKeys.get(k)})`);
+    const k = `${de.edition_id}|${de.reading_id}|${de.volume ?? ""}|${o.year}-${o.leap_month ? "L" : ""}${o.month}-${o.day}`;
+    if (dayKeys.has(k)) errors.push(`${de.id}: 같은 판본·판독·책·날짜 중복 (${dayKeys.get(k)})`);
     dayKeys.set(k, de.id);
     if (o.month < 1 || o.month > 12 || o.day < 1 || o.day > 30) errors.push(`${de.id}: 음력 월/일 범위 오류`);
   }

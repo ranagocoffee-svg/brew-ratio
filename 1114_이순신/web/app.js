@@ -71,26 +71,35 @@ const checkChip = (e) => {
   return g ? chip("disputed", `간지 불일치 ${g.written}≠${g.expected}`) : e.day_ganji ? chip("verified", `간지 ${e.day_ganji}`) : "";
 };
 
+const byVolume = (es) => { const m = new Map(); for (const e of es) { const k = e.volume ?? "(책 구분 없음)"; if (!m.has(k)) m.set(k, []); m.get(k).push(e); } return m; };
+
 function diaryMonthCell(entries) {
   const w = written(entries);
   if (!w.length) return '<span class="empty">입력된 일기 없음 (≠ 일기가 없다는 뜻, "입력되지 않음")</span>';
-  const bad = w.filter((e) => e.date.ganji_check).length;
-  const rows = w.map((e) => { const o = e.date.original; return `<tr><td style="width:56px">${o.month}/${o.day}</td><td style="width:150px">${e.date.gregorian ?? "—"} ${checkChip(e)}</td><td class="note">${esc(e.text_han.slice(0, 46))}…</td></tr>`; }).join("");
-  return `<b>${w.length}일 입력</b> · ${esc(D.byId[w[0].edition_id]?.title)} ${bad ? chip("disputed", `일간지 불일치 ${bad}일`) : chip("verified", "일간지 전부 일치")}
-    <details style="margin-top:6px"><summary>일기 목록 열기</summary><table>${rows}</table></details>`;
+  return [...byVolume(w)].map(([vol, es]) => {
+    const bad = es.filter((e) => e.date.ganji_check).length;
+    const rows = es.map((e) => { const o = e.date.original; return `<tr><td style="width:56px">${o.month}/${o.day}</td><td style="width:150px">${e.date.gregorian ?? "—"} ${checkChip(e)}</td><td class="note">${esc(e.text_han.slice(0, 46))}…</td></tr>`; }).join("");
+    return `<div style="margin-bottom:8px"><b>${esc(vol)} · ${es.length}일 입력</b> ${bad ? chip("disputed", `일간지 불일치 ${bad}일`) : chip("verified", "일간지 전부 일치")}
+      <details style="margin-top:4px"><summary>일기 목록 열기</summary><table>${rows}</table></details></div>`;
+  }).join("");
 }
 
+/** 사건의 음력 날짜에 해당하는 일기를 책별로 나란히 보여준다(5책 vs 6책 대조). */
 function diaryFor(ev) {
   const o = ev.date.original;
   if (o.calendar !== "lunisolar" || o.day == null) return "";
-  const e = written(D.diary_entries).find((x) => x.date.original.month === o.month && x.date.original.day === o.day);
-  if (!e) return "";
-  const g = e.date.ganji_check;
-  return `<h3>일기 본문 발췌 <span class="sub">(${esc(e.source_ref)} · 포털 판독문, 미검수)</span></h3>
-    <p style="font-family:'Noto Serif KR','Batang',serif;line-height:1.9">${esc(e.text_han.slice(0, 190))}…</p>
-    <dl><dt>일기의 일간지</dt><dd>${esc(e.day_ganji)} ${g ? `${chip("disputed", `실제 ${g.expected}와 지지 ${g.branch_shift > 0 ? "+" : ""}${g.branch_shift}`)} <span class="note">천간 ${g.stem_match ? "일치" : "불일치"}</span>` : chip("verified", "일치")}</dd>
-    <dt>양력(일기 기준)</dt><dd>${esc(e.date.gregorian)} <span class="sub">변환기 ${esc(e.date.computed_gregorian)}</span></dd></dl>
-    <p class="note">${esc(e.date.note)}</p>`;
+  const es = written(D.diary_entries).filter((x) => x.date.original.month === o.month && x.date.original.day === o.day);
+  if (!es.length) return "";
+  const card = (e) => {
+    const g = e.date.ganji_check;
+    return `<div style="flex:1 1 320px;min-width:0;border:1px solid var(--line);border-radius:10px;padding:10px 12px">
+      <div><b>${esc(e.volume ?? "")}</b> <span class="sub">${esc(e.source_ref)}</span></div>
+      <p style="font-family:'Noto Serif KR','Batang',serif;line-height:1.9;margin:6px 0">${esc(e.text_han.slice(0, 170))}…</p>
+      <div class="note">${e.text_han.length}자 · 일간지 ${esc(e.day_ganji)} ${g ? chip("disputed", `실제 ${g.expected}와 지지 ${g.branch_shift > 0 ? "+" : ""}${g.branch_shift}`) : chip("verified", "달력과 일치")} · 양력 ${esc(e.date.gregorian)} <span class="sub">(변환기 ${esc(e.date.computed_gregorian ?? "—")})</span></div></div>`;
+  };
+  return `<h3>일기 본문 발췌 — 책별 대조 <span class="sub">(포털 판독문, 미검수)</span></h3>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">${es.map(card).join("")}</div>
+    ${es.length > 1 ? `<p class="note">같은 날짜인데 본문이 다릅니다. 6책 속정유일기는 5책의 사본이 아니라 별도로 쓴 기록으로 보이며, 수치 서술이 갈립니다(위 병기 수치 참조).</p>` : ""}`;
 }
 
 function detail() {
@@ -98,11 +107,16 @@ function detail() {
   if (!e) return '<p class="empty">사건을 선택하세요.</p>';
   const d = e.date, o = d.original;
   const claims = D.claims.filter((c) => c.event_id === e.id);
-  const max = Math.max(...claims.filter((c) => c.field === "japanese_ships").map((c) => c.value), 1);
   const fields = [...new Set(claims.map((c) => c.field))];
-  const FIELD = { japanese_ships: "일본 함선 수", joseon_ships: "조선 함선 수" };
+  const FIELD = { japanese_ships: "일본 함선 수", joseon_ships: "조선 함선 수", japanese_ships_destroyed: "격파된 일본 함선 수" };
+  const volOf = (c) => (/^([56]책)/.exec(c.note ?? "") ?? [])[1];
+  const label = (c) => c.source_ids.map((s) => D.byId[s]?.title.split(":")[0].split("(")[0].trim()).join(", ") + (volOf(c) ? ` · ${volOf(c)}` : "");
   const claimHtml = claims.length
-    ? `<h3>출처별로 갈리는 수치 (하나로 합치지 않음)</h3><div class="claims">${fields.map((f) => `<div class="sub">${FIELD[f] ?? esc(f)}</div>` + claims.filter((c) => c.field === f).map((c) => `<div class="claimrow"><span>${esc(c.source_ids.map((s) => D.byId[s]?.title.split(":")[0].split("(")[0].trim()).join(", "))}</span><div class="claimbar ${c.status === "disputed" ? "disputed" : ""}" style="width:${Math.max(3, (c.value / max) * 100)}%" title="${esc(c.note)}"></div><span><b>${esc(c.value)}</b></span></div>`).join("")).join("")}</div>`
+    ? `<h3>출처별로 갈리는 수치 (하나로 합치지 않음)</h3><div class="claims">${fields.map((f) => {
+        const rows = claims.filter((c) => c.field === f);
+        const max = Math.max(...rows.map((c) => c.value), 1); // 항목별로 막대 길이를 따로 계산
+        return `<div class="sub" style="margin-top:6px">${FIELD[f] ?? esc(f)}</div>` + rows.map((c) => `<div class="claimrow"><span>${esc(label(c))}</span><div class="claimbar ${c.status === "disputed" ? "disputed" : ""}" style="width:${Math.max(3, (c.value / max) * 100)}%" title="${esc(c.note)}"></div><span><b>${esc(c.value)}</b></span></div>`).join("");
+      }).join("")}</div>`
     : "";
   const srcHtml = e.source_ids.map((s) => { const x = D.byId[s]; return x ? `<tr><td>${esc(x.title)}</td><td>${chip("", LAYER[x.layer])}</td><td>${esc(ORIGIN[x.origin])}</td><td>${chip("", x.reliability === "unrated" ? "신뢰도 미평가" : `등급 ${x.reliability}`)} ${x.status === "candidate_unverified" ? chip("unverified", "서지 미확인") : ""}</td></tr>` : ""; }).join("");
   return `<h2>${esc(e.title_ko)} <span class="sub">${esc(e.title_en ?? "")}</span></h2>
@@ -140,22 +154,30 @@ function editions() {
     <ul class="tree">${D.editions.map(li).join("")}</ul></section>
     <section class="card"><h2>1597년 일기 입력 현황</h2>
     ${monthSummary()}
-    <p class="note">초고본 5책 본문은 국가유산포털 원문텍스트(판독 주체·이용 조건 미확인, 미검수). 기준 판본(교감본) 본문은 아직 비어 있습니다(placeholder). 가져오기: <code>tools/research/fetch_heritage_text.mjs</code> → <code>build_diary_tsv.mjs</code> → <code>import_diary.mjs</code></p>
+    <p class="note">초고본 5책·6책 본문은 국가유산포털 원문텍스트(판독 주체·이용 조건 미확인, 미검수). 기준 판본(교감본) 본문은 아직 비어 있습니다(placeholder). 가져오기: <code>tools/research/fetch_heritage_text.mjs</code> → <code>build_diary_tsv.mjs</code> → <code>import_diary.mjs</code></p>
     <h3>결측 기록</h3><table><tr><th>기간</th><th>판본</th><th>상태</th><th>메모</th></tr>${D.coverage.map((c) => `<tr><td>${esc(c.period)}</td><td>${esc(D.byId[c.edition_id]?.title)}</td><td>${chip("", COVER[c.status])}</td><td class="note">${esc(c.note)}</td></tr>`).join("")}</table></section>`;
 }
 
+const NOTE = {
+  "5책 정유일기": "4~6월은 전부 일치. 7/4~10/3은 천간은 맞고 지지가 일관되게 +2(일기 자체의 간지 오기 가능성, 가설).",
+  "6책 속정유일기": "일간지가 처음부터 끝까지 달력과 일치. 9월 29일은 변환기보다 +1일(변환기 표 오류), 8/30은 변환기에 없는 날(변환기는 8월을 29일로 봄).",
+};
+
 function monthSummary() {
   const w = written(D.diary_entries);
-  const months = [...new Set(w.map((e) => e.date.original.month))].sort((a, b) => a - b);
-  const rows = months.map((m) => {
-    const es = w.filter((e) => e.date.original.month === m);
-    const bad = es.filter((e) => e.date.ganji_check);
-    const shifts = [...new Set(bad.map((e) => e.date.ganji_check.branch_shift))].map((s) => (s > 0 ? "+" : "") + s).join(", ");
-    const adj = es.filter((e) => e.date.computed_gregorian && e.date.gregorian !== e.date.computed_gregorian).length;
-    return `<tr><td>음력 ${m}월</td><td>${es.length}일</td><td>${es.length - bad.length}</td><td>${bad.length ? `${chip("disputed", `${bad.length}일`)} 지지 ${shifts}, 천간 불일치 ${bad.filter((e) => !e.date.ganji_check.stem_match).length}` : "—"}</td><td>${adj ? `${chip("disputed", `${adj}일`)} 변환기보다 +1일` : "—"}</td></tr>`;
+  return [...byVolume(w)].map(([vol, all]) => {
+    const months = [...new Set(all.map((e) => e.date.original.month))].sort((a, b) => a - b);
+    const rows = months.map((m) => {
+      const es = all.filter((e) => e.date.original.month === m);
+      const bad = es.filter((e) => e.date.ganji_check);
+      const shifts = [...new Set(bad.map((e) => e.date.ganji_check.branch_shift))].map((s) => (s > 0 ? "+" : "") + s).join(", ");
+      const adj = es.filter((e) => e.date.computed_gregorian && e.date.gregorian !== e.date.computed_gregorian).length;
+      const noConv = es.filter((e) => !e.date.computed_gregorian).length;
+      return `<tr><td>음력 ${m}월</td><td>${es.length}일</td><td>${es.length - bad.length}</td><td>${bad.length ? `${chip("disputed", `${bad.length}일`)} 지지 ${shifts}, 천간 불일치 ${bad.filter((e) => !e.date.ganji_check.stem_match).length}` : "—"}</td><td>${adj ? `${chip("disputed", `${adj}일`)} 변환기보다 +1일` : "—"}${noConv ? ` ${chip("unverified", `${noConv}일 변환기에 없음`)}` : ""}</td></tr>`;
+    }).join("");
+    return `<h3>${esc(vol)} · ${all.length}일</h3><table><tr><th>월</th><th>입력</th><th>간지 일치</th><th>간지 불일치</th><th>양력 조정(변환기 대비)</th></tr>${rows}</table>
+      <p class="note">${esc(NOTE[vol] ?? "")}</p>`;
   }).join("");
-  return `<table><tr><th>월</th><th>입력</th><th>간지 일치</th><th>간지 불일치</th><th>양력 조정(천간 기준)</th></tr>${rows}</table>
-    <p class="note">4~6월은 전부 일치. 7/4~10/3은 천간은 맞고 지지가 일관되게 +2(일기 자체의 간지 오기 가능성, 가설). 9월은 천간이 변환기보다 하루 뒤 날짜에 맞아 천문 계산(9/1=10/11)과 일치.</p>`;
 }
 
 function render() {

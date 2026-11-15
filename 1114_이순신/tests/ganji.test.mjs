@@ -84,6 +84,37 @@ test("검증기: ganji_check 로 명시된 불일치는 통과, 명시가 틀리
   assert.ok(validateWith(entries).some((e) => e.includes("일간지 불일치")));
 });
 
+test("임포터: 변환기가 29일로 보는 달의 30일은 일간지로 확정 (6책 8/30 戊子 = 1597-10-10)", () => {
+  const { entries, errors } = parseSheet(`${HEAD}\n${row(8, 30, "", "戊子")}`, OPT);
+  assert.deepEqual(errors, []);
+  const d = entries[0].date;
+  assert.equal(d.gregorian, "1597-10-10");
+  assert.equal(d.certainty, "verified");
+  assert.equal(d.computed_gregorian, null); // 변환기 표에 없는 날짜
+  assert.equal(d.converter, null);
+  assert.deepEqual(validateWith(entries), []);
+});
+
+test("임포터: 변환기에 없는 30일인데 일간지도 없으면 변환값이 없어 거부되지 않고 disputed 경로", () => {
+  const { entries } = parseSheet(`${HEAD}\n${row(8, 30)}`, OPT);
+  assert.equal(entries[0].date.certainty, "disputed");
+  assert.equal(entries[0].date.gregorian, null);
+});
+
+test("임포터: 6책 9/1 己丑 = 1597-10-11 (변환기 10-10 과 +1일), verified", () => {
+  const { entries } = parseSheet(`${HEAD}\n${row(9, 1, "", "己丑")}`, OPT);
+  assert.equal(entries[0].date.gregorian, "1597-10-11");
+  assert.equal(entries[0].date.certainty, "verified");
+  assert.equal(entries[0].date.computed_gregorian, "1597-10-10");
+});
+
+test("임포터: 책 태그가 id 와 volume 에 반영", () => {
+  const { entries } = parseSheet(`${HEAD}\n${row(9, 16, "", "甲辰")}`, { ...OPT, tag: "b6", volume: "6책 속정유일기" });
+  assert.equal(entries[0].id, "de-gyogam-b6-1597-09-16");
+  assert.equal(entries[0].volume, "6책 속정유일기");
+  assert.equal(entries[0].date.gregorian, "1597-10-26");
+});
+
 test("compareGanji: 지지 이동량", () => {
   assert.deepEqual(compareGanji("癸未", "癸巳"), { written: "癸未", expected: "癸巳", stem_match: true, branch_shift: 2 });
   assert.equal(compareGanji("辛酉", "辛亥").branch_shift, -2);

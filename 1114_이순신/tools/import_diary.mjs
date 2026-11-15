@@ -12,13 +12,13 @@ const pad = (n) => String(n).padStart(2, "0");
 const unescapeCell = (s) => s.replace(/\\(n|\\)/g, (_, c) => (c === "n" ? "\n" : "\\"));
 const orNull = (s) => (s === undefined || s.trim() === "" ? null : s);
 
-export function entryId(editionId, year, month, day, leap) {
+export function entryId(editionId, year, month, day, leap, tag = null) {
   const short = editionId.replace(/^ed-/, "").split("-")[0];
-  return `de-${short}-${year}-${leap ? "L" : ""}${pad(month)}-${pad(day)}`;
+  return `de-${short}${tag ? `-${tag}` : ""}-${year}-${leap ? "L" : ""}${pad(month)}-${pad(day)}`;
 }
 
 /** TSV 텍스트 -> { entries, errors }. 오류가 있으면 쓰지 않는다. */
-export function parseSheet(text, { year, by, editionId, readingId, today, translator }) {
+export function parseSheet(text, { year, by, editionId, readingId, today, translator, volume = null, tag = null }) {
   const errors = [];
   const entries = [];
   const lines = text.replace(/^﻿/, "").split(/\r?\n/).filter((l) => l.trim() !== "" && !l.startsWith("#"));
@@ -57,7 +57,9 @@ export function parseSheet(text, { year, by, editionId, readingId, today, transl
       if (g) {
         if (ganjiOfIso(g) !== dayGanji) return errors.push(`${where}: 입력 양력 ${g} 의 일간지는 ${ganjiOfIso(g)} 인데 일기는 ${dayGanji}`);
       } else {
-        const base = calc?.gregorian;
+        // 변환기 표에 없는 30일(변환기가 29일로 보는 달)은 29일+1일 근방에서 일간지로 찾는다.
+        const synth = !calc && day === 30 ? lunarToGregorian(year, month, 29, leap) : null;
+        const base = calc?.gregorian ?? (synth ? addDays(synth.gregorian, 1) : undefined);
         const found = base && [0, -1, 1, -2, 2, -3, 3].map((n) => addDays(base, n)).find((c) => ganjiOfIso(c) === dayGanji);
         if (found) {
           g = found;
@@ -80,7 +82,8 @@ export function parseSheet(text, { year, by, editionId, readingId, today, transl
         certainty = "verified";
         dateNote = calc && calc.gregorian !== g
           ? `일간지 ${dayGanji} 로 확정. 변환기(${calc.gregorian})와 ${Math.round((new Date(g) - new Date(calc.gregorian)) / 86400000)}일 차이 — 변환기 표 오류 가능성.`
-          : `일간지 ${dayGanji} 로 확정(변환기와 일치).`;
+          : calc ? `일간지 ${dayGanji} 로 확정(변환기와 일치).`
+            : `일간지 ${dayGanji} 로 확정. 변환기 표에 없는 날짜(30일) — 변환기는 이 달을 29일로 봄(표 오류 가능성).`;
       }
     } else if (!g) {
       if (calc) { g = calc.gregorian; julian = calc.julian; dateNote = "양력은 변환기 계산값(사료 대조 전)."; }
@@ -92,7 +95,7 @@ export function parseSheet(text, { year, by, editionId, readingId, today, transl
     } else {
       dateNote = "입력 양력과 변환기 계산값 일치(사료 대조 전).";
     }
-    const id = entryId(editionId, year, month, day, leap);
+    const id = entryId(editionId, year, month, day, leap, tag);
     if (seen.has(id)) return errors.push(`${where}: 같은 날짜 중복 (${id})`);
     seen.add(id);
     entries.push({
@@ -104,6 +107,7 @@ export function parseSheet(text, { year, by, editionId, readingId, today, transl
         ...(ganjiCheck ? { ganji_check: ganjiCheck } : {}),
         precision: "day", certainty, note: dateNote,
       },
+      volume,
       day_ganji: dayGanji,
       text_han: unescapeCell(row.text_han.normalize("NFC")),
       text_ko: orNull(row.text_ko) === null ? null : unescapeCell(row.text_ko.normalize("NFC")),
@@ -154,6 +158,8 @@ function main() {
     editionId: opt("--edition", "ed-gyogam-noseungseok"),
     readingId: opt("--reading", "rd-noseungseok"),
     translator: opt("--translator", null),
+    volume: opt("--volume", null),
+    tag: opt("--tag", null),
     today: new Date().toISOString().slice(0, 10),
   });
   if (errors.length) {
