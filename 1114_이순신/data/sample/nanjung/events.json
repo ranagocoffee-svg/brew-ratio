@@ -291,7 +291,7 @@
       ],
       "precision": "day",
       "certainty": "verified",
-      "note": "7책 9/20 '壬寅 晴 辰時到… 陸天將劉提督 已爲進兵 水陸俱挾 賊氣大挫… 舟師出入放炮'. 9/21~10/3에 교전 기록이 이어지며 10/3 밤 '沙船十九隻 唬船二十餘隻被焚' 등이 나온다. 일간지 壬寅가 1598-10-19와 일치."
+      "note": "7책 9/20 '壬寅 晴 辰時到… 陸天將劉提督 已爲進兵 水陸俱挾 賊氣大挫… 舟師出入放炮'. 9/21~10/3에 교전 기록이 이어지며 10/3 밤 '沙船十九隻 唬船二十餘隻被焚' 등이 나온다. 일간지 壬寅가 1598-10-19와 일치. 선조실록 104권 9/26(戊申)도 같은 20일에 명군이 예교의 고니시 진영에 포를 쏘았다고 적어 일기와 독립적으로 일치한다."
     },
     "source_ids": [
       "src-heritage-portal"
@@ -299,7 +299,8 @@
     "verified": true,
     "note": "개시일만 기록. 이후 교전 일정·피해 수치는 일기 안에서도 명 측 보고문이 섞여 있어 사건별 분리 정리 전.",
     "relates_to": [
-      "ev-1598-suncheon-siege"
+      "ev-1598-suncheon-siege",
+      "rec-sillok-seonjo-31-09-26-011"
     ]
   },
   {
@@ -1112,26 +1113,36 @@
     "category": "war",
     "date": {
       "original": {
-        "calendar": "gregorian",
+        "calendar": "lunisolar",
         "year": 1598,
-        "month": 10,
-        "day": 19,
+        "month": 9,
+        "day": 20,
         "leap_month": false
       },
       "gregorian": "1598-10-19",
       "julian": "1598-10-09",
+      "computed_gregorian": "1598-10-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-09-26-011",
+          "statement": 0
+        }
+      ],
       "precision": "day",
-      "certainty": "unverified",
-      "note": "위키 연표: 1598-10-19 개시. 음력 환산(변환기, 참고): 1598년 9월 20일."
+      "certainty": "verified",
+      "note": "선조실록 104권 9/26(戊申)의 이덕형 치계: '이달 20일 …명군이 먼저 포를 쏘아 고니시가 굴혈로 달아났다'(인용: 本月二十日 … 天兵徑先放砲). 기사일에서 6일 앞이라 음력 9/20 = 1598-10-19이며 위키의 개시일과 일치하고 일기 7책 9/20(壬寅)의 '劉提督 已爲進兵'과도 같은 날이다. 확정한 것은 교전 개시(첫 포격)이며 포위전 전체의 기간·종료일은 확인하지 못했다. 이전 메모: 위키 연표: 1598-10-19 개시. 음력 환산(변환기, 참고): 1598년 9월 20일."
     },
     "source_ids": [
-      "src-wiki-imjin-timeline"
+      "src-wiki-imjin-timeline",
+      "src-seonjo-sillok"
     ],
-    "verified": false,
+    "verified": true,
     "note": null,
     "connection": "이순신 수군이 명 수군·육군과 협공한 시기다. 일기 7책 1598-9/20(양력 10/19, 일간지 壬寅로 확정)의 '陸天將劉提督 已爲進兵 水陸俱挾'와 같은 날이며, 일간지로 확정한 날짜가 위키의 개시일과 독립적으로 일치한다.",
     "relates_to": [
-      "ev-1598-joint-assault"
+      "ev-1598-joint-assault",
+      "rec-sillok-seonjo-31-09-26-011"
     ]
   },
   {
