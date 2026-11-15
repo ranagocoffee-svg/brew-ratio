@@ -29,6 +29,12 @@ nav { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
 nav button { border: 1px solid var(--line); background: var(--panel); color: var(--ink); padding: 7px 14px; border-radius: 999px; cursor: pointer; font: inherit; }
 nav button[aria-selected="true"] { background: var(--navy); color: #fff; border-color: var(--navy); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) nav button[aria-selected="true"] { color: #10141b; } }
+:root { --r-war: #b5453a; --r-east_asia: #1f7a99; --r-europe: #6b4fa0; --r-global: #8a6d1f; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --r-war: #ff8a7a; --r-east_asia: #6cc6e6; --r-europe: #b9a0f0; --r-global: #e6c36a; } }
+.chip.r-war, .chip.r-east_asia, .chip.r-europe, .chip.r-global { background: transparent; border: 1px solid currentColor; }
+.chip.r-war { color: var(--r-war); } .chip.r-east_asia { color: var(--r-east_asia); } .chip.r-europe { color: var(--r-europe); } .chip.r-global { color: var(--r-global); }
+.ev.r-war { border-color: var(--r-war); } .ev.r-east_asia { border-color: var(--r-east_asia); } .ev.r-europe { border-color: var(--r-europe); } .ev.r-global { border-color: var(--r-global); }
+.ev.world[aria-pressed="true"] { background: var(--navy); }
 mark { background: var(--warn-bg); color: var(--warn); padding: 0 3px; border-radius: 3px; font-weight: 600; }
 a.chip { text-decoration: none; }
 .years { display: flex; gap: 6px; margin-bottom: 10px; }
@@ -81,6 +87,7 @@ footer { color: var(--muted); font-size: 12px; padding: 8px 0 24px; }
   <div class="banner" id="banner"></div>
   <nav role="tablist">
     <button role="tab" data-tab="timeline" aria-selected="true">연표 · Cross-Time</button>
+    <button role="tab" data-tab="world" aria-selected="false">세계 연표</button>
     <button role="tab" data-tab="sources" aria-selected="false">사료 층위</button>
     <button role="tab" data-tab="editions" aria-selected="false">판본 · 일기</button>
     <button role="tab" data-tab="issues" aria-selected="false">판독 쟁점</button>

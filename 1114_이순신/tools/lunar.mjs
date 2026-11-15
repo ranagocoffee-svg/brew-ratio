@@ -7,10 +7,10 @@ export const CONVERTER = "korean-lunar-calendar@0.4.0";
 const pad = (n) => String(n).padStart(2, "0");
 const dayMs = 86400000;
 
-/** 일 단위 그레고리력(ISO) -> 율리우스력. 1582-10-15 ~ 1700-02-28 구간은 -10일. */
+/** 일 단위 그레고리력(ISO) -> 율리우스력. 1500-03-11 ~ 1700-02-28(그레고리력) 구간은 -10일(율리우스력 1500-03-01 ~ 1700-02-18에 해당). */
 export function gregorianToJulian(g) {
   const d = new Date(`${g}T00:00:00Z`);
-  if (d < new Date("1582-10-15T00:00:00Z") || d >= new Date("1700-03-01T00:00:00Z")) throw new Error("지원 범위 밖");
+  if (d < new Date("1500-03-11T00:00:00Z") || d >= new Date("1700-03-01T00:00:00Z")) throw new Error("지원 범위 밖");
   return new Date(d.getTime() - 10 * dayMs).toISOString().slice(0, 10);
 }
 

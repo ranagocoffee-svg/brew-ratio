@@ -61,6 +61,9 @@
       "properties": {
         "id": {"type": "string", "pattern": "^ev-"},
         "track": {"enum": ["yi", "world"]},
+        "region": {"enum": ["war", "east_asia", "europe", "global", null], "description": "세계 트랙(track=world) 사건의 지역·성격. war=임진왜란 전체 흐름(육전·외교·명군), east_asia=그 밖의 동아시아(명·일본), europe=유럽, global=대륙 간 교역·은. 세계 트랙은 필수."},
+        "connection": {"type": ["string", "null"], "description": "이순신·임진왜란과의 연결(맥락). 인과 주장이 아니라 비교·맥락 설명이며, 단정할 수 없는 것은 그렇게 쓴다."},
+        "relates_to": {"type": ["array", "null"], "items": {"type": "string"}, "description": "관련 사건·일기 항목 id. 검증기가 존재를 확인한다."},
         "title_ko": {"type": "string"},
         "title_en": {"type": ["string", "null"]},
         "category": {"type": "string"},

@@ -16,7 +16,25 @@ const D = {};
 const YEARS = [1592, 1593, 1594, 1595, 1596, 1597, 1598];
 const DEFAULT_EVENT = { 1592: "ev-1592-hansando", 1593: null, 1594: null, 1595: null, 1596: null, 1597: "ev-1597-myeongnyang", 1598: "ev-1598-joint-assault" };
 const DEFAULT_MONTH = { 1592: 5, 1593: 5, 1594: 5, 1595: 1, 1596: 9, 1597: 9, 1598: 9 }; // 일기가 있는 달로 시작
-const state = { tab: "timeline", year: 1597, eventId: DEFAULT_EVENT[1597], month: 9 };
+const state = { tab: "timeline", year: 1597, eventId: DEFAULT_EVENT[1597], month: 9, region: "all" };
+const REGION = { war: "임진왜란 전반", east_asia: "동아시아", europe: "유럽", global: "세계 교역·달력" };
+const regionChip = (r) => (r ? `<span class="chip r-${r}">${REGION[r]}</span>` : "");
+const calLabel = (c) => ({ lunisolar: "음력", julian: "율리우스력", gregorian: "서력(그레고리력)" }[c] ?? c);
+const evYear = (e) => (e.date.precision === "range" ? e.date.original.year : Number((e.date.gregorian ?? String(e.date.original.year)).slice(0, 4)));
+const sortKey = (e) => e.date.gregorian ?? String(e.date.original.year);
+const inRegion = (e) => e.track !== "world" || state.region === "all" || e.region === state.region;
+const regionFilterHtml = () => `<div class="years" role="group" aria-label="세계 트랙 지역 필터"><span class="sub" style="align-self:center;margin-right:4px">세계 트랙:</span>${[["all", "전체"], ...Object.entries(REGION)].map(([k, v]) => `<button data-region="${k}" aria-pressed="${state.region === k}">${v}</button>`).join("")}</div>`;
+function relatedHtml(e) {
+  const ids = e.relates_to ?? [];
+  if (!ids.length) return "";
+  return `<dt>관련 항목</dt><dd>${ids.map((id) => {
+    const x = D.byId[id];
+    if (!x) return esc(id);
+    if (x.track) return `<a href="#" data-ev="${esc(id)}">${esc(x.title_ko)}</a> <span class="sub">${esc(x.date.gregorian ?? "")}</span>`;
+    const o = x.date.original;
+    return `📖 일기 ${esc(x.volume ?? "")} ${o.year}-${o.leap_month ? "윤" : ""}${o.month}/${o.day} <span class="sub">(양력 ${esc(x.date.gregorian)} · ${esc(x.day_ganji ?? "간지 없음")})</span>`;
+  }).join("<br>")}</dd>`;
+}
 
 async function load() {
   await Promise.all(FILES.map(async (f) => { D[f] = await (await fetch(`${BASE}${f}.json`, { cache: "no-store" })).json(); }));
@@ -45,22 +63,23 @@ function timeline() {
   const months = Array.from({ length: 12 }, (_, i) => `<span style="left:${(Date.UTC(Y, i, 1) - Date.UTC(Y, 0, 1)) / 86400000 / 365 * 100}%">${i + 1}월</span>`).join("");
   const grid = Array.from({ length: 12 }, (_, i) => `<i class="grid" style="left:${(Date.UTC(Y, i, 1) - Date.UTC(Y, 0, 1)) / 86400000 / 365 * 100}%"></i>`).join("");
   const lane = (track, label) => {
-    const evs = D.events.filter((e) => e.track === track && placed(e)).sort((a, b) => pct(a.date.gregorian) - pct(b.date.gregorian));
+    const evs = D.events.filter((e) => e.track === track && placed(e) && inRegion(e)).sort((a, b) => pct(a.date.gregorian) - pct(b.date.gregorian));
     // 라벨이 겹치면 단(row)을 쌓고, 오른쪽 끝에서는 오른쪽 정렬해 잘리지 않게 한다. 폭은 글자 수로 어림한 값(%).
     const ends = [];
     const items = evs.map((e) => {
       const p = pct(e.date.gregorian), w = Math.min(40, 4 + e.title_ko.length * 1.9);
       const right = p + w / 2 > 99;
-      const [s, t] = right ? [p - w, p] : [p - w / 2, p + w / 2];
+      const left = !right && p - w / 2 < 1; // 왼쪽 끝: 레인 이름(라벨)을 가리지 않도록 왼쪽 정렬
+      const [s, t] = right ? [p - w, p] : left ? [p, p + w] : [p - w / 2, p + w / 2];
       let row = 0;
       while (ends[row] !== undefined && s < ends[row] + 0.5) row++;
       ends[row] = t;
-      return { e, p, row, right };
+      return { e, p, row, right, left };
     });
     const rows = Math.max(1, ends.length);
-    return `<div class="lane" style="height:${14 + rows * 32}px"><label>${label}</label>${grid}${items.map(({ e, p, row, right }) => `<button class="ev ${track} ${e.date.certainty === "disputed" ? "disputed" : ""}" style="left:${p}%;top:${8 + row * 32}px;${right ? "transform:translateX(-100%)" : ""}" data-ev="${e.id}" aria-pressed="${e.id === state.eventId}" title="${esc(e.title_ko)}">${esc(e.title_ko)}</button>`).join("")}</div>`;
+    return `<div class="lane" style="height:${14 + rows * 32}px"><label>${label}</label>${grid}${items.map(({ e, p, row, right, left }) => `<button class="ev ${track} ${track === "world" ? `r-${e.region}` : ""} ${e.date.certainty === "disputed" ? "disputed" : ""}" style="left:${p}%;top:${8 + row * 32}px;${right ? "transform:translateX(-100%)" : left ? "transform:none" : ""}" data-ev="${e.id}" aria-pressed="${e.id === state.eventId}" title="${esc(e.title_ko)}">${esc(e.title_ko)}</button>`).join("")}</div>`;
   };
-  const unplaced = D.events.filter((e) => inYear(e, Y) && !placed(e));
+  const unplaced = D.events.filter((e) => inYear(e, Y) && !placed(e) && inRegion(e));
   const unplacedHtml = unplaced.length
     ? `<h3>양력 날짜 미확정 (월·연 단위)</h3>` + unplaced.map((e) => `<div class="lane" style="margin-left:0;height:44px"><div class="bar"><button data-ev="${e.id}">${esc(e.title_ko)}</button><span>${e.track === "world" ? "세계" : "이순신"} · ${e.date.precision === "range" ? `${e.date.original.year}~${e.date.end_year}` : lunarText(e.date.original)} ${certChip(e.date.certainty)}</span></div></div>`).join("")
     : "";
@@ -77,7 +96,7 @@ function timeline() {
       <tr><td>결측</td><td>${D.coverage.filter((c) => c.period.startsWith(String(Y))).map((c) => `${esc(c.period)} · ${esc(D.byId[c.edition_id]?.title)} ${chip("", COVER[c.status])}`).join("<br>") || '<span class="empty">이 해의 결측 기록 없음</span>'}</td></tr>
     </table>`;
 
-  return `<section class="card">${yearTabs()}<h2>${Y}년 연표 (양력)</h2>
+  return `<section class="card">${yearTabs()}<h2>${Y}년 연표 (양력)</h2>${regionFilterHtml()}
     <div class="axis">${months}</div>${lane("yi", "이순신")}${lane("world", "세계")}${unplacedHtml}
     <p class="note">붉은 테두리 = 날짜 이의 있음. 클릭하면 아래에 상세가 열립니다.</p></section>
     <section class="card">${monthHtml}</section>
@@ -144,18 +163,42 @@ function detail() {
   const srcHtml = e.source_ids.map((s) => { const x = D.byId[s]; return x ? `<tr><td>${esc(x.title)}</td><td>${chip("", LAYER[x.layer])}</td><td>${esc(ORIGIN[x.origin])}</td><td>${chip("", x.reliability === "unrated" ? "신뢰도 미평가" : `등급 ${x.reliability}`)} ${x.status === "candidate_unverified" ? chip("unverified", "서지 미확인") : ""}</td></tr>` : ""; }).join("");
   return `<h2>${esc(e.title_ko)} <span class="sub">${esc(e.title_en ?? "")}</span></h2>
     <dl>
-      <dt>트랙</dt><dd>${e.track === "yi" ? "이순신·조선" : "동시대 세계"}</dd>
-      <dt>원본 날짜</dt><dd>${o.calendar === "lunisolar" ? "음력 " : ""}${esc(lunarText(o))}${d.precision === "range" ? ` ~ ${d.end_year}` : ""}</dd>
+      <dt>트랙</dt><dd>${e.track === "yi" ? "이순신·조선" : `동시대 세계 ${regionChip(e.region)}`}</dd>
+      <dt>원본 날짜</dt><dd>${esc(calLabel(o.calendar))} ${esc(lunarText(o))}${d.precision === "range" ? ` ~ ${d.end_year}` : ""}</dd>
       <dt>양력(사용값)</dt><dd>${esc(d.gregorian ?? "미확정")} ${d.julian ? `<span class="sub">· 율리우스력 ${esc(d.julian)}</span>` : ""}</dd>
       ${d.computed_gregorian ? `<dt>변환기 계산</dt><dd>${esc(d.computed_gregorian)} <span class="sub">${esc(d.converter)}</span></dd>` : ""}
       <dt>날짜 확실도</dt><dd>${certChip(d.certainty)} ${e.verified ? chip("verified", "사건 검증됨") : chip("unverified", "사건 미검증")}</dd>
       <dt>날짜 메모</dt><dd class="note">${esc(d.note ?? "—")}</dd>
       ${e.note ? `<dt>메모</dt><dd class="note">${esc(e.note)}</dd>` : ""}
+      ${e.connection ? `<dt>연결 (맥락)</dt><dd>${esc(e.connection)}<div class="note">비교·맥락 설명이며 인과 주장이 아닙니다.</div></dd>` : ""}
+      ${relatedHtml(e)}
     </dl>
     ${claimHtml}
     ${diaryFor(e)}
     <h3>출처</h3><table><tr><th>출처</th><th>층위</th><th>국가</th><th>상태</th></tr>${srcHtml}</table>
     ${d.certainty === "disputed" ? `<p class="note">📎 조사: docs/investigations/myeongnyang-date.md — 일기 9/16 일간지 甲辰=10/26, 癸卯=10/25 로 확정할 수 있습니다.</p>` : ""}`;
+}
+
+/* ---------- 세계 연표 ---------- */
+function worldTab() {
+  const all = D.events.filter((e) => e.track === "world").sort((a, b) => (sortKey(a) > sortKey(b) ? 1 : sortKey(a) < sortKey(b) ? -1 : 0));
+  const list = all.filter(inRegion);
+  const cnt = (r) => all.filter((e) => e.region === r).length;
+  const linksYi = (e) => (e.relates_to ?? []).some((id) => id.startsWith("de-") || D.byId[id]?.track === "yi");
+  const rows = list.map((e) => {
+    const d = e.date, o = d.original;
+    const dateTxt = d.precision === "range" ? `${o.year}~${d.end_year}` : d.gregorian;
+    const orig = o.calendar === "julian" ? `<div class="note">원본 율리우스력 ${esc(d.julian)}</div>` : o.calendar === "lunisolar" ? `<div class="note">원본 음력 ${esc(lunarText(o))}</div>` : d.julian ? `<div class="note">율리우스력 ${esc(d.julian)}</div>` : "";
+    return `<tr><td style="white-space:nowrap">${esc(dateTxt)}${orig}</td><td>${regionChip(e.region)}</td>
+      <td><a href="#" data-ev="${e.id}"><b>${esc(e.title_ko)}</b></a>${linksYi(e) ? `<div>${chip("verified", "이순신·일기와 연결")}</div>` : ""}</td>
+      <td class="note" style="min-width:280px">${esc(e.connection ?? "—")}</td><td>${certChip(d.certainty)}</td><td class="note" style="min-width:150px">${srcLinks(e.source_ids)}</td></tr>`;
+  }).join("");
+  return `<section class="card"><h2>세계 연표 (1545~1598)</h2>
+    <p class="note">이순신의 삶(1545~1598) 동안의 세계 사건 ${all.length}건: 임진왜란 전반 ${cnt("war")} · 동아시아 ${cnt("east_asia")} · 유럽 ${cnt("europe")} · 세계 교역·달력 ${cnt("global")}. 「연결」은 비교·맥락 설명이며 <b>인과 주장이 아닙니다</b>.</p>
+    <p class="note">⚠ 전부 미검증(2차 출처 중심)입니다. 달력에 주의하세요: 1582년 이전 서유럽 사건은 율리우스력 원본으로 적고 +10일을 그레고리력으로 환산했으며(달력 미명시 출처는 관례를 따른 참고값), 영국·러시아 사건은 율리우스력을 썼습니다. 조선·명·일본은 음력이라 변환기 환산을 참고로 병기했습니다.</p>
+    ${regionFilterHtml()}
+    <div style="overflow-x:auto"><table style="min-width:900px"><tr><th>양력</th><th>지역</th><th style="min-width:160px">사건</th><th>이순신·전쟁과의 연결 (맥락)</th><th>확실도</th><th>출처</th></tr>${rows}</table></div></section>
+    <section class="card" id="detail">${detail()}</section>`;
 }
 
 /* ---------- 사료 ---------- */
@@ -256,16 +299,21 @@ function issues() {
 
 function render() {
   document.querySelectorAll("nav button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === state.tab)));
-  document.getElementById("app").innerHTML = { timeline, sources, editions, issues }[state.tab]();
+  document.getElementById("app").innerHTML = { timeline, world: worldTab, sources, editions, issues }[state.tab]();
 }
 
 document.addEventListener("click", (ev) => {
-  const t = ev.target.closest("[data-tab],[data-ev],[data-year]");
+  const t = ev.target.closest("[data-tab],[data-ev],[data-year],[data-region]");
   if (!t) return;
   ev.preventDefault();
   if (t.dataset.year) { state.year = Number(t.dataset.year); state.eventId = DEFAULT_EVENT[state.year]; state.month = DEFAULT_MONTH[state.year] ?? 9; state.tab = "timeline"; }
   if (t.dataset.tab) state.tab = t.dataset.tab;
-  if (t.dataset.ev) { state.eventId = t.dataset.ev; state.tab = "timeline"; }
+  if (t.dataset.region) state.region = t.dataset.region;
+  if (t.dataset.ev) {
+    state.eventId = t.dataset.ev; state.tab = "timeline";
+    const target = D.byId[t.dataset.ev];
+    if (target?.date && YEARS.includes(evYear(target))) state.year = evYear(target); // 해당 해로 이동(1592 이전 배경 사건은 현재 해 유지)
+  }
   render();
   if (t.dataset.ev) document.getElementById("detail")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
 });

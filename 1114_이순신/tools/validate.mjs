@@ -92,6 +92,18 @@ function checkDate(rec, path, errors, dayGanji = null, basisOk = false) {
         errors.push(`${path}: 불일치인데 computed_gregorian 미기록`);
     }
   }
+  // 원본 달력 표기와 저장된 날짜 필드의 일치(오타 방지): 그레고리/율리우스 원본은 해당 필드가 원본 표기와 같아야 한다.
+  {
+    const p2 = (n) => String(n).padStart(2, "0");
+    const ymd = o?.year ? `${o.year}-${p2(o.month ?? 0)}-${p2(o.day ?? 0)}` : null;
+    if (o?.calendar === "gregorian" && rec.precision === "day" && g && g !== ymd) errors.push(`${path}: 원본(그레고리력) ${ymd} 와 gregorian ${g} 가 다름`);
+    if (o?.calendar === "gregorian" && rec.precision === "month" && g && g !== `${o.year}-${p2(o.month)}`) errors.push(`${path}: 원본 연월과 gregorian ${g} 가 다름`);
+    if (o?.calendar === "gregorian" && rec.precision === "year" && g && g !== String(o.year)) errors.push(`${path}: 원본 연도와 gregorian ${g} 가 다름`);
+    if (o?.calendar === "julian" && rec.precision === "day") {
+      if (rec.julian !== ymd) errors.push(`${path}: 원본(율리우스력) ${ymd} 와 julian ${rec.julian} 가 다름`);
+      if (!g) errors.push(`${path}: 율리우스력 원본 날짜에는 환산한 gregorian 이 필요함`);
+    }
+  }
   if (rec.precision === "range" && (rec.end_year ?? null) === null) errors.push(`${path}: precision=range 인데 end_year 없음`);
   if (rec.precision === "day" && (rec.original?.month == null || rec.original?.day == null))
     errors.push(`${path}: precision=day 인데 원본 월/일 누락`);
@@ -132,6 +144,13 @@ export function validateDir(dir) {
       else basisOk = true;
     }
     if (ev.date) checkDate(ev.date, ev.id, errors, null, basisOk);
+    // 세계 트랙: 지역 필수, 출처 필수, 관련 항목(relates_to)은 실제로 있어야 한다.
+    if (ev.track === "world" && !ev.region) errors.push(`${ev.id}: 세계 트랙 사건에는 region 이 필요함`);
+    if (ev.track === "yi" && ev.region) errors.push(`${ev.id}: 이순신 트랙 사건에는 region 을 쓰지 않음`);
+    if (!(ev.source_ids ?? []).length) errors.push(`${ev.id}: source_ids 가 비어 있음`);
+    for (const rid of ev.relates_to ?? []) {
+      if (!data["events.json"].some((x) => x.id === rid) && !data["diary_entries.json"].some((x) => x.id === rid)) errors.push(`${ev.id}: relates_to 대상 ${JSON.stringify(rid)} 가 존재하지 않음`);
+    }
     if (ev.verified && ev.date?.certainty !== "verified") errors.push(`${ev.id}: verified=true 인데 date.certainty 가 verified 아님`);
   }
   for (const cl of data["claims.json"]) {
