@@ -2,6 +2,7 @@
 // 삭은 Meeus ch.49 주요항(오차 수 분), ΔT≈110초, 서울(UT+8:28) 기준 날짜. 실제 대통력 계산과는 다를 수 있다.
 // 사용법: node tools/research/check_month_starts.mjs [시작년 끝년]   (기본 1592 1598)
 import KoreanLunarCalendar from "korean-lunar-calendar";
+import { jdn, ganji } from "../lunar.mjs";
 
 const rad = (d) => (d * Math.PI) / 180;
 const norm = (d) => ((d % 360) + 360) % 360;
@@ -33,13 +34,6 @@ function jdToGregorian(jd) { // 양력(proleptic)
   return { y: month > 2 ? C - 4716 : C - 4715, m: month, d: Math.floor(day), h: (day % 1) * 24 };
 }
 
-const jdn = (y, m, d) => {
-  const a = Math.floor((14 - m) / 12), yy = y + 4800 - a, mm = m + 12 * a - 3;
-  return d + Math.floor((153 * mm + 2) / 5) + 365 * yy + Math.floor(yy / 4) - Math.floor(yy / 100) + Math.floor(yy / 400) - 32045;
-};
-const GAN = "甲乙丙丁戊己庚辛壬癸", JI = "子丑寅卯辰巳午未申酉戌亥";
-/** 일간지(日干支). 일 단위 육십갑자는 달력 개혁과 무관하게 연속이므로 날짜 식별에 쓸 수 있다. */
-export const ganji = (y, m, d) => { const i = (jdn(y, m, d) + 49) % 60; return GAN[i % 10] + JI[i % 12]; };
 
 const DT = 110 / 86400, SEOUL = (8 + 28 / 60) / 24;
 const [from, to] = [Number(process.argv[2] ?? 1592), Number(process.argv[3] ?? 1598)];

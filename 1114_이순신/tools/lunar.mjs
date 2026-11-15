@@ -14,6 +14,35 @@ export function gregorianToJulian(g) {
   return new Date(d.getTime() - 10 * dayMs).toISOString().slice(0, 10);
 }
 
+const GAN = "甲乙丙丁戊己庚辛壬癸";
+const JI = "子丑寅卯辰巳午未申酉戌亥";
+
+/** 그레고리력(proleptic) 날짜의 율리우스 일수. */
+export function jdn(y, m, d) {
+  const a = Math.floor((14 - m) / 12), yy = y + 4800 - a, mm = m + 12 * a - 3;
+  return d + Math.floor((153 * mm + 2) / 5) + 365 * yy + Math.floor(yy / 4) - Math.floor(yy / 100) + Math.floor(yy / 400) - 32045;
+}
+
+/** 일간지(日干支). 일 단위 육십갑자는 달력 개혁과 무관하게 연속이라 날짜를 직접 식별한다. */
+export function ganji(y, m, d) {
+  const i = (jdn(y, m, d) + 49) % 60; // 2000-01-01 = 戊午 기준
+  return GAN[i % 10] + JI[i % 12];
+}
+
+export const ganjiOfIso = (iso) => ganji(...iso.split("-").map(Number));
+
+/** 육십갑자로 존재 가능한 조합인가 (천간·지지의 홀짝이 같아야 함). */
+export function isValidGanji(s) {
+  if (typeof s !== "string" || s.length !== 2) return false;
+  const g = GAN.indexOf(s[0]), j = JI.indexOf(s[1]);
+  return g >= 0 && j >= 0 && g % 2 === j % 2;
+}
+
+/** ISO 날짜에 일 단위 offset 을 더한다. */
+export function addDays(iso, n) {
+  return new Date(new Date(`${iso}T00:00:00Z`).getTime() + n * dayMs).toISOString().slice(0, 10);
+}
+
 /** 음력 -> { gregorian, julian } 또는 null(표에 없는 날짜/범위 밖). */
 export function lunarToGregorian(year, month, day, leap = false) {
   const cal = new KoreanLunarCalendar();

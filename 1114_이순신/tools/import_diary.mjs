@@ -5,7 +5,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { gregorianToJulian, lunarToGregorian, CONVERTER } from "./lunar.mjs";
+import { gregorianToJulian, lunarToGregorian, ganjiOfIso, isValidGanji, addDays, CONVERTER } from "./lunar.mjs";
 
 const REQUIRED = ["lunar_month", "lunar_day", "text_han", "source_ref"];
 const pad = (n) => String(n).padStart(2, "0");
@@ -49,7 +49,24 @@ export function parseSheet(text, { year, by, editionId, readingId, today, transl
     const calc = lunarToGregorian(year, month, day, leap);
     let certainty = "unverified";
     let dateNote;
-    if (!g) {
+    const dayGanji = orNull(row.day_ganji)?.trim() ?? null;
+    if (dayGanji && !isValidGanji(dayGanji)) return errors.push(`${where}: 존재하지 않는 일간지 '${dayGanji}'`);
+    if (dayGanji) {
+      // 일간지는 날짜를 직접 식별한다. 입력 양력이 있으면 대조, 없으면 변환값 ±3일 안에서 찾는다.
+      if (g) {
+        if (ganjiOfIso(g) !== dayGanji) return errors.push(`${where}: 입력 양력 ${g} 의 일간지는 ${ganjiOfIso(g)} 인데 일기는 ${dayGanji}`);
+      } else {
+        const base = calc?.gregorian;
+        const found = base && [0, -1, 1, -2, 2, -3, 3].map((n) => addDays(base, n)).find((c) => ganjiOfIso(c) === dayGanji);
+        if (!found) return errors.push(`${where}: 일간지 ${dayGanji} 에 해당하는 날이 변환값${base ? ` ${base}` : ""} ±3일 안에 없음 (입력 오류 가능)`);
+        g = found;
+        try { julian = gregorianToJulian(g); } catch (e) { return errors.push(`${where}: ${e.message}`); }
+      }
+      certainty = "verified";
+      dateNote = calc && calc.gregorian !== g
+        ? `일간지 ${dayGanji} 로 확정. 변환기(${calc.gregorian})와 ${Math.round((new Date(g) - new Date(calc.gregorian)) / 86400000)}일 차이 — 변환기 표 오류 가능성.`
+        : `일간지 ${dayGanji} 로 확정(변환기와 일치).`;
+    } else if (!g) {
       if (calc) { g = calc.gregorian; julian = calc.julian; dateNote = "양력은 변환기 계산값(사료 대조 전)."; }
       else { certainty = "disputed"; dateNote = "변환기 표에 없는 음력 날짜. 양력 미확정."; }
     } else if (!calc) {
@@ -70,6 +87,7 @@ export function parseSheet(text, { year, by, editionId, readingId, today, transl
         computed_gregorian: calc?.gregorian ?? null, converter: calc ? CONVERTER : null,
         precision: "day", certainty, note: dateNote,
       },
+      day_ganji: dayGanji,
       text_han: unescapeCell(row.text_han.normalize("NFC")),
       text_ko: orNull(row.text_ko) === null ? null : unescapeCell(row.text_ko.normalize("NFC")),
       translator: orNull(row.text_ko) === null ? null : (translator ?? null),

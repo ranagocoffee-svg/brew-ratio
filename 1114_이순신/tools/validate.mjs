@@ -5,7 +5,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { gregorianToJulian, lunarToGregorian } from "./lunar.mjs";
+import { gregorianToJulian, lunarToGregorian, ganjiOfIso, isValidGanji } from "./lunar.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const SCHEMA = JSON.parse(readFileSync(join(ROOT, "data", "schema", "schema.json"), "utf-8"));
@@ -52,7 +52,7 @@ function check(value, schema, path, errors) {
 
 export { gregorianToJulian };
 
-function checkDate(rec, path, errors) {
+function checkDate(rec, path, errors, dayGanji = null) {
   const { gregorian: g, julian: j } = rec;
   if (g && j && g.length === 10 && j.length === 10) {
     try {
@@ -61,7 +61,16 @@ function checkDate(rec, path, errors) {
       errors.push(`${path}: ${e.message}`);
     }
   }
-  // 음력 원본 + 일 단위 날짜는 변환기로 재계산해 대조한다. 어긋나면 disputed 로 명시해야 한다.
+  // 일간지: 일기가 직접 적은 날짜 식별자. 양력과 일치하면 변환기와 달라도 분쟁이 해소된 것으로 본다.
+  let ganjiOk = false;
+  if (dayGanji) {
+    if (!isValidGanji(dayGanji)) errors.push(`${path}: 존재하지 않는 일간지 '${dayGanji}' (천간·지지 홀짝 불일치 포함)`);
+    else if (g && g.length === 10) {
+      if (ganjiOfIso(g) === dayGanji) ganjiOk = true;
+      else errors.push(`${path}: 일간지 불일치 — 일기 ${dayGanji}, gregorian ${g} 의 일간지는 ${ganjiOfIso(g)}`);
+    }
+  }
+  // 음력 원본 + 일 단위 날짜는 변환기로 재계산해 대조한다. 어긋나면 disputed 로 명시해야 한다(일간지로 확정된 경우 제외).
   const o = rec.original;
   if (o?.calendar === "lunisolar" && rec.precision === "day" && o.month != null && o.day != null) {
     const calc = lunarToGregorian(o.year, o.month, o.day, o.leap_month);
@@ -70,7 +79,7 @@ function checkDate(rec, path, errors) {
     } else {
       if (rec.computed_gregorian && rec.computed_gregorian !== calc.gregorian)
         errors.push(`${path}: 저장된 computed_gregorian ${rec.computed_gregorian} 가 재계산값 ${calc.gregorian} 과 다름`);
-      if (g && g.length === 10 && g !== calc.gregorian && rec.certainty !== "disputed")
+      if (g && g.length === 10 && g !== calc.gregorian && rec.certainty !== "disputed" && !ganjiOk)
         errors.push(`${path}: gregorian ${g} 가 변환값 ${calc.gregorian} 과 다름 (certainty=disputed 로 명시하고 computed_gregorian 기록 필요)`);
       if (g && g.length === 10 && g !== calc.gregorian && !rec.computed_gregorian)
         errors.push(`${path}: 불일치인데 computed_gregorian 미기록`);
@@ -115,7 +124,7 @@ export function validateDir(dir) {
   for (const de of data["diary_entries.json"]) {
     ref("editions.json", de.edition_id, de.id);
     ref("readings.json", de.reading_id, de.id);
-    if (de.date) checkDate(de.date, de.id, errors);
+    if (de.date) checkDate(de.date, de.id, errors, de.day_ganji ?? null);
     const rd = data["readings.json"].find((r) => r.id === de.reading_id);
     if (rd && rd.edition_id !== de.edition_id) errors.push(`${de.id}: reading 의 판본과 entry 의 판본이 다름`);
     if (de.text_status !== "placeholder" && !de.text_han) errors.push(`${de.id}: placeholder 가 아닌데 text_han 없음`);

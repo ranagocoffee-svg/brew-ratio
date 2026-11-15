@@ -5,4 +5,5 @@
 # 입력값과 계산값이 다르면 disputed 로 병기된다.
 # text_ko 는 번역 저작권 확인 전에는 비워 둔다 (README 참조).
 # 입력 후: node tools/import_diary.mjs data/input/gyogam-1597.tsv data/sample/1597 --year 1597 --by <입력자>
-lunar_month	lunar_day	leap	gregorian	text_han	text_ko	source_ref	note
+# day_ganji: 일기 날짜 머리의 일간지(예: 甲辰). 적으면 양력이 일간지로 확정되고(변환기보다 우선), 틀리면 입력이 거부된다.
+lunar_month	lunar_day	leap	gregorian	day_ganji	text_han	text_ko	source_ref	note

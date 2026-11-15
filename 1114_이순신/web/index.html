@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project YI · 1597 MVP</title>
+<style>
+:root {
+  --bg: #f7f5f0; --panel: #ffffff; --ink: #1d2433; --muted: #667085; --line: #e3dfd5;
+  --navy: #243b63; --red: #d62d2d; --gold: #f0b94a;
+  --ok: #1f7a4d; --ok-bg: #e3f4ea; --warn: #8a5a00; --warn-bg: #fff1cf; --bad: #a12020; --bad-bg: #fde3e3; --neutral-bg: #eceff4;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14181f; --panel: #1c222c; --ink: #e8ebf1; --muted: #9aa4b5; --line: #2f3745;
+    --navy: #7fa2dd; --red: #ff6b6b; --gold: #f0b94a;
+    --ok: #6fd3a0; --ok-bg: #173628; --warn: #f2c66b; --warn-bg: #3a2f12; --bad: #ff9a9a; --bad-bg: #402020; --neutral-bg: #262d39;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.55 system-ui, "Malgun Gothic", sans-serif; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 16px; }
+header { display: flex; align-items: center; gap: 14px; padding: 8px 0 12px; }
+header img { width: 56px; height: 56px; border-radius: 12px; background: #fff; }
+h1 { font-size: 20px; margin: 0; } h2 { font-size: 16px; margin: 0 0 10px; } h3 { font-size: 14px; margin: 14px 0 6px; }
+.sub { color: var(--muted); font-size: 13px; }
+.banner { background: var(--warn-bg); color: var(--warn); border: 1px solid var(--warn); border-radius: 10px; padding: 8px 12px; font-size: 13px; margin-bottom: 14px; }
+nav { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
+nav button { border: 1px solid var(--line); background: var(--panel); color: var(--ink); padding: 7px 14px; border-radius: 999px; cursor: pointer; font: inherit; }
+nav button[aria-selected="true"] { background: var(--navy); color: #fff; border-color: var(--navy); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) nav button[aria-selected="true"] { color: #10141b; } }
+section.card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; margin-bottom: 14px; }
+.chip { display: inline-block; font-size: 11.5px; padding: 1px 8px; border-radius: 999px; white-space: nowrap; background: var(--neutral-bg); color: var(--muted); }
+.chip.verified { background: var(--ok-bg); color: var(--ok); } .chip.unverified { background: var(--warn-bg); color: var(--warn); } .chip.disputed { background: var(--bad-bg); color: var(--bad); }
+/* timeline */
+.axis { position: relative; height: 22px; border-bottom: 1px solid var(--line); margin-left: 76px; }
+.axis span { position: absolute; top: 0; font-size: 11px; color: var(--muted); transform: translateX(-50%); }
+.lane { position: relative; height: 54px; margin-left: 76px; border-bottom: 1px dashed var(--line); }
+.lane > label { position: absolute; left: -76px; top: 16px; width: 70px; font-size: 12px; color: var(--muted); }
+.lane .grid { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--line); opacity: .5; }
+.ev { position: absolute; top: 12px; transform: translateX(-50%); border: 2px solid var(--navy); background: var(--panel); color: var(--ink); border-radius: 8px; padding: 2px 8px; font-size: 12px; cursor: pointer; white-space: nowrap; max-width: 220px; overflow: hidden; text-overflow: ellipsis; }
+.ev.world { border-color: var(--gold); } .ev.disputed { border-color: var(--red); } .ev[aria-pressed="true"] { background: var(--navy); color: #fff; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ev[aria-pressed="true"] { color: #10141b; } }
+.bar { position: absolute; top: 18px; height: 20px; left: 0; right: 0; border-radius: 6px; background: repeating-linear-gradient(45deg, var(--neutral-bg), var(--neutral-bg) 6px, transparent 6px, transparent 12px); border: 1px solid var(--line); font-size: 11.5px; padding: 0 8px; color: var(--muted); display: flex; align-items: center; justify-content: space-between; }
+.bar button { background: none; border: 0; color: var(--ink); cursor: pointer; font: inherit; text-decoration: underline; padding: 0; }
+.tick { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--red); opacity: .7; pointer-events: none; }
+/* slider */
+.slider { display: flex; align-items: center; gap: 12px; margin: 6px 0 12px; }
+.slider input { flex: 1; accent-color: var(--navy); }
+/* detail */
+dl { display: grid; grid-template-columns: 130px 1fr; gap: 4px 12px; margin: 0; font-size: 14px; }
+dt { color: var(--muted); } dd { margin: 0; }
+table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 500; font-size: 12.5px; }
+.claims { display: grid; gap: 6px; }
+.claimrow { display: grid; grid-template-columns: 110px 1fr 60px; gap: 8px; align-items: center; font-size: 13px; }
+.claimbar { height: 14px; border-radius: 4px; background: var(--navy); } .claimbar.disputed { background: var(--red); }
+.tree { margin: 0; padding-left: 18px; } .tree li { margin: 4px 0; }
+.note { color: var(--muted); font-size: 13px; }
+.empty { color: var(--muted); font-style: italic; }
+.hidden { display: none; }
+footer { color: var(--muted); font-size: 12px; padding: 8px 0 24px; }
+@media (max-width: 640px) { dl { grid-template-columns: 1fr; } dt { margin-top: 6px; } .claimrow { grid-template-columns: 90px 1fr 48px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="/chatgpt-1794728054066.png" alt="이순신 캐릭터 일러스트">
+    <div>
+      <h1>Project YI · 이순신 1597 <span class="chip">MVP</span></h1>
+      <div class="sub">연표 · 사료 층위 · 난중일기 판본 — 기준 판본: 교감본(노승석)</div>
+    </div>
+  </header>
+  <div class="banner" id="banner"></div>
+  <nav role="tablist">
+    <button role="tab" data-tab="timeline" aria-selected="true">연표 · Cross-Time</button>
+    <button role="tab" data-tab="sources" aria-selected="false">사료 층위</button>
+    <button role="tab" data-tab="editions" aria-selected="false">판본 · 일기</button>
+  </nav>
+  <main id="app"><p class="empty">데이터를 불러오는 중…</p></main>
+  <footer>데이터: data/sample/1597/*.json · 검증: <code>npm run validate</code> · 모든 연표 항목은 원문 대조 전입니다.</footer>
+</div>
+<script type="module" src="/web/app.js"></script>
+</body>
+</html>

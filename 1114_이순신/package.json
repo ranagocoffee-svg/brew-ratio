@@ -3,11 +3,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "validate": "node tools/validate.mjs",
-    "test": "node --test tests/validate.test.mjs tests/import_diary.test.mjs tests/lunar.test.mjs"
+    "validate": "node tools/validate.mjs",`n    "serve": "node tools/serve.mjs 5173",
+    "test": "node --test tests/validate.test.mjs tests/import_diary.test.mjs tests/lunar.test.mjs tests/ganji.test.mjs"
   },
   "dependencies": {
     "korean-lunar-calendar": "0.4.0"
   }
 }
+
+
 

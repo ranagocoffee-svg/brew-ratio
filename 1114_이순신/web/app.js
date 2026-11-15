@@ -1,0 +1,137 @@
+// Project YI MVP viewer — 정적 JSON(data/sample/1597)을 읽어 그린다. 빌드 단계 없음.
+const BASE = "/data/sample/1597/";
+const FILES = ["sources", "editions", "readings", "events", "claims", "diary_entries", "coverage"];
+const LAYER = { contemporary: "당대 기록", compiled_later: "후대 편찬", modern_reception: "근대 수용", contemporary_scholarship: "현대 연구", popular: "대중 서사", reference_secondary: "2차 참고", unclassified: "층위 미분류" };
+const ORIGIN = { kr: "조선", jp: "일본", cn: "명", west: "서구", intl: "기타" };
+const CERT = { verified: "확인됨", unverified: "미검증", disputed: "이의 있음" };
+const KIND = { autograph: "친필 초고", copy: "필사본", printed: "간행본", transcription: "탈초본", critical_edition: "교감본" };
+const STATUS = { placeholder: "본문 미입력", transcribed: "입력됨", reviewed: "검수됨" };
+const COVER = { extant: "현존", missing_in_edition: "판본에서 결락", not_written_or_unknown: "기록 안 됨/불명", to_verify: "확인 필요" };
+
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const chip = (kind, text) => `<span class="chip ${kind}">${esc(text)}</span>`;
+const certChip = (c) => chip(c, CERT[c] ?? c);
+
+const D = {};
+const state = { tab: "timeline", eventId: "ev-1597-myeongnyang", month: 9 };
+
+async function load() {
+  await Promise.all(FILES.map(async (f) => { D[f] = await (await fetch(`${BASE}${f}.json`, { cache: "no-store" })).json(); }));
+  D.byId = Object.fromEntries(Object.values(D).flat().filter((x) => x && x.id).map((x) => [x.id, x]));
+}
+
+const lunarText = (o) => (o.month == null ? `${o.year}년` : `${o.year}년 ${o.leap_month ? "윤" : ""}${o.month}월${o.day != null ? ` ${o.day}일` : ""}`);
+const dayOfYear = (iso) => (Date.UTC(...iso.split("-").map((n, i) => (i === 1 ? n - 1 : +n))) - Date.UTC(1597, 0, 1)) / 86400000;
+const pct = (iso) => (dayOfYear(iso) / 365) * 100;
+const placed = (ev) => ev.date.gregorian?.length === 10 && ev.date.gregorian.startsWith("1597");
+
+function banner() {
+  const all = [...D.events, ...D.diary_entries];
+  const n = (c) => all.filter((x) => x.date.certainty === c).length;
+  const entries = D.diary_entries.filter((e) => e.text_status !== "placeholder").length;
+  document.getElementById("banner").innerHTML =
+    `⚠ 이 화면의 연표는 <b>교차검증 문서에서 옮긴 값으로 원문 대조 전</b>입니다. 날짜 상태: 확인됨 ${n("verified")} · 미검증 ${n("unverified")} · 이의 있음 ${n("disputed")} · 일기 본문 입력 ${entries}일`;
+}
+
+/* ---------- 연표 ---------- */
+function timeline() {
+  const months = Array.from({ length: 12 }, (_, i) => `<span style="left:${(Date.UTC(1597, i, 1) - Date.UTC(1597, 0, 1)) / 86400000 / 365 * 100}%">${i + 1}월</span>`).join("");
+  const grid = Array.from({ length: 12 }, (_, i) => `<i class="grid" style="left:${(Date.UTC(1597, i, 1) - Date.UTC(1597, 0, 1)) / 86400000 / 365 * 100}%"></i>`).join("");
+  const lane = (track, label) => {
+    const evs = D.events.filter((e) => e.track === track && placed(e));
+    return `<div class="lane"><label>${label}</label>${grid}${evs.map((e) => `<button class="ev ${track} ${e.date.certainty === "disputed" ? "disputed" : ""}" style="left:${pct(e.date.gregorian)}%" data-ev="${e.id}" aria-pressed="${e.id === state.eventId}" title="${esc(e.title_ko)}">${esc(e.title_ko)}</button>`).join("")}</div>`;
+  };
+  const unplaced = D.events.filter((e) => !placed(e));
+  const unplacedHtml = unplaced.length
+    ? `<h3>양력 날짜 미확정 (월·연 단위)</h3>` + unplaced.map((e) => `<div class="lane" style="margin-left:0;height:44px"><div class="bar"><button data-ev="${e.id}">${esc(e.title_ko)}</button><span>${e.track === "world" ? "세계" : "이순신"} · ${e.date.precision === "range" ? `${e.date.original.year}~${e.date.end_year}` : lunarText(e.date.original)} ${certChip(e.date.certainty)}</span></div></div>`).join("")
+    : "";
+
+  const m = state.month;
+  const inMonth = D.events.filter((e) => e.date.original.calendar === "lunisolar" && e.date.original.month === m);
+  const entries = D.diary_entries.filter((e) => e.date.original.month === m);
+  const monthHtml = `
+    <h2>Cross-Time Slider · 음력 ${m}월</h2>
+    <div class="slider"><span class="sub">1월</span><input id="month" type="range" min="1" max="12" value="${m}" aria-label="음력 월"><span class="sub">12월</span></div>
+    <table><tr><th style="width:90px">구분</th><th>내용</th></tr>
+      <tr><td>사건</td><td>${inMonth.length ? inMonth.map((e) => `<a href="#" data-ev="${e.id}">${esc(e.title_ko)}</a> ${certChip(e.date.certainty)}`).join("<br>") : '<span class="empty">이 달에 날짜가 확정된 사건 없음 (≠ 사건이 없었다는 뜻)</span>'}</td></tr>
+      <tr><td>난중일기</td><td>${entries.length ? entries.map((e) => `${esc(lunarText(e.date.original))} · ${esc(D.byId[e.edition_id]?.title)} ${chip("", STATUS[e.text_status])}${e.day_ganji ? ` ${chip("", `일간지 ${e.day_ganji}`)}` : ""}`).join("<br>") : '<span class="empty">입력된 일기 없음 (≠ 일기가 없다는 뜻, "입력되지 않음")</span>'}</td></tr>
+      <tr><td>결측</td><td>${D.coverage.map((c) => `${esc(c.period)} · ${esc(D.byId[c.edition_id]?.title)} ${chip("", COVER[c.status])}`).join("<br>")}</td></tr>
+    </table>`;
+
+  return `<section class="card"><h2>1597년 연표 (양력)</h2>
+    <div class="axis">${months}</div>${lane("yi", "이순신")}${lane("world", "세계")}${unplacedHtml}
+    <p class="note">붉은 테두리 = 날짜 이의 있음. 클릭하면 아래에 상세가 열립니다.</p></section>
+    <section class="card">${monthHtml}</section>
+    <section class="card" id="detail">${detail()}</section>`;
+}
+
+function detail() {
+  const e = D.byId[state.eventId];
+  if (!e) return '<p class="empty">사건을 선택하세요.</p>';
+  const d = e.date, o = d.original;
+  const claims = D.claims.filter((c) => c.event_id === e.id);
+  const max = Math.max(...claims.filter((c) => c.field === "japanese_ships").map((c) => c.value), 1);
+  const fields = [...new Set(claims.map((c) => c.field))];
+  const FIELD = { japanese_ships: "일본 함선 수", joseon_ships: "조선 함선 수" };
+  const claimHtml = claims.length
+    ? `<h3>출처별로 갈리는 수치 (하나로 합치지 않음)</h3><div class="claims">${fields.map((f) => `<div class="sub">${FIELD[f] ?? esc(f)}</div>` + claims.filter((c) => c.field === f).map((c) => `<div class="claimrow"><span>${esc(c.source_ids.map((s) => D.byId[s]?.title.split(":")[0].split("(")[0].trim()).join(", "))}</span><div class="claimbar ${c.status === "disputed" ? "disputed" : ""}" style="width:${Math.max(3, (c.value / max) * 100)}%" title="${esc(c.note)}"></div><span><b>${esc(c.value)}</b></span></div>`).join("")).join("")}</div>`
+    : "";
+  const srcHtml = e.source_ids.map((s) => { const x = D.byId[s]; return x ? `<tr><td>${esc(x.title)}</td><td>${chip("", LAYER[x.layer])}</td><td>${esc(ORIGIN[x.origin])}</td><td>${chip("", x.reliability === "unrated" ? "신뢰도 미평가" : `등급 ${x.reliability}`)} ${x.status === "candidate_unverified" ? chip("unverified", "서지 미확인") : ""}</td></tr>` : ""; }).join("");
+  return `<h2>${esc(e.title_ko)} <span class="sub">${esc(e.title_en ?? "")}</span></h2>
+    <dl>
+      <dt>트랙</dt><dd>${e.track === "yi" ? "이순신·조선" : "동시대 세계"}</dd>
+      <dt>원본 날짜</dt><dd>${o.calendar === "lunisolar" ? "음력 " : ""}${esc(lunarText(o))}${d.precision === "range" ? ` ~ ${d.end_year}` : ""}</dd>
+      <dt>양력(사용값)</dt><dd>${esc(d.gregorian ?? "미확정")} ${d.julian ? `<span class="sub">· 율리우스력 ${esc(d.julian)}</span>` : ""}</dd>
+      ${d.computed_gregorian ? `<dt>변환기 계산</dt><dd>${esc(d.computed_gregorian)} <span class="sub">${esc(d.converter)}</span></dd>` : ""}
+      <dt>날짜 확실도</dt><dd>${certChip(d.certainty)} ${e.verified ? chip("verified", "사건 검증됨") : chip("unverified", "사건 미검증")}</dd>
+      <dt>날짜 메모</dt><dd class="note">${esc(d.note ?? "—")}</dd>
+      ${e.note ? `<dt>메모</dt><dd class="note">${esc(e.note)}</dd>` : ""}
+    </dl>
+    ${claimHtml}
+    <h3>출처</h3><table><tr><th>출처</th><th>층위</th><th>국가</th><th>상태</th></tr>${srcHtml}</table>
+    ${d.certainty === "disputed" ? `<p class="note">📎 조사: docs/investigations/myeongnyang-date.md — 일기 9/16 일간지 甲辰=10/26, 癸卯=10/25 로 확정할 수 있습니다.</p>` : ""}`;
+}
+
+/* ---------- 사료 ---------- */
+function sources() {
+  const order = Object.keys(LAYER);
+  return `<section class="card"><h2>사료를 층위별로 분리</h2>
+    <p class="note">당대 기록·후대 편찬·근대 수용·현대 연구·대중 서사를 섞지 않고 신뢰도와 서지 확인 상태를 함께 표시합니다.</p>
+    ${order.map((l) => { const rows = D.sources.filter((s) => s.layer === l); return rows.length ? `<h3>${LAYER[l]} (${rows.length})</h3><table><tr><th>제목</th><th>국가</th><th>신뢰도</th><th>상태</th></tr>${rows.map((s) => `<tr><td>${esc(s.title)}${s.note ? `<div class="note">${esc(s.note)}</div>` : ""}</td><td>${esc(ORIGIN[s.origin])}</td><td>${s.reliability === "unrated" ? "미평가" : esc(s.reliability)}</td><td>${s.status === "confirmed" ? chip("verified", "서지 확인") : chip("unverified", "서지 미확인")}</td></tr>`).join("")}</table>` : ""; }).join("")}</section>`;
+}
+
+/* ---------- 판본 · 일기 ---------- */
+function editions() {
+  const li = (ed) => `<li><b>${esc(ed.title)}</b> ${chip("", KIND[ed.kind])} ${ed.is_base ? chip("verified", "기준 판본") : ""}
+      <div class="note">${esc(ed.note ?? "")}</div>
+      ${ed.derived_from.length ? `<div class="note">← ${ed.derived_from.map((p) => esc(D.byId[p]?.title.split("(")[0].trim())).join(", ")}</div>` : ""}
+      ${D.readings.filter((r) => r.edition_id === ed.id).map((r) => `<div class="note">판독: ${esc(r.reader)}${r.year ? ` (${r.year})` : ""}${r.note ? ` — ${esc(r.note)}` : ""}</div>`).join("")}</li>`;
+  return `<section class="card"><h2>난중일기 판본 계보</h2>
+    <p class="note">친필 초고 → 필사·간행·탈초 → 교감본. 번역은 표시용이며 분석은 한문 판독본에서 합니다.</p>
+    <ul class="tree">${D.editions.map(li).join("")}</ul></section>
+    <section class="card"><h2>1597년 일기 입력 현황</h2>
+    <table><tr><th>음력 날짜</th><th>판본</th><th>양력</th><th>일간지</th><th>상태</th></tr>
+    ${D.diary_entries.map((e) => `<tr><td>${esc(lunarText(e.date.original))}</td><td>${esc(D.byId[e.edition_id]?.title)}</td><td>${esc(e.date.gregorian ?? "—")} ${certChip(e.date.certainty)}</td><td>${esc(e.day_ganji ?? "—")}</td><td>${chip("", STATUS[e.text_status])}</td></tr>`).join("")}</table>
+    <p class="note">본문은 교감본 원문(저작권·판독 확인)을 입력하기 전까지 비어 있습니다. 입력: data/input/gyogam-1597.tsv → <code>node tools/import_diary.mjs</code></p>
+    <h3>결측 기록</h3><table><tr><th>기간</th><th>판본</th><th>상태</th><th>메모</th></tr>${D.coverage.map((c) => `<tr><td>${esc(c.period)}</td><td>${esc(D.byId[c.edition_id]?.title)}</td><td>${chip("", COVER[c.status])}</td><td class="note">${esc(c.note)}</td></tr>`).join("")}</table></section>`;
+}
+
+function render() {
+  document.querySelectorAll("nav button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === state.tab)));
+  document.getElementById("app").innerHTML = { timeline, sources, editions }[state.tab]();
+}
+
+document.addEventListener("click", (ev) => {
+  const t = ev.target.closest("[data-tab],[data-ev]");
+  if (!t) return;
+  ev.preventDefault();
+  if (t.dataset.tab) state.tab = t.dataset.tab;
+  if (t.dataset.ev) { state.eventId = t.dataset.ev; state.tab = "timeline"; }
+  render();
+  if (t.dataset.ev) document.getElementById("detail")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+});
+document.addEventListener("input", (ev) => {
+  if (ev.target.id === "month") { state.month = Number(ev.target.value); render(); document.getElementById("month")?.focus(); }
+});
+
+load().then(() => { banner(); render(); }).catch((e) => { document.getElementById("app").innerHTML = `<p class="empty">데이터 로드 실패: ${esc(e.message)}. 서버로 열어야 합니다: node tools/serve.mjs</p>`; });

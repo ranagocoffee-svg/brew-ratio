@@ -105,6 +105,7 @@
         "edition_id": {"type": "string"},
         "reading_id": {"type": "string"},
         "date": {"$ref": "#/$defs/DateRecord"},
+        "day_ganji": {"type": ["string", "null"], "pattern": "^[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥]$", "description": "일기 날짜 머리의 일간지. 양력 날짜를 직접 식별하는 근거(역법 차이와 무관)."},
         "text_han": {"type": ["string", "null"], "description": "분석 대상은 한문 판독본."},
         "text_ko": {"type": ["string", "null"], "description": "표시용 번역. 분석에 쓰지 않는다."},
         "translator": {"type": ["string", "null"]},
