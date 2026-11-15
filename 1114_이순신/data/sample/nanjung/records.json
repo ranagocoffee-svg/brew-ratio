@@ -838,5 +838,85 @@
     ],
     "note": "명 경략의 자문을 옮긴 기사라 조선 쪽 보고(4/21 박진: '18일에 모두 나갔다')와 하루씩 다르다('出去'와 '起程'의 차이일 수 있으나 미확인). 두 구절 모두 월이 없어 기사와 같은 달로 읽었다(추론). 같은 날 유성룡 보고 기사에는 '提督自東坡入城', '倭賊已盡出去'가 있으나 날짜가 없고 '昨日'이 쓰였다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
     "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB 선조 26년 4월 일자별 목록과 4/23~4/26 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-12-28-004",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 95권",
+    "entry_ref": "kna_13012028_004",
+    "url": "https://sillok.history.go.kr/id/kna_13012028_004",
+    "title_ko": "장운익·권율·이덕형 등이 경상도에서 중국군의 승전보를 보고하다",
+    "title_note": "그날 기사 4건 중 4번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 12,
+        "day": 28,
+        "leap_month": false
+      },
+      "gregorian": "1598-02-03",
+      "julian": "1598-01-24",
+      "computed_gregorian": "1598-02-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 甲申 가 1598-02-03 의 일간지와 일치."
+    },
+    "day_ganji": "甲申",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "本月二十三日丑初, 三協天兵一時自慶州, 分三路前進",
+        "gloss_ko": "이달 23일 축시 초(새벽 1시 무렵), 세 갈래 명군이 한꺼번에 경주에서 세 길로 나뉘어 전진했다.",
+        "about": "조·명 연합군의 경주 출발·울산 진격(23일 새벽)",
+        "stated_lunar": {
+          "month": 12,
+          "day": 23
+        }
+      }
+    ],
+    "note": "이어서 새벽에 좌협 선봉이 울산의 적 소굴을 곧바로 쳤다는 서술이 있다. 이 날 승전 보고는 성 함락이 아니라 첫 교전의 성과다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 12월·31년 1월 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-01-09-003",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 96권",
+    "entry_ref": "kna_13101009_003",
+    "url": "https://sillok.history.go.kr/id/kna_13101009_003",
+    "title_ko": "이시발이 포위를 풀고 경주로 철수했다는 소식을 알리다",
+    "title_note": "그날 기사 3건 중 3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 1,
+        "day": 9,
+        "leap_month": false
+      },
+      "gregorian": "1598-02-14",
+      "julian": "1598-02-04",
+      "computed_gregorian": "1598-02-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 乙未 가 1598-02-14 의 일간지와 일치."
+    },
+    "day_ganji": "乙未",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "故不得已初四日解圍撤兵",
+        "gloss_ko": "그리하여 부득이 4일에 포위를 풀고 군을 물렸다.",
+        "about": "도산(울산) 포위 해제·철병",
+        "stated_lunar": {
+          "month": 1,
+          "day": 4
+        }
+      }
+    ],
+    "note": "같은 기사에 '天兵圍島山, 十日不得破'(명군이 도산을 포위하고 열흘이 되도록 깨지 못했다)와 경주 도착이 있다. 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 이 날 1/1 기사(96권 첫째 달 1일, 丁亥)는 '22일 밤 대군이 일제히 출발, 23일 낮 선봉이 적과 조우, 24일 새벽 성 아래로 진격'을 적는다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 12월·31년 1월 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
   }
 ]

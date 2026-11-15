@@ -1070,26 +1070,37 @@
     "category": "war",
     "date": {
       "original": {
-        "calendar": "gregorian",
-        "year": 1598,
-        "month": 1,
-        "day": 29,
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 12,
+        "day": 23,
         "leap_month": false
       },
       "gregorian": "1598-01-29",
       "julian": "1598-01-19",
+      "computed_gregorian": "1598-01-29",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-12-28-004",
+          "statement": 0
+        }
+      ],
       "precision": "day",
-      "certainty": "unverified",
-      "note": "위키 연표: 1598-01-29~02-19. 음력 환산(변환기, 참고): 1597년 12월 23일."
+      "certainty": "verified",
+      "note": "선조실록 95권 12/28(甲申): '이달 23일 축시 초 세 갈래 명군이 경주에서 전진'(인용: 本月二十三日丑初 … 分三路前進), 새벽에 울산 적 소굴을 침. 기사일에서 5일 앞이라 음력 12/23 = 1598-01-29이며 위키의 시작일과 일치한다. 확정한 것은 연합군의 진격 개시(23일)이고, 96권 1/1 기사는 24일 새벽 성 아래로 진격했다고 적는다. 위키의 종료일 02-19는 실록과 다르다: 96권 1/9 기사는 '초4일 포위를 풀고 철병'(음력 1/4 = 1598-02-09)이라 적는다(별도 사건)."
     },
     "source_ids": [
-      "src-wiki-imjin-timeline"
+      "src-wiki-imjin-timeline",
+      "src-seonjo-sillok"
     ],
-    "verified": false,
+    "verified": true,
     "note": null,
     "connection": "일기 6책 1597-11/16(양력 12/24)에 '唐將楊經理'가 이순신에게 붉은 비단을 보냈다는 기록이 있어 같은 시기 명군 지휘부와의 교류가 보인다. 楊經理가 울산성 공략의 지휘관이었는지는 이번에 확인하지 못했다.",
     "relates_to": [
-      "de-autograph-b6-1597-11-16"
+      "de-autograph-b6-1597-11-16",
+      "ev-1598-ulsan-withdrawal",
+      "rec-sillok-seonjo-30-12-28-004"
     ]
   },
   {
@@ -1730,6 +1741,46 @@
       "ev-1592-hansando",
       "rec-sillok-seonjo-25-06-18-006",
       "rec-sillok-seonjo-25-06-26-002"
+    ]
+  },
+  {
+    "id": "ev-1598-ulsan-withdrawal",
+    "track": "world",
+    "region": "war",
+    "title_ko": "조·명 연합군, 울산(도산) 포위 해제·철병",
+    "title_en": "Allied forces lift the siege of Ulsan (Dosan)",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 1,
+        "day": 4,
+        "leap_month": false
+      },
+      "gregorian": "1598-02-09",
+      "julian": "1598-01-30",
+      "computed_gregorian": "1598-02-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-01-09-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 96권 1/9(乙未): '부득이 초4일 포위를 풀고 철병'(인용: 故不得已初四日解圍撤兵). 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 기사일에서 5일 앞이라 1598-02-09. 위키의 종료일(02-19)과 10일 차이가 난다(위키 종료일의 의미는 확인하지 못함)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "울산성 공방 개시(1598-01-29)로부터 약 11일 뒤다. 실록은 열흘이 되도록 도산을 깨지 못했다고 적는다.",
+    "relates_to": [
+      "ev-1598-ulsan-siege",
+      "rec-sillok-seonjo-31-01-09-003"
     ]
   }
 ]
