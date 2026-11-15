@@ -464,18 +464,26 @@
       "gregorian": "1593-02-08",
       "julian": "1593-01-29",
       "precision": "day",
-      "certainty": "unverified",
-      "note": "위키: 조·명 연합군의 평양 포위 1593-02-06~08, 고니시 제1진이 02-08 퇴각. 음력 환산(변환기, 참고): 1593년 1월 8일."
+      "certainty": "verified",
+      "note": "위키: 조·명 연합군의 평양 포위 1593-02-06~08, 고니시 제1진이 02-08 퇴각. 음력 환산(변환기, 참고): 1593년 1월 8일. 선조실록 34권 1/11(丙寅)이 총공격을 '초8일'(양력 2/8)로, 제독의 입성을 '초9일'(2/9)로 적었다(근거 기록). 8일 밤 고니시 일행이 탈출했다는 서술은 요약으로만 확인했다. 확정한 날짜는 총공격·일본군 이탈일(2/8)이다.",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-26-01-11-013",
+          "statement": 0
+        }
+      ]
     },
     "source_ids": [
-      "src-wiki-imjin-timeline"
+      "src-wiki-imjin-timeline",
+      "src-seonjo-sillok"
     ],
-    "verified": false,
+    "verified": true,
     "note": null,
     "connection": "일기 1책 1593-2/15·2/16(양력 3/17·3/18)에 '天兵'(명군)의 진격과 입경 소식이 전언·소문으로 적혀 있다(수복 약 5주 뒤).",
     "relates_to": [
       "de-autograph-b1-1593-02-15",
-      "de-autograph-b1-1593-02-16"
+      "de-autograph-b1-1593-02-16",
+      "rec-sillok-seonjo-26-01-11-013"
     ]
   },
   {
@@ -528,16 +536,19 @@
       "julian": "1593-05-09",
       "precision": "day",
       "certainty": "unverified",
-      "note": "위키: 일본군이 05-18 한성을 버렸고 명군이 05-19 입성. 음력 환산(변환기, 참고): 1593년 4월 19일."
+      "note": "위키: 일본군이 05-18 한성을 버렸고 명군이 05-19 입성. 음력 환산(변환기, 참고): 1593년 4월 19일. 선조실록 37권 4/21(乙巳)은 '일본군이 4월 18일에 모두 나갔고 이 제독이 이미 입성했다'고만 적어 명군의 입성일(4/19)은 실록으로 확인되지 않는다(위키 연표의 5/19와 모순은 없음). 확인된 것은 일본군 철수일(4/18=05-18)이며 별도 사건으로 뒀다."
     },
     "source_ids": [
-      "src-wiki-imjin-timeline"
+      "src-wiki-imjin-timeline",
+      "src-seonjo-sillok"
     ],
     "verified": false,
     "note": null,
     "connection": "일기 2책 1593-5/14(양력 6/12)에 행조(조정)의 일과 '天兵所爲'(명군의 행적)를 물어 탄식했다는 기록이 있다(한성 수복 직후).",
     "relates_to": [
-      "de-autograph-b2-1593-05-14"
+      "de-autograph-b2-1593-05-14",
+      "ev-1593-japan-leaves-hanseong",
+      "rec-sillok-seonjo-26-04-21-005"
     ]
   },
   {
@@ -589,19 +600,28 @@
       "gregorian": "1593-07-27",
       "julian": "1593-07-17",
       "precision": "day",
-      "certainty": "unverified",
-      "note": "음력 환산(변환기, 참고): 1593년 6월 29일."
+      "certainty": "verified",
+      "note": "음력 환산(변환기, 참고): 1593년 6월 29일. 선조실록 40권 7/16(戊辰) 기사의 표제가 '6월 29일 함락'이라 적었고(본문은 29일 전투를 서술하나 함락일을 직접 명시하지는 않음) 일기 2책 6/29(壬子, 양력 7/27)의 주석 '晋陽陷沒'과 같은 날이다.",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-26-07-16-005",
+          "statement": 0,
+          "bridge_entry_id": "de-autograph-b2-1593-06-29"
+        }
+      ]
     },
     "source_ids": [
-      "src-wiki-imjin-timeline"
+      "src-wiki-imjin-timeline",
+      "src-seonjo-sillok"
     ],
-    "verified": false,
+    "verified": true,
     "note": null,
     "connection": "음력 6/29. 일기 2책 1593-6/29(양력 7/27, 일간지로 확정)의 주석【】에 '晋陽陷沒'과 전사자 명단이 적혀 있어 위키의 함락일과 같은 날이다(전언이거나 나중에 보충한 주기일 수 있음). 6/17(함안의 장수들이 진주로 물러나 지킨다는 말)과 7/19(진주 전사 장졸 명단을 전해 받음)에도 관련 기록이 있다.",
     "relates_to": [
       "de-autograph-b2-1593-06-29",
       "de-autograph-b2-1593-06-17",
-      "de-autograph-b2-1593-07-19"
+      "de-autograph-b2-1593-07-19",
+      "rec-sillok-seonjo-26-07-16-005"
     ]
   },
   {
@@ -681,17 +701,25 @@
       "gregorian": "1597-09-26",
       "julian": "1597-09-16",
       "precision": "day",
-      "certainty": "unverified",
-      "note": "위키 연표: 남원 포위 1597-09-23~26, 09-26 함락. 음력 환산(변환기, 참고): 1597년 8월 16일."
+      "certainty": "verified",
+      "note": "위키 연표: 남원 포위 1597-09-23~26, 09-26 함락. 음력 환산(변환기, 참고): 1597년 8월 16일. 선조실록 91권 8/18(丙子)이 '16일 밤 적이 남문을 넘고 부총 양원이 서문으로 탈출'(양력 9/26)이라 적었다. 함락 문장 자체에는 날짜가 없어 16일 밤을 함락 시점으로 읽은 것은 추론이다. 일기 6책 8/16(甲戌, 양력 9/26)과 같은 날이다. 포위 개시는 실록 12일(9/22)로 위키 연표(9/23)와 하루 차이다.",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-08-18-002",
+          "statement": 1
+        }
+      ]
     },
     "source_ids": [
-      "src-wiki-imjin-timeline"
+      "src-wiki-imjin-timeline",
+      "src-seonjo-sillok"
     ],
-    "verified": false,
+    "verified": true,
     "note": null,
     "connection": "명량해전(양력 10/26, 일간지로 확정)을 한 달 앞둔 때다.",
     "relates_to": [
-      "ev-1597-myeongnyang"
+      "ev-1597-myeongnyang",
+      "rec-sillok-seonjo-30-08-18-002"
     ]
   },
   {
@@ -1066,6 +1094,46 @@
     "connection": "히데요시 사망(1598-09-18)과 5일 차이다. 동·서 양쪽 통치자가 같은 주에 사망한 것은 우연이며 인과 관계는 없다.",
     "relates_to": [
       "ev-1598-hideyoshi-death"
+    ]
+  },
+  {
+    "id": "ev-1593-japan-leaves-hanseong",
+    "track": "world",
+    "region": "war",
+    "title_ko": "일본군, 한성에서 철수",
+    "title_en": "Japanese abandon Hanseong",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1593,
+        "month": 5,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1593-05-18",
+      "julian": "1593-05-08",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-26-04-21-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 37권 4/21(乙巳)의 보고: '서울의 왜적이 4월 18일에 모두 나갔고 이 제독이 이미 입성했다'(인용: 今四月十八日 盡爲出去). 일간지로 확정한 4/21에서 3일 앞이라 4/18 = 1593-05-18이며 위키 연표('5월 18일 철수')와 일치한다. 음력 4월 18일."
+    },
+    "source_ids": [
+      "src-seonjo-sillok",
+      "src-wiki-imjin-timeline"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "한성 수복 과정의 첫 단계로, 일본군이 먼저 물러난 날이다. 명군의 입성일은 실록에 적혀 있지 않다('이미 입성'). 일기 1책 1593-2/15·2/16의 '天兵' 소식과 2책 5/14(양력 6/12)의 '天兵所爲' 기록과 같은 국면의 정보다.",
+    "relates_to": [
+      "ev-1593-hanseong-retaken",
+      "rec-sillok-seonjo-26-04-21-005",
+      "de-autograph-b2-1593-05-14"
     ]
   }
 ]

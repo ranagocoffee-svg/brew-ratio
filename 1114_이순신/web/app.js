@@ -1,6 +1,6 @@
 // Project YI MVP viewer — 정적 JSON(data/sample/nanjung)을 읽어 그린다. 빌드 단계 없음.
 const BASE = "/data/sample/nanjung/";
-const FILES = ["sources", "editions", "readings", "events", "claims", "diary_entries", "coverage", "reading_issues"];
+const FILES = ["sources", "editions", "readings", "events", "claims", "diary_entries", "coverage", "reading_issues", "records"];
 const LAYER = { contemporary: "당대 기록", compiled_later: "후대 편찬", modern_reception: "근대 수용", contemporary_scholarship: "현대 연구", popular: "대중 서사", reference_secondary: "2차 참고", unclassified: "층위 미분류" };
 const ORIGIN = { kr: "조선", jp: "일본", cn: "명", west: "서구", intl: "기타" };
 const CERT = { verified: "확인됨", unverified: "미검증", disputed: "이의 있음" };
@@ -31,6 +31,7 @@ function relatedHtml(e) {
     const x = D.byId[id];
     if (!x) return esc(id);
     if (x.track) return `<a href="#" data-ev="${esc(id)}">${esc(x.title_ko)}</a> <span class="sub">${esc(x.date.gregorian ?? "")}</span>`;
+    if (x.statements) return `📜 ${esc(x.volume_title)} ${x.date.original.month}/${x.date.original.day} <span class="sub">(${esc(x.day_ganji)} · 양력 ${esc(x.date.gregorian)})</span>`;
     const o = x.date.original;
     return `📖 일기 ${esc(x.volume ?? "")} ${o.year}-${o.leap_month ? "윤" : ""}${o.month}/${o.day} <span class="sub">(양력 ${esc(x.date.gregorian)} · ${esc(x.day_ganji ?? "간지 없음")})</span>`;
   }).join("<br>")}</dd>`;
@@ -126,6 +127,24 @@ function diaryMonthCell(entries) {
   }).join("");
 }
 
+/** 사건 날짜를 확정한 외부 기록(실록) 근거: 헤더·일간지·짧은 인용·원문 링크. 국역은 싣지 않는다. */
+function recordsHtml(e) {
+  const brs = e.date.basis_records ?? [];
+  if (!brs.length) return "";
+  return `<h3>한국 사료(실록) 근거 — 일간지로 날짜 확정</h3>` + brs.map((br) => {
+    const rc = D.byId[br.record_id], st = rc.statements[br.statement], ro = rc.date.original;
+    const bridge = br.bridge_entry_id ? D.byId[br.bridge_entry_id] : null;
+    return `<div style="border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-bottom:8px">
+      <div><b>${esc(rc.volume_title)}</b> · 선조 ${ro.year - 1567}년 ${ro.month}월 ${ro.day}일 <b>${esc(rc.day_ganji)}</b> ${chip("verified", `일간지로 확정 → 양력 ${rc.date.gregorian}`)}
+        <a href="${esc(rc.url)}" target="_blank" rel="noopener noreferrer" class="note">실록 원문 보기 ↗</a></div>
+      ${rc.title_ko ? `<div class="note">표제: ${esc(rc.title_ko)}</div>` : ""}
+      ${st.text_han ? `<p style="font-family:'Noto Serif KR','Batang',serif;line-height:1.9;margin:6px 0">${esc(st.text_han)}</p>` : ""}
+      <div>${esc(st.gloss_ko ?? "")} <span class="note">(${esc(st.part)} · 인용된 날짜 음력 ${st.stated_lunar.month}/${st.stated_lunar.day})</span></div>
+      <div class="note">${bridge ? `기록은 ${ro.month}월, 인용 날짜는 ${st.stated_lunar.month}월이라 일기 ${esc(bridge.volume ?? "")} ${bridge.date.original.month}/${bridge.date.original.day}(${esc(bridge.day_ganji)}, 양력 ${esc(bridge.date.gregorian)})로 이었습니다.` : `같은 달이라 기록 날짜에서 ${Math.abs(st.stated_lunar.day - ro.day)}일 ${st.stated_lunar.day < ro.day ? "앞으로" : "뒤로"} 계산했습니다.`}</div>
+      ${rc.note ? `<div class="note">※ ${esc(rc.note)}</div>` : ""}</div>`;
+  }).join("");
+}
+
 /** 사건의 음력 날짜에 해당하는 일기를 책별로 나란히 보여준다(5책 vs 6책 대조). */
 function diaryFor(ev) {
   const o = ev.date.original;
@@ -174,6 +193,7 @@ function detail() {
       ${relatedHtml(e)}
     </dl>
     ${claimHtml}
+    ${recordsHtml(e)}
     ${diaryFor(e)}
     <h3>출처</h3><table><tr><th>출처</th><th>층위</th><th>국가</th><th>상태</th></tr>${srcHtml}</table>
     ${d.certainty === "disputed" ? `<p class="note">📎 조사: docs/investigations/myeongnyang-date.md — 일기 9/16 일간지 甲辰=10/26, 癸卯=10/25 로 확정할 수 있습니다.</p>` : ""}`;
@@ -190,7 +210,7 @@ function worldTab() {
     const dateTxt = d.precision === "range" ? `${o.year}~${d.end_year}` : d.gregorian;
     const orig = o.calendar === "julian" ? `<div class="note">원본 율리우스력 ${esc(d.julian)}</div>` : o.calendar === "lunisolar" ? `<div class="note">원본 음력 ${esc(lunarText(o))}</div>` : d.julian ? `<div class="note">율리우스력 ${esc(d.julian)}</div>` : "";
     return `<tr><td style="white-space:nowrap">${esc(dateTxt)}${orig}</td><td>${regionChip(e.region)}</td>
-      <td><a href="#" data-ev="${e.id}"><b>${esc(e.title_ko)}</b></a>${linksYi(e) ? `<div>${chip("verified", "이순신·일기와 연결")}</div>` : ""}</td>
+      <td><a href="#" data-ev="${e.id}"><b>${esc(e.title_ko)}</b></a>${(e.date.basis_records ?? []).length ? `<div>${chip("verified", "실록으로 확정")}</div>` : ""}${linksYi(e) ? `<div>${chip("verified", "이순신·일기와 연결")}</div>` : ""}</td>
       <td class="note" style="min-width:280px">${esc(e.connection ?? "—")}</td><td>${certChip(d.certainty)}</td><td class="note" style="min-width:150px">${srcLinks(e.source_ids)}</td></tr>`;
   }).join("");
   return `<section class="card"><h2>세계 연표 (1545~1598)</h2>

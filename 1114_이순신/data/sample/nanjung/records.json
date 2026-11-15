@@ -1,0 +1,192 @@
+[
+  {
+    "id": "rec-sillok-seonjo-26-01-11-013",
+    "volume_title": "선조실록 34권",
+    "entry_ref": "kna_12601011_013",
+    "title_ko": null,
+    "title_note": "한국어 표제를 직접 확인하지 못했다(목록 요약: 평양 수복 전투의 전모를 적은 기사). 그날 기사 16건 중 13번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1593,
+        "month": 1,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1593-02-11",
+      "julian": "1593-02-01",
+      "computed_gregorian": "1593-02-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙寅 가 1593-02-11 의 일간지와 일치."
+    },
+    "day_ganji": "丙寅",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "初八日早朝, 提督焚香卜日, 傳食三軍訖, 與三營將領, 分統各該軍兵, 環城外西北面。",
+        "gloss_ko": "8일 이른 아침 제독(이여송)이 삼군을 먹이고 군을 나누어 평양성 서북면을 에워쌌다(총공격).",
+        "about": "평양성 총공격",
+        "stated_lunar": {
+          "month": 1,
+          "day": 8
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "初九日, 提督率諸軍入城, 先酹陣亡將卒, 身自痛哭, 慰問孤寡。",
+        "gloss_ko": "9일 제독이 군을 거느리고 성에 들어가 전사한 장졸에게 제사하고 고아·과부를 위문했다.",
+        "about": "제독의 평양성 입성",
+        "stated_lunar": {
+          "month": 1,
+          "day": 9
+        }
+      }
+    ],
+    "note": "8일 저녁·밤에 고니시(행장) 일행이 얼어붙은 대동강을 건너 탈출했다는 서술은 요약으로만 확인했고 원문 인용은 생략했다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_12601011_013",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-26-04-21-005",
+    "volume_title": "선조실록 37권",
+    "entry_ref": "kna_12604021_005",
+    "title_ko": "박진이 유 총병의 처소에서 돌아와 경성에 이 제독이 입성하였다고 아뢰다",
+    "title_note": "그날 기사 11건 중 5번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1593,
+        "month": 4,
+        "day": 21,
+        "leap_month": false
+      },
+      "gregorian": "1593-05-21",
+      "julian": "1593-05-11",
+      "computed_gregorian": "1593-05-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 乙巳 가 1593-05-21 의 일간지와 일치."
+    },
+    "day_ganji": "乙巳",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "京中倭賊, 今四月十八日, 盡爲出去, 李提督已爲入城。",
+        "gloss_ko": "서울의 왜적이 4월 18일에 모두 나갔고 이 제독이 이미 입성했다(유 총병 중군의 전언을 박진이 보고).",
+        "about": "일본군 한성 철수",
+        "stated_lunar": {
+          "month": 4,
+          "day": 18
+        }
+      }
+    ],
+    "note": "이 제독(이여송)의 입성일은 '이미 입성했다'고만 적혀 있어 알 수 없다. 4/21은 보고일이다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_12604021_005",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-26-07-16-005",
+    "volume_title": "선조실록 40권",
+    "entry_ref": "kna_12607016_005",
+    "title_ko": "6월 29일 함락된 진주성 싸움의 자세한 경과",
+    "title_note": "그날 기사 6건 중 5번째. 표제가 편집으로 붙은 것인지 원문인지는 확인하지 못했다.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1593,
+        "month": 7,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1593-08-12",
+      "julian": "1593-08-02",
+      "computed_gregorian": "1593-08-12",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 戊辰 가 1593-08-12 의 일간지와 일치."
+    },
+    "day_ganji": "戊辰",
+    "statements": [
+      {
+        "part": "표제",
+        "text_han": null,
+        "gloss_ko": "표제가 진주성 함락일을 6월 29일로 적었다.",
+        "about": "진주성 함락",
+        "stated_lunar": {
+          "month": 6,
+          "day": 29
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "二十二日辰時, 賊五百餘騎, 登北山列陣耀兵, 城中按兵不動.",
+        "gloss_ko": "6월 22일 아침 일본 기병 5백여 명이 북산에 진을 치고 위세를 보였다(공방 개시 서술).",
+        "about": "진주성 공방 개시",
+        "stated_lunar": {
+          "month": 6,
+          "day": 22
+        }
+      }
+    ],
+    "note": "본문은 29일 전투(동문 성벽이 비로 무너짐 등)를 서술하나 함락 일자를 본문에서 직접 명시하지는 않는다(요약 확인). 7/16은 보고·정리일이며 6월은 7월 직전 달이라 일기 2책 6/29(일간지 확정)로 날짜를 이었다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_12607016_005",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-08-18-002",
+    "volume_title": "선조실록 91권",
+    "entry_ref": "kna_13008018_002",
+    "title_ko": "남원성이 함락당하고 부총 양원을 비롯하여 10여 명만이 살아 돌아오다",
+    "title_note": "그날 기사 5건 중 2번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-28",
+      "julian": "1597-09-18",
+      "computed_gregorian": "1597-09-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙子 가 1597-09-28 의 일간지와 일치."
+    },
+    "day_ganji": "丙子",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "本月十二日, 賊圍南原, 日夜攻打, 副總兵馬, 矢盡力竭。",
+        "gloss_ko": "이달 12일 적이 남원을 포위해 밤낮으로 공격했고 부총(양원)의 군은 화살과 힘이 다했다.",
+        "about": "남원 포위 개시",
+        "stated_lunar": {
+          "month": 8,
+          "day": 12
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "於十六日夜, 賊扒上南門, 副總勢急, 只帶三百餘名, 殺出西門, 中二丸, 止剩十餘人而還。",
+        "gloss_ko": "16일 밤 적이 남문을 넘자 부총이 3백여 명을 이끌고 서문으로 빠져나왔고 10여 명만 돌아왔다.",
+        "about": "남문 돌파·남원성 함락",
+        "stated_lunar": {
+          "month": 8,
+          "day": 16
+        }
+      }
+    ],
+    "note": "함락 문장('倭賊攻陷南原城')에는 날짜가 없다. 16일 밤의 남문 돌파·양원 탈출을 함락 시점으로 읽는 것은 우리의 추론이다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_13008018_002",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  }
+]

@@ -22,6 +22,19 @@
         "julian": {"type": ["string", "null"], "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$"},
         "computed_gregorian": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "변환기가 계산한 양력. 사료/입력값(gregorian)과 다르면 certainty=disputed 로 병기한다."},
         "converter": {"type": ["string", "null"]},
+        "basis_records": {
+          "type": ["array", "null"],
+          "description": "이 날짜를 확정한 외부 기록(실록 등)의 인용. 검증기가 기록 헤더 일간지의 확정 여부와, 인용된 음력 날짜에서 도출한 양력이 사건 날짜와 같은지 확인한다. 인용 날짜가 기록 날짜와 다른 달이면 bridge_entry_id(일간지로 확정된 일기 항목)가 필요하다.",
+          "items": {
+            "type": "object",
+            "required": ["record_id", "statement"],
+            "properties": {
+              "record_id": {"type": "string"},
+              "statement": {"type": "integer", "description": "records 의 statements 배열 인덱스"},
+              "bridge_entry_id": {"type": ["string", "null"]}
+            }
+          }
+        },
         "basis_entry_ids": {"type": ["array", "null"], "items": {"type": "string"}, "description": "이 날짜를 일간지로 확정한 일기 항목 id. 검증기가 해당 항목의 양력·일간지 확정 여부를 확인한다."},
         "ganji_check": {
           "type": ["object", "null"],
@@ -131,6 +144,38 @@
         "reviewed_by": {"type": ["string", "null"]},
         "text_status": {"enum": ["placeholder", "transcribed", "reviewed"]},
         "note": {"type": ["string", "null"]}
+      }
+    },
+    "Record": {
+      "type": "object",
+      "description": "외부 기록(조선왕조실록 기사 등) 한 건. 헤더 날짜(음력)와 일간지로 날짜를 확정하고, 사건 날짜의 근거가 되는 짧은 인용(statements)만 담는다. 원문 전문과 한국고전번역원 국역은 수록하지 않는다.",
+      "required": ["id", "source_id", "volume_title", "entry_ref", "url", "date", "day_ganji", "statements"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^rec-"},
+        "source_id": {"type": "string"},
+        "volume_title": {"type": "string"},
+        "entry_ref": {"type": "string"},
+        "url": {"type": "string"},
+        "title_ko": {"type": ["string", "null"]},
+        "title_note": {"type": ["string", "null"]},
+        "date": {"$ref": "#/$defs/DateRecord"},
+        "day_ganji": {"type": "string", "pattern": "^[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥]$"},
+        "statements": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["part", "about", "stated_lunar"],
+            "properties": {
+              "part": {"enum": ["본문", "표제"]},
+              "text_han": {"type": ["string", "null"], "description": "원문 인용. 125자 이하(검증기 강제)."},
+              "gloss_ko": {"type": ["string", "null"], "description": "우리 요약. 국역을 옮기지 않는다."},
+              "about": {"type": "string"},
+              "stated_lunar": {"type": "object", "required": ["month", "day"], "properties": {"month": {"type": "integer"}, "day": {"type": "integer"}}}
+            }
+          }
+        },
+        "note": {"type": ["string", "null"]},
+        "checked": {"type": ["string", "null"]}
       }
     },
     "ReadingIssue": {

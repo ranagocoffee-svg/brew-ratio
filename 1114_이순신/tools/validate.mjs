@@ -5,7 +5,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { gregorianToJulian, lunarToGregorian, ganjiOfIso, isValidGanji } from "./lunar.mjs";
+import { gregorianToJulian, lunarToGregorian, ganjiOfIso, isValidGanji, addDays } from "./lunar.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const SCHEMA = JSON.parse(readFileSync(join(ROOT, "data", "schema", "schema.json"), "utf-8"));
@@ -19,6 +19,7 @@ export const FILES = {
   "diary_entries.json": "DiaryEntry",
   "coverage.json": "Coverage",
   "reading_issues.json": "ReadingIssue",
+  "records.json": "Record",
 };
 
 const typeOk = (v, t) =>
@@ -143,13 +144,40 @@ export function validateDir(dir) {
       if (bad.length) errors.push(`${ev.id}: basis_entry_ids ${bad.join(", ")} 가 존재하지 않거나 같은 양력으로 확정(verified, 일간지 있음)되지 않음`);
       else basisOk = true;
     }
+    // 외부 기록(실록)으로 확정한 날짜: 기록 헤더 일간지가 확정돼 있고, 인용된 음력 날짜에서 도출한 양력이 사건 날짜와 같아야 한다.
+    let recBasisOk = false;
+    for (const [bi, br] of (ev.date?.basis_records ?? []).entries()) {
+      const w = `${ev.id}.basis_records[${bi}]`;
+      const rc = data["records.json"].find((x) => x.id === br.record_id);
+      if (!rc) { errors.push(`${w}: 기록 ${JSON.stringify(br.record_id)} 가 없음`); continue; }
+      const st = (rc.statements ?? [])[br.statement];
+      if (!st?.stated_lunar) { errors.push(`${w}: ${rc.id} statements[${br.statement}] 가 없거나 stated_lunar 가 없음`); continue; }
+      if (rc.date.certainty !== "verified" || !rc.day_ganji) { errors.push(`${w}: ${rc.id} 의 날짜가 일간지로 확정되지 않음`); continue; }
+      const ro = rc.date.original, { month, day } = st.stated_lunar;
+      let derived = null;
+      if (br.bridge_entry_id) {
+        const de = data["diary_entries.json"].find((x) => x.id === br.bridge_entry_id);
+        if (!de || de.date.certainty !== "verified" || !de.day_ganji) errors.push(`${w}: 연결 일기 항목 ${br.bridge_entry_id} 가 없거나 일간지로 확정되지 않음`);
+        else if (de.date.original.year !== ro.year || de.date.original.month !== month || de.date.original.day !== day) errors.push(`${w}: 연결 일기 항목의 음력 날짜가 인용된 날짜(${month}/${day})와 다름`);
+        else derived = de.date.gregorian;
+      } else if (month !== ro.month || ro.leap_month) {
+        errors.push(`${w}: 인용 날짜의 달(${month})이 기록의 달(${ro.month})과 다르면 bridge_entry_id(일간지로 확정된 일기 항목)가 필요함`);
+      } else {
+        derived = addDays(rc.date.gregorian, day - ro.day); // 같은 달: 기록 날짜(일간지로 확정)에서 일수 차이만큼 이동
+      }
+      if (derived && derived !== ev.date.gregorian) errors.push(`${w}: 근거에서 도출한 양력 ${derived} 가 사건의 gregorian ${ev.date.gregorian} 과 다름`);
+      else if (derived) recBasisOk = true;
+    }
+    // 세계 트랙: 날짜를 verified 로 올리려면 일기 또는 외부 기록(실록)의 근거가 필요하다.
+    if (ev.track === "world" && ev.date?.certainty === "verified" && !basisOk && !recBasisOk) errors.push(`${ev.id}: 세계 사건의 verified 날짜에는 basis_entry_ids 또는 basis_records 근거가 필요함`);
+    if (ev.track === "world" && ev.verified && !basisOk && !recBasisOk) errors.push(`${ev.id}: verified=true 인 세계 사건에는 일기·외부 기록 근거가 필요함`);
     if (ev.date) checkDate(ev.date, ev.id, errors, null, basisOk);
     // 세계 트랙: 지역 필수, 출처 필수, 관련 항목(relates_to)은 실제로 있어야 한다.
     if (ev.track === "world" && !ev.region) errors.push(`${ev.id}: 세계 트랙 사건에는 region 이 필요함`);
     if (ev.track === "yi" && ev.region) errors.push(`${ev.id}: 이순신 트랙 사건에는 region 을 쓰지 않음`);
     if (!(ev.source_ids ?? []).length) errors.push(`${ev.id}: source_ids 가 비어 있음`);
     for (const rid of ev.relates_to ?? []) {
-      if (!data["events.json"].some((x) => x.id === rid) && !data["diary_entries.json"].some((x) => x.id === rid)) errors.push(`${ev.id}: relates_to 대상 ${JSON.stringify(rid)} 가 존재하지 않음`);
+      if (!data["events.json"].some((x) => x.id === rid) && !data["diary_entries.json"].some((x) => x.id === rid) && !data["records.json"].some((x) => x.id === rid)) errors.push(`${ev.id}: relates_to 대상 ${JSON.stringify(rid)} 가 존재하지 않음`);
     }
     if (ev.verified && ev.date?.certainty !== "verified") errors.push(`${ev.id}: verified=true 인데 date.certainty 가 verified 아님`);
   }
@@ -181,6 +209,15 @@ export function validateDir(dir) {
   for (const cv of data["coverage.json"]) {
     ref("editions.json", cv.edition_id, cv.id);
     (cv.source_ids ?? []).forEach((s) => ref("sources.json", s, cv.id));
+  }
+  // 외부 기록(실록): 헤더 날짜는 일간지로 확정(checkDate), 출처 존재, 인용은 짧게(저작권·국역 비수록 원칙).
+  for (const rc of data["records.json"]) {
+    ref("sources.json", rc.source_id, rc.id);
+    if (rc.date) checkDate(rc.date, rc.id, errors, rc.day_ganji ?? null);
+    for (const [i, st] of (rc.statements ?? []).entries()) {
+      if (st.text_han && st.text_han.length > 125) errors.push(`${rc.id}.statements[${i}]: 원문 인용은 125자 이하여야 함(${st.text_han.length}자)`);
+      if (!st.text_han && st.part !== "표제") errors.push(`${rc.id}.statements[${i}]: 본문 인용에는 text_han 이 필요함`);
+    }
   }
   // 판독 쟁점 카드: 출현 위치는 실제 일기 본문에 있어야 하고, 주장(claim)에는 출처가 반드시 붙어야 한다.
   for (const ri of data["reading_issues.json"]) {
