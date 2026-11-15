@@ -31,9 +31,10 @@ function mutated(fname, fn) {
 }
 const ev = (d, id) => d.find((e) => e.id === id);
 
-test("실록 기사 16건: 헤더 일간지가 그날의 실제 일간지와 일치하고 날짜는 verified (일기와 같은 방식의 확정)", () => {
-  assert.equal(records.length, 16);
+test("실록 기사 18건: 헤더 일간지가 그날의 실제 일간지와 일치하고 날짜는 verified (일기와 같은 방식의 확정)", () => {
+  assert.equal(records.length, 18);
   const want = {
+    "rec-sillok-seonjo-25-06-18-006": ["丙午", "1592-07-26"], "rec-sillok-seonjo-25-06-26-002": ["甲寅", "1592-08-03"],
     "rec-sillok-seonjo-30-01-23-003": ["甲寅", "1597-03-10"],
     "rec-sillok-seonjo-31-09-06-006": ["戊子", "1598-10-05"], "rec-sillok-seonjo-34-04-25-011": ["壬辰", "1601-05-26"],
     "rec-sillok-seonjo-31-11-27-005": ["戊申", "1598-12-24"], "rec-sillok-seonjo-31-11-25-009": ["丙午", "1598-12-22"],
@@ -62,7 +63,7 @@ test("인용된 음력 날짜에서 도출한 양력이 사건 날짜와 일치 
     if (br.bridge_entry_id) return entries.find((e) => e.id === br.bridge_entry_id).date.gregorian;
     return addDays(r.date.gregorian, st.stated_lunar.day - r.date.original.day);
   };
-  const expect = { "ev-1593-pyongyang-retaken": "1593-02-08", "ev-1593-haengju": "1593-03-14", "ev-1597-kato-tadaepo": "1597-02-28", "ev-1598-noryang": "1598-12-16", "ev-1593-japan-leaves-hanseong": "1593-05-18", "ev-1593-jinju-2": "1593-07-27", "ev-1597-namwon": "1597-09-26", "ev-1598-dosan-withdrawal": "1598-12-15", "ev-1598-yegyo-withdrawal": "1598-12-16" };
+  const expect = { "ev-1593-pyongyang-retaken": "1593-02-08", "ev-1593-haengju": "1593-03-14", "ev-1597-kato-tadaepo": "1597-02-28", "ev-1598-noryang": "1598-12-16", "ev-1592-daedong-crossing": "1592-07-22", "ev-1593-japan-leaves-hanseong": "1593-05-18", "ev-1593-jinju-2": "1593-07-27", "ev-1597-namwon": "1597-09-26", "ev-1598-dosan-withdrawal": "1598-12-15", "ev-1598-yegyo-withdrawal": "1598-12-16" };
   for (const [id, g] of Object.entries(expect)) {
     const brs = eById[id].date.basis_records;
     assert.ok(brs.length > 0, id);

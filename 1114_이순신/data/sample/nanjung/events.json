@@ -757,7 +757,7 @@
       "julian": "1592-07-14",
       "precision": "day",
       "certainty": "unverified",
-      "note": "음력 환산(변환기, 참고): 1592년 6월 16일."
+      "note": "음력 환산(변환기, 참고): 1592년 6월 16일. 선조실록 조사: 평양 점령일은 확정하지 못했다. 6/18·6/26 기사는 일본군의 대동강 도하를 14일(양력 1592-07-22)로 적고, 6/15 기사는 이미 강여울 방어가 무너졌다고 보고하며, 6/19 기사는 '平壤旣陷'(평양이 이미 함락)이라고 적지만 함락·입성일은 어디에도 없다. 위키의 07-24(음력 6/16)가 도하 이틀 뒤라는 점은 실록과 모순되지 않으나 확인되지 않는다(미확인)."
     },
     "source_ids": [
       "src-wiki-imjin-timeline"
@@ -766,7 +766,8 @@
     "note": null,
     "connection": "한산도 대첩(양력 8/14)보다 3주 앞선다. 육전의 급박한 정세와 같은 시기의 수군 승전을 견주는 맥락이다.",
     "relates_to": [
-      "ev-1592-hansando"
+      "ev-1592-hansando",
+      "ev-1592-daedong-crossing"
     ]
   },
   {
@@ -1681,6 +1682,52 @@
       "ev-1597-second-invasion",
       "rec-sillok-seonjo-30-01-21-001",
       "rec-sillok-seonjo-30-01-23-003"
+    ]
+  },
+  {
+    "id": "ev-1592-daedong-crossing",
+    "track": "world",
+    "region": "war",
+    "title_ko": "일본군, 대동강(왕성탄) 도하 — 평양 방어선 붕괴",
+    "title_en": "Japanese cross the Taedong River at Wangseongtan",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1592,
+        "month": 6,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1592-07-22",
+      "julian": "1592-07-12",
+      "computed_gregorian": "1592-07-22",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-25-06-18-006",
+          "statement": 0
+        },
+        {
+          "record_id": "rec-sillok-seonjo-25-06-26-002",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 27권 6/18(丙午)·6/26(甲寅) 두 기사가 '14일'(6/18 기사는 신시) 일본군이 왕성탄을 건넜다고 적는다(인용: 十四日申時 / 十四日, 賊渡王城灘). 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 기사일에서 4일·12일 앞이라 둘 다 1592-07-22로 맞는다. 평양 함락·입성일 자체는 적혀 있지 않다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "평양 점령(위키 07-24)의 직전 사건이다. 6/15 기사는 이미 강여울 방어가 무너졌다고 보고하고, 6/19 기사는 '평양이 이미 함락되었다'고 적는다. 한산도 대첩(양력 8/14)보다 3주 앞선다.",
+    "relates_to": [
+      "ev-1592-pyongyang-falls",
+      "ev-1592-hansando",
+      "rec-sillok-seonjo-25-06-18-006",
+      "rec-sillok-seonjo-25-06-26-002"
     ]
   }
 ]

@@ -708,5 +708,85 @@
     ],
     "note": "김응서가 요시라 등 왜 측과 왕래해 얻은 2차 정보를 전한 장계(17일자, 1/23 비변사에 내려짐)다. 130여 척이 풍세로 가덕에 머물렀다는 서술(날짜 없음)과 우리 수군이 정비되지 않아 요격하지 못했다는 서술도 있다. 상륙·하선 표현은 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
     "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB 선조 30년 1·2월 목록과 1/22·1/23 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-25-06-18-006",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 27권",
+    "entry_ref": "kna_12506018_006",
+    "url": "https://sillok.history.go.kr/id/kna_12506018_006",
+    "title_ko": "순검사 한응인이 평양 전투 상황을 보고하다",
+    "title_note": "그날 기사 7건 중 6번째(목록 제목).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1592,
+        "month": 6,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1592-07-26",
+      "julian": "1592-07-16",
+      "computed_gregorian": "1592-07-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙午 가 1592-07-26 의 일간지와 일치."
+    },
+    "day_ganji": "丙午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "十四日申時",
+        "gloss_ko": "14일 신시(오후 3~5시). 일본군이 왕성탄·능라도 쪽에서 강을 건넌 때로 서술되고 이후 방어군이 무너졌다(문장 앞부분의 시각 표현만 인용).",
+        "about": "일본군의 대동강(왕성탄) 도하",
+        "stated_lunar": {
+          "month": 6,
+          "day": 14
+        }
+      }
+    ],
+    "note": "평양이 이미 포위되었다는 서술이 있으나 평양성 함락·입성일은 적혀 있지 않다. 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 25년 6월 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-25-06-26-002",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 27권",
+    "entry_ref": "kna_12506026_002",
+    "url": "https://sillok.history.go.kr/id/kna_12506026_002",
+    "title_ko": "전 평안 감사 평양이 함락될 당시의 상황을 치계하다",
+    "title_note": "그날 기사 9건 중 2번째(목록 제목).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1592,
+        "month": 6,
+        "day": 26,
+        "leap_month": false
+      },
+      "gregorian": "1592-08-03",
+      "julian": "1592-07-24",
+      "computed_gregorian": "1592-08-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 甲寅 가 1592-08-03 의 일간지와 일치."
+    },
+    "day_ganji": "甲寅",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "十四日, 賊渡王城灘",
+        "gloss_ko": "14일 적이 왕성탄을 건넜다.",
+        "about": "일본군의 왕성탄 도하",
+        "stated_lunar": {
+          "month": 6,
+          "day": 14
+        }
+      }
+    ],
+    "note": "같은 기사에 '平壤失守之後'(평양을 잃은 뒤)가 있으나 함락일은 없고, 성에서 빠져나온 것은 '夜三更'(밤 3경)이라고만 적는다(요약 확인). 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 25년 6월 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
   }
 ]
