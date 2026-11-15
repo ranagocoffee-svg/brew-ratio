@@ -4,7 +4,7 @@ import { cpSync, mkdtempSync, readFileSync, writeFileSync, rmSync } from "node:f
 import { tmpdir } from "node:os";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { ganji, ganjiOfIso, isValidGanji, addDays } from "../tools/lunar.mjs";
+import { ganji, ganjiOfIso, isValidGanji, addDays, compareGanji } from "../tools/lunar.mjs";
 import { parseSheet, mergeEntries } from "../tools/import_diary.mjs";
 import { validateDir } from "../tools/validate.mjs";
 
@@ -54,9 +54,39 @@ test("임포터: 입력 양력과 일간지가 어긋나면 거부", () => {
   assert.ok(errors[0].includes("일간지"));
 });
 
-test("임포터: 변환값 ±3일 안에 없는 일간지, 존재하지 않는 일간지 거부", () => {
-  assert.ok(parseSheet(`${HEAD}\n${row(9, 16, "", "甲子")}`, OPT).errors[0].includes("±3일"));
+test("임포터: 존재하지 않는 일간지는 거부", () => {
   assert.ok(parseSheet(`${HEAD}\n${row(9, 16, "", "甲丑")}`, OPT).errors[0].includes("존재하지 않는 일간지"));
+});
+
+test("임포터: 일기 간지가 변환값 ±3일과 안 맞으면 거부하지 않고 disputed + ganji_check 로 기록 (천간 우선)", () => {
+  // 5책 정유일기 9/16 의 실제 표기: 甲午 (실제 10/26 은 甲辰). 천간(甲)이 10/26 과 맞는다.
+  const { entries, errors } = parseSheet(`${HEAD}\n${row(9, 16, "", "甲午")}`, OPT);
+  assert.deepEqual(errors, []);
+  const d = entries[0].date;
+  assert.equal(d.gregorian, "1597-10-26");
+  assert.equal(d.computed_gregorian, "1597-10-25"); // 변환기와 하루 차이를 그대로 병기
+  assert.equal(d.certainty, "disputed");
+  assert.deepEqual(d.ganji_check, { written: "甲午", expected: "甲辰", stem_match: true, branch_shift: 2 });
+  assert.equal(entries[0].day_ganji, "甲午"); // 기록된 간지를 고치지 않는다
+});
+
+test("임포터: 천간도 안 맞으면 변환값을 유지하고 stem_match=false", () => {
+  const { entries } = parseSheet(`${HEAD}\n${row(9, 16, "", "乙卯")}`, OPT);
+  assert.equal(entries[0].date.gregorian, "1597-10-25");
+  assert.equal(entries[0].date.ganji_check.stem_match, false);
+  assert.equal(entries[0].date.certainty, "disputed");
+});
+
+test("검증기: ganji_check 로 명시된 불일치는 통과, 명시가 틀리면 오류", () => {
+  const { entries } = parseSheet(`${HEAD}\n${row(9, 16, "", "甲午")}`, OPT);
+  assert.deepEqual(validateWith(entries), []);
+  entries[0].date.ganji_check.expected = "甲子";
+  assert.ok(validateWith(entries).some((e) => e.includes("일간지 불일치")));
+});
+
+test("compareGanji: 지지 이동량", () => {
+  assert.deepEqual(compareGanji("癸未", "癸巳"), { written: "癸未", expected: "癸巳", stem_match: true, branch_shift: 2 });
+  assert.equal(compareGanji("辛酉", "辛亥").branch_shift, -2);
 });
 
 function validateWith(entries) {

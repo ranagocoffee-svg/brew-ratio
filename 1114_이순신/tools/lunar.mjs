@@ -38,6 +38,13 @@ export function isValidGanji(s) {
   return g >= 0 && j >= 0 && g % 2 === j % 2;
 }
 
+/** 기록된 일간지와 기대 일간지의 차이. stem_match: 천간 일치 여부, branch_shift: 지지 차이(-5..6). */
+export function compareGanji(written, expected) {
+  const stemMatch = written[0] === expected[0];
+  const shift = (((JI.indexOf(written[1]) - JI.indexOf(expected[1]) + 5) % 12) + 12) % 12 - 5;
+  return { written, expected, stem_match: stemMatch, branch_shift: shift };
+}
+
 /** ISO 날짜에 일 단위 offset 을 더한다. */
 export function addDays(iso, n) {
   return new Date(new Date(`${iso}T00:00:00Z`).getTime() + n * dayMs).toISOString().slice(0, 10);

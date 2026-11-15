@@ -16,6 +16,10 @@ npm run serve      # MVP 화면: http://127.0.0.1:5173/ (연표·사료 층위·
 3. 오류가 하나도 없을 때만 저장된다. 같은 id는 교체, 나머지는 유지. 월별 입력 일수가 출력된다.
 4. `npm run validate`로 최종 확인.
 
+**국가유산포털 원문 가져오기(초고본 5책)**: `node tools/research/fetch_heritage_text.mjs 5` → `node tools/research/build_diary_tsv.mjs 5 4 data/input/heritage-1597.tsv 1` → `node tools/import_diary.mjs data/input/heritage-1597.tsv data/sample/1597 --year 1597 --by <이름> --edition ed-autograph --reading rd-heritage-portal`. 포털은 펼침면(2쪽) 단위로 응답하므로 중복 면을 제거하고, 날짜 번호를 기준으로 일별 분할한다. 포털 판독문은 미검수이며 이용 조건(공공누리 유형)을 확인하기 전에는 공개 배포하지 않는다.
+
+**일간지 불일치(`ganji_check`)**: 일기에 적힌 간지가 변환값 ±3일의 어떤 날과도 맞지 않으면 거부하지 않고 `certainty: disputed`와 `ganji_check`(적힌 값, 기대값, 천간 일치, 지지 이동)로 기록한다. 이때 양력은 천간이 맞는 날(변환값 ±1일)을 우선한다. 1597년 5책은 7/4~10/3에서 천간은 맞고 지지가 일관되게 +2라 이 경로를 탄다.
+
 **일간지(`day_ganji`)**: 일기 날짜 머리의 일간지를 적으면 양력이 확정된다(`certainty: verified`). 입력 양력과 어긋나거나 변환값 ±3일 안에 없으면 거부되고, 검증기도 저장된 양력과 일간지가 다르면 오류로 잡는다. 일간지는 달력 개혁·역법 차이와 무관해 변환기보다 우선한다. 명량 9/16이면 甲辰=10/26, 癸卯=10/25.
 
 규칙: `text_han`(한문 판독문)이 분석 대상이고 `source_ref`(교감본 쪽수 등)는 필수. 입력 직후 상태는 `transcribed`/`unverified`이며, `reviewed`는 `reviewed_by`가 있어야 한다. 입력된 날이 없는 날은 "사건 없음"이 아니라 "입력되지 않음"이다.

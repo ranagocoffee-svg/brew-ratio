@@ -54,7 +54,7 @@ function timeline() {
     <div class="slider"><span class="sub">1월</span><input id="month" type="range" min="1" max="12" value="${m}" aria-label="음력 월"><span class="sub">12월</span></div>
     <table><tr><th style="width:90px">구분</th><th>내용</th></tr>
       <tr><td>사건</td><td>${inMonth.length ? inMonth.map((e) => `<a href="#" data-ev="${e.id}">${esc(e.title_ko)}</a> ${certChip(e.date.certainty)}`).join("<br>") : '<span class="empty">이 달에 날짜가 확정된 사건 없음 (≠ 사건이 없었다는 뜻)</span>'}</td></tr>
-      <tr><td>난중일기</td><td>${entries.length ? entries.map((e) => `${esc(lunarText(e.date.original))} · ${esc(D.byId[e.edition_id]?.title)} ${chip("", STATUS[e.text_status])}${e.day_ganji ? ` ${chip("", `일간지 ${e.day_ganji}`)}` : ""}`).join("<br>") : '<span class="empty">입력된 일기 없음 (≠ 일기가 없다는 뜻, "입력되지 않음")</span>'}</td></tr>
+      <tr><td>난중일기</td><td>${diaryMonthCell(entries)}</td></tr>
       <tr><td>결측</td><td>${D.coverage.map((c) => `${esc(c.period)} · ${esc(D.byId[c.edition_id]?.title)} ${chip("", COVER[c.status])}`).join("<br>")}</td></tr>
     </table>`;
 
@@ -63,6 +63,34 @@ function timeline() {
     <p class="note">붉은 테두리 = 날짜 이의 있음. 클릭하면 아래에 상세가 열립니다.</p></section>
     <section class="card">${monthHtml}</section>
     <section class="card" id="detail">${detail()}</section>`;
+}
+
+const written = (es) => es.filter((e) => e.text_status !== "placeholder");
+const checkChip = (e) => {
+  const g = e.date.ganji_check;
+  return g ? chip("disputed", `간지 불일치 ${g.written}≠${g.expected}`) : e.day_ganji ? chip("verified", `간지 ${e.day_ganji}`) : "";
+};
+
+function diaryMonthCell(entries) {
+  const w = written(entries);
+  if (!w.length) return '<span class="empty">입력된 일기 없음 (≠ 일기가 없다는 뜻, "입력되지 않음")</span>';
+  const bad = w.filter((e) => e.date.ganji_check).length;
+  const rows = w.map((e) => { const o = e.date.original; return `<tr><td style="width:56px">${o.month}/${o.day}</td><td style="width:150px">${e.date.gregorian ?? "—"} ${checkChip(e)}</td><td class="note">${esc(e.text_han.slice(0, 46))}…</td></tr>`; }).join("");
+  return `<b>${w.length}일 입력</b> · ${esc(D.byId[w[0].edition_id]?.title)} ${bad ? chip("disputed", `일간지 불일치 ${bad}일`) : chip("verified", "일간지 전부 일치")}
+    <details style="margin-top:6px"><summary>일기 목록 열기</summary><table>${rows}</table></details>`;
+}
+
+function diaryFor(ev) {
+  const o = ev.date.original;
+  if (o.calendar !== "lunisolar" || o.day == null) return "";
+  const e = written(D.diary_entries).find((x) => x.date.original.month === o.month && x.date.original.day === o.day);
+  if (!e) return "";
+  const g = e.date.ganji_check;
+  return `<h3>일기 본문 발췌 <span class="sub">(${esc(e.source_ref)} · 포털 판독문, 미검수)</span></h3>
+    <p style="font-family:'Noto Serif KR','Batang',serif;line-height:1.9">${esc(e.text_han.slice(0, 190))}…</p>
+    <dl><dt>일기의 일간지</dt><dd>${esc(e.day_ganji)} ${g ? `${chip("disputed", `실제 ${g.expected}와 지지 ${g.branch_shift > 0 ? "+" : ""}${g.branch_shift}`)} <span class="note">천간 ${g.stem_match ? "일치" : "불일치"}</span>` : chip("verified", "일치")}</dd>
+    <dt>양력(일기 기준)</dt><dd>${esc(e.date.gregorian)} <span class="sub">변환기 ${esc(e.date.computed_gregorian)}</span></dd></dl>
+    <p class="note">${esc(e.date.note)}</p>`;
 }
 
 function detail() {
@@ -88,6 +116,7 @@ function detail() {
       ${e.note ? `<dt>메모</dt><dd class="note">${esc(e.note)}</dd>` : ""}
     </dl>
     ${claimHtml}
+    ${diaryFor(e)}
     <h3>출처</h3><table><tr><th>출처</th><th>층위</th><th>국가</th><th>상태</th></tr>${srcHtml}</table>
     ${d.certainty === "disputed" ? `<p class="note">📎 조사: docs/investigations/myeongnyang-date.md — 일기 9/16 일간지 甲辰=10/26, 癸卯=10/25 로 확정할 수 있습니다.</p>` : ""}`;
 }
@@ -110,10 +139,23 @@ function editions() {
     <p class="note">친필 초고 → 필사·간행·탈초 → 교감본. 번역은 표시용이며 분석은 한문 판독본에서 합니다.</p>
     <ul class="tree">${D.editions.map(li).join("")}</ul></section>
     <section class="card"><h2>1597년 일기 입력 현황</h2>
-    <table><tr><th>음력 날짜</th><th>판본</th><th>양력</th><th>일간지</th><th>상태</th></tr>
-    ${D.diary_entries.map((e) => `<tr><td>${esc(lunarText(e.date.original))}</td><td>${esc(D.byId[e.edition_id]?.title)}</td><td>${esc(e.date.gregorian ?? "—")} ${certChip(e.date.certainty)}</td><td>${esc(e.day_ganji ?? "—")}</td><td>${chip("", STATUS[e.text_status])}</td></tr>`).join("")}</table>
-    <p class="note">본문은 교감본 원문(저작권·판독 확인)을 입력하기 전까지 비어 있습니다. 입력: data/input/gyogam-1597.tsv → <code>node tools/import_diary.mjs</code></p>
+    ${monthSummary()}
+    <p class="note">초고본 5책 본문은 국가유산포털 원문텍스트(판독 주체·이용 조건 미확인, 미검수). 기준 판본(교감본) 본문은 아직 비어 있습니다(placeholder). 가져오기: <code>tools/research/fetch_heritage_text.mjs</code> → <code>build_diary_tsv.mjs</code> → <code>import_diary.mjs</code></p>
     <h3>결측 기록</h3><table><tr><th>기간</th><th>판본</th><th>상태</th><th>메모</th></tr>${D.coverage.map((c) => `<tr><td>${esc(c.period)}</td><td>${esc(D.byId[c.edition_id]?.title)}</td><td>${chip("", COVER[c.status])}</td><td class="note">${esc(c.note)}</td></tr>`).join("")}</table></section>`;
+}
+
+function monthSummary() {
+  const w = written(D.diary_entries);
+  const months = [...new Set(w.map((e) => e.date.original.month))].sort((a, b) => a - b);
+  const rows = months.map((m) => {
+    const es = w.filter((e) => e.date.original.month === m);
+    const bad = es.filter((e) => e.date.ganji_check);
+    const shifts = [...new Set(bad.map((e) => e.date.ganji_check.branch_shift))].map((s) => (s > 0 ? "+" : "") + s).join(", ");
+    const adj = es.filter((e) => e.date.computed_gregorian && e.date.gregorian !== e.date.computed_gregorian).length;
+    return `<tr><td>음력 ${m}월</td><td>${es.length}일</td><td>${es.length - bad.length}</td><td>${bad.length ? `${chip("disputed", `${bad.length}일`)} 지지 ${shifts}, 천간 불일치 ${bad.filter((e) => !e.date.ganji_check.stem_match).length}` : "—"}</td><td>${adj ? `${chip("disputed", `${adj}일`)} 변환기보다 +1일` : "—"}</td></tr>`;
+  }).join("");
+  return `<table><tr><th>월</th><th>입력</th><th>간지 일치</th><th>간지 불일치</th><th>양력 조정(천간 기준)</th></tr>${rows}</table>
+    <p class="note">4~6월은 전부 일치. 7/4~10/3은 천간은 맞고 지지가 일관되게 +2(일기 자체의 간지 오기 가능성, 가설). 9월은 천간이 변환기보다 하루 뒤 날짜에 맞아 천문 계산(9/1=10/11)과 일치.</p>`;
 }
 
 function render() {

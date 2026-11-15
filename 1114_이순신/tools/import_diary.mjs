@@ -5,7 +5,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { gregorianToJulian, lunarToGregorian, ganjiOfIso, isValidGanji, addDays, CONVERTER } from "./lunar.mjs";
+import { gregorianToJulian, lunarToGregorian, ganjiOfIso, isValidGanji, addDays, compareGanji, CONVERTER } from "./lunar.mjs";
 
 const REQUIRED = ["lunar_month", "lunar_day", "text_han", "source_ref"];
 const pad = (n) => String(n).padStart(2, "0");
@@ -49,6 +49,7 @@ export function parseSheet(text, { year, by, editionId, readingId, today, transl
     const calc = lunarToGregorian(year, month, day, leap);
     let certainty = "unverified";
     let dateNote;
+    let ganjiCheck = null;
     const dayGanji = orNull(row.day_ganji)?.trim() ?? null;
     if (dayGanji && !isValidGanji(dayGanji)) return errors.push(`${where}: 존재하지 않는 일간지 '${dayGanji}'`);
     if (dayGanji) {
@@ -58,14 +59,29 @@ export function parseSheet(text, { year, by, editionId, readingId, today, transl
       } else {
         const base = calc?.gregorian;
         const found = base && [0, -1, 1, -2, 2, -3, 3].map((n) => addDays(base, n)).find((c) => ganjiOfIso(c) === dayGanji);
-        if (!found) return errors.push(`${where}: 일간지 ${dayGanji} 에 해당하는 날이 변환값${base ? ` ${base}` : ""} ±3일 안에 없음 (입력 오류 가능)`);
-        g = found;
-        try { julian = gregorianToJulian(g); } catch (e) { return errors.push(`${where}: ${e.message}`); }
+        if (found) {
+          g = found;
+          try { julian = gregorianToJulian(g); } catch (e) { return errors.push(`${where}: ${e.message}`); }
+        } else if (base) {
+          // 일기에 적힌 일간지가 변환값 ±3일의 어떤 날과도 맞지 않는다(일기 자체의 간지 오기·누락 가능).
+          // 거부하지 않고 천간이 맞는 날(변환값 ±1일)을 우선 채택해 disputed 로 기록한다.
+          const cand = [0, -1, 1].map((n) => addDays(base, n)).find((c) => ganjiOfIso(c)[0] === dayGanji[0]) ?? base;
+          g = cand;
+          try { julian = gregorianToJulian(g); } catch (e) { return errors.push(`${where}: ${e.message}`); }
+          ganjiCheck = compareGanji(dayGanji, ganjiOfIso(g));
+        } else {
+          return errors.push(`${where}: 일간지 ${dayGanji} 를 확정할 변환값이 없음 (변환기 표에 없는 날짜)`);
+        }
       }
-      certainty = "verified";
-      dateNote = calc && calc.gregorian !== g
-        ? `일간지 ${dayGanji} 로 확정. 변환기(${calc.gregorian})와 ${Math.round((new Date(g) - new Date(calc.gregorian)) / 86400000)}일 차이 — 변환기 표 오류 가능성.`
-        : `일간지 ${dayGanji} 로 확정(변환기와 일치).`;
+      if (ganjiCheck) {
+        certainty = "disputed";
+        dateNote = `일기 기록 일간지 ${dayGanji} 가 ${g} 의 실제 일간지 ${ganjiCheck.expected} 와 다름 (천간 ${ganjiCheck.stem_match ? "일치" : "불일치"}, 지지 ${ganjiCheck.branch_shift > 0 ? "+" : ""}${ganjiCheck.branch_shift}). 양력은 변환값${calc && calc.gregorian !== g ? `(${calc.gregorian})을 천간 기준으로 ${Math.round((new Date(g) - new Date(calc.gregorian)) / 86400000)}일 조정` : ""} — 일기의 간지 오기 가능성.`;
+      } else {
+        certainty = "verified";
+        dateNote = calc && calc.gregorian !== g
+          ? `일간지 ${dayGanji} 로 확정. 변환기(${calc.gregorian})와 ${Math.round((new Date(g) - new Date(calc.gregorian)) / 86400000)}일 차이 — 변환기 표 오류 가능성.`
+          : `일간지 ${dayGanji} 로 확정(변환기와 일치).`;
+      }
     } else if (!g) {
       if (calc) { g = calc.gregorian; julian = calc.julian; dateNote = "양력은 변환기 계산값(사료 대조 전)."; }
       else { certainty = "disputed"; dateNote = "변환기 표에 없는 음력 날짜. 양력 미확정."; }
@@ -85,6 +101,7 @@ export function parseSheet(text, { year, by, editionId, readingId, today, transl
         original: { calendar: "lunisolar", year, month, day, leap_month: leap },
         gregorian: g, julian,
         computed_gregorian: calc?.gregorian ?? null, converter: calc ? CONVERTER : null,
+        ...(ganjiCheck ? { ganji_check: ganjiCheck } : {}),
         precision: "day", certainty, note: dateNote,
       },
       day_ganji: dayGanji,

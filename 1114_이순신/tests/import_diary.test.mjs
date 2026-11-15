@@ -55,7 +55,10 @@ test("오류: 형식이 틀린 양력", () => {
 });
 
 test("병합: 같은 id 교체, 기존 placeholder 유지, 날짜순 정렬", () => {
-  const existing = JSON.parse(readFileSync(join(SAMPLE, "diary_entries.json"), "utf-8"));
+  // 샘플 내용이 늘어도 영향받지 않도록 placeholder 항목 하나만 기존 데이터로 쓴다.
+  const existing = JSON.parse(readFileSync(join(SAMPLE, "diary_entries.json"), "utf-8")).filter((e) => e.id === "de-gyogam-1597-09-16");
+  assert.equal(existing.length, 1);
+  assert.equal(existing[0].text_status, "placeholder");
   const { entries } = parseSheet(`${HEAD}\n${row(3, 1)}\n${row(9, 16)}`, OPT);
   const merged = mergeEntries(existing, entries);
   assert.equal(merged.length, 2);

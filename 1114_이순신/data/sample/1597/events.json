@@ -17,7 +17,7 @@
     "id": "ev-1597-myeongnyang", "track": "yi",
     "title_ko": "명량해전", "title_en": "Battle of Myeongnyang",
     "category": "battle",
-    "date": {"original": {"calendar": "lunisolar", "year": 1597, "month": 9, "day": 16, "leap_month": false}, "gregorian": "1597-10-26", "julian": "1597-10-16", "computed_gregorian": "1597-10-25", "converter": "korean-lunar-calendar@0.4.0", "precision": "day", "certainty": "disputed", "note": "양력 10.26(문서·위키), 변환기 10.25. 조사: 변환기의 1597-9월 초하루(10/10)가 천문 삭(10/11 정오)과 어긋나 변환기 표 오류 가능성이 높음(역법 차이 가설은 1592~98년 84개월 중 2개월만 불일치해 약함). 결정은 일기 9/16 일간지로: 甲辰=10/26, 癸卯=10/25. 상세: docs/investigations/myeongnyang-date.md. 율리우스력은 gregorian 기준 -10일."},
+    "date": {"original": {"calendar": "lunisolar", "year": 1597, "month": 9, "day": 16, "leap_month": false}, "gregorian": "1597-10-26", "julian": "1597-10-16", "computed_gregorian": "1597-10-25", "converter": "korean-lunar-calendar@0.4.0", "precision": "day", "certainty": "disputed", "note": "양력 10.26(문서·위키), 변환기 10.25. 근거 우세: 10/26. (1) 변환기의 9월 초하루(10/10)가 천문 삭(10/11 정오)과 어긋남. (2) 초고본 5책 9/16 일기의 일간지 천간(甲)이 10/26(甲辰)과 일치하고, 9월 29일 전체의 천간이 변환기보다 하루 뒤 날짜에 맞음. 단 같은 일기의 지지(午)는 甲辰과 달라(7/4~10/3 구간 일관된 +2) 일간지로 완전 확정은 불가 — disputed 유지. 상세: docs/investigations/myeongnyang-date.md. 율리우스력은 gregorian 기준 -10일."},
     "source_ids": ["src-crosscheck-md", "src-wiki-chronology"], "verified": false, "note": "일본 함선 수는 출처별로 다름 (claims 참조)."
   },
   {

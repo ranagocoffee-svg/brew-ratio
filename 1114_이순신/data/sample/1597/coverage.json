@@ -1,4 +1,6 @@
 [
   {"id": "cv-autograph-1595", "edition_id": "ed-autograph", "period": "1595 (을미년)", "status": "missing_in_edition", "source_ids": ["src-crosscheck-md"], "note": "초고 미전. 1795 전서본에만 수록. 1597 MVP 범위 밖이지만 결측 모델 검증용으로 포함."},
+  {"id": "cv-autograph-1597-book5", "edition_id": "ed-autograph", "period": "1597 음력 4/1~10/8 (5책 정유일기)", "status": "extant", "source_ids": ["src-heritage-portal"], "note": "문화재청 해제문의 범위(4/1~10/8)와 일치. 183일 입력(포털 판독문). 이 범위에서 일기가 없는 날은 8/4 하나(6책이 8/4부터 시작)."},
+  {"id": "cv-autograph-1597-book6", "edition_id": "ed-autograph", "period": "1597 음력 8/4~1598 1/4 (6책 속정유일기)", "status": "to_verify", "source_ids": ["src-heritage-portal"], "note": "아직 가져오지 않음. 5책과 8/4~10/8이 겹치는데 같은 날짜 내용이 달라 보임(예: 분할 결과의 '9/16'이 명량 기록이 아님). 월 경계·간지 체계를 5책과 별도로 대조해야 함."},
   {"id": "cv-gyogam-1597", "edition_id": "ed-gyogam-noseungseok", "period": "1597", "status": "to_verify", "source_ids": [], "note": "1597년 중 일기가 쓰인 날/없는 날을 교감본으로 집계해야 함. 일기 없는 날을 '사건 없음'으로 읽지 말 것."}
 ]

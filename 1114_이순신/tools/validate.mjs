@@ -66,8 +66,13 @@ function checkDate(rec, path, errors, dayGanji = null) {
   if (dayGanji) {
     if (!isValidGanji(dayGanji)) errors.push(`${path}: 존재하지 않는 일간지 '${dayGanji}' (천간·지지 홀짝 불일치 포함)`);
     else if (g && g.length === 10) {
-      if (ganjiOfIso(g) === dayGanji) ganjiOk = true;
-      else errors.push(`${path}: 일간지 불일치 — 일기 ${dayGanji}, gregorian ${g} 의 일간지는 ${ganjiOfIso(g)}`);
+      const actual = ganjiOfIso(g);
+      const gc = rec.ganji_check;
+      if (actual === dayGanji) ganjiOk = true;
+      else if (gc && gc.written === dayGanji && gc.expected === actual && rec.certainty === "disputed") {
+        // 일기에 적힌 간지가 실제와 다름을 명시적으로 기록한 경우(ganji_check): 허용하되 확정(ganjiOk)으로 보지 않는다.
+        if (gc.stem_match !== (dayGanji[0] === actual[0])) errors.push(`${path}: ganji_check.stem_match 가 실제 비교 결과와 다름`);
+      } else errors.push(`${path}: 일간지 불일치 — 일기 ${dayGanji}, gregorian ${g} 의 일간지는 ${actual} (의도된 불일치라면 certainty=disputed 와 ganji_check 기록 필요)`);
     }
   }
   // 음력 원본 + 일 단위 날짜는 변환기로 재계산해 대조한다. 어긋나면 disputed 로 명시해야 한다(일간지로 확정된 경우 제외).

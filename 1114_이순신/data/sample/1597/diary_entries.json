@@ -1,9 +1,6217 @@
 [
   {
-    "id": "de-gyogam-1597-09-16", "edition_id": "ed-gyogam-noseungseok", "reading_id": "rd-noseungseok",
-    "date": {"original": {"calendar": "lunisolar", "year": 1597, "month": 9, "day": 16, "leap_month": false}, "gregorian": "1597-10-26", "julian": "1597-10-16", "computed_gregorian": "1597-10-25", "converter": "korean-lunar-calendar@0.4.0", "precision": "day", "certainty": "disputed", "note": "해당 날짜 일기 존재 여부 미확인. 양력 10.26(문서) vs 변환기 10.25: events.json 의 명량 항목 참조."},
-    "text_han": null, "text_ko": null, "translator": null,
+    "id": "de-autograph-1597-04-01",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-16",
+      "julian": "1597-05-06",
+      "computed_gregorian": "1597-05-16",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 辛酉 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "辛酉",
+    "text_han": "晴 得出圓門 到南門外尹生侃奴家 則菶․芬及蔚與士行․遠卿同坐一室 話久尹知事自新來慰 備邊郞李純智來見 不勝增嗟 知事歸 夕食後 佩酒更來 耆獻亦至以情勸慰 不能辭阻 强飮極醉 李令公純信佩壺又到 同醉致懇 領台送奴 鄭判府事琢沈判書禧壽․金二相命元․李參判廷馨․盧大憲稷․崔同知遠․郭同知嶸 送人問安 醉汗沾身",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 3쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-02",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-17",
+      "julian": "1597-05-07",
+      "computed_gregorian": "1597-05-17",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 壬戌 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "壬戌",
+    "text_han": "雨雨終日 與諸姪話 方業進饌甚豊 招筆工束筆 昏入城 與相夜話 鷄鳴而罷出",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 3쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-03",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 3,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-18",
+      "julian": "1597-05-08",
+      "computed_gregorian": "1597-05-18",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 癸亥 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "癸亥",
+    "text_han": "晴 早登南程 金吾郞李士贇․書吏李壽永․羅將韓彦香 先到水原府 余則歇馬于仁德院 從容臥息 暮投水原 京畿體察使牙兵名不知家愼伏龍寓 到見吾行 備酒慰之府使柳永健出見",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 3쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-04",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 4,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-19",
+      "julian": "1597-05-09",
+      "computed_gregorian": "1597-05-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 甲子 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "甲子",
+    "text_han": "晴 早發登程 到禿城下 則判刺趙撥 備酒設幕以待到 飮醉登直由振威舊路川邊歇馬 到吾山黃天祥家點心 黃也以卜重出馬載送 爲謝不已 由水灘 投平澤縣李內隱孫家 則主也待之甚慇 宿房甚窄 炊熱汗流",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 3~5쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-05",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-20",
+      "julian": "1597-05-10",
+      "computed_gregorian": "1597-05-20",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 乙丑 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "乙丑",
+    "text_han": "晴 日出時登途 直到墳山 樹木再經野火 樵瘁不忍見也 拜哭墓下 移時不起 乘夕下來外家 拜于祀堂 因到蕾家 哭拜先廟 又聞南陽叔永世 暮到本家 拜聘父母神位前 卽上季兄及汝弼嫂神祀 就寢 心懷不平",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 5쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-06",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-21",
+      "julian": "1597-05-11",
+      "computed_gregorian": "1597-05-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丙寅 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丙寅",
+    "text_han": "晴 遠近親舊 皆來會 敍曠而去",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 5쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-07",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-22",
+      "julian": "1597-05-12",
+      "computed_gregorian": "1597-05-22",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丁卯 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丁卯",
+    "text_han": "晴 金吾郞自牙縣來 余往待甚慇洪察訪․李別坐․尹孝元來見 金吾宿于興伯家",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 5쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-08",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 8,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-23",
+      "julian": "1597-05-13",
+      "computed_gregorian": "1597-05-23",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 戊辰 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "戊辰",
+    "text_han": "晴 朝設位哭南陽叔服 晩往于興伯家話姜稧長永世 余往弔 因見洪石堅家 晩到興伯家 接都事",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 5쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-09",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 9,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-24",
+      "julian": "1597-05-14",
+      "computed_gregorian": "1597-05-24",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 己巳 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "己巳",
+    "text_han": "晴 洞中各佩酒壺 慰遠行情不能拒 極醉而罷 洪君遇唱 李別坐亦唱 余則聞不樂而已都事則善飮不至亂",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 5쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-10",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 10,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-25",
+      "julian": "1597-05-15",
+      "computed_gregorian": "1597-05-25",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 庚午 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "庚午",
+    "text_han": "晴 朝食後 到興伯家 與都事話 晩洪察訪․李別坐昆季․尹孝元昆季來見 李彦吉․許霽佩酒來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 5쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-11",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-26",
+      "julian": "1597-05-16",
+      "computed_gregorian": "1597-05-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 辛未 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "辛未",
+    "text_han": "晴 曉夢甚煩 不能悉道 招德略言 又說豚蔚 心懷極惡 如醉如狂 不能定情是乃何兆 思戀病親 不覺淚下 送奴探聽消息 都事歸溫陽",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 5쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-12",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 12,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-27",
+      "julian": "1597-05-17",
+      "computed_gregorian": "1597-05-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 壬申 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "壬申",
+    "text_han": "晴 奴太文 自安興梁入來 傳簡則天只氣息奄奄 初九日上下無事 到泊安興云 而行到法聖浦泊宿時 碇曳浮流 留船六日 相離而得逢 無事云 豚蔚先送于海汀",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 5쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-13",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-28",
+      "julian": "1597-05-18",
+      "computed_gregorian": "1597-05-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 癸酉 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "癸酉",
+    "text_han": "晴 早食後 往延事 出登海汀路 路入洪察訪家 暫話間 蔚送愛壽時 無船到消息 又聞黃天祥 佩壺來到興伯家云 與洪告別 到興伯家 有頃 奴順花至自船中 告天只訃 奔出擗踊 天日晦暗 卽奔去于蟹巖則船已至矣 路望慟裂 不可盡記 追錄草草",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 5~7쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-14",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-29",
+      "julian": "1597-05-19",
+      "computed_gregorian": "1597-05-29",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 甲戌 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "甲戌",
+    "text_han": "晴 洪察訪․李別坐入哭治棺 棺則在營備來 少無欠處云",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 7쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-15",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-30",
+      "julian": "1597-05-20",
+      "computed_gregorian": "1597-05-30",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 乙亥 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "乙亥",
+    "text_han": "晴 晩入棺親執 吳終壽盡心 粉骨難忘 附棺無悔 是則幸也 天安倅入來治行 全慶福氏連日盡心製服等事 哀感何言",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 7쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-16",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1597-05-31",
+      "julian": "1597-05-21",
+      "computed_gregorian": "1597-05-31",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丙子 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丙子",
+    "text_han": "陰雨 曳船移泊中方前靈柩上輿 行還本家 望里慟裂 如何可言 如何可言至家成殯 雨勢大作 余則氣力憊盡 南行亦迫 呼哭呼哭 只待速死而已 天安還歸",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 7쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-17",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-01",
+      "julian": "1597-05-22",
+      "computed_gregorian": "1597-06-01",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丁丑 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丁丑",
+    "text_han": "晴 金吾書吏李秀榮 自公州到來 促行",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 7쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-18",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-02",
+      "julian": "1597-05-23",
+      "computed_gregorian": "1597-06-02",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 戊寅 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "戊寅",
+    "text_han": "雨雨終日 氣甚不平 不能出頭 只哭殯前 退來奴今守家 晩稧中合會于余在處議稧事而罷",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 7쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-19",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 19,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-03",
+      "julian": "1597-05-24",
+      "computed_gregorian": "1597-06-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 己卯 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "己卯",
+    "text_han": "晴 早出登途 告靈筵號哭 柰何柰何 天地安有如吾之事乎 不如早死也 到蕾家 謁告廟前 行到金谷姜宣傳家前 逢姜晶 姜永壽氏 下馬哭 行到寶山院 則天安倅先至川邊下馬歇往 林川郡守韓述 上京重試來過去前路 聞吾行 入來弔去 豚薈․葂․菶․荄․芬․莞及卞主薄幷隨至 天安元仁男亦來見 分手上馬 行到日新驛宿 夕雨洒",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 7쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-20",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 20,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-04",
+      "julian": "1597-05-25",
+      "computed_gregorian": "1597-06-04",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 庚辰 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "庚辰",
+    "text_han": "晴 朝飯于公州定天洞 夕投泥山 則主倅極盡 宿于衙東軒 金德章偶到相見 都事來見",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 7쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-21",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 21,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-05",
+      "julian": "1597-05-26",
+      "computed_gregorian": "1597-06-05",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 辛巳 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "辛巳",
+    "text_han": "晴 早發到恩院 則金瀷偶然到來云 任達英以貿穀事 船到恩津浦云 其形跡極詭且譎 夕宿于礪山官奴家 中夜獨坐 悲慟何堪 悲慟何堪",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 7쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-22",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-06",
+      "julian": "1597-05-27",
+      "computed_gregorian": "1597-06-06",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 壬午 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "壬午",
+    "text_han": "晴 午到參禮驛長吏家 夕到全州南門外李義臣家宿 判官朴勤來見府尹亦厚接 判官所及油屯․生薑等物",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 7~9쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-23",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 23,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-07",
+      "julian": "1597-05-28",
+      "computed_gregorian": "1597-06-07",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 癸未 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "癸未",
+    "text_han": "晴 早發到烏原驛館歇馬 朝飯 有頃都事到來 暮投任實縣 則主倅例遇倅洪純慤矣",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 9쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-24",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-08",
+      "julian": "1597-05-29",
+      "computed_gregorian": "1597-06-08",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 甲申 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "甲申",
+    "text_han": "晴 早發到南原十五里許 得逢丁哲等 到南原府五里內 別送吾行 直到十里外 東西李喜慶奴家 懷痛如何 懷痛如何",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 9쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-25",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-09",
+      "julian": "1597-05-30",
+      "computed_gregorian": "1597-06-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 乙酉 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "乙酉",
+    "text_han": "多有雨態 朝食後登途 投雲峯朴巃家 雨勢大作 不能出頭 因聞元帥已向順天云 卽送人于金吾處 而留之 主倅以病不出",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 9쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-26",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 26,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-10",
+      "julian": "1597-05-31",
+      "computed_gregorian": "1597-06-10",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丙戌 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丙戌",
+    "text_han": "陰而不霽 早食登程 到求禮縣則金吾郞已先至矣 下處于孫仁弼家主倅急出來見 待之甚慇 金吾亦來見余使主倅勸飮于金吾 則主倅盡心云夜坐悲慟 如何可言",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 9쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-27",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 27,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-11",
+      "julian": "1597-06-01",
+      "computed_gregorian": "1597-06-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丁亥 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丁亥",
+    "text_han": "晴 早發到松峙底 則求禮倅送人造點而送 到順天松院 則李得宗․鄭瑄來候 夕到鄭元溟家 則元帥知我之至 送軍官權承慶致弔 又問平否 慰辭甚懇 夕主倅來見 鄭思竣亦來 多言元公悖妄顚倒之狀",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 9쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-28",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 28,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-12",
+      "julian": "1597-06-02",
+      "computed_gregorian": "1597-06-12",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 戊子 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "戊子",
+    "text_han": "晴 朝元帥又送軍官 承慶問候 因傳曰喪中氣困 從氣蘇平出來云 今聞親切軍官在於統制處云 送簡與關字出來 則率去看護云 而簡與關成來 府使小家永世云",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 9쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-29",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 29,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-13",
+      "julian": "1597-06-03",
+      "computed_gregorian": "1597-06-13",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 己丑 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "己丑",
+    "text_han": "晴 愼司果及應元來見 兵使亦以元帥聽議事入府云 與愼司果話",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 9쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-04-30",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 4,
+        "day": 30,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-14",
+      "julian": "1597-06-04",
+      "computed_gregorian": "1597-06-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 庚寅 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "庚寅",
+    "text_han": "朝陰暮雨 朝食後 與愼果論話 兵使留飮云 兵使李福男 朝前來見 多言元公之事監司亦到 元帥處 送軍官問平五月",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 9쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-01",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-15",
+      "julian": "1597-06-05",
+      "computed_gregorian": "1597-06-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 辛卯 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "辛卯",
+    "text_han": "雨雨 愼司果留話 巡使 兵使同會于元帥下處鄭思竣家 留飮極歡云",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 9쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-02",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-16",
+      "julian": "1597-06-06",
+      "computed_gregorian": "1597-06-16",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 壬辰 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "壬辰",
+    "text_han": "晩晴 元帥往于寶城 兵使往于本營 巡使往于潭陽之路 來見而歸 府使來見 陳興國至自左營 揮淚而言元事 李亨復․申弘壽亦來 南原奴唜石來自牙家 傳靈筵平安 又傳有憲無事 率其家屬到金谷云 獨坐空軒 悲慟何堪",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 9~11쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-03",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 3,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-17",
+      "julian": "1597-06-07",
+      "computed_gregorian": "1597-06-17",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 癸巳 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "癸巳",
+    "text_han": "晴 愼司果 應元․陳興國還歸 李奇男來見 朝以蔚改名䓲 䓲音悅 萌芽始生 草木盛長 字義甚美 晩姜所作只來見而哭 申時雨洒 夕主倅來見",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 11쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-04",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 4,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-18",
+      "julian": "1597-06-08",
+      "computed_gregorian": "1597-06-18",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 甲午 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "甲午",
+    "text_han": "雨 是日乃天只辰日 悲慟何堪 鷄鳴起坐 垂泣而已 午後雨大作 鄭思竣來到終日不歸 李壽元亦來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 11쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-05",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-19",
+      "julian": "1597-06-09",
+      "computed_gregorian": "1597-06-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 乙未 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "乙未",
+    "text_han": "晴 曉夢甚煩 朝府使來見 晩忠淸虞候元裕男 至自閑山 多傳元公之兇悖又道陣中將卒之離叛 勢將不測云云是日午節也 而遠來千里天涯 從軍廢禮哭泣亦未自意 是何罪辜 致此報耶 如吾之事 古今無偶 痛裂痛裂 只恨不遭時而已",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 11쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-06",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-20",
+      "julian": "1597-06-10",
+      "computed_gregorian": "1597-06-20",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丙申 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丙申",
+    "text_han": "晴 夢見兩亡兄 相扶哭痛 且言襄事未營 千里從軍 誰其主之 痛哭柰何云 此兩兄精靈 千里追蹤 憂悶至此 悲慟不已又念南原監獲 是則 未知也 連日夢煩 是亡靈黙念深痛之至也 晨昏戀慟 淚凝成血天胡漠漠 不我燭兮 何不速死也 晩綾城倅李繼命亦起復之人 來見而歸 興陽奴禹老․․音金․朴守每․趙澤與順花妻來現 李奇胤及夢生來到 宋廷立․宋得運亦來 卽歸夕鄭元溟還自閑山 多言兇人所爲 又聞副察使出來左營 以病留調 右水伯送簡而弔之",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 11쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-07",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-21",
+      "julian": "1597-06-11",
+      "computed_gregorian": "1597-06-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丁酉 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丁酉",
+    "text_han": "晴 朝定惠寺僧德修來納芒鞋一事拒之不納 再三進退而告之 給價而送之 鞋則卽給元溟 晩宋大器及柳夢吉來見 瑞山郡守安适亦自閑山來 多言兇公之事 夕李奇男又到 李元龍還自水營 【适到求禮 欲私 趙士謙守節而未能 可愕可愕】",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 11쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-08",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 8,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-22",
+      "julian": "1597-06-12",
+      "computed_gregorian": "1597-06-22",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 戊戌 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "戊戌",
+    "text_han": "晴 朝僧將守仁率飯僧杜宇來奴漢京以事送于寶城 興陽奴世忠 自鹿島牽兒馬而來 弓匠李智歸去 是日曉 夢搏殺猛虎 去皮揮之 未知是兆 趙琮改名瑌來見 趙德秀亦來 午兒馬加鞍 鄭詳溟騎行 元兇送簡致弔 是乃元帥之令也 李敬信來自閑山多言元兇之事 又言其率來書吏 以貿穀爲名送于陸地 欲私其妻 而其者揚惡不從出外高聲云 【元也百計陷吾 此亦數也 駄載相續于京道 而構毁日深 自恨不遭而已】",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 11~13쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-09",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 9,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-23",
+      "julian": "1597-06-13",
+      "computed_gregorian": "1597-06-23",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 己亥 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "己亥",
+    "text_han": "陰 朝李亨立來見卽還 李壽元自光陽還 順天及第姜承勳來募 府使還自左營 京奴自寶城牽馬而來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 13쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-10",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 10,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-24",
+      "julian": "1597-06-14",
+      "computed_gregorian": "1597-06-24",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 庚子 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "庚子",
+    "text_han": "陰雨 是日乃太宗忌 自古雨 晩大雨 朴㗟生來謁 主人作麥飯而進 盲人任春景推數而來 副使送弔狀 鹿島萬戶宋汝悰 兼致麻紙兩色 全羅巡使白中米各一斛 太鹽亦得 爲言軍官送來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 13쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-11",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-25",
+      "julian": "1597-06-15",
+      "computed_gregorian": "1597-06-25",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 辛丑 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "辛丑",
+    "text_han": "晴 金孝誠自樂安來 卽歸 前光陽金惺以領體相軍官求得箭竹事 到順天 因來見 多傳所聞所聞者皆兇人之事 副使先文到 張渭送簡 鄭元溟作麥飯而進 盲人任春景來言推數 副使到府 鄭思立 梁廷彦來傳 副使欲來見云 而余以氣不平逆之",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 13쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-12",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 12,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-26",
+      "julian": "1597-06-16",
+      "computed_gregorian": "1597-06-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 壬寅 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "壬寅",
+    "text_han": "晴 曉送李元龍問候于副使 副使又送金德獜問安 晩李奇男․奇胤來見 告歸道陽場云 朝送豚䓲于副使處 申弘壽來見 以元公占之 則初卦水雷屯變 則天風姤用克體 大凶大凶 南海倅送弔簡 又致雜色 粒二 眞油二 淸五 栗一 藿二 夕往鄕舍堂 與副使夜話 三更還宿處 【鄭思立․梁廷彦】等來 鷄鳴後歸",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 13쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-13",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-27",
+      "julian": "1597-06-17",
+      "computed_gregorian": "1597-06-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 癸卯 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "癸卯",
+    "text_han": "晴 昨夜副使云 上使送簡 多嘆令公事晩鄭思竣造餠來 府使送行資 未安未安",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 13쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-14",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-28",
+      "julian": "1597-06-18",
+      "computed_gregorian": "1597-06-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 甲辰 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "甲辰",
+    "text_han": "晴 朝府使來見而歸 副使亦發向富有鄭思竣․思立․梁廷彦來告陪歸 早食後登程 到松峙底歇馬 獨坐巖上 移時困睡 雲峯朴㗟來到 暮到粲水江 下馬步渡 到求禮縣孫仁弼家 主倅卽來見",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 13쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-15",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-29",
+      "julian": "1597-06-19",
+      "computed_gregorian": "1597-06-29",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 乙巳 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "乙巳",
+    "text_han": "或晴或雨 主家甚底卑 蠅集如蜂人不能食 移來于衙茅亭 則南風直引 與主倅終日話 因而宿",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 13쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-16",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1597-06-30",
+      "julian": "1597-06-20",
+      "computed_gregorian": "1597-06-30",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丙午 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丙午",
+    "text_han": "晴 與主倅話 夕南原探候人還來 傳告曰 體相明明直由谷城入本縣 留數日後 因向晉州云 倅進晝物甚豊 未安未安夕鄭翔溟來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 13~15쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-17",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-01",
+      "julian": "1597-06-21",
+      "computed_gregorian": "1597-07-01",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丁未 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丁未",
+    "text_han": "晴 與主倅話 夕南原探候人還來傳言曰 元帥不往雲峯之路 以楊摠兵延接事 馳往完山云 吾行色爲狼狽 爲悶",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 15쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-18",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-02",
+      "julian": "1597-06-22",
+      "computed_gregorian": "1597-07-02",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 戊申 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "戊申",
+    "text_han": "晴 東風大吹 夕金宗麗令公 自南原直來見 忠淸水營營吏李燁 來自閑山 故家書付之 然朝酒而狂 可憎可憎",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 15쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-19",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 19,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-03",
+      "julian": "1597-06-23",
+      "computed_gregorian": "1597-07-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 己酉 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "己酉",
+    "text_han": "晴 以體相入縣 留在城中未安 移出于東門外張世豪家 坐于蓂莢亭 主倅來見 夕體相入縣 申時驟雨大作 酉時晴",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 15쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-20",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 20,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-04",
+      "julian": "1597-06-24",
+      "computed_gregorian": "1597-07-04",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 庚戌 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "庚戌",
+    "text_han": "晴 晩金僉知來見 且言茂朱長朴只里農土好品云 沃川居權致中 乃金僉知孼娚 而沃川梁山倉近處云 體相聞我之留先送貢生 又送軍官李知覺 俄頃 又送人曾未聞丁憂 今始聞驚悼驚悼 送軍官致弔 因問夕可相見耶 余答以昏當進拜 當昏入拜 體相素服以待 從容論事 體相不勝慨嘆 向夜言論間 有云曾有有旨 多有未安之辭 【心跡可疑】 未知意思也 又言兇人之事 誣罔極矣 而天不察 奈國事何 出來時南從事送人問安 余答夜深未能進拜爲言",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 15쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-21",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 21,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-05",
+      "julian": "1597-06-25",
+      "computed_gregorian": "1597-07-05",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 辛亥 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "辛亥",
+    "text_han": "晴 柳博川海自京下來 立功于閑山云 又曰 行到恩津縣 縣倅言船行之事云柳又曰 王獄囚李德龍告訴者 被囚受刑三次 將爲殞命云 可愕可愕 且果川座首安弘濟等 納馬及卄歲女奴于李尙公 見放而去云 安也本非死罪 受刑累次 將至殞命納物然後得釋 內外皆以見物之多少 罪有輕重 未知結末之如何也 此所謂一脈金錢便返魂者也",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 15쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-22",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-06",
+      "julian": "1597-06-26",
+      "computed_gregorian": "1597-07-06",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 壬子 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "壬子",
+    "text_han": "晴 南風大吹 朝孫仁弼父子來見 柳博川往昇平 因赴閑山 故全․慶尙兩水使․加里浦等處修問狀 晩體相從事官金光燁 自晉州入縣 裵伯起令公到來 私通亦至 可得奉攄 多幸多幸 獨坐悲慟 難堪難堪 昏裵同知及主倅來見",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 15~17쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-23",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 23,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-07",
+      "julian": "1597-06-27",
+      "computed_gregorian": "1597-07-07",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 癸丑 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "癸丑",
+    "text_han": "朝鄭思龍․李士順來見 多傳元公事晩裵同知歸于閑山 體相送人招之 故往拜論話從容 多憤時事之已誤 只待死日云 明往草溪事告之 則體相帖給李大伯募米二斛而送之城外主人 乃張世輝家",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 17쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-24",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-08",
+      "julian": "1597-06-28",
+      "computed_gregorian": "1597-07-08",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 甲寅 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "甲寅",
+    "text_han": "晴 東風終日大吹 朝光陽高應明子彦善來見 多傳閑山事 體相送軍官李知覺 問平否 因傳欲慶尙右道沿海圖畵而無路 幸以所見圖送云 故余不能拒之 草圖而應之 夕雨勢大作",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 17쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-25",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-09",
+      "julian": "1597-06-29",
+      "computed_gregorian": "1597-07-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 乙卯 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "乙卯",
+    "text_han": "雨作 朝欲發程 而關雨停行 獨倚村家 懷思萬端 悲戀如何 悲戀如何",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 17쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-26",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 26,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-10",
+      "julian": "1597-06-30",
+      "computed_gregorian": "1597-07-10",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丙辰 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丙辰",
+    "text_han": "大雨終日 冒雨登程 臨發梁蛇萬戶邊翼星 以推考事來 體相前李宗浩押來 暫得相面 行到石柱關門 雨下如注歇馬 艱難顚仆 而行到岳陽李廷鸞家則閉門拒之 其家後有瓦屋 奴子四散索之 而皆未合 小歇還來 李廷鸞家則金德齡弟德獜者借入 余使䓲强言而入宿 行裝盡濕",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 17쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-27",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 27,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-11",
+      "julian": "1597-07-01",
+      "computed_gregorian": "1597-07-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丁巳 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丁巳",
+    "text_han": "陰晴相半 朝濕衣掛風 晩發到豆恥崔春龍家 則蛇梁萬戶李宗浩先到 邊翼星則受杖卄 不能運身云 柳起龍來見",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 17쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-28",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 28,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-12",
+      "julian": "1597-07-02",
+      "computed_gregorian": "1597-07-12",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 戊午 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "戊午",
+    "text_han": "陰而不雨 晩發到河東縣 則主倅喜於相見 邀接于城內別舍 極致懇情且言元事多狂 日暮而話 邊翼星亦到",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 17쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-05-29",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 5,
+        "day": 29,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-13",
+      "julian": "1597-07-03",
+      "computed_gregorian": "1597-07-13",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 己未 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "己未",
+    "text_han": "陰 氣甚不平 不能登程 因留調理 主倅多言情事 【黃生員稱者 年七十而到河東 曾京洛而今流落云 吾則不見】六月",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 17쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-01",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-14",
+      "julian": "1597-07-04",
+      "computed_gregorian": "1597-07-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 庚申 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "庚申",
+    "text_han": "雨雨 早發到淸水驛溪邊亭 歇馬 暮投丹城境地 晉州地境朴好元農奴家 主人欣然接之 而宿房不好 艱難過夜 雨雨終夜 【油屯一 狀紙二 白粒一 眞小荏或五或三 淸五 鹽五及又五未持 皆河東所致】",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 17쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-02",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-15",
+      "julian": "1597-07-05",
+      "computed_gregorian": "1597-07-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 辛酉 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "辛酉",
+    "text_han": "或雨或晴 早發朝飯于丹溪溪邊 晩到三嘉縣 則主倅已往山城 宿于空館 【縣人炊飯而食之 而不食事敎奴等 三嘉五里外 有槐亭下坐 近居盧錞․鎰兄弟來見】",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 17~19쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-03",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 3,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-16",
+      "julian": "1597-07-06",
+      "computed_gregorian": "1597-07-16",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 壬戌 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "壬戌",
+    "text_han": "雨雨 朝欲發行 則雨勢至此 縮坐費慮之際 都元帥柳泓 自興陽來 與之言道路不能發程 因宿焉 【朝聞食縣飯云 故笞奴子 還給飯米】",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 19쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-04",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 4,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-17",
+      "julian": "1597-07-07",
+      "computed_gregorian": "1597-07-17",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 癸亥 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "癸亥",
+    "text_han": "陰晴 早發 臨行主倅送問狀 且致行資 午到陜川地 距官十里許 有槐木亭 朝飯熱酷 移時歇馬 行到五里前 則有岐路 一路直入郡 一路由草溪故不越江而行 纔十里 元帥陣望見矣 接宿于文陟寓家 【介硯行來 奇岩千丈 江水委曲 且深路亦棧危 若扼此險 則萬夫難過也 毛汝谷】",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 19쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-05",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-18",
+      "julian": "1597-07-08",
+      "computed_gregorian": "1597-07-18",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 甲子 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "甲子",
+    "text_han": "晴 西風大吹 朝草溪倅馳到 卽招入而話 食後李中軍德弼亦馳來 相與話舊 有頃 沈俊來見 同點心 宿房塗排 夕李承緖來見 言守伏逃避事 是朝求禮人及河東倅所送奴馬 幷還歸",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 19쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-06",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-19",
+      "julian": "1597-07-09",
+      "computed_gregorian": "1597-07-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 乙丑 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "乙丑",
+    "text_han": "晴 宿房改塗 造軍官歇廳二間 晩毛汝谷主家隣居尹鑑․文益新來見 京奴送于李大伯處 則色吏出他 未得受來云大伯亦欲來見云 昏入家 寡婦移他家",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 19쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-07",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-20",
+      "julian": "1597-07-10",
+      "computed_gregorian": "1597-07-20",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丙寅 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丙寅",
+    "text_han": "晴而極熱 元帥軍官朴應泗․柳泓等來見元帥從事官 黃汝一送人問安 故卽答謝而送 入宿內房",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 19쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-08",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 8,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-21",
+      "julian": "1597-07-11",
+      "computed_gregorian": "1597-07-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丁卯 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丁卯",
+    "text_han": "晴 朝送鄭翔溟 問安于黃從事官處晩李德弼及沈俊來見 主倅與其弟來見 元帥往延元帥行者十餘員亦來見 點後元帥到陣 余亦往見 從事在元帥前 與元帥話 到移時 元帥示以朴惺上章辭職草 則朴惺多陳元帥處事之疏脫 元帥不自安 而上章于體相矣 又見進伏等項事條件 到暮還來氣甚不平 廢夕食",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 19쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-09",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 9,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-22",
+      "julian": "1597-07-12",
+      "computed_gregorian": "1597-07-22",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 戊辰 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "戊辰",
+    "text_han": "陰而不霽 晩送鄭翔溟于元帥處問安 次問從事官 始受奴馬料 採礪石來則好勝於延日石云 尹鑑․文益新․文陟等來見 是日汝弼辰日 獨坐戍地 懷思如何",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 19쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-10",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 10,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-23",
+      "julian": "1597-07-13",
+      "computed_gregorian": "1597-07-23",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 己巳 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "己巳",
+    "text_han": "晴 朝加羅馬․加羅月羅馬․看者卜馬․騮卜馬等 落四下加鐵 元帥從事官 送三陟人洪漣海問安 晩欲來見云 漣海者 乃洪堅三寸姪也 騎竹同遊徐徹 居于陜川地東面栗津 聞余之至來見 兒名徐加乙朴只饋食而送 夕元帥從事官黃汝一來見 從容間言 及壬辰討賊之事 莫不嘆美 又言山城無設險之恨 當今討備虛疎等事 不覺夜深 忘歸論話 又言明日元帥山城看審云",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 19~21쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-11",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-24",
+      "julian": "1597-07-14",
+      "computed_gregorian": "1597-07-24",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 庚午 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "庚午",
+    "text_han": "晴 中伏 銷金鑠玉 大地如蒸 晩唐差官經略軍門李文卿來見 給扇柄而送 昨夕與從事論話時 卞興伯奴春持家書來 傳知靈筵萬安 懷痛可言 但興伯以我相見事到此空還淸道云 可恨 是日朝 裁書送于興伯處 豚䓲痛霍亂 達夜呻吟 剪悶可言 鷄鳴少歇而宿 是朝書閑山諸處裁簡十四張 庚母簡送內 辭甚困苦云 盜又興規云 【小月羅馬不食 乃中暑也】",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 21쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-12",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 12,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-25",
+      "julian": "1597-07-15",
+      "computed_gregorian": "1597-07-25",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 辛未 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "辛未",
+    "text_han": "晴 早朝京奴與仁奴 送于閑山陣簡于全羅右水伯․忠淸水使․慶尙水使․加里․鹿島呂島․蛇渡․裵同知․金助防將․巨濟․永登․南海․河東․順天 晩僧將處英來見 納圓扇芒鞋故以物償送 且言賊事 又言元公事 午後聞中軍將領軍赴敵云 不知某事 余往見元帥則右兵使馳報內 釜山之賊 欲發於昌原等地 西生之賊 移陣於慶州云 故送伏兵軍遏截揮兵云 兵虞候金自獻以事來謁于元帥 余亦見之 戴月還來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 21쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-13",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-26",
+      "julian": "1597-07-16",
+      "computed_gregorian": "1597-07-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 壬申 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "壬申",
+    "text_han": "晴 晩或洒小雨而止 晩兵虞候金自獻來見 移時相話 饋點而送 是午莞草蒸暘 昏淸州李喜男奴子入來 傳其主之來防于右兵使 故今到元帥陣傍因日暮寄宿云",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 21쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-14",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-27",
+      "julian": "1597-07-17",
+      "computed_gregorian": "1597-07-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 癸酉 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "癸酉",
+    "text_han": "陰而不雨 早朝李喜男入來 傳其妹之簡 則牙山靈筵與上下 皆無事 心痛可言 心痛可言 朝食後喜男持簡 往于右兵使處",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 21~23쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-15",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-28",
+      "julian": "1597-07-18",
+      "computed_gregorian": "1597-07-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 甲戌 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "甲戌",
+    "text_han": "晴陰相半 是日望日 而身在軍中未能設位而哭 懷戀如何 懷戀如何 草溪倅備餠物送之 元帥從事官黃汝一 送軍官傳之曰 元帥今日欲山城云 余亦隨往而到大川邊 則慮有異議 坐川上 送鄭翔溟 而以病告之 因而還來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 23쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-16",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-29",
+      "julian": "1597-07-19",
+      "computed_gregorian": "1597-07-29",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 乙亥 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "乙亥",
+    "text_han": "晴 終日獨坐 無人來問 招䓲及李元龍 造冊書卞氏族譜 夕喜男送諺簡曰 兵使不送云 卞光祖來見 䓲與鄭翔溟往于大川 洗戰馬而來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 23쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-17",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-30",
+      "julian": "1597-07-20",
+      "computed_gregorian": "1597-07-30",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丙子 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丙子",
+    "text_han": "陰而不雨 涼氣入虛 夜色寥廓晨坐慟戀 如何可言 朝食後 往元帥前則多言元公之不直 又視備邊司啓下行移則曰 元均狀啓內 水陸俱進 先擊安骨之賊 然後舟師進入于釜山等處 安骨之賊未可先討耶 元帥狀啓內 統制使元也 不欲進前 而姑以安骨先討爲辭云 舟師諸將多有異心 元也入內不出 絶不與諸將合謀 僨事可知云 告元帥 李喜男及卞存緖 尹先覺 幷爲行移督來 來時入坐 黃從事下處 論話移時 到來寓家 卽送喜男奴子于宜寧山城 淸道則擺發送關 見草溪倅 則可謂無良矣",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 23쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-18",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1597-07-31",
+      "julian": "1597-07-21",
+      "computed_gregorian": "1597-07-31",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丁丑 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丁丑",
+    "text_han": "陰而不雨 朝黃從事 送其奴問安晩尹鑑作餅而來 唐人葉威 自草溪來話 且言唐人朱彦龍 曾被擄於日本 今始出來 則賊兵十萬 已到沙自麻或對馬島 行長則欲由宜寧直犯全羅淸正 則欲移慶州․大丘等地 因往安東地云云 暮元帥往泗川事來通 故卽送鄭司僕問行 則元帥以舟師事 往泗川云",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 23~25쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-19",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 19,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-01",
+      "julian": "1597-07-22",
+      "computed_gregorian": "1597-08-01",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 戊寅 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "戊寅",
+    "text_han": "曉鷄三鳴 出門 將到元帥陣曙色已明 至陣則元帥與黃從事出坐余入見 則元帥以元公事告余曰 統制之事不可言兇 請朝安骨 加德盡勦 然後舟師進討云 是誠何心 不過延托不進之意 故往泗川 督之于三水使統制則不爲之指揮云 余又見有旨 則安骨之賊 不可輕入討之云 元帥出去後 與黃從事話 有頃 草溪倅來臨別言于草溪曰 陳贊順勿使云 則帥府兵房軍官及倅 皆應諾來時 被擄逃還人隨來 是日大地如蒸夕小月羅馬少食草 午卞德基軍士․德章右營吏․卞慶琬老除吏․敬男年十八來見․進士李日章․進士信吉子亦來見 夜驟雨大作 簷氵霤 如注",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 25쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-20",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 20,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-02",
+      "julian": "1597-07-23",
+      "computed_gregorian": "1597-08-02",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 己卯 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "己卯",
+    "text_han": "雨雨終日 夜大雨 晩朝徐徹來見 尹鑑․文益新․文陟等來見 卞瑜來見 午後奴馬料受來 【兵馬暫向差】",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 25쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-21",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 21,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-03",
+      "julian": "1597-07-24",
+      "computed_gregorian": "1597-08-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 庚辰 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "庚辰",
+    "text_han": "或雨或晴 曉夢德與栗溫 與臺幷見於夢 多有喜謁之色 朝盈德縣令權晉慶 以元帥前見謁事來到 元帥已往泗川 故來見 多傳左道之事 左兵使軍官 持簡來到卽答簡成送 黃從事送問 夕卞主簿․尹先覺到此夜話",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 25쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-22",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-04",
+      "julian": "1597-07-25",
+      "computed_gregorian": "1597-08-04",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 辛巳 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "辛巳",
+    "text_han": "或雨或晴 朝草溪倅備軟泡來勸 而多有敖慢之色 其處事失體 可言晩李喜男入來 傳右兵使簡 午時鄭舜信․鄭思謙․尹鑑․文益新․文陟等來見 李先孫亦來見",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 25쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-23",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 23,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-05",
+      "julian": "1597-07-26",
+      "computed_gregorian": "1597-08-05",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 壬午 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "壬午",
+    "text_han": "或雨或晴 朝大箭改鍊 晩右兵使送簡 兼致環刀大小 然而持人沈水粧與家破落可恨 朝羅宏子再興 持其父簡來見 又致窘資 未安未安 午後李芳來見 芳乃牙山李夢瑞次子也",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 27쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-24",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-06",
+      "julian": "1597-07-27",
+      "computed_gregorian": "1597-08-06",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 癸未 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "癸未",
+    "text_han": "曉霧四塞 谷中不辨 朝權水使彦卿奴世功奴甘孫 來告菁田事 是日立秋 又安生員克可來見 論話時事 菁田耕種 監官李元龍․李喜男․鄭翔溟與文林守等定送 午後陜川郡守送曺彦亨問候 熱酷如蒸",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 27쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-25",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-07",
+      "julian": "1597-07-28",
+      "computed_gregorian": "1597-08-07",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 甲申 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "甲申",
+    "text_han": "晴 更令種菁 朝前黃從事來見多言水戰之事 又言元帥今明還陣云 討論兵事 到晩還歸 夕京奴還自閑山 聞得寶城郡守安弘國逢丸致死 不勝驚悼驚悼 驚嘆驚嘆 未捕一賊 先喪二將 痛惋可言 巨濟亦送人載藿而來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 27쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-26",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 26,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-08",
+      "julian": "1597-07-29",
+      "computed_gregorian": "1597-08-08",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 乙酉 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "乙酉",
+    "text_han": "晴 曉順天奴允福來現 卽杖五十巨濟來人還歸 晩中軍將李德弼及卞弘達․沈俊等來見 黃從事往犬硯江亭而還去魚應獜․朴夢參等來見 牙山奴平世入來則靈筵平安 各家上下皆得平保 但天旱三朔 農事已矣 不可望云 葬日則七月二十七日推擇 又於八月初四日擇之云 懷戀之至 悲慟可言 悲慟可言 夕右兵使報于體相曰 牙山李昉․淸州李喜男 伏兵厭憚 避在元帥陣傍事 體相移文元帥 元帥極怒 成公事送之 未知兵使金應瑞之意也 【是日小月羅馬斃棄】",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 27쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-27",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 27,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-09",
+      "julian": "1597-07-30",
+      "computed_gregorian": "1597-08-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丙戌 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丙戌",
+    "text_han": "晴 朝魚應麟․朴夢參等還歸 李喜男 李昉等 往于體相行次所到處 晩黃汝一來見 論話移時 未末驟雨大作 須臾水漲云",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 27쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-28",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 28,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-10",
+      "julian": "1597-07-31",
+      "computed_gregorian": "1597-08-10",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 丁亥 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "丁亥",
+    "text_han": "晴 晩黃海道白川居別將趙信玉 洪大邦等來見 又有草溪吏告目內 元帥明往南原云 【是曉夢甚煩也】 京奴往貿不還",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 27쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-29",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 29,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-11",
+      "julian": "1597-08-01",
+      "computed_gregorian": "1597-08-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 戊子 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "戊子",
+    "text_han": "晴 卞主夫往馬訖坊 京奴還來李喜男․李昉等還來 李中軍與沈俊來 傳沈遊擊拿去 而楊摠兵到三嘉 結縛而送云 文林守自宜寧來 傳體相已到草溪驛云 新及第梁諫持黃天祥簡來到 卞主簿自馬訖坊還",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 27~29쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-06-30",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 6,
+        "day": 30,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-12",
+      "julian": "1597-08-02",
+      "computed_gregorian": "1597-08-12",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 己丑 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "己丑",
+    "text_han": "晴 曉使鄭翔溟問安于體相 是日極熱 大地如蒸 夕興陽申汝樑․申霽雲等來傳沿海之地 則雨水適中云七月",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 29쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-01",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-13",
+      "julian": "1597-08-03",
+      "computed_gregorian": "1597-08-13",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 庚寅 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "庚寅",
+    "text_han": "曉雨晩晴 唐人三名到來 往釜山云宋大立與宋得運偕到 安珏亦來見 夕徐徹及方德壽 與其子來宿 是夜秋氣甚涼 悲戀如何 因宋得運往來元帥陣 則從事聞笛于大川邊云 可愕可愕 今日乃仁廟國忌也",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 29쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-02",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-14",
+      "julian": "1597-08-04",
+      "computed_gregorian": "1597-08-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 辛卯 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "辛卯",
+    "text_han": "晴 朝卞德壽歸 晩申霽雲與平海居鄭仁恕 以從事官問安來此 今日乃先君辰日 而遠來千里之外 冒服戎門 人事如何如何",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 29쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-03",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 3,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-15",
+      "julian": "1597-08-05",
+      "computed_gregorian": "1597-08-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 壬辰 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "壬辰",
+    "text_han": "晴 曉坐涼氣透骨 悲慟轉極 悲慟轉極 措備祭用造果․眞末 晩井邑軍士李良․崔彦還及巾孫等三人 使喚次送來 晩蔣俊琬 自南海來見 傳南倅病重 剪悶剪悶 有頃 陜川郡守吳澐來見 多言山城之事 點後往于帥陣 與黃從事話 從事與朴典籍安義射帿 此時左兵使 使其軍官押降倭二名而來 乃淸正所率云 日暮還來 因聞高靈倅 爲囚于星州云",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 29쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-04",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 4,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-16",
+      "julian": "1597-08-06",
+      "computed_gregorian": "1597-08-16",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "癸未",
+        "expected": "癸巳",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 癸未 가 1597-08-16 의 실제 일간지 癸巳 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "癸未",
+    "text_han": "晴 朝黃從事送鄭仁恕問安 晩李芳及柳滉來 自募軍興陽梁霑纘紀等到防 卞汝良 卞懷寶 黃彦己等 皆出身來見卞師會與卞大成等亦來見 點後雨洒 朝食時安克可來見 昏雨大作 達夜不止",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 29쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-05",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-17",
+      "julian": "1597-08-07",
+      "computed_gregorian": "1597-08-17",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "甲申",
+        "expected": "甲午",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 甲申 가 1597-08-17 의 실제 일간지 甲午 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "甲申",
+    "text_han": "雨 早朝草溪倅 以體相從事官南以恭過境云 而自山城過門去 晩卞德壽來 卞存緖往馬訖坊",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 29쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-06",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-18",
+      "julian": "1597-08-08",
+      "computed_gregorian": "1597-08-18",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "乙酉",
+        "expected": "乙未",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 乙酉 가 1597-08-18 의 실제 일간지 乙未 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "乙酉",
+    "text_han": "晴 夢見尹三聘 則定配于羅州云 晩李芳來見 獨坐空堂 懷戀悲慟 如何可言 夕出坐外廊 卞存緖自馬訖坊還來 故入內安珏兄弟亦隨興伯來 是日祭用中朴桂五斗 造于蜜封上架",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 29~31쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-07",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-19",
+      "julian": "1597-08-09",
+      "computed_gregorian": "1597-08-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丙戌",
+        "expected": "丙申",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丙戌 가 1597-08-19 의 실제 일간지 丙申 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丙戌",
+    "text_han": "晴 今日七日 悲戀何已 夢與元公同會 余坐於元公之上 進飯之時 元公似有喜色 未詳厥兆也 朴永男 自閑山來 以其主將失誤 將受罪次 被捉於元帥云 草溪備節物送來 朝安珏兄弟來見 暮興陽朴應泗來見 沈俊等來見 宜寧倅金銓來自高靈 多言兵使處事倒顚",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 31쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-08",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 8,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-20",
+      "julian": "1597-08-10",
+      "computed_gregorian": "1597-08-20",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丁亥",
+        "expected": "丁酉",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丁亥 가 1597-08-20 의 실제 일간지 丁酉 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丁亥",
+    "text_han": "晴 朝李芳來見 饋飯而送 因聞元帥自求禮已到昆陽云 晩家主李漁海與崔台輔來見 卞德壽又至 夕宋大立․柳洪․朴永男來宋․柳兩人 夜向歸",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 31쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-09",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 9,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-21",
+      "julian": "1597-08-11",
+      "computed_gregorian": "1597-08-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "戊子",
+        "expected": "戊戌",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 戊子 가 1597-08-21 의 실제 일간지 戊戌 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "戊子",
+    "text_han": "晴 明欲送䓲于牙山祭用果監封 晩尹鑑․文陟等佩酒來 餞䓲與卞主簿等歸 是夜月色如晝 戀親悲泣 向夜不寐",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 31쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-10",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 10,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-22",
+      "julian": "1597-08-12",
+      "computed_gregorian": "1597-08-22",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "己丑",
+        "expected": "己亥",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 己丑 가 1597-08-22 의 실제 일간지 己亥 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "己丑",
+    "text_han": "晴 (早)曉以送䓲與存緖事 坐(夜)以待曉早朝飯 情不能自抑 痛哭而送 吾何造罪至於此極耶 求禮來馬騎往 尤用慮慮 䓲等新出黃從事亦來 談論移時 晩徐徹來見 鄭翔溟馬革以紙造畢 夕獨坐空堂 懷思甚惡向夜不寐 轉展終夜",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 31쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-11",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-23",
+      "julian": "1597-08-13",
+      "computed_gregorian": "1597-08-23",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "庚寅",
+        "expected": "庚子",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 庚寅 가 1597-08-23 의 실제 일간지 庚子 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "庚寅",
+    "text_han": "晴 念在䓲行 何以爲堪 暑炎極嚴 爲慮無已 晩卞弘達 申霽雲 林仲亨等來見 獨坐空堂 懷戀如何 悲慟悲慟 【奴太文與終伊 往順天】",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 31쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-12",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 12,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-24",
+      "julian": "1597-08-14",
+      "computed_gregorian": "1597-08-24",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "辛卯",
+        "expected": "辛丑",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 辛卯 가 1597-08-24 의 실제 일간지 辛丑 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "辛卯",
+    "text_han": "晴 朝陜川送新米與西果 炊午飯之際 方應元․玄應辰․洪禹功․林英立等 自朴名賢處來到 共食 奴平世 自䓲行還來 問好去 爲幸 然悲嘆何言 李喜男刈茵百束來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 31쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-13",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-25",
+      "julian": "1597-08-15",
+      "computed_gregorian": "1597-08-25",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "壬辰",
+        "expected": "壬寅",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 壬辰 가 1597-08-25 의 실제 일간지 壬寅 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "壬辰",
+    "text_han": "晴 朝南海送簡 多致食物 又云 戰馬牽去 故裁答 晩李台壽 趙信玉 洪大邦來見 且言討賊之事 宋大立․張得洪亦來 張得洪 以自備告之故 粮二斗付之是日採葛來 李芳亦來見 【南海衙吏與從人二名來】",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 31~33쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-14",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-26",
+      "julian": "1597-08-16",
+      "computed_gregorian": "1597-08-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "癸巳",
+        "expected": "癸卯",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 癸巳 가 1597-08-26 의 실제 일간지 癸卯 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "癸巳",
+    "text_han": "晴 早朝鄭翔溟與奴平世․奴貴仁兩卜馬 送于南海 鄭則戰馬牽來事送之 曉夢吾與體相 同到一處 則衆尸浪藉 或履或斬 朝食時 文獜壽 蛙歌菜東瓜餞來進 與方應元․尹先覺․玄應辰․洪禹功等話 洪也以其父病 不欲從軍 托臂病云 可愕可愕 巳時 黃從事 送鄭仁恕問安且示金海附賊人金億告目 則初七日 倭船五百餘隻出來于釜山 初九日 倭船千隻合勢 與我舟師相戰于絶影島前洋 而我五戰船漂到于豆毛浦 七隻無去處云 聞之 不勝憤惋 卽馳去于黃從事點軍處與黃從事議事 因坐觀射帿 有頃 所騎使洪大邦馳之 則善走善走 日勢多有雨徵 故還來到接家 則雨勢大作二更晴霽 月色澂明倍晝 懷抱可言",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 33쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-15",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-27",
+      "julian": "1597-08-17",
+      "computed_gregorian": "1597-08-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "甲午",
+        "expected": "甲辰",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 甲午 가 1597-08-27 의 실제 일간지 甲辰 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "甲午",
+    "text_han": "或雨或晴 晩招趙信玉 洪大邦等及此在尹先覺九人 設餠饋之 最晩李中軍德弼來 暮還 因聞舟師二十餘隻爲賊所敗 痛憤痛憤 多恨制禦無方也 昏雨大作",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 33쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-16",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-28",
+      "julian": "1597-08-18",
+      "computed_gregorian": "1597-08-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "乙未",
+        "expected": "乙巳",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 乙未 가 1597-08-28 의 실제 일간지 乙巳 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "乙未",
+    "text_han": "或雨或收 終陰不晴 朝食後 送孫應男于中軍處 探聽舟師之事 則還傳中軍之言曰 見左兵使馳報 則多有不利事云 而不以備言可嘆 晩卞義禎稱者 持西果二圓而來其體貌不如 且愚且劣 窮村僻居之人 不學守貧 勢使然也 此亦朴厚之態矣 是午令李喜男磨劒甚利 可斫髡酋者也 驟雨急作 多念豚䓲行之爲苦也 黙念不已 黙念不已 夕靈巖松進面居私奴世男 自西生浦 赤身來到 問其所由 則曰七月初四日 前兵虞候所騎船 爲格 初五日 漆川梁到泊 初六日入于玉浦 初七日未明 由末串到多大浦 則倭船八隻留泊 諸船直突次 倭人無遺下陸 空船掛在 我舟師曳出衡火後 仍向釜山折影島外洋 値賊船 無慮千餘隻 自對馬渡來 相戰計料則倭船散亂回避 終不得勦捕 世男所騎船及他船六隻 不能制船 漂到西生浦前洋 下陸之際 幾盡就戮 世男獨入林藪 膝行得生 艱難來此云聞來極可愕矣 我國所恃惟在舟師 舟師如是無復可望 反覆思之 憤膽如裂 憤膽如裂 船將李曄爲賊所縛云 尤極痛惋痛惋 孫應男歸家",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 33~35쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-17",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-29",
+      "julian": "1597-08-19",
+      "computed_gregorian": "1597-08-29",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丙申",
+        "expected": "丙午",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丙申 가 1597-08-29 의 실제 일간지 丙午 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丙申",
+    "text_han": "或雨 朝送李喜男于黃從事處 傳世男之言 晩草溪倅 自碧堅山城來見而歸 宋大立․柳滉․柳弘․張得弘等來見 日暮還歸 卞大獻․鄭雲龍․得龍․仇從等 皆草溪鄕吏 以其族姓同派之人來見 大雨終日 以空名告身申汝吉 閪失洋中事 奉推考而去 慶尙巡使捧去",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 35쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-18",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-30",
+      "julian": "1597-08-20",
+      "computed_gregorian": "1597-08-30",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丁酉",
+        "expected": "丁未",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丁酉 가 1597-08-30 의 실제 일간지 丁未 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丁酉",
+    "text_han": "晴 曉李德弼 與卞弘達來傳曰 十六日曉 舟師夜驚 統制元均與全右水使李億祺․忠淸水使及諸將等多數被害 舟師大敗云 聞來不勝痛哭痛哭 有頃 元帥到來曰 事已至此 無可奈何 無可奈何 話到巳時 不能定意 余告以吾往沿海之地 聞見而定之云 則元帥莫不欣然 余與宋大立․柳滉․尹先覺․方應元․玄應辰․林英立․李元龍․李喜男․洪禹功發程 到三嘉縣 則主倅新到 出待 韓致謙亦到 話久",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 35쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-19",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 19,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-31",
+      "julian": "1597-08-21",
+      "computed_gregorian": "1597-08-31",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "戊戌",
+        "expected": "戊申",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 戊戌 가 1597-08-31 의 실제 일간지 戊申 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "戊戌",
+    "text_han": "終日雨雨 來路上丹城東山山城觀其形勢 則極險 賊不得窺也因宿于丹城縣",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 35~37쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-20",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 20,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-01",
+      "julian": "1597-08-22",
+      "computed_gregorian": "1597-09-01",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "己亥",
+        "expected": "己酉",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 己亥 가 1597-09-01 의 실제 일간지 己酉 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "己亥",
+    "text_han": "終日雨雨 朝權文任姪權以淸來見 主倅亦來見 午到晉州定介山城下江亭 晉牧來見 宿于屈洞李希萬家",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 37쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-21",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 21,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-02",
+      "julian": "1597-08-23",
+      "computed_gregorian": "1597-09-02",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "庚子",
+        "expected": "庚戌",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 庚子 가 1597-09-02 의 실제 일간지 庚戌 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "庚子",
+    "text_han": "晴 早發到昆陽郡 則郡守李天樞在郡 民多在本 或收早穀 或理牟田 晝點後 到露梁則巨濟倅安衛․永登趙繼宗等十餘人 來痛哭 避出軍民 莫不呼哭 慶尙水使走避不見 虞候李義得來見 因問取敗之狀 人皆泣而言曰 大將元均 見賊先奔下陸 諸將盡效下陸 以致此極云云 其言大將之誤 口不可形 欲食其肉云云 宿于巨濟船上 與巨濟倅話 到四更 少不睫目 因得眼疾",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 37쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-22",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-03",
+      "julian": "1597-08-24",
+      "computed_gregorian": "1597-09-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "辛丑",
+        "expected": "辛亥",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 辛丑 가 1597-09-03 의 실제 일간지 辛亥 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "辛丑",
+    "text_han": "晴 朝裵楔來見 多言元均敗亡事 食後到南海倅朴大男在處則病勢幾不能救矣 戰馬相換事 更言之 奴平世及軍士一名率來云 午後到昆陽 氣不平 宿",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 37쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-23",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 23,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-04",
+      "julian": "1597-08-25",
+      "computed_gregorian": "1597-09-04",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "壬寅",
+        "expected": "壬子",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 壬寅 가 1597-09-04 의 실제 일간지 壬子 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "壬寅",
+    "text_han": "或雨或晴 朝自露梁成公事付宋大立 先送于元帥府 隨發到昆陽十五里院 則裵伯起夫人行先到 下馬暫歇 到晉州(屈洞)雲谷前宿處宿 初昏雨作 終夜不止 伯起亦到宿",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 37쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-24",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-05",
+      "julian": "1597-08-26",
+      "computed_gregorian": "1597-09-05",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "癸卯",
+        "expected": "癸丑",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 癸卯 가 1597-09-05 의 실제 일간지 癸丑 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "癸卯",
+    "text_han": "雨雨不止 韓致謙․李安仁歸于副使處 【鄭奴禮孫與孫奴同歸 食後移家于】李弘勛家 方應元自鼎城來 傳黃從事到山城 傳沿海事聞見云 軍粮二斛 馬太二斛及多葛七部持來 是夕裵助防將來見 以酒慰之",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 37~39쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-25",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-06",
+      "julian": "1597-08-27",
+      "computed_gregorian": "1597-09-06",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "甲辰",
+        "expected": "甲寅",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 甲辰 가 1597-09-06 의 실제 일간지 甲寅 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "甲辰",
+    "text_han": "晩晴 黃從事送簡安問 金助防將彦恭來見 而因往元帥府 裵樹立來見 此地主人李弘勛來見 朴南海送其奴龍山 明日入來事告之 夕往見裵伯起病 則苦極苦極 爲慮爲慮 宋得運送問于黃從事處",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 39쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-26",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 26,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-07",
+      "julian": "1597-08-28",
+      "computed_gregorian": "1597-09-07",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "乙巳",
+        "expected": "乙卯",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 乙巳 가 1597-09-07 의 실제 일간지 乙卯 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "乙巳",
+    "text_han": "或雨或晴 早食往于鼎城下松亭下 與黃從事及牧伯話 日晩還到宿處",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 39쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-27",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 27,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-08",
+      "julian": "1597-08-29",
+      "computed_gregorian": "1597-09-08",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丙午",
+        "expected": "丙辰",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丙午 가 1597-09-08 의 실제 일간지 丙辰 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丙午",
+    "text_han": "雨雨終日 早朝移駐于鼎城越邊孫景禮家 晩李同知薦與鄭判官霽 自體相府來傳傳令 同夕食 李同知宿于裵助防將處",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 39쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-28",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 28,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-09",
+      "julian": "1597-08-30",
+      "computed_gregorian": "1597-09-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丁未",
+        "expected": "丁巳",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丁未 가 1597-09-09 의 실제 일간지 丁巳 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丁未",
+    "text_han": "雨雨 李希良來見 初更李同知與晉牧 與召村察訪李蓍慶來 夜話 三更後歸 (皆)論事皆策應事",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 39쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-07-29",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 29,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-10",
+      "julian": "1597-08-31",
+      "computed_gregorian": "1597-09-10",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "戊申",
+        "expected": "戊午",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 戊申 가 1597-09-10 의 실제 일간지 戊午 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "戊申",
+    "text_han": "或雨或晴 朝李君擧令公 同飯而送于體相前 晩出于川邊 點軍馳馬 則元帥所送 皆無馬 又無弓箭無用 可嘆可嘆 夕入來時 入見裵同知及朴南海 終夜大雨 送問于李察訪蓍慶處八月",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 39쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-01",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-11",
+      "julian": "1597-09-01",
+      "computed_gregorian": "1597-09-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "己酉",
+        "expected": "己未",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 己酉 가 1597-09-11 의 실제 일간지 己未 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "己酉",
+    "text_han": "大雨水漲 晩李察訪來見 起信玉 洪大邦等來見",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 39쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-02",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-12",
+      "julian": "1597-09-02",
+      "computed_gregorian": "1597-09-12",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "庚戌",
+        "expected": "庚申",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 庚戌 가 1597-09-12 의 실제 일간지 庚申 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "庚戌",
+    "text_han": "乍晴 獨坐戍軒 懷戀如何 悲慟不已 是夜夢有受命之兆",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 39쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-03",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 3,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-13",
+      "julian": "1597-09-03",
+      "computed_gregorian": "1597-09-13",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "辛亥",
+        "expected": "辛酉",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 辛亥 가 1597-09-13 의 실제 일간지 辛酉 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "辛亥",
+    "text_han": "晴 早朝宣傳官梁護不意入來 賚敎諭書有旨 則乃兼三道統制使之命 肅拜後 祗受書狀書封 卽日發程 直由豆恥之路 初更到行步驛歇馬 三更末登程 到豆恥 則日欲曙矣 朴南海失路誤入江亭 故下馬招來 到雙溪洞 則亂石稜稜 新雨漲流 艱難渡越 到石柱 則李元春與柳海守伏見之 多言討賊事 暮到求禮縣 則一境寂然 宿于城北門外 前日主家 則主人已避山谷云 孫仁弼卽來見 兼負租穀 孫應男獻早柿 二四日也 壬子 晴 朝食後 到鴨綠江院 炊點治馬病 高山縣監 以軍人交付事到來 多言舟師事 午後到谷城 則官舍及閭里一空宿于同縣 朴南海直往南原",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 39~41쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-05",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-15",
+      "julian": "1597-09-05",
+      "computed_gregorian": "1597-09-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "癸丑",
+        "expected": "癸亥",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 癸丑 가 1597-09-15 의 실제 일간지 癸亥 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "癸丑",
+    "text_han": "晴 朝食後 到玉果境 則避亂之人瀰滿道路 可愕可愕 下坐開諭 入縣時 逢李奇男父子到縣 鄭思竣․思立來迎 與之話 縣倅初以病托言不出 有頃來見 欲爲捉出罪之 故來見",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 41쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-06",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-16",
+      "julian": "1597-09-06",
+      "computed_gregorian": "1597-09-16",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "甲寅",
+        "expected": "甲子",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 甲寅 가 1597-09-16 의 실제 일간지 甲子 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "甲寅",
+    "text_han": "晴 【是日留玉果 初更宋大立等 探賊來】",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 41쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-07",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-17",
+      "julian": "1597-09-07",
+      "computed_gregorian": "1597-09-17",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "乙卯",
+        "expected": "乙丑",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 乙卯 가 1597-09-17 의 실제 일간지 乙丑 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "乙卯",
+    "text_han": "晴 早朝登道 直往順天 路逢宣傳官元潗 受有旨 兵使軍盡爲潰還 連絡道路 故馬三弓箭若干奪來 宿谷城江亭",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 41쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-08",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 8,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-18",
+      "julian": "1597-09-08",
+      "computed_gregorian": "1597-09-18",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丙辰",
+        "expected": "丙寅",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丙辰 가 1597-09-18 의 실제 일간지 丙寅 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丙辰",
+    "text_han": "曉發 朝飯于富有倉 則兵使已令衝火 光陽倅具德齡․羅州判官元宗義․沃溝倅等在倉底 聞吾行到來 急走與裵慶男同到鳩峙 余下坐傳令 則一時來拜 余以轉避爲辭 而責之 則皆歸罪 兵使李福男 卽登路 到順天則城內外 人跡寂然 僧惠熙來謁 故付以義將帖 又敎銃筒等移埋 長片箭 則令軍官等分持因宿同府■",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 41쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-09",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 9,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-19",
+      "julian": "1597-09-09",
+      "computed_gregorian": "1597-09-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丁巳",
+        "expected": "丁卯",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丁巳 가 1597-09-19 의 실제 일간지 丁卯 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丁巳",
+    "text_han": "晴 早發到樂安 則五里程 人多出謁問奔散之由 則皆言兵使以賊迫 爲播倉庫衝火而走 以是人民潰散云 到官舍 則寂無人聲 順天府使禹致績․金蹄郡守高鳳翔等來拜 晩到寶城兆陽 宿于金安道家",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 41쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-10",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 10,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-20",
+      "julian": "1597-09-10",
+      "computed_gregorian": "1597-09-20",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "戊午",
+        "expected": "戊辰",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 戊午 가 1597-09-20 의 실제 일간지 戊辰 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "戊午",
+    "text_han": "晴 以氣不平 留宿安道家",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 41쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-11",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-21",
+      "julian": "1597-09-11",
+      "computed_gregorian": "1597-09-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "己未",
+        "expected": "己巳",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 己未 가 1597-09-21 의 실제 일간지 己巳 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "己未",
+    "text_han": "晴 朝移于梁山沅家留 宋希立․崔大晟來見",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 41쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-12",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 12,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-22",
+      "julian": "1597-09-12",
+      "computed_gregorian": "1597-09-22",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "庚申",
+        "expected": "庚午",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 庚申 가 1597-09-22 의 실제 일간지 庚午 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "庚申",
+    "text_han": "晴 啓本出草 因留 【巨濟․鉢浦來見】",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 41쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-13",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-23",
+      "julian": "1597-09-13",
+      "computed_gregorian": "1597-09-23",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "辛酉",
+        "expected": "辛未",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 辛酉 가 1597-09-23 의 실제 일간지 辛未 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "辛酉",
+    "text_han": "晴 巨濟縣令及鉢浦萬戶 來謁還歸 聞水使諸將及避出人等住留 虞候李夢龜來不見 【因河東倅 聞鼎蓋城․碧堅城 兵使自破外陣云 可痛】",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 41쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-14",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-24",
+      "julian": "1597-09-14",
+      "computed_gregorian": "1597-09-24",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "壬戌",
+        "expected": "壬申",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 壬戌 가 1597-09-24 의 실제 일간지 壬申 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "壬戌",
+    "text_han": "朝李夢龜決杖八十 食後封狀啓七度 使尹先覺陪送 午後以御史相會事 到寶城郡宿 夜大雨如注",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 43쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-15",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-25",
+      "julian": "1597-09-15",
+      "computed_gregorian": "1597-09-25",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "癸亥",
+        "expected": "癸酉",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 癸亥 가 1597-09-25 의 실제 일간지 癸酉 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "癸亥",
+    "text_han": "雨雨 晩快晴 食後出坐列仙樓上 宣傳官朴天鳳 持有旨來 則乃八月初七日成貼也 領相出巡京畿云 卽成祗受狀啓 ■寶城軍器點閱 四駄分載 夕皓月樓上 懷極不平",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 43쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-16",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-26",
+      "julian": "1597-09-16",
+      "computed_gregorian": "1597-09-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "甲子",
+        "expected": "甲戌",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 甲子 가 1597-09-26 의 실제 일간지 甲戌 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "甲子",
+    "text_han": "晴 朝令寶城倅軍官等 送于屈岩 搜得避去官吏等 宣傳官朴天鳳還歸故答羅牧及御史任夢正處 送使令等于朴士明家 則士明家已空云 午後弓匠智伊及太貴生․先衣․大男等入來 金希邦․金鵬萬來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 43쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-17",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-27",
+      "julian": "1597-09-17",
+      "computed_gregorian": "1597-09-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "乙丑",
+        "expected": "乙亥",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 乙丑 가 1597-09-27 의 실제 일간지 乙亥 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "乙丑",
+    "text_han": "晴 早食後 直到長興地白沙汀點心後到軍營仇未 則一境已作無人之地水使裵楔不送所騎船 長興軍粮監色盡偸官分去之際 適至捕捉重杖 因宿焉",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 43쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-18",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-28",
+      "julian": "1597-09-18",
+      "computed_gregorian": "1597-09-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丙寅",
+        "expected": "丙子",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丙寅 가 1597-09-28 의 실제 일간지 丙子 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丙寅",
+    "text_han": "晴 往于會寧浦 則水使裵楔托水疾云 故不見 宿于同浦官舍",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 43쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-19",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 19,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-29",
+      "julian": "1597-09-19",
+      "computed_gregorian": "1597-09-29",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丁卯",
+        "expected": "丁丑",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丁卯 가 1597-09-29 의 실제 일간지 丁丑 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丁卯",
+    "text_han": "晴 諸將等敎書肅拜 而裵楔則不爲敎書 祗迎而拜 其侮慢之態 不可言 其營吏決杖 會寧萬戶閔廷鵬 以其戰船受物 私與避亂人魏德毅等罪狀決杖二十",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 43쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-20",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 20,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-30",
+      "julian": "1597-09-20",
+      "computed_gregorian": "1597-09-30",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "戊辰",
+        "expected": "戊寅",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 戊辰 가 1597-09-30 의 실제 일간지 戊寅 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "戊辰",
+    "text_han": "晴 前浦窄狹 移陣于梨津(而)",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 43쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-21",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 21,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-01",
+      "julian": "1597-09-21",
+      "computed_gregorian": "1597-10-01",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "己巳",
+        "expected": "己卯",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 己巳 가 1597-10-01 의 실제 일간지 己卯 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "己巳",
+    "text_han": "晴 未曉得霍亂重痛 而觸冷爲意 飮燒酒 有頃 不省人事 幾至不救 達夜坐曉",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 43쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-22",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-02",
+      "julian": "1597-09-22",
+      "computed_gregorian": "1597-10-02",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "庚午",
+        "expected": "庚辰",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 庚午 가 1597-10-02 의 실제 일간지 庚辰 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "庚午",
+    "text_han": "晴 霍亂漸重 不能起動",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 43쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-23",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 23,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-03",
+      "julian": "1597-09-23",
+      "computed_gregorian": "1597-10-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "辛未",
+        "expected": "辛巳",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 辛未 가 1597-10-03 의 실제 일간지 辛巳 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "辛未",
+    "text_han": "晴 痛勢極重 而泊船不便棄船出海而宿",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 43~45쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-24",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-04",
+      "julian": "1597-09-24",
+      "computed_gregorian": "1597-10-04",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "壬申",
+        "expected": "壬午",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 壬申 가 1597-10-04 의 실제 일간지 壬午 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "壬申",
+    "text_han": "晴 早到刀掛 朝飯到於蘭前洋 則到處已爲空虛 宿于洋中",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 45쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-25",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-05",
+      "julian": "1597-09-25",
+      "computed_gregorian": "1597-10-05",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "癸酉",
+        "expected": "癸未",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 癸酉 가 1597-10-05 의 실제 일간지 癸未 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "癸酉",
+    "text_han": "晴 因駐同處 朝食時 唐浦鮑作偸放牛牽去 而虛警曰 賊來賊來 余已知其誣 拿虛警者二名 卽令斬梟軍中大定",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 45쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-26",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 26,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-06",
+      "julian": "1597-09-26",
+      "computed_gregorian": "1597-10-06",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "甲戌",
+        "expected": "甲申",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 甲戌 가 1597-10-06 의 실제 일간지 甲申 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "甲戌",
+    "text_han": "晴 因駐於蘭 任俊英騎馬而來 奔告賊勢 到梨津云 右水使來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 45쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-27",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 27,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-07",
+      "julian": "1597-09-27",
+      "computed_gregorian": "1597-10-07",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "乙亥",
+        "expected": "乙酉",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 乙亥 가 1597-10-07 의 실제 일간지 乙酉 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "乙亥",
+    "text_han": "晴 因留於蘭洋中",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 45쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-28",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 28,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-08",
+      "julian": "1597-09-28",
+      "computed_gregorian": "1597-10-08",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丙子",
+        "expected": "丙戌",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丙子 가 1597-10-08 의 실제 일간지 丙戌 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丙子",
+    "text_han": "晴 賊船八隻 不意入來 諸船恐㤼 欲避 慶尙水使欲爲避退 余不爲擾動敵船到迫 令角指旗而追逐 賊船退去 追至葛頭還來 夕移泊獐島",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 45쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-08-29",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 29,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-09",
+      "julian": "1597-09-29",
+      "computed_gregorian": "1597-10-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丁丑",
+        "expected": "丁亥",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丁丑 가 1597-10-09 의 실제 일간지 丁亥 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丁丑",
+    "text_han": "晴 朝渡碧波津卅日戊寅 晴 因留碧波津九月",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 45쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-01",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-11",
+      "julian": "1597-10-01",
+      "computed_gregorian": "1597-10-10",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "己卯",
+        "expected": "己丑",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 己卯 가 1597-10-11 의 실제 일간지 己丑 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-10)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "己卯",
+    "text_han": "晴 因留碧波",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 45쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-02",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-12",
+      "julian": "1597-10-02",
+      "computed_gregorian": "1597-10-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "庚辰",
+        "expected": "庚寅",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 庚辰 가 1597-10-12 의 실제 일간지 庚寅 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-11)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "庚辰",
+    "text_han": "晴 下坐亭上 鮑作占世自濟州來謁是曉裵楔逃去",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 45쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-03",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 3,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-13",
+      "julian": "1597-10-03",
+      "computed_gregorian": "1597-10-12",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "辛巳",
+        "expected": "辛卯",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 辛巳 가 1597-10-13 의 실제 일간지 辛卯 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-12)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "辛巳",
+    "text_han": "雨洒 縮首篷下 懷思如何",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 45쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-04",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 4,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-14",
+      "julian": "1597-10-04",
+      "computed_gregorian": "1597-10-13",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "壬午",
+        "expected": "壬辰",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 壬午 가 1597-10-14 의 실제 일간지 壬辰 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-13)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "壬午",
+    "text_han": "北風大吹 各船僅得保完 天幸",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 45쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-05",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-15",
+      "julian": "1597-10-05",
+      "computed_gregorian": "1597-10-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "癸未",
+        "expected": "癸巳",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 癸未 가 1597-10-15 의 실제 일간지 癸巳 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-14)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "癸未",
+    "text_han": "北風大吹 各船不能相保",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 45쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-06",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-16",
+      "julian": "1597-10-06",
+      "computed_gregorian": "1597-10-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "甲申",
+        "expected": "甲午",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 甲申 가 1597-10-16 의 실제 일간지 甲午 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-15)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "甲申",
+    "text_han": "風似息 而波浪不定",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 45쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-07",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-17",
+      "julian": "1597-10-07",
+      "computed_gregorian": "1597-10-16",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "乙酉",
+        "expected": "乙未",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 乙酉 가 1597-10-17 의 실제 일간지 乙未 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-16)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "乙酉",
+    "text_han": "風始定 探望軍官林仲亨來告曰 賊船五十五隻內十三隻 已到於蘭前洋 其意在舟師云 故嚴勅各船 申時賊船十三隻 直向結陣處我船亦爲擧碇 出海迎擊進迫 則賊船回船奔避 追至遠海 風水俱逆 不能行船 還到碧波津 疑有夜驚 二更賊船放砲 夜驚諸船 似有恇怯之狀 更爲嚴令 余所騎船直當賊船向來放砲 則賊徒不能抵當三更退去 曾得利閑山者也",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 45~47쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-08",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 8,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-18",
+      "julian": "1597-10-08",
+      "computed_gregorian": "1597-10-17",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丙戌",
+        "expected": "丙申",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丙戌 가 1597-10-18 의 실제 일간지 丙申 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-17)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丙戌",
+    "text_han": "晴 賊船不來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 47쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-09",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 9,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-19",
+      "julian": "1597-10-09",
+      "computed_gregorian": "1597-10-18",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丁亥",
+        "expected": "丁酉",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丁亥 가 1597-10-19 의 실제 일간지 丁酉 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-18)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丁亥",
+    "text_han": "晴 是日乃九日 欲饋軍 而適得副察使軍粮 所繼濟州牛五隻而來幷令鹿島 安骨屠餉將士之際 賊船二隻 直入甘甫島 探我船多寡永登萬戶趙繼宗 窮追不及",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 47쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-10",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 10,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-20",
+      "julian": "1597-10-10",
+      "computed_gregorian": "1597-10-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "戊子",
+        "expected": "戊戌",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 戊子 가 1597-10-20 의 실제 일간지 戊戌 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-19)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "戊子",
+    "text_han": "晴 賊徒遠遁",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 47쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-11",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-21",
+      "julian": "1597-10-11",
+      "computed_gregorian": "1597-10-20",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "己丑",
+        "expected": "己亥",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 己丑 가 1597-10-21 의 실제 일간지 己亥 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-20)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "己丑",
+    "text_han": "晴",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 47쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-12",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 12,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-22",
+      "julian": "1597-10-12",
+      "computed_gregorian": "1597-10-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "庚寅",
+        "expected": "庚子",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 庚寅 가 1597-10-22 의 실제 일간지 庚子 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-21)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "庚寅",
+    "text_han": "雨雨",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 47쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-13",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-23",
+      "julian": "1597-10-13",
+      "computed_gregorian": "1597-10-22",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "辛卯",
+        "expected": "辛丑",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 辛卯 가 1597-10-23 의 실제 일간지 辛丑 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-22)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "辛卯",
+    "text_han": "晴而北風大吹",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 47쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-14",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-24",
+      "julian": "1597-10-14",
+      "computed_gregorian": "1597-10-23",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "壬辰",
+        "expected": "壬寅",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 壬辰 가 1597-10-24 의 실제 일간지 壬寅 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-23)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "壬辰",
+    "text_han": "晴而北風大吹 任俊英(陸路)偵探陸地 馳來曰賊船五十五隻 已入於蘭前洋 且曰 被擄逃還仲乞傳言內 今月初六日 避亂于達磨山 爲倭所擄縛 載倭船 金海名不知人 乞于將倭處解縛 夜金海人附耳潛言曰 朝鮮舟師十餘隻 追逐我船 或射殺焚船 不可不報復 招聚諸船 盡殺舟師人 然後直上京江云云 此言雖不盡信 亦不無是理 故送傳令船右水營 避亂人卽上去事敎之",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 47쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-15",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-25",
+      "julian": "1597-10-15",
+      "computed_gregorian": "1597-10-24",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "癸巳",
+        "expected": "癸卯",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 癸巳 가 1597-10-25 의 실제 일간지 癸卯 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-24)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "癸巳",
+    "text_han": "晴 潮水 率諸船入于右水營前洋因留宿 夜夢多異祥",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 47쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-gyogam-1597-09-16",
+    "edition_id": "ed-gyogam-noseungseok",
+    "reading_id": "rd-noseungseok",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-26",
+      "julian": "1597-10-16",
+      "computed_gregorian": "1597-10-25",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "해당 날짜 일기 존재 여부 미확인. 양력 10.26(문서) vs 변환기 10.25: events.json 의 명량 항목 참조."
+    },
+    "text_han": null,
+    "text_ko": null,
+    "translator": null,
     "text_status": "placeholder",
     "note": "구조 확인용 자리표시자. 기준 판본(교감본) 원문을 입력하기 전까지 본문을 만들지 않는다."
+  },
+  {
+    "id": "de-autograph-1597-09-16",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-26",
+      "julian": "1597-10-16",
+      "computed_gregorian": "1597-10-25",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "甲午",
+        "expected": "甲辰",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 甲午 가 1597-10-26 의 실제 일간지 甲辰 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-25)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "甲午",
+    "text_han": "晴 早朝望軍進告內 賊船無慮二百餘隻 鳴梁由入直向結陣處云 招集諸將申明約束 擧碇出海 則賊船一百三十三隻 回擁我船 上船獨入敵船中炮丸射矢 發如風雨 諸船觀望不進(■)事將不測 船上之人 相顧失色 余柔而論解曰 賊雖千隻 莫敢直搏我船 切勿動心 盡力射賊 顧見諸船 已退一馬場許 右水使金億秋所騎船 則遠去渺然 欲回船 直泊中軍金應諴船 先斬梟示 而我船回頭 則諸船次次遠退 賊船漸迫 事勢狼狽 立中軍令下 麾與招搖旗 金應諴漸近船 巨縣安衛船亦到 余立船舷 親呼安衛曰 汝强欲死於軍法耶 再呼 安衛敢死於軍法乎退(生)去得生乎 安衛慌忙直入交鋒之際 賊將船及他賊二船 蟻附于安衛船安衛格卒七八名 投水游泳 幾不能救 余回船直入安衛船 安衛船上之人 殊死亂擊余所騎船上軍官之輩 如雨亂射 賊船二隻 無遺盡勦 天幸天幸 圍抱(之)敵船三十隻亦爲撞破 諸賊不能抵當 更不來犯 欲泊于同處 則水退不合泊船 移陣于越邊浦乘月移泊于唐笥島 經夜",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 47~49쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-17",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-27",
+      "julian": "1597-10-17",
+      "computed_gregorian": "1597-10-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "乙未",
+        "expected": "乙巳",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 乙未 가 1597-10-27 의 실제 일간지 乙巳 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-26)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "乙未",
+    "text_han": "晴 到汝吾乙島 則避亂之人 無數來泊 臨淄僉使 無船格 未出云",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 49쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-18",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-28",
+      "julian": "1597-10-18",
+      "computed_gregorian": "1597-10-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丙申",
+        "expected": "丙午",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丙申 가 1597-10-28 의 실제 일간지 丙午 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-27)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丙申",
+    "text_han": "晴 因留同處 臨淄僉使來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 49쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-19",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 19,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-29",
+      "julian": "1597-10-19",
+      "computed_gregorian": "1597-10-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丁酉",
+        "expected": "丁未",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丁酉 가 1597-10-29 의 실제 일간지 丁未 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-28)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丁酉",
+    "text_han": "晴 早發渡七山島 風軟天晴 行船極良 到法聖浦船倉 則賊已犯到 或焚人家 日沒時 還到洪龍串洋中宿",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 49쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-20",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 20,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-30",
+      "julian": "1597-10-20",
+      "computed_gregorian": "1597-10-29",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "戊戌",
+        "expected": "戊申",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 戊戌 가 1597-10-30 의 실제 일간지 戊申 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-29)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "戊戌",
+    "text_han": "晴且風順 行船到古參島則避亂之人 無數泊船 李光輔亦來見李至和父子又來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 49쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-21",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 21,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-31",
+      "julian": "1597-10-21",
+      "computed_gregorian": "1597-10-30",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "己亥",
+        "expected": "己酉",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 己亥 가 1597-10-31 의 실제 일간지 己酉 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-30)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "己亥",
+    "text_han": "晴 曉發到古群山島湖南巡察 聞吾(入)到來(見) 乘船走向沃溝云",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 49~51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-22",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-01",
+      "julian": "1597-10-22",
+      "computed_gregorian": "1597-10-31",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "庚子",
+        "expected": "庚戌",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 庚子 가 1597-11-01 의 실제 일간지 庚戌 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-10-31)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "庚子",
+    "text_han": "晴",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-23",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 23,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-02",
+      "julian": "1597-10-23",
+      "computed_gregorian": "1597-11-01",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "辛丑",
+        "expected": "辛亥",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 辛丑 가 1597-11-02 의 실제 일간지 辛亥 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-11-01)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "辛丑",
+    "text_han": "晴",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-24",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-03",
+      "julian": "1597-10-24",
+      "computed_gregorian": "1597-11-02",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "壬寅",
+        "expected": "壬子",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 壬寅 가 1597-11-03 의 실제 일간지 壬子 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-11-02)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "壬寅",
+    "text_han": "晴",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-25",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-04",
+      "julian": "1597-10-25",
+      "computed_gregorian": "1597-11-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "癸卯",
+        "expected": "癸丑",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 癸卯 가 1597-11-04 의 실제 일간지 癸丑 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-11-03)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "癸卯",
+    "text_han": "晴",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-26",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 26,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-05",
+      "julian": "1597-10-26",
+      "computed_gregorian": "1597-11-04",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "甲辰",
+        "expected": "甲寅",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 甲辰 가 1597-11-05 의 실제 일간지 甲寅 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-11-04)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "甲辰",
+    "text_han": "晴 是夜虛汗沾身",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-27",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 27,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-06",
+      "julian": "1597-10-27",
+      "computed_gregorian": "1597-11-05",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "乙巳",
+        "expected": "乙卯",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 乙巳 가 1597-11-06 의 실제 일간지 乙卯 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-11-05)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "乙巳",
+    "text_han": "晴 宋漢持大捷啓聞乘船上去 鄭霽亦以忠淸水使處 持傳令去 氣甚不平 終夜苦痛",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-28",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 28,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-07",
+      "julian": "1597-10-28",
+      "computed_gregorian": "1597-11-06",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丙午",
+        "expected": "丙辰",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丙午 가 1597-11-07 의 실제 일간지 丙辰 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-11-06)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丙午",
+    "text_han": "晴 宋漢及鄭霽 爲風所阻 還來",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-09-29",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 29,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-08",
+      "julian": "1597-10-29",
+      "computed_gregorian": "1597-11-07",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "丁未",
+        "expected": "丁巳",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 丁未 가 1597-11-08 의 실제 일간지 丁巳 와 다름 (천간 일치, 지지 +2). 양력은 변환값(1597-11-07)을 천간 기준으로 1일 조정 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "丁未",
+    "text_han": "晴 宋漢等 風利發去十月",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-10-01",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 10,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-09",
+      "julian": "1597-10-30",
+      "computed_gregorian": "1597-11-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "戊申",
+        "expected": "戊午",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 戊申 가 1597-11-09 의 실제 일간지 戊午 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "戊申",
+    "text_han": "晴",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-10-02",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 10,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-10",
+      "julian": "1597-10-31",
+      "computed_gregorian": "1597-11-10",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "己酉",
+        "expected": "己未",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 己酉 가 1597-11-10 의 실제 일간지 己未 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "己酉",
+    "text_han": "晴 豚薈以(其母相見)家屬生死探見事上去 【獨坐船上 懷思萬端】",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-10-03",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 10,
+        "day": 3,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-11",
+      "julian": "1597-11-01",
+      "computed_gregorian": "1597-11-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "ganji_check": {
+        "written": "庚戌",
+        "expected": "庚申",
+        "stem_match": true,
+        "branch_shift": 2
+      },
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 기록 일간지 庚戌 가 1597-11-11 의 실제 일간지 庚申 와 다름 (천간 일치, 지지 +2). 양력은 변환값 — 일기의 간지 오기 가능성."
+    },
+    "day_ganji": "庚戌",
+    "text_han": "晴 曉頭發船 還由邊山 直下法聖浦 則風勢甚軟 暖如春日 暮到法聖倉前",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-10-04",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 10,
+        "day": 4,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-12",
+      "julian": "1597-11-02",
+      "computed_gregorian": "1597-11-12",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 辛酉 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "辛酉",
+    "text_han": "晴",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-10-05",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 10,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-13",
+      "julian": "1597-11-03",
+      "computed_gregorian": "1597-11-13",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 壬戌 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "壬戌",
+    "text_han": "晴",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-10-06",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 10,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-14",
+      "julian": "1597-11-04",
+      "computed_gregorian": "1597-11-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 癸亥 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "癸亥",
+    "text_han": "(晴) 陰而或雨雪霏霏",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-10-07",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 10,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-15",
+      "julian": "1597-11-05",
+      "computed_gregorian": "1597-11-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 甲子 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "甲子",
+    "text_han": "陰雲不收 或雨或晴",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
+  },
+  {
+    "id": "de-autograph-1597-10-08",
+    "edition_id": "ed-autograph",
+    "reading_id": "rd-heritage-portal",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 10,
+        "day": 8,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-16",
+      "julian": "1597-11-06",
+      "computed_gregorian": "1597-11-16",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일간지 乙丑 로 확정(변환기와 일치)."
+    },
+    "day_ganji": "乙丑",
+    "text_han": "晴 風氣似順 曉寶城 朴士明士浻 小童嗚呼 玆何等時 而綱欲去耶 去又何之耶 夫人臣事君 有死無貳 當是時也宗社之危 僅如一髮之引千鈞 玆正人臣捐軀報國之秋 去之之言 固不可萠諸心 況敢出諸口耶 然則爲綱計柰何 毁形泣血 披肝瀝膽 明言事勢至此無可和之理 言旣不從 繼之以死 又不然 姑從其計 身豫其間 爲之委曲彌縫 死中求生 萬一或有可濟之理 綱計不出此 而欲求去 玆豈置人臣委身事君之義哉新及第元景詮韓致謙 防在右兵使陣鄭復禮南曄鄭大淳 晉州雲谷趙珩趙琓李弘勛 主家松谷首倡奴鳳還石雲雷孫白川別將訓正趙信玉洪大邦米十四太十八且四豆二及十大五米二正兵金得尙 箭手興陽金德邦德龍 出身出身 趙彦海 牙山出身 朴允希 時在朴有曄 忠淸防禦使陣中主簿宋象甫 無馬 而有戰馬 能勦賊云順天李珍빈면빈면빈면표지",
+    "text_ko": null,
+    "translator": null,
+    "source_ref": "국가유산포털 원문텍스트 5책 정유일기 51~59쪽",
+    "input_by": "auto-import(heritage.go.kr)",
+    "input_date": "2026-11-15",
+    "reviewed_by": null,
+    "text_status": "transcribed",
+    "note": null
   }
 ]
