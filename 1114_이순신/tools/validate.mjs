@@ -1,7 +1,7 @@
 // 샘플 데이터 검증기 (Node 18+, 의존성 없음).
 // 검사: 스키마(type/required/enum/pattern/items/$ref), id 유일성, 참조 무결성,
 // 그레고리력-율리우스력 일치, 기준 판본 1개, verified 와 certainty 일관성.
-// 사용법: node tools/validate.mjs [data/sample/1597-1598]
+// 사용법: node tools/validate.mjs [data/sample/nanjung]
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -168,7 +168,7 @@ export function validateDir(dir) {
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  const target = resolve(process.argv[2] ?? join(ROOT, "data", "sample", "1597-1598"));
+  const target = resolve(process.argv[2] ?? join(ROOT, "data", "sample", "nanjung"));
   const errors = validateDir(target);
   if (errors.length) {
     console.log(`검증 실패 (${errors.length}건)`);

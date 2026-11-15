@@ -1,4 +1,4 @@
-// 샘플 데이터(1597-1598)의 핵심 불변식. 데이터를 다시 가져오거나 분할기를 고칠 때 회귀를 잡는다.
+// 샘플 데이터(1596-1598)의 핵심 불변식. 데이터를 다시 가져오거나 분할기를 고칠 때 회귀를 잡는다.
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -6,7 +6,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { ganjiOfIso } from "../tools/lunar.mjs";
 
-const DIR = resolve(dirname(fileURLToPath(import.meta.url)), "..", "data", "sample", "1597-1598");
+const DIR = resolve(dirname(fileURLToPath(import.meta.url)), "..", "data", "sample", "nanjung");
 const load = (f) => JSON.parse(readFileSync(join(DIR, f), "utf-8"));
 const entries = load("diary_entries.json").filter((e) => e.text_status !== "placeholder");
 const events = load("events.json");
@@ -18,6 +18,46 @@ test("책별 입력 일수 (5책 4/1~10/8, 6책 8/6~1598 1/4, 7책 9/15~10/7)", 
   assert.equal(vol("6책 속정유일기", 1597).length, 141);
   assert.equal(vol("6책 속정유일기", 1598).length, 4);
   assert.equal(vol("7책 무술일기").length, 23);
+});
+
+test("4책 병신일기: 1596 1/1~10/11 305일(윤8월 28일 포함), 전부 verified·변환기 일치", () => {
+  const b4 = vol("4책 병신일기");
+  assert.equal(b4.length, 305);
+  assert.equal(b4.filter((e) => e.date.original.leap_month).length, 28);
+  for (const e of b4) {
+    assert.equal(e.date.original.year, 1596, e.id);
+    assert.equal(e.date.certainty, "verified", e.id);
+    assert.equal(e.date.gregorian, e.date.computed_gregorian, e.id);
+    assert.equal(e.date.ganji_check, undefined, e.id);
+  }
+  // 윤8월 초하루: 乙丑 = 1596-09-22. 윤달 id 는 L 표기.
+  const l1 = b4.find((e) => e.id === "de-autograph-b4-1596-L08-01");
+  assert.equal(l1.day_ganji, "乙丑");
+  assert.equal(l1.date.gregorian, "1596-09-22");
+});
+
+test("4책: 일기가 없는 날은 6/24 와 윤8/24 뿐 (月 안에서 빠진 날 검사)", () => {
+  const b4 = vol("4책 병신일기");
+  const missing = [];
+  for (const e of b4) {
+    const o = e.date.original;
+    const prev = b4.find((x) => x.date.original.month === o.month && !!x.date.original.leap_month === !!o.leap_month && x.date.original.day === o.day - 1);
+    if (o.day > 1 && !prev) missing.push(`${o.leap_month ? "윤" : ""}${o.month}/${o.day - 1}`);
+  }
+  assert.deepEqual(missing, ["6/24", "윤8/24"]);
+});
+
+test("본문 정리: 주석 번호·면 라벨(빈면/표지) 없음, 4책 끝 부록은 제외(10/11 = 晴)", () => {
+  for (const e of entries) {
+    assert.ok(!/\d\)/.test(e.text_han), `${e.id} 주석 번호`);
+    assert.ok(!/빈면|표지/.test(e.text_han), `${e.id} 면 라벨`);
+  }
+  assert.equal(entries.find((e) => e.id === "de-autograph-b4-1596-10-11").text_han, "晴");
+});
+
+test("4책 9월 '女眞' 표기 위치 (판독 쟁점 후보: 9/12, 9/14, 9/15) — 본문을 고치지 않고 그대로 보존", () => {
+  const hits = vol("4책 병신일기").filter((e) => e.text_han.includes("女眞")).map((e) => `${e.date.original.month}/${e.date.original.day}`);
+  assert.deepEqual(hits, ["9/12", "9/14", "9/15"]);
 });
 
 test("30일을 卅/三十 로 적은 날도 읽힘 (5책 8/30, 6책 1597-12-30)", () => {

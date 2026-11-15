@@ -1,5 +1,5 @@
-// Project YI MVP viewer — 정적 JSON(data/sample/1597-1598)을 읽어 그린다. 빌드 단계 없음.
-const BASE = "/data/sample/1597-1598/";
+// Project YI MVP viewer — 정적 JSON(data/sample/nanjung)을 읽어 그린다. 빌드 단계 없음.
+const BASE = "/data/sample/nanjung/";
 const FILES = ["sources", "editions", "readings", "events", "claims", "diary_entries", "coverage"];
 const LAYER = { contemporary: "당대 기록", compiled_later: "후대 편찬", modern_reception: "근대 수용", contemporary_scholarship: "현대 연구", popular: "대중 서사", reference_secondary: "2차 참고", unclassified: "층위 미분류" };
 const ORIGIN = { kr: "조선", jp: "일본", cn: "명", west: "서구", intl: "기타" };
@@ -13,7 +13,8 @@ const chip = (kind, text) => `<span class="chip ${kind}">${esc(text)}</span>`;
 const certChip = (c) => chip(c, CERT[c] ?? c);
 
 const D = {};
-const DEFAULT_EVENT = { 1597: "ev-1597-myeongnyang", 1598: "ev-1598-joint-assault" };
+const YEARS = [1596, 1597, 1598];
+const DEFAULT_EVENT = { 1596: null, 1597: "ev-1597-myeongnyang", 1598: "ev-1598-joint-assault" };
 const state = { tab: "timeline", year: 1597, eventId: DEFAULT_EVENT[1597], month: 9 };
 
 async function load() {
@@ -27,7 +28,7 @@ const pct = (iso) => (dayOfYear(iso) / 365) * 100;
 const placed = (ev) => ev.date.gregorian?.length === 10 && ev.date.gregorian.startsWith(String(state.year));
 /** 사건이 보고 있는 연도에 속하는가. 범위 사건(예: 1594~1598)은 범위 안의 모든 해에 속한다. */
 const inYear = (ev, y) => (ev.date.precision === "range" ? ev.date.original.year <= y && y <= ev.date.end_year : Number((ev.date.gregorian ?? String(ev.date.original.year)).slice(0, 4)) === y);
-const yearTabs = () => `<div class="years">${[1597, 1598].map((y) => `<button data-year="${y}" aria-pressed="${y === state.year}">${y}년</button>`).join("")}</div>`;
+const yearTabs = () => `<div class="years">${YEARS.map((y) => `<button data-year="${y}" aria-pressed="${y === state.year}">${y}년</button>`).join("")}</div>`;
 
 function banner() {
   const all = [...D.events, ...D.diary_entries];
@@ -95,7 +96,7 @@ function diaryMonthCell(entries) {
   if (!w.length) return '<span class="empty">입력된 일기 없음 (≠ 일기가 없다는 뜻, "입력되지 않음")</span>';
   return [...byVolume(w)].map(([vol, es]) => {
     const bad = es.filter((e) => e.date.ganji_check).length;
-    const rows = es.map((e) => { const o = e.date.original; return `<tr><td style="width:56px">${o.month}/${o.day}</td><td style="width:150px">${e.date.gregorian ?? "—"} ${checkChip(e)}</td><td class="note">${esc(e.text_han.slice(0, 46))}…</td></tr>`; }).join("");
+    const rows = es.map((e) => { const o = e.date.original; return `<tr><td style="width:56px">${o.leap_month ? "윤" : ""}${o.month}/${o.day}</td><td style="width:150px">${e.date.gregorian ?? "—"} ${checkChip(e)}</td><td class="note">${esc(e.text_han.slice(0, 46))}…</td></tr>`; }).join("");
     return `<div style="margin-bottom:8px"><b>${esc(vol)} · ${es.length}일 입력</b> ${bad ? chip("disputed", `일간지 불일치 ${bad}일`) : chip("verified", "일간지 전부 일치")}
       <details style="margin-top:4px"><summary>일기 목록 열기</summary><table>${rows}</table></details></div>`;
   }).join("");
@@ -121,7 +122,7 @@ function diaryFor(ev) {
 
 function detail() {
   const e = D.byId[state.eventId];
-  if (!e) return '<p class="empty">사건을 선택하세요.</p>';
+  if (!e) return state.eventId ? '<p class="empty">사건을 선택하세요.</p>' : '<p class="empty">이 해에는 아직 정리된 사건이 없습니다. 일기는 위의 음력 월 슬라이더와 「판본 · 일기」 탭에서 볼 수 있습니다.</p>';
   const d = e.date, o = d.original;
   const claims = D.claims.filter((c) => c.event_id === e.id);
   const fields = [...new Set(claims.map((c) => c.field))];
@@ -169,13 +170,14 @@ function editions() {
   return `<section class="card"><h2>난중일기 판본 계보</h2>
     <p class="note">친필 초고 → 필사·간행·탈초 → 교감본. 번역은 표시용이며 분석은 한문 판독본에서 합니다.</p>
     <ul class="tree">${D.editions.map(li).join("")}</ul></section>
-    <section class="card"><h2>1597~1598년 일기 입력 현황</h2>
+    <section class="card"><h2>1596~1598년 일기 입력 현황</h2>
     ${monthSummary()}
-    <p class="note">초고본 5책·6책·7책 본문은 국가유산포털 원문텍스트(판독 주체·이용 조건 미확인, 미검수). 기준 판본(교감본) 본문은 아직 비어 있습니다(placeholder). 가져오기: <code>tools/research/fetch_heritage_text.mjs</code> → <code>build_diary_tsv.mjs</code> → <code>import_diary.mjs</code></p>
+    <p class="note">초고본 4책~7책 본문은 국가유산포털 원문텍스트(판독 주체·이용 조건 미확인, 미검수). 기준 판본(교감본) 본문은 아직 비어 있습니다(placeholder). 가져오기: <code>tools/research/fetch_heritage_text.mjs</code> → <code>build_diary_tsv.mjs</code> → <code>import_diary.mjs</code></p>
     <h3>결측 기록</h3><table><tr><th>기간</th><th>판본</th><th>상태</th><th>메모</th></tr>${D.coverage.map((c) => `<tr><td>${esc(c.period)}</td><td>${esc(D.byId[c.edition_id]?.title)}</td><td>${chip("", COVER[c.status])}</td><td class="note">${esc(c.note)}</td></tr>`).join("")}</table></section>`;
 }
 
 const NOTE = {
+  "4책 병신일기": "1/1~10/11 305일(윤8월 포함) 일간지가 전부 달력·변환기와 일치. 일기가 없는 날은 6/24, 윤8/24뿐. 9/12·9/14·9/15의 '女眞' 표기는 판독 쟁점 후보(결측 기록 참조).",
   "5책 정유일기": "4~6월은 전부 일치. 7/4~10/3은 천간은 맞고 지지가 일관되게 +2(일기 자체의 간지 오기 가능성, 가설).",
   "6책 속정유일기": "일간지가 처음부터 끝까지 달력과 일치. 1597 9월 29일은 변환기보다 +1일(변환기 표 오류), 8/30은 변환기에 없는 날(변환기는 8월을 29일로 봄). 1598 정월 1~4일은 변환기와 일치.",
   "7책 무술일기": "9/15~10/7 23일, 일간지가 연속·일치하고 변환기와도 일치. 책 앞부분의 명 장수 선물 목록과 10/7 항목 끝의 명 보고문·선박 수 목록은 일기 본문이 아님(결측 기록 참조).",
@@ -184,16 +186,16 @@ const NOTE = {
 function monthSummary() {
   const w = written(D.diary_entries);
   return [...byVolume(w)].map(([vol, all]) => {
-    const ym = (e) => e.date.original.year * 100 + e.date.original.month;
+    const ym = (e) => e.date.original.year * 10000 + e.date.original.month * 100 + (e.date.original.leap_month ? 50 : 0);
     const months = [...new Set(all.map(ym))].sort((a, b) => a - b);
     const rows = months.map((key) => {
-      const m = key % 100, yr = Math.floor(key / 100);
+      const yr = Math.floor(key / 10000), m = Math.floor((key % 10000) / 100), lp = key % 100 === 50;
       const es = all.filter((e) => ym(e) === key);
       const bad = es.filter((e) => e.date.ganji_check);
       const shifts = [...new Set(bad.map((e) => e.date.ganji_check.branch_shift))].map((s) => (s > 0 ? "+" : "") + s).join(", ");
       const adj = es.filter((e) => e.date.computed_gregorian && e.date.gregorian !== e.date.computed_gregorian).length;
       const noConv = es.filter((e) => !e.date.computed_gregorian).length;
-      return `<tr><td>${yr}년 음력 ${m}월</td><td>${es.length}일</td><td>${es.length - bad.length}</td><td>${bad.length ? `${chip("disputed", `${bad.length}일`)} 지지 ${shifts}, 천간 불일치 ${bad.filter((e) => !e.date.ganji_check.stem_match).length}` : "—"}</td><td>${adj ? `${chip("disputed", `${adj}일`)} 변환기보다 +1일` : "—"}${noConv ? ` ${chip("unverified", `${noConv}일 변환기에 없음`)}` : ""}</td></tr>`;
+      return `<tr><td>${yr}년 음력 ${lp ? "윤" : ""}${m}월</td><td>${es.length}일</td><td>${es.length - bad.length}</td><td>${bad.length ? `${chip("disputed", `${bad.length}일`)} 지지 ${shifts}, 천간 불일치 ${bad.filter((e) => !e.date.ganji_check.stem_match).length}` : "—"}</td><td>${adj ? `${chip("disputed", `${adj}일`)} 변환기보다 +1일` : "—"}${noConv ? ` ${chip("unverified", `${noConv}일 변환기에 없음`)}` : ""}</td></tr>`;
     }).join("");
     return `<h3>${esc(vol)} · ${all.length}일</h3><table><tr><th>월</th><th>입력</th><th>간지 일치</th><th>간지 불일치</th><th>양력 조정(변환기 대비)</th></tr>${rows}</table>
       <p class="note">${esc(NOTE[vol] ?? "")}</p>`;

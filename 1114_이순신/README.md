@@ -12,11 +12,13 @@ npm run serve      # MVP 화면: http://127.0.0.1:5173/ (연표·사료 층위·
 
 ## 일기 원문 입력 흐름
 1. `data/input/gyogam-1597.tsv`에 하루 한 줄로 입력한다 (열: `lunar_month, lunar_day, leap, gregorian, text_han, text_ko, source_ref, note`). 헤더와 주석만 있는 빈 템플릿이 들어 있다.
-2. 미리 확인: `node tools/import_diary.mjs data/input/gyogam-1597.tsv data/sample/1597-1598 --year 1597 --by <입력자> --dry`
+2. 미리 확인: `node tools/import_diary.mjs data/input/gyogam-1597.tsv data/sample/nanjung --year 1597 --by <입력자> --dry`
 3. 오류가 하나도 없을 때만 저장된다. 같은 id는 교체, 나머지는 유지. 월별 입력 일수가 출력된다.
 4. `npm run validate`로 최종 확인.
 
-**국가유산포털 원문 가져오기(초고본 5책·6책)**: `node tools/research/fetch_heritage_text.mjs <책>` → `node tools/research/build_diary_tsv.mjs <책> <시작 음력 월> <출력.tsv> <시작 일>` → `node tools/import_diary.mjs <tsv> data/sample/1597-1598 --year 1597 --by <이름> --edition ed-autograph --reading rd-heritage-portal --volume "<책 이름>" --tag <b5|b6>`. 5책은 시작 `4 … 1`, 6책은 `8 … 6`(8/4~8/5는 훼손 단편이라 8/6부터). 월 머리(`九月初一日…`)가 있으면 롤오버 추정보다 우선하고, 무술년(1598) 정월 이후는 1597 입력에서 제외한다. 같은 날짜가 여러 책에 있어 항목은 `volume`으로 구분한다. 포털은 펼침면(2쪽) 단위로 응답하므로 중복 면을 제거하고, 날짜 번호를 기준으로 일별 분할한다. 포털 판독문은 미검수이며 이용 조건(공공누리 유형)을 확인하기 전에는 공개 배포하지 않는다.
+**국가유산포털 원문 가져오기(초고본 5책·6책)**: `node tools/research/fetch_heritage_text.mjs <책>` → `node tools/research/build_diary_tsv.mjs <책> <시작 음력 월> <출력.tsv> <시작 일>` → `node tools/import_diary.mjs <tsv> data/sample/nanjung --year 1597 --by <이름> --edition ed-autograph --reading rd-heritage-portal --volume "<책 이름>" --tag <b5|b6>`. 5책은 시작 `4 … 1`, 6책은 `8 … 6`(8/4~8/5는 훼손 단편이라 8/6부터). 월 머리(`九月初一日…`)가 있으면 롤오버 추정보다 우선하고, 무술년(1598) 정월 이후는 1597 입력에서 제외한다. 같은 날짜가 여러 책에 있어 항목은 `volume`으로 구분한다. 포털은 펼침면(2쪽) 단위로 응답하므로 중복 면을 제거하고, 날짜 번호를 기준으로 일별 분할한다. 포털 판독문은 미검수이며 이용 조건(공공누리 유형)을 확인하기 전에는 공개 배포하지 않는다.
+
+**1596년 일기(4책 병신일기)**: `node tools/research/fetch_heritage_text.mjs 4` → `build_diary_tsv.mjs 4 1 <tsv> 1 --tail-cut 十月初九日` → `import_diary.mjs <tsv> data/sample/nanjung --year 1596 ... --volume "4책 병신일기" --tag b4`. 1596년에는 윤8월이 있어 월 머리의 `閏八月初一日…`을 읽어 `leap` 열(`1`)로 내보내고, 항목 id는 `…-1596-L08-01`처럼 윤달을 `L`로 표기한다. 책 끝(10/11 뒤)의 장부 메모는 `--tail-cut`으로 일기 본문에서 떼고, 포털 판독문의 주석 번호(`1)` 등)와 면 라벨(`빈면`·`표지`)은 분할기가 제거한다. 305일 전부 일간지가 달력·변환기와 일치한다.
 
 **1598년 일기**: 6책 끝의 정월 1~4일은 `build_diary_tsv.mjs 6 8 <tsv> 6 --only 1598`, 7책 무술일기(9/15~10/7)는 `build_diary_tsv.mjs 7 9 <tsv> 15 --only 1598`로 분할하고 `--year 1598`(`--volume "7책 무술일기" --tag b7`)로 가져온다. 27일 전부 일간지가 달력·변환기와 일치(`verified`)한다. 7책 앞부분의 명 장수 선물 목록과 10/7 항목 끝의 명 보고문·선박 수 목록은 일기 본문이 아니므로 분석 전에 분리해야 한다(결측 기록 참조). 현존 초고본에는 1598 1/5~9/14와 10/8~11/18의 일기가 없다.
 
@@ -30,7 +32,7 @@ npm run serve      # MVP 화면: http://127.0.0.1:5173/ (연표·사료 층위·
 
 ## 구조
 - `data/schema/schema.json` — 데이터 모델 (Source, Event, Claim, Edition, Reading, DiaryEntry, Coverage, DateRecord)
-- `data/sample/1597-1598/*.json` — 1597~1598년 샘플 데이터 (디렉터리는 1597로 시작해 1598까지 확장됨)
+- `data/sample/nanjung/*.json` — 난중일기 샘플 데이터 (현재 1596~1598년. 1592년까지 확장할 예정이라 연도 없는 이름을 쓴다)
 - `tools/validate.mjs` — 스키마·참조 무결성·날짜 일관성 검증
 
 ## 설계 원칙
