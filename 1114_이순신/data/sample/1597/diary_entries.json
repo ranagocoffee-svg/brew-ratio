@@ -1,0 +1,9 @@
+[
+  {
+    "id": "de-gyogam-1597-09-16", "edition_id": "ed-gyogam-noseungseok", "reading_id": "rd-noseungseok",
+    "date": {"original": {"calendar": "lunisolar", "year": 1597, "month": 9, "day": 16, "leap_month": false}, "gregorian": "1597-10-26", "julian": "1597-10-16", "computed_gregorian": "1597-10-25", "converter": "korean-lunar-calendar@0.4.0", "precision": "day", "certainty": "disputed", "note": "해당 날짜 일기 존재 여부 미확인. 양력 10.26(문서) vs 변환기 10.25: events.json 의 명량 항목 참조."},
+    "text_han": null, "text_ko": null, "translator": null,
+    "text_status": "placeholder",
+    "note": "구조 확인용 자리표시자. 기준 판본(교감본) 원문을 입력하기 전까지 본문을 만들지 않는다."
+  }
+]

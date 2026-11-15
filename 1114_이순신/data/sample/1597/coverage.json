@@ -1,0 +1,4 @@
+[
+  {"id": "cv-autograph-1595", "edition_id": "ed-autograph", "period": "1595 (을미년)", "status": "missing_in_edition", "source_ids": ["src-crosscheck-md"], "note": "초고 미전. 1795 전서본에만 수록. 1597 MVP 범위 밖이지만 결측 모델 검증용으로 포함."},
+  {"id": "cv-gyogam-1597", "edition_id": "ed-gyogam-noseungseok", "period": "1597", "status": "to_verify", "source_ids": [], "note": "1597년 중 일기가 쓰인 날/없는 날을 교감본으로 집계해야 함. 일기 없는 날을 '사건 없음'으로 읽지 말 것."}
+]

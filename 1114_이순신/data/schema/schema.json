@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project YI data model (MVP, 1597)",
+  "description": "원본 달력 표기를 보존하고, 변환값·확실도·출처를 항상 함께 저장한다. 해석은 데이터가 아니라 note/claim으로 분리한다.",
+  "$defs": {
+    "DateRecord": {
+      "type": "object",
+      "required": ["original", "precision", "certainty"],
+      "properties": {
+        "original": {
+          "type": "object",
+          "required": ["calendar", "year"],
+          "properties": {
+            "calendar": {"enum": ["lunisolar", "gregorian", "julian"]},
+            "year": {"type": "integer"},
+            "month": {"type": ["integer", "null"]},
+            "day": {"type": ["integer", "null"]},
+            "leap_month": {"type": "boolean"}
+          }
+        },
+        "gregorian": {"type": ["string", "null"], "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$"},
+        "julian": {"type": ["string", "null"], "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$"},
+        "computed_gregorian": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "변환기가 계산한 양력. 사료/입력값(gregorian)과 다르면 certainty=disputed 로 병기한다."},
+        "converter": {"type": ["string", "null"]},
+        "precision": {"enum": ["day", "month", "year", "range"]},
+        "end_year": {"type": ["integer", "null"]},
+        "certainty": {"enum": ["verified", "unverified", "disputed"]},
+        "note": {"type": ["string", "null"]}
+      }
+    },
+    "Source": {
+      "type": "object",
+      "required": ["id", "title", "layer", "origin", "reliability", "status"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^src-"},
+        "title": {"type": "string"},
+        "layer": {"enum": ["contemporary", "compiled_later", "modern_reception", "contemporary_scholarship", "popular", "reference_secondary", "unclassified"]},
+        "origin": {"enum": ["kr", "jp", "cn", "west", "intl"]},
+        "reliability": {"enum": ["A", "B", "C", "unrated"]},
+        "status": {"enum": ["confirmed", "candidate_unverified"]},
+        "citation": {"type": ["string", "null"]},
+        "url": {"type": ["string", "null"]},
+        "note": {"type": ["string", "null"]}
+      }
+    },
+    "Event": {
+      "type": "object",
+      "required": ["id", "track", "title_ko", "date", "source_ids", "verified"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^ev-"},
+        "track": {"enum": ["yi", "world"]},
+        "title_ko": {"type": "string"},
+        "title_en": {"type": ["string", "null"]},
+        "category": {"type": "string"},
+        "date": {"$ref": "#/$defs/DateRecord"},
+        "source_ids": {"type": "array", "items": {"type": "string"}},
+        "verified": {"type": "boolean"},
+        "note": {"type": ["string", "null"]}
+      }
+    },
+    "Claim": {
+      "type": "object",
+      "required": ["id", "event_id", "field", "value", "source_ids", "status"],
+      "description": "출처별로 갈리는 수치·서술. 하나로 합치지 않고 병기한다.",
+      "properties": {
+        "id": {"type": "string", "pattern": "^cl-"},
+        "event_id": {"type": "string"},
+        "field": {"type": "string"},
+        "value": {"type": ["string", "number"]},
+        "source_ids": {"type": "array", "items": {"type": "string"}},
+        "status": {"enum": ["unverified", "verified", "disputed"]},
+        "note": {"type": ["string", "null"]}
+      }
+    },
+    "Edition": {
+      "type": "object",
+      "required": ["id", "title", "kind", "is_base"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^ed-"},
+        "title": {"type": "string"},
+        "kind": {"enum": ["autograph", "copy", "printed", "transcription", "critical_edition"]},
+        "year": {"type": ["integer", "null"]},
+        "is_base": {"type": "boolean"},
+        "derived_from": {"type": "array", "items": {"type": "string"}},
+        "note": {"type": ["string", "null"]}
+      }
+    },
+    "Reading": {
+      "type": "object",
+      "required": ["id", "edition_id", "reader"],
+      "description": "판독(탈초·교감) 단위. 같은 판본도 판독자에 따라 글자가 달라질 수 있다.",
+      "properties": {
+        "id": {"type": "string", "pattern": "^rd-"},
+        "edition_id": {"type": "string"},
+        "reader": {"type": "string"},
+        "year": {"type": ["integer", "null"]},
+        "note": {"type": ["string", "null"]}
+      }
+    },
+    "DiaryEntry": {
+      "type": "object",
+      "required": ["id", "edition_id", "reading_id", "date", "text_status"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^de-"},
+        "edition_id": {"type": "string"},
+        "reading_id": {"type": "string"},
+        "date": {"$ref": "#/$defs/DateRecord"},
+        "text_han": {"type": ["string", "null"], "description": "분석 대상은 한문 판독본."},
+        "text_ko": {"type": ["string", "null"], "description": "표시용 번역. 분석에 쓰지 않는다."},
+        "translator": {"type": ["string", "null"]},
+        "source_ref": {"type": ["string", "null"], "description": "저본 위치(교감본 권·쪽 등). 재확인용."},
+        "input_by": {"type": ["string", "null"]},
+        "input_date": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+        "reviewed_by": {"type": ["string", "null"]},
+        "text_status": {"enum": ["placeholder", "transcribed", "reviewed"]},
+        "note": {"type": ["string", "null"]}
+      }
+    },
+    "Coverage": {
+      "type": "object",
+      "required": ["id", "edition_id", "period", "status"],
+      "description": "\"없음\"(사건 없음)과 \"기록 안 됨/결락\"을 구분하기 위한 결측 기록.",
+      "properties": {
+        "id": {"type": "string", "pattern": "^cv-"},
+        "edition_id": {"type": "string"},
+        "period": {"type": "string"},
+        "status": {"enum": ["extant", "missing_in_edition", "not_written_or_unknown", "to_verify"]},
+        "source_ids": {"type": "array", "items": {"type": "string"}},
+        "note": {"type": ["string", "null"]}
+      }
+    }
+  }
+}

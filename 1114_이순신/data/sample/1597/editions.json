@@ -1,0 +1,7 @@
+[
+  {"id": "ed-autograph", "title": "친필 초고 (국보 76호, 현충사 소장)", "kind": "autograph", "year": null, "is_base": false, "derived_from": [], "note": "일기 7책 + 서간첩 + 임진장초 = 9책. 1595년(을미년) 초고는 전하지 않음. 범위는 소개에 따라 1592.5.1~1598.10.7 또는 1592.1.1~1598.11.17."},
+  {"id": "ed-byeolchaek", "title": "별책 일기초 (충무공유사)", "kind": "copy", "year": null, "is_base": false, "derived_from": ["ed-autograph"], "note": "친필본을 약 100년 뒤 필사, 325일분. 노승석이 새 일기 32일치(소개에 따라 35일치)를 합본."},
+  {"id": "ed-jeonseo-1795", "title": "이충무공전서본 (1795, 정조)", "kind": "printed", "year": 1795, "is_base": false, "derived_from": ["ed-autograph"], "note": "'난중일기' 제목이 붙은 판본. 오자·누락, 의도적 삭제 의심(가설). 1595년은 이 판본에만 수록."},
+  {"id": "ed-chosa-1935", "title": "난중일기초 (1935, 조선사편수회)", "kind": "transcription", "year": 1935, "is_base": false, "derived_from": ["ed-autograph"], "note": "약 8년 작업. 이은상 번역(1968)의 저본. 식민사학적 개입 여부는 근거 미확인(검증 대상)."},
+  {"id": "ed-gyogam-noseungseok", "title": "교감완역 난중일기 (노승석)", "kind": "critical_edition", "year": null, "is_base": true, "derived_from": ["ed-autograph", "ed-byeolchaek", "ed-jeonseo-1795", "ed-chosa-1935"], "note": "프로젝트 기준 판본. 오류 200여 곳 교감으로 소개됨. 출간 연도·정확한 저본은 서지 확인 필요."}
+]

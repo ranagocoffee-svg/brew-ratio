@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ev-1597-imprisonment", "track": "yi",
+    "title_ko": "파직·투옥 후 백의종군", "title_en": "Dismissal, imprisonment, and service as a commoner",
+    "category": "career",
+    "date": {"original": {"calendar": "lunisolar", "year": 1597, "month": 3, "day": null, "leap_month": false}, "gregorian": null, "julian": null, "precision": "month", "certainty": "unverified", "note": "crosscheck 문서 표기 '1597.3(음)'. 일 단위 날짜와 양력 환산은 미확인."},
+    "source_ids": ["src-crosscheck-md"], "verified": false, "note": null
+  },
+  {
+    "id": "ev-1597-chilcheollyang", "track": "yi",
+    "title_ko": "칠천량 해전 (원균 지휘 조선 수군 패전)", "title_en": "Battle of Chilcheollyang",
+    "category": "battle",
+    "date": {"original": {"calendar": "lunisolar", "year": 1597, "month": null, "day": null, "leap_month": false}, "gregorian": "1597", "julian": null, "precision": "year", "certainty": "unverified", "note": "crosscheck 문서에 정확한 날짜 없음. 별도 확인 필요."},
+    "source_ids": ["src-crosscheck-md"], "verified": false, "note": null
+  },
+  {
+    "id": "ev-1597-myeongnyang", "track": "yi",
+    "title_ko": "명량해전", "title_en": "Battle of Myeongnyang",
+    "category": "battle",
+    "date": {"original": {"calendar": "lunisolar", "year": 1597, "month": 9, "day": 16, "leap_month": false}, "gregorian": "1597-10-26", "julian": "1597-10-16", "computed_gregorian": "1597-10-25", "converter": "korean-lunar-calendar@0.4.0", "precision": "day", "certainty": "disputed", "note": "양력 10.26(문서·위키), 변환기 10.25. 조사: 변환기의 1597-9월 초하루(10/10)가 천문 삭(10/11 정오)과 어긋나 변환기 표 오류 가능성이 높음(역법 차이 가설은 1592~98년 84개월 중 2개월만 불일치해 약함). 결정은 일기 9/16 일간지로: 甲辰=10/26, 癸卯=10/25. 상세: docs/investigations/myeongnyang-date.md. 율리우스력은 gregorian 기준 -10일."},
+    "source_ids": ["src-crosscheck-md", "src-wiki-chronology"], "verified": false, "note": "일본 함선 수는 출처별로 다름 (claims 참조)."
+  },
+  {
+    "id": "ev-1594-1598-dutch-asia-routes", "track": "world",
+    "title_ko": "네덜란드 원거리무역회사들의 아시아 항로 개척", "title_en": "Dutch 'far-trading' companies open Asia routes",
+    "category": "trade",
+    "date": {"original": {"calendar": "gregorian", "year": 1594, "month": null, "day": null, "leap_month": false}, "gregorian": "1594", "julian": null, "precision": "range", "end_year": 1598, "certainty": "unverified", "note": "표준 지식 기준. VOC 설립(1602)과 구분할 것."},
+    "source_ids": ["src-standard-chronology"], "verified": false, "note": null
+  }
+]

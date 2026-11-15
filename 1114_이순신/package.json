@@ -1,0 +1,13 @@
+﻿{
+  "name": "project-yi",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node tools/validate.mjs",
+    "test": "node --test tests/validate.test.mjs tests/import_diary.test.mjs tests/lunar.test.mjs"
+  },
+  "dependencies": {
+    "korean-lunar-calendar": "0.4.0"
+  }
+}
+

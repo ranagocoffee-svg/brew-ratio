@@ -1,0 +1,8 @@
+# 교감본(노승석) 1597년 일기 입력 시트. '#'로 시작하는 줄은 무시. 열 구분은 탭(Tab).
+# 한 줄 = 하루. 본문의 줄바꿈은 \n, 백슬래시는 \\ 로 적는다.
+# 필수: lunar_month, lunar_day, text_han, source_ref.  나머지는 비워도 됨.
+# gregorian 은 사료·교감본으로 확인한 값만 YYYY-MM-DD 로. 비우면 변환기 계산값이 들어가고(unverified),
+# 입력값과 계산값이 다르면 disputed 로 병기된다.
+# text_ko 는 번역 저작권 확인 전에는 비워 둔다 (README 참조).
+# 입력 후: node tools/import_diary.mjs data/input/gyogam-1597.tsv data/sample/1597 --year 1597 --by <입력자>
+lunar_month	lunar_day	leap	gregorian	text_han	text_ko	source_ref	note
