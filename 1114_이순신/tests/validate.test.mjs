@@ -6,7 +6,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { gregorianToJulian, validateDir } from "../tools/validate.mjs";
 
-const SAMPLE = resolve(dirname(fileURLToPath(import.meta.url)), "..", "data", "sample", "1597");
+const SAMPLE = resolve(dirname(fileURLToPath(import.meta.url)), "..", "data", "sample", "1597-1598");
 
 function mutated(fname, fn) {
   const tmp = mkdtempSync(join(tmpdir(), "yi-"));

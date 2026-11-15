@@ -1,0 +1,93 @@
+// 샘플 데이터(1597-1598)의 핵심 불변식. 데이터를 다시 가져오거나 분할기를 고칠 때 회귀를 잡는다.
+import test from "node:test";
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
+import { ganjiOfIso } from "../tools/lunar.mjs";
+
+const DIR = resolve(dirname(fileURLToPath(import.meta.url)), "..", "data", "sample", "1597-1598");
+const load = (f) => JSON.parse(readFileSync(join(DIR, f), "utf-8"));
+const entries = load("diary_entries.json").filter((e) => e.text_status !== "placeholder");
+const events = load("events.json");
+const vol = (v, year) => entries.filter((e) => e.volume === v && (year == null || e.date.original.year === year));
+const key = (e) => e.date.original.month * 100 + e.date.original.day;
+
+test("책별 입력 일수 (5책 4/1~10/8, 6책 8/6~1598 1/4, 7책 9/15~10/7)", () => {
+  assert.equal(vol("5책 정유일기").length, 184);
+  assert.equal(vol("6책 속정유일기", 1597).length, 141);
+  assert.equal(vol("6책 속정유일기", 1598).length, 4);
+  assert.equal(vol("7책 무술일기").length, 23);
+});
+
+test("30일을 卅/三十 로 적은 날도 읽힘 (5책 8/30, 6책 1597-12-30)", () => {
+  const a = entries.find((e) => e.id === "de-autograph-b5-1597-08-30");
+  const b = entries.find((e) => e.id === "de-autograph-b6-1597-12-30");
+  assert.ok(a && b);
+  assert.equal(b.day_ganji, "丙戌");
+  assert.equal(b.date.gregorian, "1598-02-05"); // 입춘 기록이 있는 날
+});
+
+test("월 머리('九月' 등)가 앞 일기 본문 끝에 남지 않음", () => {
+  const tails = entries.filter((e) => /[正一二三四五六七八九十]{1,2}月$/.test(e.text_han));
+  assert.deepEqual(tails.map((e) => e.id), []);
+});
+
+test("6책·7책(1598 포함)은 일간지가 전부 달력과 일치(verified), ganji_check 없음", () => {
+  const set = [...vol("6책 속정유일기"), ...vol("7책 무술일기")];
+  assert.ok(set.length > 0);
+  for (const e of set) {
+    assert.equal(e.date.certainty, "verified", e.id);
+    assert.equal(e.date.ganji_check, undefined, e.id);
+    assert.equal(ganjiOfIso(e.date.gregorian), e.day_ganji, e.id);
+  }
+});
+
+test("1598년 일기는 변환기와 같은 양력 (1597 9월 같은 표 오류가 없음)", () => {
+  for (const e of entries.filter((x) => x.date.original.year === 1598)) {
+    assert.equal(e.date.gregorian, e.date.computed_gregorian, e.id);
+  }
+});
+
+test("5책과 6책이 겹치는 62일은 양력이 모두 같고 본문은 다르다", () => {
+  const m5 = new Map(vol("5책 정유일기").map((e) => [key(e), e]));
+  const both = vol("6책 속정유일기", 1597).filter((e) => m5.has(key(e)));
+  assert.equal(both.length, 62);
+  for (const e of both) {
+    const o = m5.get(key(e));
+    assert.equal(o.date.gregorian, e.date.gregorian, e.id);
+    assert.notEqual(o.text_han, e.text_han, e.id);
+  }
+});
+
+test("5책 7/4~10/3 의 간지 불일치는 천간이 맞고 지지가 +2 (전부 같은 이동량)", () => {
+  const bad = vol("5책 정유일기").filter((e) => e.date.ganji_check);
+  assert.ok(bad.length > 80);
+  for (const e of bad) {
+    assert.equal(e.date.ganji_check.stem_match, true, e.id);
+    assert.equal(e.date.ganji_check.branch_shift, 2, e.id);
+  }
+});
+
+test("명량: 6책 9/1=己丑=10/11, 9/16=甲辰=10/26 이고 사건 날짜의 근거로 연결됨", () => {
+  const e1 = entries.find((e) => e.id === "de-autograph-b6-1597-09-01");
+  const e16 = entries.find((e) => e.id === "de-autograph-b6-1597-09-16");
+  assert.equal(e1.date.gregorian, "1597-10-11");
+  assert.equal(e16.date.gregorian, "1597-10-26");
+  const ev = events.find((e) => e.id === "ev-1597-myeongnyang");
+  assert.equal(ev.date.gregorian, "1597-10-26");
+  assert.equal(ev.date.certainty, "verified");
+  assert.ok(ev.date.basis_entry_ids.includes("de-autograph-b6-1597-09-16"));
+});
+
+test("1598 사건: 일기 근거 사건은 verified, 일기 밖 사건은 unverified", () => {
+  const byId = Object.fromEntries(events.map((e) => [e.id, e]));
+  for (const id of ["ev-1598-fleet-departure", "ev-1598-joint-assault"]) {
+    assert.equal(byId[id].date.certainty, "verified", id);
+    assert.ok(byId[id].date.basis_entry_ids.length > 0, id);
+  }
+  for (const id of ["ev-1598-noryang", "ev-1598-hideyoshi-death", "ev-1598-nantes"]) {
+    assert.equal(byId[id].date.certainty, "unverified", id);
+    assert.equal(byId[id].verified, false, id);
+  }
+});

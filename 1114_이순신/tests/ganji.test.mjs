@@ -8,7 +8,7 @@ import { ganji, ganjiOfIso, isValidGanji, addDays, compareGanji } from "../tools
 import { parseSheet, mergeEntries } from "../tools/import_diary.mjs";
 import { validateDir } from "../tools/validate.mjs";
 
-const SAMPLE = resolve(dirname(fileURLToPath(import.meta.url)), "..", "data", "sample", "1597");
+const SAMPLE = resolve(dirname(fileURLToPath(import.meta.url)), "..", "data", "sample", "1597-1598");
 const OPT = { year: 1597, by: "tester", editionId: "ed-gyogam-noseungseok", readingId: "rd-noseungseok", today: "2026-01-01" };
 const HEAD = "lunar_month\tlunar_day\tleap\tgregorian\tday_ganji\ttext_han\ttext_ko\tsource_ref\tnote";
 // 본문은 테스트용 가짜 문자열이다 (실제 일기 내용 아님).

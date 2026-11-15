@@ -15,6 +15,7 @@ const gIdx = (s) => { for (let i = 0; i < 60; i++) if (GAN[i % 10] === s[0] && J
 const DIGIT = { 一: 1, 二: 2, 三: 3, 四: 4, 五: 5, 六: 6, 七: 7, 八: 8, 九: 9 };
 function dayNum(tok) {
   const t = tok.replace(/^初/, "");
+  if (t === "卅") return 30;
   if (t === "十") return 10;
   if (t === "二十") return 20;
   if (t === "三十") return 30;
@@ -24,7 +25,7 @@ function dayNum(tok) {
   if (/^[廿卄念]$/.test(t)) return 20;
   return DIGIT[t] ?? NaN;
 }
-const HEAD = /(初?[一二三四五六七八九]|十[一二三四五六七八九]?|二十[一二三四五六七八九]?|[廿卄念][一二三四五六七八九]?|三十)日([甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥])/g;
+const HEAD = /(初?[一二三四五六七八九]|十[一二三四五六七八九]?|二十[一二三四五六七八九]?|[廿卄念][一二三四五六七八九]?|三十|卅)日([甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥])/g;
 
 const MONTH = { 正: 1, 一: 1, 二: 2, 三: 3, 四: 4, 五: 5, 六: 6, 七: 7, 八: 8, 九: 9, 十: 10, 十一: 11, 十二: 12 };
 /** 초하루 머리 바로 앞의 월 표기. 예: '…九月', '…戊戌正月甲寅'(무술년 = 1598). */
@@ -55,6 +56,10 @@ const startDay = Number(process.argv[5] && !process.argv[5].startsWith("--") ? p
 for (const c of cands) {
   if (c.idx < 0 || Number.isNaN(c.day)) continue;
   if (!last && c.day !== startDay) continue; // 책 앞부분의 가짜 머리 건너뜀: 시작 일자(기본 1일)부터 사슬 시작
+  if (!last) { // 첫 항목의 월·연 표기 (예: '戊戌九月十五日丁酉')
+    const hm0 = monthHeader(stream.slice(Math.max(0, c.pos - 12), c.pos));
+    if (hm0) { month = hm0.month; if (hm0.year1598) after1598 = true; }
+  }
   if (last) {
     // 1차 기준은 날짜 번호: 직전 +1~+3일(미기재일 허용) 또는 월 경계(직전 ≥27일, 이번 ≤3일).
     // 일기 자체의 일간지 오기가 있을 수 있으므로 일간지는 2차(이상 징후 기록)로만 쓴다.
@@ -80,15 +85,20 @@ for (const c of cands) {
 }
 entries.forEach((e, i) => {
   const next = entries[i + 1];
-  e.text = stream.slice(e.pos + e.len, next ? next.pos : stream.length).replace(/^\s+|\s+$/g, "");
+  // 다음 일기의 월 머리('…九月', '…戊戌正月甲寅')는 본문 끝에 딸려 오므로 떼어 낸다.
+  e.text = stream.slice(e.pos + e.len, next ? next.pos : stream.length).replace(/(戊戌)?([正一二三四五六七八九]|十[一二]?)月(?:[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥])?$/, "").replace(/^\s+|\s+$/g, "");
   e.pageFrom = pageAt[e.pos];
   e.pageTo = pageAt[Math.max(e.pos, (next ? next.pos : stream.length) - 1)];
 });
 
 const esc = (s) => s.replace(/\\/g, "\\\\").replace(/\t/g, " ").replace(/\r?\n/g, "\\n");
 const volume = { 5: "5책 정유일기", 6: "6책 속정유일기" }[bookArg] ?? `${bookArg}책`;
-const skipped1598 = entries.filter((e) => e.year1598).length;
-const rows = entries.filter((e) => !e.year1598).map((e) => [e.month, e.day, "", "", e.ganji, esc(e.text), "", `국가유산포털 원문텍스트 ${volume} ${e.pageFrom === e.pageTo ? e.pageFrom : `${e.pageFrom}~${e.pageTo}`}쪽`, ""].join("\t"));
+// --only 1598 : 무술년(1598) 항목만 출력. 기본은 1597 항목만(무술년 정월 이후 제외).
+const onlyIdx = process.argv.indexOf("--only");
+const only = onlyIdx >= 0 ? process.argv[onlyIdx + 1] : "1597";
+const wantYear1598 = only === "1598";
+const skipped1598 = entries.filter((e) => e.year1598 !== wantYear1598).length;
+const rows = entries.filter((e) => e.year1598 === wantYear1598).map((e) => [e.month, e.day, "", "", e.ganji, esc(e.text), "", `국가유산포털 원문텍스트 ${volume} ${e.pageFrom === e.pageTo ? e.pageFrom : `${e.pageFrom}~${e.pageTo}`}쪽`, ""].join("\t"));
 const header = [
   `# 국가유산포털 원문텍스트(${volume}) 자동 분할 결과. 생성: tools/research/build_diary_tsv.mjs`,
   "# 본문은 포털 텍스트 그대로(줄바꿈 제거). 판독 주체와 이용 조건 미확인.",
@@ -98,7 +108,7 @@ if (outArg) writeFileSync(resolve(outArg), [...header, ...rows].join("\n") + "\n
 
 console.log(`책 ${bookArg}: 일기 ${entries.length}일 분할 (시작 ${startMonthArg}월)`);
 if (entries.length) console.log(`첫: ${entries[0].month}/${entries[0].day} ${entries[0].ganji} | 끝: ${entries.at(-1).month}/${entries.at(-1).day} ${entries.at(-1).ganji}`);
-if (skipped1598) console.log(`무술년(1598) 정월 이후 ${skipped1598}일은 1597 입력에서 제외`);
+if (skipped1598) console.log(`${wantYear1598 ? "1597" : "무술년(1598)"} 항목 ${skipped1598}일은 이번 출력(${only})에서 제외`);
 console.log(`이상 징후 ${anomalies.length}건`);
 anomalies.forEach((a) => console.log(" -", a));
 if (report) entries.forEach((e) => console.log(`${e.month}/${e.day} ${e.ganji} p${e.pageFrom}-${e.pageTo} len=${e.text.length}`));
