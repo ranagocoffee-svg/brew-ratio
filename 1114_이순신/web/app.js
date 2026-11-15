@@ -1,6 +1,6 @@
 // Project YI MVP viewer — 정적 JSON(data/sample/nanjung)을 읽어 그린다. 빌드 단계 없음.
 const BASE = "/data/sample/nanjung/";
-const FILES = ["sources", "editions", "readings", "events", "claims", "diary_entries", "coverage"];
+const FILES = ["sources", "editions", "readings", "events", "claims", "diary_entries", "coverage", "reading_issues"];
 const LAYER = { contemporary: "당대 기록", compiled_later: "후대 편찬", modern_reception: "근대 수용", contemporary_scholarship: "현대 연구", popular: "대중 서사", reference_secondary: "2차 참고", unclassified: "층위 미분류" };
 const ORIGIN = { kr: "조선", jp: "일본", cn: "명", west: "서구", intl: "기타" };
 const CERT = { verified: "확인됨", unverified: "미검증", disputed: "이의 있음" };
@@ -90,6 +90,8 @@ const checkChip = (e) => {
   return g ? chip("disputed", `간지 불일치 ${g.written}≠${g.expected}`) : e.day_ganji ? chip("verified", `간지 ${e.day_ganji}`) : "";
 };
 
+const issuesOf = (entryId) => (D.reading_issues ?? []).filter((ri) => ri.occurrences.some((o) => o.entry_id === entryId));
+const issueChip = (e) => (issuesOf(e.id).length ? ` <a href="#" data-tab="issues" class="chip disputed" title="판독 쟁점 카드 열기">판독 쟁점</a>` : "");
 const byVolume = (es) => { const m = new Map(); for (const e of es) { const k = e.volume ?? "(책 구분 없음)"; if (!m.has(k)) m.set(k, []); m.get(k).push(e); } return m; };
 
 function diaryMonthCell(entries) {
@@ -99,7 +101,7 @@ function diaryMonthCell(entries) {
     const bad = es.filter((e) => e.date.ganji_check).length;
     const noGj = es.filter((e) => !e.day_ganji).length;
     const gjChip = bad ? chip("disputed", `일간지 불일치 ${bad}일`) : noGj === es.length ? chip("unverified", "일간지 없음 · 변환기 기준(미검증)") : noGj ? chip("unverified", `일간지 없는 날 ${noGj}일`) : chip("verified", "일간지 전부 일치");
-    const rows = es.map((e) => { const o = e.date.original; return `<tr><td style="width:56px">${o.leap_month ? "윤" : ""}${o.month}/${o.day}</td><td style="width:150px">${e.date.gregorian ?? "—"} ${checkChip(e)}</td><td class="note">${esc(e.text_han.slice(0, 46))}…</td></tr>`; }).join("");
+    const rows = es.map((e) => { const o = e.date.original; return `<tr><td style="width:56px">${o.leap_month ? "윤" : ""}${o.month}/${o.day}</td><td style="width:150px">${e.date.gregorian ?? "—"} ${checkChip(e)}${issueChip(e)}</td><td class="note">${esc(e.text_han.slice(0, 46))}…</td></tr>`; }).join("");
     return `<div style="margin-bottom:8px"><b>${esc(vol)} · ${es.length}일 입력</b> ${gjChip}
       <details style="margin-top:4px"><summary>일기 목록 열기</summary><table>${rows}</table></details></div>`;
   }).join("");
@@ -210,9 +212,51 @@ function monthSummary() {
   }).join("");
 }
 
+/* ---------- 판독 쟁점 ---------- */
+const PROV = { observed: "관찰", claim: "주장", reception: "수용사", unchecked: "미확인" };
+const shortTitle = (s) => (s.title.length > 46 ? `${s.title.slice(0, 46)}…` : s.title);
+const srcLinks = (ids) => (ids ?? []).map((id) => { const s = D.byId[id]; if (!s) return esc(id); const t = esc(shortTitle(s)); return s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${t}</a>` : t; }).join("<br>") || '<span class="empty">—</span>';
+const hl = (ctx, tok) => esc(ctx).replace(esc(tok), `<mark>${esc(tok)}</mark>`);
+const entryDay = (id) => { const e = D.byId[id]; const o = e.date.original; return `${o.leap_month ? "윤" : ""}${o.month}/${o.day}`; };
+
+function issueCard(ri) {
+  const occ = ri.occurrences;
+  const occRows = occ.map((o) => { const e = D.byId[o.entry_id]; const od = e.date.original; return `<tr><td>${od.year}년 ${entryDay(o.entry_id)}<div class="note">양력 ${esc(e.date.gregorian)} · ${esc(e.day_ganji ?? "간지 없음")} ${certChip(e.date.certainty)}</div></td><td style="font-size:18px;font-family:'Noto Serif KR','Batang',serif">${esc(o.portal_reading)}</td><td>${hl(o.context, o.portal_reading)}<div class="note">${esc(o.position ?? "")}</div></td></tr>`; }).join("");
+  const readingRows = ri.readings.map((r) => `<tr>
+      <td style="min-width:150px"><b>${esc(r.label)}</b><div class="note">${esc(r.proponent)}</div></td>
+      ${occ.map((o) => { const v = r.per_entry?.[o.entry_id]; return `<td style="font-size:16px;font-family:'Noto Serif KR','Batang',serif;white-space:nowrap">${v ? esc(v) : '<span class="empty" style="font-size:12px">언급 없음</span>'}</td>`; }).join("")}
+      <td>${esc(r.claim ?? "—")}${r.basis ? `<div class="note">근거: ${esc(r.basis)}</div>` : ""}${r.note ? `<div class="note">${esc(r.note)}</div>` : ""}</td>
+      <td>${chip(r.status === "observed" ? "verified" : "unverified", PROV[r.status])}</td>
+      <td>${srcLinks(r.source_ids)}</td></tr>`).join("");
+  const interp = (ri.interpretations ?? []).map((it) => `<li><b>${esc(it.label)}</b> ${chip(it.status === "claim" ? "unverified" : "", PROV[it.status])}<div>${esc(it.claim)}</div><div class="note">${esc(it.proponent)}${it.note ? ` — ${esc(it.note)}` : ""}</div><div class="note">출처: ${srcLinks(it.source_ids)}</div></li>`).join("");
+  const hist = (ri.history ?? []).map((h) => `<li><b>${h.year}</b> ${chip(h.status === "claim" ? "unverified" : "", PROV[h.status])} ${esc(h.event)} <span class="note">(${srcLinks(h.source_ids).replace(/<br>/g, ", ")})</span></li>`).join("");
+  const obs = (ri.observations ?? []).map((o) => `<li>${chip(o.kind === "data" ? "verified" : "", o.kind === "data" ? "데이터" : "점검")} ${esc(o.text)}</li>`).join("");
+  const todo = (ri.to_resolve ?? []).map((t) => `<li>${esc(t)}</li>`).join("");
+  return `<section class="card">
+    <h2>${esc(ri.title_ko)} ${chip(ri.status === "unresolved" ? "disputed" : "verified", ri.status === "unresolved" ? "미해결" : "해결")}</h2>
+    <p>${esc(ri.summary)}</p>
+    ${ri.caution ? `<div class="banner">⚠ ${esc(ri.caution)}</div>` : ""}
+    <h3>어디에 나오는가 (일기 항목)</h3>
+    <table><tr><th>날짜</th><th>포털 판독문</th><th>문맥</th></tr>${occRows}</table>
+    <h3>글자를 어떻게 읽는가 (판독 비교)</h3>
+    <div style="overflow-x:auto"><table><tr><th>읽기 · 주장자</th>${occ.map((o) => `<th>${entryDay(o.entry_id)}</th>`).join("")}<th>내용 · 근거</th><th>성격</th><th>출처</th></tr>${readingRows}</table></div>
+    ${interp ? `<h3>무슨 뜻으로 보는가 (해석)</h3><ul class="tree">${interp}</ul>` : ""}
+    ${hist ? `<h3>다뤄 온 과정 (수용사)</h3><ul class="tree">${hist}</ul>` : ""}
+    ${obs ? `<h3>우리 데이터에서 확인한 사실</h3><ul class="tree">${obs}</ul>` : ""}
+    ${todo ? `<h3>확정하려면</h3><ol class="tree">${todo}</ol>` : ""}
+  </section>`;
+}
+
+function issues() {
+  const list = D.reading_issues ?? [];
+  return `<section class="card"><h2>판독 쟁점 카드</h2>
+    <p class="note">같은 글자를 두고 판독·해석이 갈리는 대목을 모았습니다. 모든 읽기와 해석은 <b>주장자와 출처를 붙인 주장</b>으로만 기록하고, 이 프로젝트가 판정하지 않습니다. 「관찰」은 이 프로젝트의 판독문에서 직접 확인한 것, 「주장」은 특정인의 설명입니다.</p>
+    <p class="note">카드 ${list.length}장 · ${list.filter((r) => r.status === "unresolved").length}장 미해결 · 출처는 언론 보도 위주라 원문 재확인이 필요합니다.</p></section>${list.map(issueCard).join("")}`;
+}
+
 function render() {
   document.querySelectorAll("nav button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === state.tab)));
-  document.getElementById("app").innerHTML = { timeline, sources, editions }[state.tab]();
+  document.getElementById("app").innerHTML = { timeline, sources, editions, issues }[state.tab]();
 }
 
 document.addEventListener("click", (ev) => {

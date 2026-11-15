@@ -18,6 +18,7 @@ export const FILES = {
   "claims.json": "Claim",
   "diary_entries.json": "DiaryEntry",
   "coverage.json": "Coverage",
+  "reading_issues.json": "ReadingIssue",
 };
 
 const typeOk = (v, t) =>
@@ -161,6 +162,34 @@ export function validateDir(dir) {
   for (const cv of data["coverage.json"]) {
     ref("editions.json", cv.edition_id, cv.id);
     (cv.source_ids ?? []).forEach((s) => ref("sources.json", s, cv.id));
+  }
+  // 판독 쟁점 카드: 출현 위치는 실제 일기 본문에 있어야 하고, 주장(claim)에는 출처가 반드시 붙어야 한다.
+  for (const ri of data["reading_issues.json"]) {
+    const occIds = new Set();
+    for (const [i, oc] of (ri.occurrences ?? []).entries()) {
+      const w = `${ri.id}.occurrences[${i}]`;
+      const de = data["diary_entries.json"].find((x) => x.id === oc.entry_id);
+      if (!de) { errors.push(`${w}: 존재하지 않는 일기 항목 ${JSON.stringify(oc.entry_id)}`); continue; }
+      occIds.add(oc.entry_id);
+      if (!de.text_han?.includes(oc.portal_reading)) errors.push(`${w}: portal_reading ${JSON.stringify(oc.portal_reading)} 가 ${oc.entry_id} 본문에 없음`);
+      if (!de.text_han?.includes(oc.context)) errors.push(`${w}: context ${JSON.stringify(oc.context)} 가 ${oc.entry_id} 본문에 없음`);
+      if (oc.context && !oc.context.includes(oc.portal_reading)) errors.push(`${w}: context 에 portal_reading 이 포함되어야 함`);
+    }
+    for (const r of ri.readings ?? []) {
+      (r.source_ids ?? []).forEach((s) => ref("sources.json", s, `${ri.id}.${r.id}`));
+      if (r.status === "claim" && !(r.source_ids ?? []).length) errors.push(`${ri.id}.${r.id}: 주장(claim)에는 source_ids 가 필요함`);
+      for (const k of Object.keys(r.per_entry ?? {})) if (!occIds.has(k)) errors.push(`${ri.id}.${r.id}: per_entry 키 ${k} 가 occurrences 에 없음`);
+    }
+    for (const it of ri.interpretations ?? []) {
+      (it.source_ids ?? []).forEach((s) => ref("sources.json", s, `${ri.id}.${it.id}`));
+      if (!(it.source_ids ?? []).length) errors.push(`${ri.id}.${it.id}: 해석에는 source_ids 가 필요함`);
+    }
+    for (const h of ri.history ?? []) {
+      (h.source_ids ?? []).forEach((s) => ref("sources.json", s, `${ri.id}.history`));
+      if (h.status === "claim" && !(h.source_ids ?? []).length) errors.push(`${ri.id}.history ${h.year}: 주장(claim)에는 source_ids 가 필요함`);
+    }
+    // 판독 쟁점이 하나의 읽기만 남으면 쟁점이 아니다. unresolved 인데 observed 하나뿐이면 오류.
+    if (ri.status === "unresolved" && (ri.readings ?? []).filter((r) => r.status === "claim").length < 1) errors.push(`${ri.id}: unresolved 쟁점에는 비교할 주장(claim)이 하나 이상 있어야 함`);
   }
   for (const ed of data["editions.json"]) (ed.derived_from ?? []).forEach((p) => ref("editions.json", p, ed.id));
   if (data["editions.json"].filter((e) => e.is_base).length !== 1) errors.push("editions.json: is_base=true 는 정확히 1개여야 함");

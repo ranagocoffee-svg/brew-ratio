@@ -207,3 +207,56 @@ test("1592 사건 4건: 문서 날짜와 변환기 일치, 일기 공백이라 u
   const has = (m, d) => entries.some((e) => e.date.original.year === 1592 && e.date.original.month === m && e.date.original.day === d);
   assert.ok(!has(5, 7) && !has(7, 8) && !has(9, 1));
 });
+
+// ---- 판독 쟁점 카드 (女眞 등) ----
+const issues = load("reading_issues.json");
+const issue = (id) => issues.find((x) => x.id === id);
+const countIn = (re) => entries.reduce((n, e) => n + (e.text_han.match(re) || []).length, 0);
+
+test("女眞 카드: 출현 위치 3곳(9/12, 9/14, 9/15)이 데이터와 정확히 일치하고 다른 곳에는 없다", () => {
+  const c = issue("ri-1596-yeojin");
+  assert.deepEqual(c.occurrences.map((o) => [o.entry_id, o.portal_reading]), [
+    ["de-autograph-b4-1596-09-12", "女眞"], ["de-autograph-b4-1596-09-14", "女眞卄"], ["de-autograph-b4-1596-09-15", "女眞卅"],
+  ]);
+  assert.equal(countIn(/女眞/g), 3); // 카드의 "이 세 곳에만" 서술을 데이터가 뒷받침
+  for (const o of c.occurrences) {
+    const e = entries.find((x) => x.id === o.entry_id);
+    assert.equal(e.date.certainty, "verified", o.entry_id); // 날짜는 일간지로 확정된 날
+    assert.ok(e.text_han.endsWith(o.portal_reading), `${o.entry_id}: 항목 끝에 있다는 서술`);
+  }
+});
+
+test("女眞 카드: 관찰 서술의 숫자(일기 수, 卄·卅 횟수, 共 끝맺음)가 데이터와 맞는다", () => {
+  const text = issue("ri-1596-yeojin").observations.map((o) => o.text).join("\n");
+  assert.equal(entries.length, 1167);
+  assert.ok(text.includes("1,167일"));
+  assert.equal(countIn(/卄/g), 21);
+  assert.equal(countIn(/卅/g), 10);
+  assert.ok(text.includes("卄'(21회)") && text.includes("卅'(10회)"));
+  const endsWithGong = entries.filter((e) => e.text_han.endsWith("共")).map((e) => e.id).sort();
+  assert.deepEqual(endsWithGong, ["de-autograph-b2-1593-08-14", "de-autograph-b4-1596-03-09", "de-autograph-b4-1596-07-05"]);
+  assert.ok(text.includes("3건 더"));
+});
+
+test("女眞 카드: 읽기 3종(포털 observed, 박종평·노승석 claim), 미해결 상태, 주의문, 확인 과제", () => {
+  const c = issue("ri-1596-yeojin");
+  assert.equal(c.status, "unresolved");
+  assert.ok(c.caution && c.caution.includes("판정하지 않는다"));
+  assert.deepEqual(c.readings.map((r) => [r.id, r.status]), [["rdg-portal", "observed"], ["rdg-park", "claim"], ["rdg-noh", "claim"]]);
+  assert.ok(c.readings.filter((r) => r.status === "claim").every((r) => r.source_ids.length > 0));
+  assert.ok(c.to_resolve.length >= 5);
+  // 포털 판독문과 박종평이 설명한 글자는 같고, 노승석은 卄·卅 를 共 로 읽는다
+  const [portal, park, noh] = c.readings;
+  assert.deepEqual(portal.per_entry, park.per_entry);
+  assert.equal(noh.per_entry["de-autograph-b4-1596-09-14"], "女眞共");
+  assert.equal(noh.per_entry["de-autograph-b4-1596-09-12"], undefined); // 9/12 는 보도에서 언급 확인 못 함
+});
+
+test("內山月 카드: '歲山月'은 일기 전체에서 9/11 한 곳에만 있고 '萊山月'은 보도 표기로만 존재", () => {
+  const c = issue("ri-1596-naesanwol");
+  assert.equal(c.occurrences.length, 1);
+  assert.equal(countIn(/歲山月/g), 1);
+  assert.equal(countIn(/萊山月/g), 0); // 포털 판독문에는 없다
+  assert.equal(c.readings.find((r) => r.id === "rdg-segye").status, "claim");
+  assert.equal(c.status, "unresolved");
+});

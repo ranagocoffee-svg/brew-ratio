@@ -29,6 +29,8 @@ nav { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
 nav button { border: 1px solid var(--line); background: var(--panel); color: var(--ink); padding: 7px 14px; border-radius: 999px; cursor: pointer; font: inherit; }
 nav button[aria-selected="true"] { background: var(--navy); color: #fff; border-color: var(--navy); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) nav button[aria-selected="true"] { color: #10141b; } }
+mark { background: var(--warn-bg); color: var(--warn); padding: 0 3px; border-radius: 3px; font-weight: 600; }
+a.chip { text-decoration: none; }
 .years { display: flex; gap: 6px; margin-bottom: 10px; }
 .years button { border: 1px solid var(--line); background: var(--panel); color: var(--ink); padding: 4px 14px; border-radius: 8px; cursor: pointer; font: inherit; }
 .years button[aria-pressed="true"] { border-color: var(--navy); box-shadow: inset 0 -3px 0 var(--navy); font-weight: 600; }
@@ -81,6 +83,7 @@ footer { color: var(--muted); font-size: 12px; padding: 8px 0 24px; }
     <button role="tab" data-tab="timeline" aria-selected="true">연표 · Cross-Time</button>
     <button role="tab" data-tab="sources" aria-selected="false">사료 층위</button>
     <button role="tab" data-tab="editions" aria-selected="false">판본 · 일기</button>
+    <button role="tab" data-tab="issues" aria-selected="false">판독 쟁점</button>
   </nav>
   <main id="app"><p class="empty">데이터를 불러오는 중…</p></main>
   <footer>데이터: data/sample/nanjung/*.json · 검증: <code>npm run validate</code> · 모든 연표 항목은 원문 대조 전입니다.</footer>

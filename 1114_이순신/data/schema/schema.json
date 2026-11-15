@@ -130,6 +130,92 @@
         "note": {"type": ["string", "null"]}
       }
     },
+    "ReadingIssue": {
+      "type": "object",
+      "description": "판독 쟁점 카드. 같은 글자를 두고 판독·해석이 갈리는 대목을 출현 위치(일기 항목)와 함께 기록한다. 모든 읽기·해석은 주장자와 출처를 붙인 '주장'으로만 담고, 이 프로젝트가 판정하지 않는다.",
+      "required": ["id", "title_ko", "summary", "occurrences", "readings", "status"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^ri-"},
+        "title_ko": {"type": "string"},
+        "summary": {"type": "string"},
+        "occurrences": {
+          "type": "array",
+          "description": "쟁점 글자가 나오는 일기 항목. 검증기가 portal_reading 과 context 가 해당 항목 본문에 실제로 있는지 확인한다.",
+          "items": {
+            "type": "object",
+            "required": ["entry_id", "portal_reading", "context"],
+            "properties": {
+              "entry_id": {"type": "string"},
+              "portal_reading": {"type": "string"},
+              "position": {"type": ["string", "null"]},
+              "context": {"type": "string"}
+            }
+          }
+        },
+        "readings": {
+          "type": "array",
+          "description": "글자를 어떻게 읽는가(판독). observed=이 프로젝트가 가진 판독문에서 관찰, claim=특정인의 주장(source_ids 필수).",
+          "items": {
+            "type": "object",
+            "required": ["id", "label", "proponent", "status", "source_ids"],
+            "properties": {
+              "id": {"type": "string"},
+              "label": {"type": "string"},
+              "proponent": {"type": "string"},
+              "per_entry": {"type": ["object", "null"], "description": "항목 id -> 그 항목에서의 읽기. 언급이 없는 항목은 적지 않는다."},
+              "claim": {"type": ["string", "null"]},
+              "basis": {"type": ["string", "null"]},
+              "status": {"enum": ["observed", "claim"]},
+              "source_ids": {"type": "array", "items": {"type": "string"}},
+              "note": {"type": ["string", "null"]}
+            }
+          }
+        },
+        "interpretations": {
+          "type": ["array", "null"],
+          "description": "그 글자를 무슨 뜻으로 보는가(해석). 판독과 구분해 둔다.",
+          "items": {
+            "type": "object",
+            "required": ["id", "label", "claim", "proponent", "status", "source_ids"],
+            "properties": {
+              "id": {"type": "string"},
+              "label": {"type": "string"},
+              "claim": {"type": "string"},
+              "proponent": {"type": "string"},
+              "status": {"enum": ["claim", "reception"]},
+              "source_ids": {"type": "array", "items": {"type": "string"}},
+              "note": {"type": ["string", "null"]}
+            }
+          }
+        },
+        "history": {
+          "type": ["array", "null"],
+          "description": "판본·번역·보도에서 이 대목이 어떻게 다뤄져 왔는가(수용사).",
+          "items": {
+            "type": "object",
+            "required": ["year", "event", "status", "source_ids"],
+            "properties": {
+              "year": {"type": "integer"},
+              "event": {"type": "string"},
+              "status": {"enum": ["claim", "unchecked"]},
+              "source_ids": {"type": "array", "items": {"type": "string"}}
+            }
+          }
+        },
+        "observations": {
+          "type": ["array", "null"],
+          "description": "우리 데이터·점검에서 직접 확인한 사실.",
+          "items": {
+            "type": "object",
+            "required": ["text", "kind"],
+            "properties": {"text": {"type": "string"}, "kind": {"enum": ["data", "check"]}}
+          }
+        },
+        "to_resolve": {"type": ["array", "null"], "items": {"type": "string"}},
+        "status": {"enum": ["unresolved", "resolved"]},
+        "caution": {"type": ["string", "null"]}
+      }
+    },
     "Coverage": {
       "type": "object",
       "required": ["id", "edition_id", "period", "status"],

@@ -104,3 +104,33 @@ test("필수 필드 누락 탐지", () => {
   const errs = mutated("events.json", (d) => { delete d[0].title_ko; });
   assert.ok(errs.some((e) => e.includes("title_ko")));
 });
+
+// ---- 판독 쟁점 카드 규칙 ----
+test("쟁점 카드: 출현 위치의 판독 글자가 실제 본문에 없으면 오류", () => {
+  const errs = mutated("reading_issues.json", (d) => { d[0].occurrences[0].portal_reading = "存在しない"; });
+  assert.ok(errs.some((e) => e.includes("portal_reading")));
+});
+
+test("쟁점 카드: context 가 본문에 없거나 판독 글자를 포함하지 않으면 오류", () => {
+  const e1 = mutated("reading_issues.json", (d) => { d[0].occurrences[0].context = "본문에 없는 문맥 女眞"; });
+  assert.ok(e1.some((e) => e.includes("context")));
+  const e2 = mutated("reading_issues.json", (d) => { d[0].occurrences[0].context = "暮到茂長宿"; });
+  assert.ok(e2.some((e) => e.includes("portal_reading 이 포함")));
+});
+
+test("쟁점 카드: 주장(claim)·해석에 출처가 없으면 오류 (주장은 출처 필수)", () => {
+  const e1 = mutated("reading_issues.json", (d) => { d[0].readings.find((r) => r.status === "claim").source_ids = []; });
+  assert.ok(e1.some((e) => e.includes("주장(claim)에는 source_ids")));
+  const e2 = mutated("reading_issues.json", (d) => { d[0].interpretations[0].source_ids = []; });
+  assert.ok(e2.some((e) => e.includes("해석에는 source_ids")));
+  const e3 = mutated("reading_issues.json", (d) => { d[0].history[0].source_ids = []; });
+  assert.ok(e3.some((e) => e.includes("history")));
+});
+
+test("쟁점 카드: 존재하지 않는 출처·일기 항목, 엉뚱한 per_entry 키, 스키마 위반 탐지", () => {
+  assert.ok(mutated("reading_issues.json", (d) => { d[0].readings[1].source_ids.push("src-nope"); }).some((e) => e.includes("src-nope")));
+  assert.ok(mutated("reading_issues.json", (d) => { d[0].occurrences[0].entry_id = "de-nope"; }).some((e) => e.includes("de-nope")));
+  assert.ok(mutated("reading_issues.json", (d) => { d[0].readings[1].per_entry["de-autograph-b4-1596-09-16"] = "女眞"; }).some((e) => e.includes("per_entry")));
+  assert.ok(mutated("reading_issues.json", (d) => { d[0].status = "undecided"; }).some((e) => e.includes("허용되지 않은 값")));
+  assert.ok(mutated("reading_issues.json", (d) => { delete d[0].summary; }).some((e) => e.includes("summary")));
+});
