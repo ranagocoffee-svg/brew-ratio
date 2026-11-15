@@ -88,7 +88,7 @@
       ],
       "precision": "day",
       "certainty": "verified",
-      "note": "양력 10.26 확정(일간지 근거). 6책 속정유일기 '九月初一日己丑'(=10/11)과 9/16 '十六日甲辰'(=10/26)의 일간지가 모두 정확히 맞고, 변환기(10.25)는 표 오류(9월 초하루를 10/10으로, 8월을 29일로 봄). 천문 계산(9/1=10/11)과도 일치. 5책 9/16의 甲午는 지지 +2 오기. 근거 텍스트는 포털 판독문(미검수). 상세: docs/investigations/myeongnyang-date.md. 율리우스력은 gregorian 기준 -10일."
+      "note": "양력 10.26 확정(일간지 근거). 6책 속정유일기 '九月初一日己丑'(=10/11)과 9/16 '十六日甲辰'(=10/26)의 일간지가 모두 정확히 맞고, 변환기(10.25)는 표 오류(9월 초하루를 10/10으로, 8월을 29일로 봄). 천문 계산(9/1=10/11)과도 일치. 5책 9/16의 甲午는 지지 +2 오기. 근거 텍스트는 포털 판독문(미검수). 상세: docs/investigations/myeongnyang-date.md. 율리우스력은 gregorian 기준 -10일. 실록 대조(30년 9~11월): 9월 일자별 목록(140건)에는 이순신·통제사·수군·해전·명량 제목이 없고, 10월(10/13 이순신·이시언에게 선참후계 하서, 10/11 배설 도망 처벌 논의)·11월(11/4 명 수군장 계금이 이순신과 논의하려 함, 11/7 경리 측의 이순신 회답 지체 질책) 기사에도 명량·승첩 서술이 없다(열람한 기사 기준). 명량해전 자체를 서술한 선조실록 기사는 찾지 못했다(제목만 본 기사와 선조수정실록은 열람하지 않음)."
     },
     "source_ids": [
       "src-crosscheck-md",
@@ -98,7 +98,9 @@
     "verified": true,
     "note": "일본 함선 수는 출처별로 다름 (claims 참조).",
     "relates_to": [
-      "ev-1597-namwon"
+      "ev-1597-namwon",
+      "ev-1597-military-law-order",
+      "ev-1597-ming-rebukes-yi-delay"
     ]
   },
   {
@@ -2208,6 +2210,83 @@
       "ev-1597-imprisonment",
       "de-autograph-b5-1597-08-03",
       "rec-sillok-seonjo-30-07-22-005"
+    ]
+  },
+  {
+    "id": "ev-1597-military-law-order",
+    "track": "yi",
+    "title_ko": "왕, 이순신·이시언에게 군법 위반자 선참후계를 하서",
+    "title_en": "King authorizes Yi Sun-sin and Yi Si-eon to punish violators before reporting",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 10,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-21",
+      "julian": "1597-11-11",
+      "computed_gregorian": "1597-11-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-10-13-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 93권 10/13(庚午): '今後管下犯軍法之人, 一一先爲處斷後啓聞事, 下書于李舜臣、李時言'. 하서일(1597-11-21)이며 이행·전달일이 아니다. 명량해전(양력 10-26) 약 26일 뒤다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-myeongnyang",
+      "ev-1597-yi-reappointed",
+      "rec-sillok-seonjo-30-10-13-003"
+    ]
+  },
+  {
+    "id": "ev-1597-ming-rebukes-yi-delay",
+    "track": "yi",
+    "title_ko": "경리 측, 이순신 등의 회답 지체를 질책",
+    "title_en": "Ming side rebukes Yi Sun-sin and others for slow replies",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 11,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1597-12-15",
+      "julian": "1597-12-05",
+      "computed_gregorian": "1597-12-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-11-07-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 94권 11/7(甲午): '李舜臣處, 使問駐兵處所及行兵之事, 而經月無回音'. 질책이 실록에 오른 날(1597-12-15)이며 이순신이 회답하지 않은 기간을 하루로 확정한 것이 아니다. 같은 시기 11/4 기사(辛卯)에는 명 수군장 계금이 이순신을 만나려 하나 이순신이 해남 쪽 육로가 막혀 올라오기 어렵다고 한다는 서술이 있다(요약 확인)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-yi-reappointed",
+      "rec-sillok-seonjo-30-11-07-003"
     ]
   }
 ]

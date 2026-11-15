@@ -1438,5 +1438,85 @@
     ],
     "note": "같은 인사 기사에서 조즙은 사간원 정언, 권준은 충청도 수군절도사로 임명된다. 이순신의 생몰년 등 인물 정보는 기사에 없으나 직함으로 보아 같은 인물로 읽는다(추론). 이 기사의 날짜는 인사 기록일이며 이순신이 교서를 받은 날이 아니다(일기 5책 8/3 辛亥). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
     "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 7·8월 목록과 7/22·7/26·7/27·7/28 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-10-13-003",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 93권",
+    "entry_ref": "kna_13010013_003",
+    "url": "https://sillok.history.go.kr/id/kna_13010013_003",
+    "title_ko": "이순신과 이시언에게 군법을 어기는 자는 선참 후계하라고 지시하다",
+    "title_note": "그날 기사 8건 중 3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 10,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-21",
+      "julian": "1597-11-11",
+      "computed_gregorian": "1597-11-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 庚午 가 1597-11-21 의 일간지와 일치."
+    },
+    "day_ganji": "庚午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "今後管下犯軍法之人, 一一先爲處斷後啓聞事, 下書于李舜臣、李時言",
+        "gloss_ko": "앞으로 관하에서 군법을 어기는 자는 일일이 먼저 처단한 뒤 보고하라는 내용을 이순신과 이시언에게 하서한다.",
+        "about": "왕의 이순신·이시언에 대한 선참후계 하서",
+        "stated_lunar": {
+          "month": 10,
+          "day": 13
+        }
+      }
+    ],
+    "note": "비망기를 한준겸에게 전한 끝 구절이다. 이 기사에는 해전·명량 언급이 없다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 9~11월 일자별 목록과 10/11·10/13·11/4·11/7 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-11-07-003",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 94권",
+    "entry_ref": "kna_13011007_003",
+    "url": "https://sillok.history.go.kr/id/kna_13011007_003",
+    "title_ko": "경리 접반사가 이순신 등 조선 장수들의 지체함을 꾸짖다",
+    "title_note": "그날 기사 6건 중 3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 11,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1597-12-15",
+      "julian": "1597-12-05",
+      "computed_gregorian": "1597-12-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 甲午 가 1597-12-15 의 일간지와 일치."
+    },
+    "day_ganji": "甲午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "李舜臣處, 使問駐兵處所及行兵之事, 而經月無回音",
+        "gloss_ko": "이순신에게 주둔처와 행병의 일을 물으러 보냈으나 한 달이 되도록 회답이 없다.",
+        "about": "경리 측의 이순신 회답 지체 질책",
+        "stated_lunar": {
+          "month": 11,
+          "day": 7
+        }
+      }
+    ],
+    "note": "같은 기사에 김응서가 급히 불렀는데도 오지 않고 권율이 기한이 지나도록 답이 없다는 불만이 이어지고 왕은 비변사에 내린다(요약 확인). 명량·승첩 언급은 이 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 9~11월 일자별 목록과 10/11·10/13·11/4·11/7 기사를 열람(WebFetch 요약)"
   }
 ]
