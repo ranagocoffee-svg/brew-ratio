@@ -2324,5 +2324,82 @@
       "rec-sillok-seonjo-31-03-18-004",
       "rec-sillok-seonjo-31-03-18-005"
     ]
+  },
+  {
+    "id": "ev-1598-yi-praised-by-ming",
+    "track": "yi",
+    "title_ko": "명 경리, 이순신의 살적을 칭찬하며 속히 포상하라고 권고 (실록 기록)",
+    "title_en": "Ming commissioner praises Yi Sun-sin and urges a reward",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 4,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1598-05-18",
+      "julian": "1598-05-08",
+      "computed_gregorian": "1598-05-18",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-04-14-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 99권 4/14(戊辰): 이정구가 전한 명 경리의 말 '李舜臣用力殺賊如此, 我甚嘉喜'와 '급속히 장상하여 고무하라'. 날짜는 이 칭찬이 실록에 오른 날(1598-05-18)이며 칭찬의 계기가 된 전투일이 아니다(기사에 전투·날짜 없음)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-gogeumdo-move",
+      "rec-sillok-seonjo-31-04-14-003"
+    ]
+  },
+  {
+    "id": "ev-1598-yi-promoted-gaseon",
+    "track": "yi",
+    "title_ko": "이순신 등 3인에게 한 자급을 더하는 가자 판하 (이순신은 가선대부로 승진)",
+    "title_en": "Yi Sun-sin promoted to Gaseon daebu",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 4,
+        "day": 28,
+        "leap_month": false
+      },
+      "gregorian": "1598-06-01",
+      "julian": "1598-05-22",
+      "computed_gregorian": "1598-06-01",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-04-28-006",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 99권 4/28(壬午): '李舜臣等三人, 各加一資事判下, 李舜臣、金應緘, 則已爲折衝而陞嘉善'. 4/15(비변사)에는 '舟師蕩敗之後, 能措置糧餉、船隻, 有此捷報, 爲經理所稱賞'로 이순신을 포상할 사유를 적고 왕이 '褒奬은 옳으나 가자는 과하다'(李舜臣誠可褒奬, 但欲加資, 則似過)고 한 뒤의 결정이다(4/15 기사 헤더 일간지는 읽지 않아 기록으로 두지 않음). 판하일(1598-06-01)이며 가자의 구체적 전과는 기사에 없다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-yi-praised-by-ming",
+      "ev-1598-gogeumdo-move",
+      "rec-sillok-seonjo-31-04-28-006"
+    ]
   }
 ]
