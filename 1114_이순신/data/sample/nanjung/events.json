@@ -17,13 +17,19 @@
       "julian": null,
       "precision": "month",
       "certainty": "unverified",
-      "note": "crosscheck 문서 표기 '1597.3(음)'. 일 단위 날짜와 양력 환산은 미확인."
+      "note": "crosscheck 문서 표기 '1597.3(음)'. 일 단위 날짜와 양력 환산은 미확인. 선조실록 대조(30년 2~4월): 2/4(1597-03-21) 사헌부의 체포·단죄 건의, 2/6(03-23) 왕의 체포 전교(원균 교대 후), 3/13(04-28) 신문 후 처분 하문이 확인된다(각각 별도 사건). 일기 5책 4/1(辛酉, 1597-05-16)에 '得出圓門'(옥에서 나옴)이 있다. 입옥일·석방일은 실록 목록 제목에서 찾지 못했다(4월 목록에는 이순신 제목 없음). 이 사건의 날짜는 월 수준 unverified로 유지."
     },
     "source_ids": [
-      "src-crosscheck-md"
+      "src-crosscheck-md",
+      "src-seonjo-sillok"
     ],
     "verified": false,
-    "note": null
+    "note": null,
+    "relates_to": [
+      "ev-1597-arrest-requested",
+      "ev-1597-arrest-ordered",
+      "ev-1597-punishment-deliberation"
+    ]
   },
   {
     "id": "ev-1597-chilcheollyang",
@@ -2004,6 +2010,123 @@
     "relates_to": [
       "ev-1597-chilcheollyang",
       "rec-sillok-seonjo-30-07-22-002"
+    ]
+  },
+  {
+    "id": "ev-1597-arrest-requested",
+    "track": "yi",
+    "title_ko": "사헌부, 통제사 이순신의 체포·단죄를 건의",
+    "title_en": "Censorate asks for Yi Sun-sin's arrest",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 2,
+        "day": 4,
+        "leap_month": false
+      },
+      "gregorian": "1597-03-21",
+      "julian": "1597-03-11",
+      "computed_gregorian": "1597-03-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-02-04-001",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 85권 2/4(乙丑): '請命拿鞫, 依律定罪'. 기사일 그대로의 건의일(1597-03-21)이다. 죄목은 기망 장계와 縱賊不討."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-imprisonment",
+      "rec-sillok-seonjo-30-02-04-001"
+    ]
+  },
+  {
+    "id": "ev-1597-arrest-ordered",
+    "track": "yi",
+    "title_ko": "왕, 이순신 체포를 전교(원균 교대 후)",
+    "title_en": "King orders Yi Sun-sin's arrest after Won Gyun takes over",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 2,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1597-03-23",
+      "julian": "1597-03-13",
+      "computed_gregorian": "1597-03-23",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-02-06-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 85권 2/6(丁卯): '이순신을 잡아올 때 선전관에게 표신과 밀부를 주어… 원균이 교대한 뒤'. 전교일(1597-03-23)이며 실제 체포·압송일이 아니다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-imprisonment",
+      "rec-sillok-seonjo-30-02-06-003",
+      "ev-1597-arrest-requested"
+    ]
+  },
+  {
+    "id": "ev-1597-punishment-deliberation",
+    "track": "yi",
+    "title_ko": "왕, 신문 후 이순신의 처분을 대신들에게 하문",
+    "title_en": "King asks ministers how to punish Yi Sun-sin",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 3,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1597-04-28",
+      "julian": "1597-04-18",
+      "computed_gregorian": "1597-04-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-03-13-002",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 86권 3/13(癸卯): '令將窮刑得情, 何以處之, 問于大臣'. 하문일(1597-04-28)이며 석방일이 아니다. 일기 5책 4/1(辛酉)에는 옥에서 풀려나 나온 기록이 있다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-imprisonment",
+      "rec-sillok-seonjo-30-03-13-002",
+      "ev-1597-arrest-ordered",
+      "de-autograph-b5-1597-04-01"
     ]
   }
 ]

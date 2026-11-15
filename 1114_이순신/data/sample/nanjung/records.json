@@ -1238,5 +1238,125 @@
     ],
     "note": "이어서 '장수들이 황급히 배를 움직여 어렵게 진을 쳤고 닭이 울 때 왜선이 셀 수 없이 3~4겹으로 에워쌌다', '싸우며 물러나 고성 추원포로 물러나 주둔했다', '원균의 생사는 자세히 알 수 없다'가 나온다(요약 확인). 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 이 기사는 '칠천(漆川)'을 쓰지 않는다. 같은 날 다른 기사(비변사 논의)는 '七川島'에 이른 함대가 밤 2경 적이 몰래 들어와 전군이 괴멸했다고 적으나 날짜가 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
     "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 7월 목록과 7/22·7/25 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-02-04-001",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 85권",
+    "entry_ref": "kna_13002004_001",
+    "url": "https://sillok.history.go.kr/id/kna_13002004_001",
+    "title_ko": "통제사 이순신을 잡아 율에 따라 죄를 정할 것을 사헌부가 건의하다",
+    "title_note": "그날 기사 2건 중 1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 2,
+        "day": 4,
+        "leap_month": false
+      },
+      "gregorian": "1597-03-21",
+      "julian": "1597-03-11",
+      "computed_gregorian": "1597-03-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 乙丑 가 1597-03-21 의 일간지와 일치."
+    },
+    "day_ganji": "乙丑",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "請命拿鞫, 依律定罪",
+        "gloss_ko": "(통제사 이순신을) 잡아 국문하고 법률에 따라 죄를 정하게 해 달라고 청한다.",
+        "about": "사헌부의 이순신 체포·단죄 건의",
+        "stated_lunar": {
+          "month": 2,
+          "day": 4
+        }
+      }
+    ],
+    "note": "죄목은 '徒欲掠人之功, 欺罔狀啓'(남의 공을 가로채려 기망하는 장계를 올림)와 '縱賊不討'(적을 놓아주고 치지 않음)로 적혀 있고 왕은 '천천히 처분하겠다'고 답했다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 2~4월 일자별 목록과 2/4·2/6·3/13 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-02-06-003",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 85권",
+    "entry_ref": "kna_13002006_003",
+    "url": "https://sillok.history.go.kr/id/kna_13002006_003",
+    "title_ko": "이순신을 잡아오도록 김홍미에게 전교하다",
+    "title_note": "그날 기사 3건 중 3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 2,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1597-03-23",
+      "julian": "1597-03-13",
+      "computed_gregorian": "1597-03-23",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丁卯 가 1597-03-23 의 일간지와 일치."
+    },
+    "day_ganji": "丁卯",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "李舜臣拿來時, 以宣傳官標信及密符給送拿來, 而元均交代後, 拿來事言送",
+        "gloss_ko": "이순신을 잡아올 때 선전관에게 표신과 밀부를 주어 보내 잡아오되, 원균이 교대한 뒤에 잡아오는 일을 말해 보내라.",
+        "about": "왕의 이순신 체포 전교(원균 교대 후)",
+        "stated_lunar": {
+          "month": 2,
+          "day": 6
+        }
+      }
+    ],
+    "note": "이어 '이순신이 병사를 이끌고 적에 임해 있다면 잡아오는 것이 편치 않으니 전투가 끝난 틈에 잡아오라'는 단서(요약 확인). 죄목은 이 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 2~4월 일자별 목록과 2/4·2/6·3/13 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-03-13-002",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 86권",
+    "entry_ref": "kna_13003013_002",
+    "url": "https://sillok.history.go.kr/id/kna_13003013_002",
+    "title_ko": "이순신에게 벌하는 것을 대신들에게 의논하도록 하다",
+    "title_note": "그날 기사 3건 중 2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 3,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1597-04-28",
+      "julian": "1597-04-18",
+      "computed_gregorian": "1597-04-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 癸卯 가 1597-04-28 의 일간지와 일치."
+    },
+    "day_ganji": "癸卯",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "令將窮刑得情, 何以處之, 問于大臣",
+        "gloss_ko": "(이순신을) 엄히 신문해 실정을 얻었으니 어떻게 처분할지 대신들에게 물으라.",
+        "about": "왕의 이순신 처벌 논의 지시",
+        "stated_lunar": {
+          "month": 3,
+          "day": 13
+        }
+      }
+    ],
+    "note": "같은 기사에서 왕은 '신하로서 기망한 자는 반드시 죽이고 용서하지 않는다'(人臣而欺罔者, 必誅不赦)는 입장을 적는다. 대신들의 의견과 구금 장소는 이 기사에 없다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 2~4월 일자별 목록과 2/4·2/6·3/13 기사를 열람(WebFetch 요약)"
   }
 ]
