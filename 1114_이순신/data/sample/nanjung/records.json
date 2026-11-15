@@ -188,5 +188,215 @@
     "source_id": "src-seonjo-sillok",
     "url": "https://sillok.history.go.kr/id/kna_13008018_002",
     "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-09-15-002",
+    "volume_title": "선조실록 104권",
+    "entry_ref": "kna_13109015_002",
+    "title_ko": "경상 우병사 정기룡이 왜병의 철수에 대해 치계하다",
+    "title_note": "그날 기사 3건 중 2번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-14",
+      "julian": "1598-10-04",
+      "computed_gregorian": "1598-10-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丁酉 가 1598-10-14 의 일간지와 일치."
+    },
+    "day_ganji": "丁酉",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "皆言關白已死",
+        "gloss_ko": "항복한 자들이 모두 '관백(히데요시)이 이미 죽었다'고 말한다(문장의 앞부분만 인용). 보고자는 직접 확인한 것이 아닌 전언으로 제시한다.",
+        "about": "히데요시 사망 풍문 보고(기사 날짜 기준)",
+        "stated_lunar": {
+          "month": 9,
+          "day": 15
+        }
+      }
+    ],
+    "note": "사망 '풍문'의 보고이며 사망일은 적혀 있지 않다. 기사에는 히데요시의 어린 아들이 즉위했으나 자리를 빼앗으려는 움직임이 있다는 전언, 10~15일 사이 철수를 정했다는 전언(월은 본문에 명시 없음), 철수가 헛소문만은 아닌 듯하다는 보고자의 판단도 실려 있다(요약 확인). 일기 7책 9/15(같은 날, 丁酉)에는 사망 언급이 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_13109015_002",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-11-23-004",
+    "volume_title": "선조실록 106권",
+    "entry_ref": "kna_13111023_004",
+    "title_ko": "좌의정 이덕형이 왜적이 철수하였다는 내용의 치계를 올리다",
+    "title_note": "그날 기사 6건 중 4번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 23,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-20",
+      "julian": "1598-12-10",
+      "computed_gregorian": "1598-12-20",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 甲辰 가 1598-12-20 의 일간지와 일치."
+    },
+    "day_ganji": "甲辰",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "本月十九日巳時, 曳橋之賊, 專數撤渡。",
+        "gloss_ko": "이달 19일 사시(오전 9~11시)에 예교(순천)의 적이 모두 바다를 건너 철수했다.",
+        "about": "예교(순천) 일본군 철수",
+        "stated_lunar": {
+          "month": 11,
+          "day": 19
+        }
+      }
+    ],
+    "note": "표기 '專數'는 확인 요약에서 '盡數'의 오기로 보인다고 했다(미확인). 같은 기사에는 유 제독이 성에 들어가 조선인 3명과 말 4필만 있었다는 서술과, 멀리 남해 쪽에서 포성이 들려 해전으로 짐작했으나 확인하지 못했다는 서술이 있다(요약 확인). 이순신·노량은 이 기사에 나오지 않는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_13111023_004",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-11-24-005",
+    "volume_title": "선조실록 106권",
+    "entry_ref": "kna_13111024_005",
+    "title_ko": "정원이 이순신의 후임을 정하는 문제에 대해 아뢰다",
+    "title_note": "그날 기사 5건 중 5번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-21",
+      "julian": "1598-12-11",
+      "computed_gregorian": "1598-12-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 乙巳 가 1598-12-21 의 일간지와 일치."
+    },
+    "day_ganji": "乙巳",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "且李舜臣則戰死矣",
+        "gloss_ko": "군문 도감 낭청의 말을 전하는 대목에 '이순신은 전사했다'는 서술이 있다.",
+        "about": "이순신 전사 언급(기사 날짜 기준)",
+        "stated_lunar": {
+          "month": 11,
+          "day": 24
+        }
+      }
+    ],
+    "note": "전사일은 적혀 있지 않다('十九日' 같은 날짜 표현 없음). 이 기사 날짜(11/24)는 전사가 조정에 언급된 날이지 전사일이 아니다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_13111024_005",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-11-25-007",
+    "volume_title": "선조실록 106권",
+    "entry_ref": "kna_13111025_007",
+    "title_ko": "마 제독 접반사 이광정이 왜적의 철수에 대해 치계를 올리다",
+    "title_note": "그날 기사 10건 중 7번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-22",
+      "julian": "1598-12-12",
+      "computed_gregorian": "1598-12-22",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙午 가 1598-12-22 의 일간지와 일치."
+    },
+    "day_ganji": "丙午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "本月十八日, 島山之賊, 盡焚窟穴, 無遺撤去。",
+        "gloss_ko": "이달 18일 도산(울산)의 적이 소굴을 모두 불사르고 남김없이 철수했다(마 제독이 성에 들어가며 추격 중이라고 보고).",
+        "about": "도산(울산) 일본군 철수",
+        "stated_lunar": {
+          "month": 11,
+          "day": 18
+        }
+      }
+    ],
+    "note": "원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_13111025_007",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-12-01-004",
+    "volume_title": "선조실록 107권",
+    "entry_ref": "kna_13112001_004",
+    "title_ko": "예조가 왜적이 물러간 사실을 아뢰다",
+    "title_note": "그날 기사 6건 중 4번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 12,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-28",
+      "julian": "1598-12-18",
+      "computed_gregorian": "1598-12-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬子 가 1598-12-28 의 일간지와 일치."
+    },
+    "day_ganji": "壬子",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "釜山之賊, 似亦已退",
+        "gloss_ko": "예조가 '부산의 적도 이미 물러간 듯하다'고 보고한다(철수일은 명시 없음).",
+        "about": "부산 방면 일본군 철수 보고(기사 날짜 기준)",
+        "stated_lunar": {
+          "month": 12,
+          "day": 1
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "三路賊退, 海上大捷",
+        "gloss_ko": "세 갈래 길의 적이 물러나고 바다에서 크게 이겼다(진하를 건의하는 근거).",
+        "about": "삼로 일본군 철수·해상 승첩 보고(기사 날짜 기준)",
+        "stated_lunar": {
+          "month": 12,
+          "day": 1
+        }
+      }
+    ],
+    "note": "철군일은 적혀 있지 않고 12/1은 기사 날짜다. 예조는 이를 근거로 명에 진하하는 것이 적절하다고 아뢰며 대신들의 의견을 구한다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_13112001_004",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
   }
 ]

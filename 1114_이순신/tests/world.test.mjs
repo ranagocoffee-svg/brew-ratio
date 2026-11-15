@@ -62,16 +62,16 @@ test("달력 변환 범위: 그레고리 1500-03-11 ~ 1700-02-28 은 -10일(1582
 });
 
 // ---- 데이터 불변식 ----
-test("세계 트랙 36건: 지역별(전쟁 16·동아시아 6·유럽 8·세계 교역 6), 전부 출처 보유", () => {
-  assert.equal(world.length, 36);
+test("세계 트랙 39건: 지역별(전쟁 18·동아시아 7·유럽 8·세계 교역 6), 전부 출처 보유", () => {
+  assert.equal(world.length, 39);
   const c = {};
   for (const e of world) c[e.region] = (c[e.region] ?? 0) + 1;
-  assert.deepEqual(c, { war: 16, east_asia: 6, europe: 8, global: 6 });
+  assert.deepEqual(c, { war: 18, east_asia: 7, europe: 8, global: 6 });
   for (const e of world) assert.ok(e.source_ids.length > 0, e.id);
 });
 
-const SILLOK_VERIFIED = ["ev-1593-pyongyang-retaken", "ev-1593-japan-leaves-hanseong", "ev-1593-jinju-2", "ev-1597-namwon"];
-test("세계 사건의 verified 는 근거가 있는 것만: 실록으로 확정 4건(사건 verified), 일기로 확정된 오보 기록 1건(날짜만), 나머지는 unverified", () => {
+const SILLOK_VERIFIED = ["ev-1593-pyongyang-retaken", "ev-1593-japan-leaves-hanseong", "ev-1593-jinju-2", "ev-1597-namwon", "ev-1598-hideyoshi-death-rumor", "ev-1598-dosan-withdrawal", "ev-1598-yegyo-withdrawal"];
+test("세계 사건의 verified 는 근거가 있는 것만: 실록으로 확정 7건(사건 verified), 일기로 확정된 오보 기록 1건(날짜만), 나머지는 unverified", () => {
   for (const e of world) {
     if (SILLOK_VERIFIED.includes(e.id)) {
       assert.equal(e.verified, true, e.id);

@@ -72,13 +72,39 @@
     "source_ids": ["src-heritage-portal"], "verified": true, "note": "개시일만 기록. 이후 교전 일정·피해 수치는 일기 안에서도 명 측 보고문이 섞여 있어 사건별 분리 정리 전.", "relates_to": ["ev-1598-suncheon-siege"]
   },
   {
-    "id": "ev-1598-hideyoshi-death", "track": "world", "region": "east_asia",
-    "title_ko": "도요토미 히데요시 사망", "title_en": "Death of Toyotomi Hideyoshi",
+    "id": "ev-1598-hideyoshi-death",
+    "track": "world",
+    "region": "east_asia",
+    "title_ko": "도요토미 히데요시 사망",
+    "title_en": "Death of Toyotomi Hideyoshi",
     "category": "politics",
-    "date": {"original": {"calendar": "gregorian", "year": 1598, "month": 9, "day": 18, "leap_month": false}, "gregorian": "1598-09-18", "julian": "1598-09-08", "precision": "day", "certainty": "unverified", "note": "crosscheck 문서 표기 '1598.9.18'이고 위키 연표도 같은 날짜다(달력 미명시). 일본 음력 날짜와의 대응은 확인하지 못함. 율리우스력은 gregorian 기준 -10일."},
-    "source_ids": ["src-crosscheck-md", "src-standard-chronology", "src-wiki-imjin-timeline"], "verified": false, "note": null,
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1598,
+        "month": 9,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1598-09-18",
+      "julian": "1598-09-08",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "crosscheck 문서 표기 '1598.9.18'이고 위키 연표도 같은 날짜다(달력 미명시). 일본 음력 날짜와의 대응은 확인하지 못함. 율리우스력은 gregorian 기준 -10일. 선조실록 104권 9/15(丁酉)에 '관백이 이미 죽었다'는 풍문 보고가 있으나 사망일은 실록에서 확인하지 못했다(별도 사건 참조)."
+    },
+    "source_ids": [
+      "src-crosscheck-md",
+      "src-standard-chronology",
+      "src-wiki-imjin-timeline"
+    ],
+    "verified": false,
+    "note": null,
     "connection": "일본군 철수(12/24)로 이어지는 전환점이다. 현존 일기 7책(1598 음력 9/15~10/7 = 양력 10/14~11/5)은 사망 직후의 기록이지만 사망 소식의 언급은 찾지 못했다('秀吉' 미검출). 1596년 일기에는 사망설(오보)이 적혀 있다.",
-    "relates_to": ["ev-1596-hideyoshi-rumor", "ev-1598-japan-leaves"]
+    "relates_to": [
+      "ev-1596-hideyoshi-rumor",
+      "ev-1598-japan-leaves",
+      "ev-1598-hideyoshi-death-rumor"
+    ]
   },
   {
     "id": "ev-1598-nantes", "track": "world", "region": "europe",
@@ -90,11 +116,40 @@
     "relates_to": ["ev-1593-henry-converts", "ev-1598-vervins"]
   },
   {
-    "id": "ev-1598-noryang", "track": "yi",
-    "title_ko": "노량해전, 이순신 전사", "title_en": "Battle of Noryang; death of Yi Sun-sin",
+    "id": "ev-1598-noryang",
+    "track": "yi",
+    "title_ko": "노량해전, 이순신 전사",
+    "title_en": "Battle of Noryang; death of Yi Sun-sin",
     "category": "battle",
-    "date": {"original": {"calendar": "lunisolar", "year": 1598, "month": 11, "day": 19, "leap_month": false}, "gregorian": "1598-12-16", "julian": "1598-12-06", "computed_gregorian": "1598-12-16", "converter": "korean-lunar-calendar@0.4.0", "precision": "day", "certainty": "unverified", "note": "crosscheck 문서와 변환기가 12/16으로 일치. 일기는 10/7에서 끝나 이 날의 일간지 대조는 불가능. 향년은 문서 표기상 세는나이 54, 만 53."},
-    "source_ids": ["src-crosscheck-md", "src-wiki-chronology"], "verified": false, "note": null, "relates_to": ["ev-1598-japan-leaves", "ev-1598-sacheon"]
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 19,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-16",
+      "julian": "1598-12-06",
+      "computed_gregorian": "1598-12-16",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "crosscheck 문서와 변환기가 12/16으로 일치. 일기는 10/7에서 끝나 이 날의 일간지 대조는 불가능. 향년은 문서 표기상 세는나이 54, 만 53. 선조실록 106권 11/24(乙巳)에 '이순신은 전사했다'는 언급이 있으나 전사일은 적혀 있지 않고, 11/23 기사는 11/19 사시 예교의 적 철수 때 남쪽 바다의 포성을 해전으로 짐작했다고 적는다(노량·이순신은 미언급). 날짜(11/19)는 실록으로 확정되지 않았다."
+    },
+    "source_ids": [
+      "src-crosscheck-md",
+      "src-wiki-chronology"
+    ],
+    "verified": false,
+    "note": null,
+    "relates_to": [
+      "ev-1598-japan-leaves",
+      "ev-1598-sacheon",
+      "ev-1598-yegyo-withdrawal",
+      "ev-1598-dosan-withdrawal",
+      "ev-1598-yi-death-mentioned"
+    ]
   },
   {
     "id": "ev-1545-potosi",
@@ -834,16 +889,20 @@
       "julian": "1598-12-14",
       "precision": "day",
       "certainty": "unverified",
-      "note": "위키 연표: 1598-12-24. 음력 환산(변환기, 참고): 1598년 11월 27일."
+      "note": "위키 연표: 1598-12-24. 음력 환산(변환기, 참고): 1598년 11월 27일. 실록은 이보다 앞선 철수 일자를 적는다: 도산(울산) 11/18(1598-12-15), 순천 예교 11/19(12-16). 12/1(12-28) 예조 보고는 '부산의 적도 이미 물러간 듯하다'고만 적어 철수일이 없다. 위키의 12-24는 실록으로 확인되지 않으며 부산 방면 마지막 선박의 날짜로만 읽을 수 있다(미확인)."
     },
     "source_ids": [
-      "src-wiki-imjin-timeline"
+      "src-wiki-imjin-timeline",
+      "src-seonjo-sillok"
     ],
     "verified": false,
     "note": null,
-    "connection": "노량해전(양력 12/16, 이순신 전사)의 8일 뒤다.",
+    "connection": "노량해전(양력 12/16, 이순신 전사)의 8일 뒤다. 실록은 일본군이 울산(11/18)·순천(11/19)에서 먼저 철수했다고 적어 '마지막' 철수는 이 사건(부산 방면)으로 한정해야 한다.",
     "relates_to": [
-      "ev-1598-noryang"
+      "ev-1598-noryang",
+      "ev-1598-dosan-withdrawal",
+      "ev-1598-yegyo-withdrawal",
+      "rec-sillok-seonjo-31-12-01-004"
     ]
   },
   {
@@ -1134,6 +1193,170 @@
       "ev-1593-hanseong-retaken",
       "rec-sillok-seonjo-26-04-21-005",
       "de-autograph-b2-1593-05-14"
+    ]
+  },
+  {
+    "id": "ev-1598-hideyoshi-death-rumor",
+    "track": "world",
+    "region": "east_asia",
+    "title_ko": "조선 조정에 히데요시 사망 풍문 보고 (정기룡 치계)",
+    "title_en": "Rumor of Hideyoshi's death reported to the Joseon court",
+    "category": "politics",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-14",
+      "julian": "1598-10-04",
+      "computed_gregorian": "1598-10-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-09-15-002",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 104권 9/15(丁酉)의 치계: 항복한 자들이 '관백이 이미 죽었다'고 말한다(인용: 皆言關白已死). 날짜는 이 보고가 실록에 오른 날(보고일)이며 히데요시의 사망일이 아니다. 사망일(위키 1598-09-18)은 실록에서 확인하지 못했다. 일기 7책 9/15(같은 날, 丁酉)와 일간지가 일치한다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "실제 사망(위키 1598-09-18)을 조선 쪽이 풍문으로 접한 기록의 날짜다(사망 약 26일 뒤). 이순신은 이 날 명 수군과 함께 출병한 때이며(일기 7책 첫 일기) 일기 7책 전체에 '秀吉'은 없다. 1596년 일기의 사망설(오보)과 달리 이쪽은 사실과 맞는 풍문이다.",
+    "relates_to": [
+      "ev-1598-hideyoshi-death",
+      "ev-1596-hideyoshi-rumor",
+      "rec-sillok-seonjo-31-09-15-002",
+      "de-autograph-b7-1598-09-15"
+    ]
+  },
+  {
+    "id": "ev-1598-dosan-withdrawal",
+    "track": "world",
+    "region": "war",
+    "title_ko": "울산 도산의 일본군 철수",
+    "title_en": "Japanese withdraw from Dosan (Ulsan)",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-15",
+      "julian": "1598-12-05",
+      "computed_gregorian": "1598-12-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-11-25-007",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 106권 11/25(丙午)의 치계: '이달 18일 도산의 적이 소굴을 모두 불사르고 남김없이 철수'(인용: 本月十八日 島山之賊 盡焚窟穴 無遺撤去). 일간지로 확정한 11/25에서 7일 앞이라 11/18 = 1598-12-15다. 위키 연표에는 이 일자가 없다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "이순신의 마지막 해전(노량, 같은 달 19일)의 하루 전이다. 실록은 일본군 철수가 울산(11/18)·순천 예교(11/19)에서 차례로 이뤄졌음을 적는다.",
+    "relates_to": [
+      "ev-1598-yegyo-withdrawal",
+      "ev-1598-japan-leaves",
+      "rec-sillok-seonjo-31-11-25-007"
+    ]
+  },
+  {
+    "id": "ev-1598-yegyo-withdrawal",
+    "track": "world",
+    "region": "war",
+    "title_ko": "순천 예교의 일본군 철수",
+    "title_en": "Japanese withdraw from Yegyo (Suncheon)",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 19,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-16",
+      "julian": "1598-12-06",
+      "computed_gregorian": "1598-12-16",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-11-23-004",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 106권 11/23(甲辰)의 치계: '이달 19일 사시에 예교의 적이 모두 바다를 건너 철수'(인용: 本月十九日巳時 曳橋之賊 專數撤渡). 일간지로 확정한 11/23에서 4일 앞이라 11/19 = 1598-12-16이며 노량해전 날짜와 같다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "일기 7책(~10/7)이 적은 순천(예교) 협공의 결말이다. 같은 기사에는 유 제독이 성에 들어갔을 때 조선인 3명과 말 4필뿐이었고 멀리 남해 쪽에서 포성이 들려 해전으로 짐작했다는 서술이 있다(요약 확인). 같은 날 노량해전(이순신 전사)이 있었다는 위키·문서의 날짜와 맞지만 이 기사는 이순신·노량을 언급하지 않는다.",
+    "relates_to": [
+      "ev-1598-suncheon-siege",
+      "ev-1598-joint-assault",
+      "ev-1598-noryang",
+      "ev-1598-dosan-withdrawal",
+      "rec-sillok-seonjo-31-11-23-004"
+    ]
+  },
+  {
+    "id": "ev-1598-yi-death-mentioned",
+    "track": "yi",
+    "title_ko": "조정, 이순신의 전사를 언급 (실록 기록)",
+    "title_en": "Court refers to Yi Sun-sin's death",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-21",
+      "julian": "1598-12-11",
+      "computed_gregorian": "1598-12-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-11-24-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 106권 11/24(乙巳) 기사 중 군문 도감 낭청의 말을 전하는 대목에 '이순신은 전사했다'는 서술(인용: 且李舜臣則戰死矣). 날짜는 이 말이 실록에 오른 날(1598-12-21)이며 전사일이 아니다. 전사일은 이 기사에 적혀 있지 않다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": "실록에서 확인한 가장 이른 언급이라는 뜻이 아니다: 이번에는 11월 18~28일 목록의 제목과 이 기사만 확인했다.",
+    "relates_to": [
+      "ev-1598-noryang",
+      "rec-sillok-seonjo-31-11-24-005"
     ]
   }
 ]
