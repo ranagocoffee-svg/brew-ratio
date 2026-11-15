@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "validate": "node tools/validate.mjs",`n    "serve": "node tools/serve.mjs 5173",
+    "validate": "node tools/validate.mjs",
+    "serve": "node tools/serve.mjs 5173",
     "test": "node --test tests/validate.test.mjs tests/import_diary.test.mjs tests/lunar.test.mjs tests/ganji.test.mjs"
   },
   "dependencies": {
