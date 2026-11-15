@@ -170,14 +170,17 @@
       "converter": "korean-lunar-calendar@0.4.0",
       "precision": "day",
       "certainty": "unverified",
-      "note": "crosscheck 문서는 양력 6.16만 적었다. 음력 5월 7일은 변환기 역산값. 현존 일기에 5/5~5/28이 없어 일간지로 대조할 수 없다."
+      "note": "crosscheck 문서는 양력 6.16만 적었다. 음력 5월 7일은 변환기 역산값. 현존 일기에 5/5~5/28이 없어 일간지로 대조할 수 없다. 선조실록 대조: 27권 6/21 기사는 옥포 진출을 '5월 초6일'로, 27권 6/28(丙辰) 최원 치계는 '5월 초7일 옥포 앞바다에서 적선을 만났다'고 적어 실록 안에서 하루가 다르다(변환기 5/7=1592-06-16과 맞는 것은 7일 쪽). 확정하지 못했다."
     },
     "source_ids": [
       "src-crosscheck-md",
       "src-wiki-chronology"
     ],
     "verified": false,
-    "note": null
+    "note": null,
+    "relates_to": [
+      "rec-sillok-seonjo-25-06-21-004"
+    ]
   },
   {
     "id": "ev-1592-hansando",
@@ -1925,6 +1928,39 @@
       "ev-1598-sacheon-dong-attack",
       "de-autograph-b7-1598-10-01",
       "rec-sillok-seonjo-31-10-17-001"
+    ]
+  },
+  {
+    "id": "ev-1592-sacheon-naval",
+    "track": "yi",
+    "title_ko": "사천해전 (거북선 첫 실전 투입, 통상 음력 5/29)",
+    "title_en": "Battle of Sacheon (naval), 1592",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1592,
+        "month": 5,
+        "day": 29,
+        "leap_month": false
+      },
+      "gregorian": "1592-07-08",
+      "julian": "1592-06-28",
+      "computed_gregorian": "1592-07-08",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "음력 5/29(1592-07-08)는 통용되는 날짜의 변환기 역산값이다. 선조실록 27권 6/21(己酉)에 '二十九日, 舜臣、元均再會於露梁' 이후 거북선 돌진·적선 소각·이순신의 어깨 부상이 서술되나 월이 적혀 있지 않고 지명은 '노량'이며 사천은 나오지 않는다. 일기에는 5/5~5/28이 없어 이을 수 없다. 5/29의 달 추론과 사천=노량 대응은 우리의 해석이라 unverified로 둔다. (요청의 '1597년'은 사천해전이 일어난 1592년으로 읽었다.)"
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": false,
+    "note": null,
+    "relates_to": [
+      "ev-1592-okpo",
+      "ev-1592-hansando",
+      "rec-sillok-seonjo-25-06-21-004"
     ]
   }
 ]
