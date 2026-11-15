@@ -1164,7 +1164,7 @@
       "julian": "1598-10-27",
       "precision": "day",
       "certainty": "unverified",
-      "note": "위키 연표: 1598-11-06~11. 음력 환산(변환기, 참고): 1598년 10월 8일."
+      "note": "위키 연표: 1598-11-06~11. 음력 환산(변환기, 참고): 1598년 10월 8일. 선조실록 조사: 동일원 군의 사천 첫 공격은 음력 9/28(1598-10-27)로 적혀 있다(105권 10/1, 별도 사건). 신채 전투의 패배는 105권 10/8(庚申)·10/12 기사가 '대군이 창황히 무너졌고 제독은 진주로 물러났다' / '삼로의 군사가 모두 무너졌다'고 보고하나 전투일은 적지 않는다. 위키의 11-06은 음력 10/8로, 이 패전 보고가 실록에 오른 날(10/8, 庚申=11-06)과 같아 전투일이 아니라 보고일일 가능성이 있다(미확인). 이순신의 치계(10/13)의 '初二日' 수군 교전은 일기 7책 10/2(甲寅)과 일치하나 이는 예교 쪽이다."
     },
     "source_ids": [
       "src-wiki-imjin-timeline"
@@ -1173,7 +1173,8 @@
     "note": null,
     "connection": "이순신의 마지막 해전(노량, 양력 12/16)을 약 6주 앞둔 때다.",
     "relates_to": [
-      "ev-1598-noryang"
+      "ev-1598-noryang",
+      "ev-1598-sacheon-dong-attack"
     ]
   },
   {
@@ -1792,6 +1793,49 @@
     "relates_to": [
       "ev-1598-ulsan-siege",
       "rec-sillok-seonjo-31-01-09-003"
+    ]
+  },
+  {
+    "id": "ev-1598-sacheon-dong-attack",
+    "track": "world",
+    "region": "war",
+    "title_ko": "명 동일원 군, 사천 공격(첫 교전)",
+    "title_en": "Ming forces under Dong Yiyuan attack Sacheon",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 28,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-27",
+      "julian": "1598-10-17",
+      "computed_gregorian": "1598-10-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-10-01-006",
+          "statement": 0,
+          "bridge_entry_id": "de-autograph-b7-1598-09-28"
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 105권 10/1(癸丑): '지난 28일 동 제독이 사천에 들어가 공격해 80여 급을 베었다'(인용: 去二十八日, 董提督入攻泗川). 직전 달(9월) 28일은 일간지로 확정된 일기 7책 9/28(庚戌)과 이어 1598-10-27이다(월은 추론). 위키의 사천 전투(11-06~11)와는 일자가 다르다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "순천 공방(1598-10-19) 8일 뒤, 노량해전(12-16)에 7주 앞선다. 같은 시기 이순신은 순천 예교 앞바다에서 수군을 지휘하고 있었다(일기 7책 9/28 '大小船不得出入' 등, 사천 언급은 없음).",
+    "relates_to": [
+      "ev-1598-sacheon",
+      "ev-1598-suncheon-siege",
+      "de-autograph-b7-1598-09-28",
+      "rec-sillok-seonjo-31-10-01-006"
     ]
   }
 ]
