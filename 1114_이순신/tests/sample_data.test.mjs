@@ -120,13 +120,17 @@ test("명량: 6책 9/1=己丑=10/11, 9/16=甲辰=10/26 이고 사건 날짜의 �
   assert.ok(ev.date.basis_entry_ids.includes("de-autograph-b6-1597-09-16"));
 });
 
-test("1598 사건: 일기 근거 사건은 verified, 일기 밖 사건은 unverified", () => {
+test("1598 사건: 일기 근거 사건은 verified, 일기 밖 사건은 unverified (노량은 실록 근거로 verified)", () => {
+  const nor = events.find((e) => e.id === "ev-1598-noryang");
+  assert.equal(nor.date.certainty, "verified");
+  assert.equal(nor.date.gregorian, "1598-12-16");
+  assert.ok(nor.date.basis_records.length > 0);
   const byId = Object.fromEntries(events.map((e) => [e.id, e]));
   for (const id of ["ev-1598-fleet-departure", "ev-1598-joint-assault"]) {
     assert.equal(byId[id].date.certainty, "verified", id);
     assert.ok(byId[id].date.basis_entry_ids.length > 0, id);
   }
-  for (const id of ["ev-1598-noryang", "ev-1598-hideyoshi-death", "ev-1598-nantes"]) {
+  for (const id of ["ev-1598-hideyoshi-death", "ev-1598-nantes"]) {
     assert.equal(byId[id].date.certainty, "unverified", id);
     assert.equal(byId[id].verified, false, id);
   }
