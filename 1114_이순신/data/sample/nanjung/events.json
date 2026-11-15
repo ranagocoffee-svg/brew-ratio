@@ -50,7 +50,7 @@
       "julian": null,
       "precision": "year",
       "certainty": "unverified",
-      "note": "crosscheck 문서에 정확한 날짜 없음. 별도 확인 필요. 선조실록 조사(30년 7월): 90권 7/22(辛亥) 김식 보고는 15일 2경 야간 기습으로 전선 4척이 불타고 닭 울 무렵 대규모 포위, 추원포 퇴각이라 적고(별도 사건), 같은 날 비변사 기사는 '七川島'에 이른 함대가 밤 2경 괴멸했다고 적되 날짜가 없다. 통상 7/16(1597-08-28)로 알려진 괴멸일은 실록 어디에도 날짜로 적혀 있지 않다(미확인). 이 사건의 날짜 정밀도는 연도 수준으로 둔다."
+      "note": "crosscheck 문서에 정확한 날짜 없음. 별도 확인 필요. 선조실록 조사(30년 7월): 90권 7/22(辛亥) 김식 보고는 15일 2경 야간 기습으로 전선 4척이 불타고 닭 울 무렵 대규모 포위, 추원포 퇴각이라 적고(별도 사건), 같은 날 비변사 기사는 '七川島'에 이른 함대가 밤 2경 괴멸했다고 적되 날짜가 없다. 통상 7/16(1597-08-28)로 알려진 괴멸일은 실록 어디에도 날짜로 적혀 있지 않다(미확인). 이 사건의 날짜 정밀도는 연도 수준으로 둔다. 칠천량 이후 대조: 일기 5책 7/18(丁酉)은 '十六日曉 舟師夜驚, 統制元均 … 被害 舟師大敗'(16일 새벽 야습)를 전해 들었다고 적어 통상의 7/16과 맞는다(전언). 선조실록 7/26(乙卯, 성첩 7/21) 권율 보고는 한산도의 군민·군기를 창선도로 옮겼고 '元均免死, 向晋州'(전언)와 이순신을 사량으로 보내 흩어진 배를 수습하게 하자는 건의를 적고, 7/27 사간원 건의는 '舟師敗衂, 已過十日'(패전 후 10일이 지남), 7/28(丁巳) 권율 보고는 진주 목사의 치보로 '統制使가 見乃梁에서 하륙해 추격당했다'(전언)를 적는다. 괴멸일 자체는 실록에 날짜로 적히지 않았다."
     },
     "source_ids": [
       "src-crosscheck-md",
@@ -60,7 +60,9 @@
     "note": null,
     "relates_to": [
       "ev-1597-chilcheollyang-night-attack",
-      "rec-sillok-seonjo-30-07-22-002"
+      "rec-sillok-seonjo-30-07-22-002",
+      "ev-1597-yi-reappointed",
+      "de-autograph-b5-1597-07-18"
     ]
   },
   {
@@ -2166,6 +2168,46 @@
     "relates_to": [
       "ev-1597-imprisonment",
       "rec-sillok-seonjo-20-10-16-001"
+    ]
+  },
+  {
+    "id": "ev-1597-yi-reappointed",
+    "track": "yi",
+    "title_ko": "조정, 이순신을 삼도수군통제사로 재임명 (실록 인사 기록)",
+    "title_en": "Court reappoints Yi Sun-sin as Naval Commander of the Three Provinces",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-03",
+      "julian": "1597-08-24",
+      "computed_gregorian": "1597-09-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-07-22-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 90권 7/22(辛亥): '李舜臣爲全羅左道水軍節度使兼慶尙、全羅、忠淸三道統制使'. 같은 날 선전관 김식의 한산 보고와 패전 대책 논의가 있었다. 이 날짜(1597-09-03)는 인사 기록일이며, 일기 5책 8/3(辛亥, 1597-09-13)에 선전관 양호가 '兼三道統制使之命'의 교유서를 가져와 받았다고 적어 11일 뒤다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-chilcheollyang",
+      "ev-1597-imprisonment",
+      "de-autograph-b5-1597-08-03",
+      "rec-sillok-seonjo-30-07-22-005"
     ]
   }
 ]
