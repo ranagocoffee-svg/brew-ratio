@@ -3177,5 +3177,205 @@
     ],
     "note": "원문 한자 문장은 확인하지 못했고 요약으로만 읽었다. 예조는 진린의 사당이 관왕묘 곁에 있어 사액하면 사실상 관왕묘 액이 된다고 반대하고, 대신들은 선무사·무열사 전례, 관왕묘에만 액을 걸고 이순신은 선비 또는 첨사가 제사, 매년 봄가을 관제 등 의견을 낸다. 왕은 좌의정 서종태의 의견을 따르고 예조는 경칩·상강에 관왕묘 제사에 진린·이순신을 배향한다(요약 확인). 앞서 가을에 사액이 윤허되었다는 서술이 있다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
     "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 효종·현종·숙종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-jeongjo-11609005_003",
+    "source_id": "src-jeongjo-sillok",
+    "volume_title": "정조실록 35권",
+    "entry_ref": "kva_11609005_003",
+    "url": "https://sillok.history.go.kr/id/kva_11609005_003",
+    "title_ko": "각신 서유방이 이순신의 아들들의 증직과 정려를 청하다",
+    "title_note": "그날 기사 중 3/13번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1792,
+        "month": 9,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1792-10-20",
+      "julian": null,
+      "computed_gregorian": "1792-10-20",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 辛丑 가 1792-10-20 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "辛丑",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "閣臣徐有防啓言: 忠武公李舜臣子葂, 死於倭, 庶子薰、藎, 或死於虜, 或死适變",
+        "gloss_ko": "각신 서유방이 아뢰기를 충무공 이순신의 아들 면은 왜에게 죽었고 서자 훈·신은 혹 오랑캐에게, 혹 이괄의 변에 죽었다고 했다.",
+        "about": "서유방의 이순신 아들들 증직·정려 청원",
+        "stated_lunar": {
+          "month": 9,
+          "day": 5
+        }
+      }
+    ],
+    "note": "채제공은 '충무가 통영에 있을 때 면이 고향에서 왜적과 싸워 셋을 죽이고 죽었다'고 하나 '충무가 순국하기 전의 일이라 효자로도 충신으로도 정려할 수 없다'(事在忠武未殉國前, 不可以孝子旌, 又不可以忠臣旌)고 하며, 훈은 정묘년·신은 안현에서 죽었으나 후사·신주가 없다. 왕은 '命置之'(그대로 두라)라고 한다. 같은 기사에서 이양원의 아들 이시경의 정려는 '從之'(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(6~7쪽) 중 정조실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-jeongjo-11707021_001",
+    "source_id": "src-jeongjo-sillok",
+    "volume_title": "정조실록 38권",
+    "entry_ref": "kva_11707021_001",
+    "url": "https://sillok.history.go.kr/id/kva_11707021_001",
+    "title_ko": "충무공 이순신을 의정부 영의정으로 추증한다고 전교하다",
+    "title_note": "그날 기사 중 1/3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1793,
+        "month": 7,
+        "day": 21,
+        "leap_month": false
+      },
+      "gregorian": "1793-08-27",
+      "julian": null,
+      "computed_gregorian": "1793-08-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬子 가 1793-08-27 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "壬子",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "加贈議政府領議政",
+        "gloss_ko": "의정부 영의정을 더하여 추증한다.",
+        "about": "정조의 이순신 영의정 추증 전교",
+        "stated_lunar": {
+          "month": 7,
+          "day": 21
+        }
+      }
+    ],
+    "note": "전교는 '沒後尙闕首相之加贈, 實爲欠事'(죽은 뒤 아직 수상 추증이 없는 것은 실로 흠이다)를 이유로 들고, 이미 좌의정·덕풍부원군 등의 증직이 있었음을 열거하며 '竪碑日致祭 … 贈官宣誥, 幷行於伊日'(비를 세우는 날 치제하고 증관 선고를 함께 행한다)고 한다. 시호(諡) 서술은 없다. 전교의 기록일이며 선고일이 아니다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(6~7쪽) 중 정조실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-jeongjo-11905011_002",
+    "source_id": "src-jeongjo-sillok",
+    "volume_title": "정조실록 42권",
+    "entry_ref": "kva_11905011_002",
+    "url": "https://sillok.history.go.kr/id/kva_11905011_002",
+    "title_ko": "임금이 지은 고 충신 이순신의 상충 정무비 인본을 나누어 주다",
+    "title_note": "그날 기사 중 2/2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1795,
+        "month": 5,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1795-06-27",
+      "julian": null,
+      "computed_gregorian": "1795-06-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 辛酉 가 1795-06-27 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "辛酉",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "上念忠武公李舜臣功節之卓然, 親製神道碑銘",
+        "gloss_ko": "왕이 충무공 이순신의 공과 절의가 탁월함을 생각해 친히 신도비명을 지었다.",
+        "about": "정조가 지은 이순신 신도비명과 인본 분장",
+        "stated_lunar": {
+          "month": 5,
+          "day": 11
+        }
+      }
+    ],
+    "note": "비 머리는 송 부필 묘비의 전수 사례를 따라 '상충정무지비'(尙忠旌武之碑)로 하고 안진경 가묘비 글자를 모아 쓰게 했으며, 내각이 탁본을 올리자 5곳 사고와 관각·태학에 나누어 보관하게 했다. 비는 호남 관찰사 관할로 세워져 '甲寅'(1794)에 공사를 마쳤다고 한다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(6~7쪽) 중 정조실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-jeongjo-11909014_001",
+    "source_id": "src-jeongjo-sillok",
+    "volume_title": "정조실록 43권",
+    "entry_ref": "kva_11909014_001",
+    "url": "https://sillok.history.go.kr/id/kva_11909014_001",
+    "title_ko": "《충무공이순신전서》를 발간하다",
+    "title_note": "그날 기사 중 1/1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1795,
+        "month": 9,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1795-10-26",
+      "julian": null,
+      "computed_gregorian": "1795-10-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬戌 가 1795-10-26 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "壬戌",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "先是, 命內閣, 裒輯舜臣故實及遺稿, 勒成一書, 至是編進",
+        "gloss_ko": "앞서 내각에 명해 이순신의 고실과 유고를 모아 한 책으로 만들게 했는데 이때 편찬해 올렸다.",
+        "about": "《충무공이순신전서》 편찬·진상",
+        "stated_lunar": {
+          "month": 9,
+          "day": 14
+        }
+      }
+    ],
+    "note": "인쇄비로 내탕전 500꿰미와 어영전 500꿰미를 내린다(今下內帑錢五百緡, 御營錢五百緡). 시호·증직 서술은 없다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(6~7쪽) 중 정조실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-jeongjo-11912005_001",
+    "source_id": "src-jeongjo-sillok",
+    "volume_title": "정조실록 43권",
+    "entry_ref": "kva_11912005_001",
+    "url": "https://sillok.history.go.kr/id/kva_11912005_001",
+    "title_ko": "충무공 이순신의 치제문을 친히 짓고, 통영의 충렬사에 제사를 올리게 하다",
+    "title_note": "그날 기사 중 1/1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1795,
+        "month": 12,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1796-01-14",
+      "julian": null,
+      "computed_gregorian": "1796-01-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬午 가 1796-01-14 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "壬午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "親製忠武公李舜臣致祭文, 命統制使李得濟, 致祭于統營 忠烈祠",
+        "gloss_ko": "충무공 이순신의 치제문을 친히 짓고 통제사 이득제에게 통영 충렬사에서 치제하게 했다.",
+        "about": "정조의 이순신 치제문 친제와 통영 충렬사 치제 명령",
+        "stated_lunar": {
+          "month": 12,
+          "day": 5
+        }
+      }
+    ],
+    "note": "시호·증직 서술은 없다(요약 확인). 치제가 시행된 날짜는 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(6~7쪽) 중 정조실록 기사를 열람(WebFetch 요약)"
   }
 ]

@@ -3800,5 +3800,196 @@
       "ev-1598-gogeumdo-move",
       "rec-sillok-sukjong-13612017_002"
     ]
+  },
+  {
+    "id": "ev-1792-yi-sons-honor-shelved",
+    "track": "yi",
+    "title_ko": "서유방, 이순신 아들들의 증직·정려를 청하나 왕이 그대로 두라 함 (실록 기록)",
+    "title_en": "Petition for posthumous office and a commemorative gate for Yi's sons shelved",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1792,
+        "month": 9,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1792-10-20",
+      "julian": null,
+      "computed_gregorian": "1792-10-20",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-jeongjo-11609005_003",
+          "statement": 0
+        }
+      ],
+      "note": "정조실록 35권 9/5(辛丑) 기사. 기록일 1792-10-20이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-jeongjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1707-hyeonchung-plaque",
+      "rec-sillok-jeongjo-11609005_003"
+    ]
+  },
+  {
+    "id": "ev-1793-posthumous-yeonguijeong",
+    "track": "yi",
+    "title_ko": "정조, 충무공 이순신을 영의정으로 추증하라 전교 (실록 기록)",
+    "title_en": "Jeongjo orders the posthumous rank of Chief State Councillor for Yi Sun-sin",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1793,
+        "month": 7,
+        "day": 21,
+        "leap_month": false
+      },
+      "gregorian": "1793-08-27",
+      "julian": null,
+      "computed_gregorian": "1793-08-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-jeongjo-11707021_001",
+          "statement": 0
+        }
+      ],
+      "note": "정조실록 38권 7/21(壬子) 기사. 기록일 1793-08-27이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-jeongjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1792-yi-sons-honor-shelved",
+      "ev-1604-seonmu-edict-read",
+      "rec-sillok-jeongjo-11707021_001"
+    ]
+  },
+  {
+    "id": "ev-1795-shindobi-printed",
+    "track": "yi",
+    "title_ko": "정조가 친히 지은 이순신 신도비명(상충정무비) 인본을 사고·관각·태학에 분장 (실록 기록)",
+    "title_en": "Jeongjo distributes rubbings of his self-composed stele inscription for Yi Sun-sin",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1795,
+        "month": 5,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1795-06-27",
+      "julian": null,
+      "computed_gregorian": "1795-06-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-jeongjo-11905011_002",
+          "statement": 0
+        }
+      ],
+      "note": "정조실록 42권 5/11(辛酉) 기사. 기록일 1795-06-27이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-jeongjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1793-posthumous-yeonguijeong",
+      "rec-sillok-jeongjo-11905011_002"
+    ]
+  },
+  {
+    "id": "ev-1795-complete-works-compiled",
+    "track": "yi",
+    "title_ko": "내각이 《충무공이순신전서》를 편찬해 올리고 인쇄비를 하사 (실록 기록)",
+    "title_en": "The Complete Works of Yi Sun-sin compiled and presented",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1795,
+        "month": 9,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1795-10-26",
+      "julian": null,
+      "computed_gregorian": "1795-10-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-jeongjo-11909014_001",
+          "statement": 0
+        }
+      ],
+      "note": "정조실록 43권 9/14(壬戌) 기사. 기록일 1795-10-26이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-jeongjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1795-shindobi-printed",
+      "rec-sillok-jeongjo-11909014_001"
+    ]
+  },
+  {
+    "id": "ev-1795-sacrifice-text-written",
+    "track": "yi",
+    "title_ko": "정조, 이순신 치제문을 친히 짓고 통제사에게 통영 충렬사 치제를 명함 (실록 기록)",
+    "title_en": "Jeongjo writes a sacrificial text for Yi and orders rites at the Tongyeong shrine",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1795,
+        "month": 12,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1796-01-14",
+      "julian": null,
+      "computed_gregorian": "1796-01-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-jeongjo-11912005_001",
+          "statement": 0
+        }
+      ],
+      "note": "정조실록 43권 12/5(壬午) 기사. 기록일 1796-01-14이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-jeongjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1795-complete-works-compiled",
+      "rec-sillok-jeongjo-11912005_001"
+    ]
   }
 ]

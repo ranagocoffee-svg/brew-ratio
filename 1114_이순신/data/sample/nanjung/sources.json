@@ -361,5 +361,16 @@
     "citation": null,
     "url": "https://sillok.history.go.kr/",
     "note": "후대 편찬 관찬 사료. WebFetch 요약으로 개별 기사를 확인했으며 원문 전문과 국역은 수록하지 않는다. 날짜는 기사 헤더(일간지 포함) 기준."
+  },
+  {
+    "id": "src-jeongjo-sillok",
+    "title": "정조실록 (국사편찬위원회 조선왕조실록 DB)",
+    "layer": "compiled_later",
+    "origin": "kr",
+    "reliability": "B",
+    "status": "confirmed",
+    "citation": null,
+    "url": "https://sillok.history.go.kr/",
+    "note": "후대 편찬 관찬 사료. WebFetch 요약으로 개별 기사를 확인했으며 원문 전문과 국역은 수록하지 않는다. 날짜는 기사 헤더(일간지 포함) 기준."
   }
 ]
