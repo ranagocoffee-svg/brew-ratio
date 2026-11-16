@@ -394,5 +394,27 @@
     "citation": null,
     "url": "https://sillok.history.go.kr/",
     "note": "후대 편찬 관찬 사료. WebFetch 요약으로 개별 기사를 확인했으며 원문 전문과 국역은 수록하지 않는다. 날짜는 기사 헤더(일간지 포함) 기준."
+  },
+  {
+    "id": "src-archives-theme-yi",
+    "title": "국가기록원 테마기록 뉴스레터(2016.4): 충무공 증시교지 캡션 (현충사관리소 저작권 표기)",
+    "layer": "reference_secondary",
+    "origin": "kr",
+    "reliability": "B",
+    "status": "confirmed",
+    "citation": null,
+    "url": "https://theme.archives.go.kr/next/pages/new_newsletter/2016/04/sub01.html",
+    "note": "사진 캡션이 \"1643년 인조가 … 충무 시호를 내린 교지\"라고 설명한다. 월·일·연호는 페이지에 없고 교지 원물은 보지 못했다. WebFetch 요약으로 확인."
+  },
+  {
+    "id": "src-ajunews-yi-honors",
+    "title": "아주경제 전문기고 \"이순신에 대한 예우를 통해 본 호국영웅 선양\" (2016.4.27)",
+    "layer": "popular",
+    "origin": "kr",
+    "reliability": "C",
+    "status": "confirmed",
+    "citation": null,
+    "url": "https://www.ajunews.com/view/20160427090756685",
+    "note": "\"1643년에는 충무(忠武)라는 시호가 내려져\"라고 적는다. 시호 요청자·절차는 없다. 증직을 1598년 우의정, 1604년 덕흥부원군·우의정 가증, 1793년 영의정으로 적어 정조실록 17.7.21 전교(좌의정·덕풍부원군)와 어긋난다. WebFetch 요약으로 확인."
   }
 ]

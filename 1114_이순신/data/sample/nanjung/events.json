@@ -4170,7 +4170,7 @@
           "statement": 0
         }
       ],
-      "note": "인조실록 43권 5/13(辛巳) 기사. 기록일 1642-06-09이며 사건이 실행된 날이 아니다. 시호 하사 기사 탐색(실록 DB 전문 검색 \"舜臣 諡\" 22건, \"舜臣 忠武\" 80건, \"賜諡 統制使\" 2건, \"贈諡 忠武\" 6건): 인조 21~27년·효종 1~10년의 하사 기사는 검색 결과에 나타나지 않았다. 통설의 인조 21년(1643) 시호 하사가 실록에 실려 있는지, 다른 표기로 실려 있는지는 확인하지 못했다."
+      "note": "인조실록 43권 5/13(辛巳) 기사. 기록일 1642-06-09이며 사건이 실행된 날이 아니다. 시호 하사 기사 탐색(실록 DB 전문 검색 \"舜臣 諡\" 22건, \"舜臣 忠武\" 80건, \"賜諡 統制使\" 2건, \"贈諡 忠武\" 6건): 인조 21~27년·효종 1~10년의 하사 기사는 검색 결과에 나타나지 않았다. 통설의 인조 21년(1643) 시호 하사가 실록에 실려 있는지, 다른 표기로 실려 있는지는 확인하지 못했다. 이차 자료(국가기록원 뉴스레터의 '충무공 증시교지' 캡션)는 시호 하사를 1643년 인조 때로 적는다(별도 사건 ev-1643-posthumous-title-chungmu, 연 단위·미확인)."
     },
     "source_ids": [
       "src-injo-sillok"
@@ -4180,7 +4180,39 @@
     "relates_to": [
       "ev-1659-namhae-monument",
       "ev-1615-loyal-list-investigation-approved",
-      "rec-sillok-injo-12005013_001"
+      "rec-sillok-injo-12005013_001",
+      "ev-1643-posthumous-title-chungmu"
+    ]
+  },
+  {
+    "id": "ev-1643-posthumous-title-chungmu",
+    "track": "yi",
+    "title_ko": "이순신에게 시호 '충무'가 내려짐 (통설 1643년, 인조 21년)",
+    "title_en": "Yi Sun-sin receives the posthumous title Chungmu (traditionally 1643)",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1643,
+        "month": null,
+        "day": null,
+        "leap_month": false
+      },
+      "gregorian": "1643",
+      "julian": null,
+      "precision": "year",
+      "certainty": "unverified",
+      "note": "국가기록원 뉴스레터의 '충무공 증시교지' 캡션(1643년 인조)과 아주경제 기고(1643년 시호)에 근거한 연 단위 값이다. 교지 원물·월일·연호는 확인하지 못했고, 인조실록 21~22년 목록과 \"舜臣 諡\" 등 전문 검색에서 하사 기사는 찾지 못했다(실록 인조 20.5.13에는 아직 증시가 없다고 적힘). 효종 10년(1659) 실록에는 이미 '충무공'이 쓰인다."
+    },
+    "source_ids": [
+      "src-archives-theme-yi",
+      "src-ajunews-yi-honors"
+    ],
+    "verified": false,
+    "note": null,
+    "relates_to": [
+      "ev-1642-posthumous-title-urged",
+      "ev-1659-namhae-monument"
     ]
   }
 ]
