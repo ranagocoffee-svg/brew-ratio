@@ -2477,5 +2477,82 @@
       "ev-1598-merit-list-approved",
       "rec-sillok-seonjo-31-05-10-004"
     ]
+  },
+  {
+    "id": "ev-1598-yi-supply-shortage",
+    "track": "yi",
+    "title_ko": "비변사, 이순신 진영의 군량 부족과 병력 상황을 보고 (실록 기록)",
+    "title_en": "Border Council reports Yi Sun-sin's supply shortage",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 6,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1598-07-26",
+      "julian": "1598-07-16",
+      "computed_gregorian": "1598-07-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-06-24-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 101권 6/24(丁丑): '李舜臣於蕩敗之後, 收拾流離避亂之人, 以爲軍兵, 駐在荒絶之地, 物力僅僅自給'. 기록일 1598-07-26이며 사태의 시점이 아니다. 육로로 양식이 오지 않아 수군의 양식을 먼저 대 주고 있어 곧 바닥난다고 한다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-gogeumdo-move",
+      "ev-1598-yi-promoted-gaseon",
+      "rec-sillok-seonjo-31-06-24-003"
+    ]
+  },
+  {
+    "id": "ev-1598-chen-claims-command",
+    "track": "yi",
+    "title_ko": "진 도독, 조선 수군에 군법 적용·통솔을 요구했다는 비변사 보고 (실록 기록)",
+    "title_en": "Chen's demand to command the Joseon navy reported",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 6,
+        "day": 27,
+        "leap_month": false
+      },
+      "gregorian": "1598-07-29",
+      "julian": "1598-07-19",
+      "computed_gregorian": "1598-07-29",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-06-27-002",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 101권 6/27(庚辰): 비변사가 진 도독의 '俺受命天朝, 總領水兵 … 陪臣等倘有違悞者, 一以軍法從事'와 조선군 통솔 요구를 보고하며 통제사 이순신 등을 회유·하서할 것을 청한다. 기록일 1598-07-29이며 진 도독의 발언일(전날 6/26 전별 자리로 추정, 확인 못 함)이 아니다. 진 도독이 진린인지는 확인하지 못했다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-yi-supply-shortage",
+      "rec-sillok-seonjo-31-06-27-002"
+    ]
   }
 ]

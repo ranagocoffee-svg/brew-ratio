@@ -31,9 +31,10 @@ function mutated(fname, fn) {
 }
 const ev = (d, id) => d.find((e) => e.id === id);
 
-test("실록 기사 42건: 헤더 일간지가 그날의 실제 일간지와 일치하고 날짜는 verified (일기와 같은 방식의 확정)", () => {
-  assert.equal(records.length, 42);
+test("실록 기사 44건: 헤더 일간지가 그날의 실제 일간지와 일치하고 날짜는 verified (일기와 같은 방식의 확정)", () => {
+  assert.equal(records.length, 44);
   const want = {
+    "rec-sillok-seonjo-31-06-24-003": ["丁丑", "1598-07-26"], "rec-sillok-seonjo-31-06-27-002": ["庚辰", "1598-07-29"],
     "rec-sillok-seonjo-31-05-01-005": ["乙酉", "1598-06-04"], "rec-sillok-seonjo-31-05-10-004": ["甲午", "1598-06-13"],
     "rec-sillok-seonjo-31-04-14-003": ["戊辰", "1598-05-18"], "rec-sillok-seonjo-31-04-28-006": ["壬午", "1598-06-01"],
     "rec-sillok-seonjo-31-03-18-004": ["癸卯", "1598-04-23"], "rec-sillok-seonjo-31-03-18-005": ["癸卯", "1598-04-23"],
@@ -80,7 +81,7 @@ test("인용된 음력 날짜에서 도출한 양력이 사건 날짜와 일치 
     if (br.bridge_entry_id) return entries.find((e) => e.id === br.bridge_entry_id).date.gregorian;
     return addDays(r.date.gregorian, st.stated_lunar.day - r.date.original.day);
   };
-  const expect = { "ev-1593-pyongyang-retaken": "1593-02-08", "ev-1593-haengju": "1593-03-14", "ev-1597-kato-tadaepo": "1597-02-28", "ev-1598-noryang": "1598-12-16", "ev-1592-daedong-crossing": "1592-07-22", "ev-1598-ulsan-siege": "1598-01-29", "ev-1598-suncheon-siege": "1598-10-19", "ev-1598-yi-praised-by-ming": "1598-05-18", "ev-1598-yi-promoted-gaseon": "1598-06-01", "ev-1598-merit-list-approved": "1598-06-04", "ev-1598-merit-warrants-sent": "1598-06-13", "ev-1597-chilcheollyang-night-attack": "1597-08-27", "ev-1597-arrest-requested": "1597-03-21", "ev-1587-first-baekui": "1587-11-15", "ev-1597-yi-reappointed": "1597-09-03", "ev-1597-military-law-order": "1597-11-21", "ev-1597-ming-rebukes-yi-delay": "1597-12-15", "ev-1597-arrest-ordered": "1597-03-23", "ev-1597-punishment-deliberation": "1597-04-28", "ev-1598-sacheon-sinchae-defeat": "1598-10-30", "ev-1596-hideyoshi-refuses-envoy": "1596-10-21", "ev-1598-sacheon-dong-attack": "1598-10-27", "ev-1598-ulsan-withdrawal": "1598-02-09", "ev-1593-japan-leaves-hanseong": "1593-05-18", "ev-1593-jinju-2": "1593-07-27", "ev-1597-namwon": "1597-09-26", "ev-1598-dosan-withdrawal": "1598-12-15", "ev-1598-yegyo-withdrawal": "1598-12-16" };
+  const expect = { "ev-1593-pyongyang-retaken": "1593-02-08", "ev-1593-haengju": "1593-03-14", "ev-1597-kato-tadaepo": "1597-02-28", "ev-1598-noryang": "1598-12-16", "ev-1592-daedong-crossing": "1592-07-22", "ev-1598-ulsan-siege": "1598-01-29", "ev-1598-suncheon-siege": "1598-10-19", "ev-1598-yi-praised-by-ming": "1598-05-18", "ev-1598-yi-promoted-gaseon": "1598-06-01", "ev-1598-yi-supply-shortage": "1598-07-26", "ev-1598-chen-claims-command": "1598-07-29", "ev-1598-merit-list-approved": "1598-06-04", "ev-1598-merit-warrants-sent": "1598-06-13", "ev-1597-chilcheollyang-night-attack": "1597-08-27", "ev-1597-arrest-requested": "1597-03-21", "ev-1587-first-baekui": "1587-11-15", "ev-1597-yi-reappointed": "1597-09-03", "ev-1597-military-law-order": "1597-11-21", "ev-1597-ming-rebukes-yi-delay": "1597-12-15", "ev-1597-arrest-ordered": "1597-03-23", "ev-1597-punishment-deliberation": "1597-04-28", "ev-1598-sacheon-sinchae-defeat": "1598-10-30", "ev-1596-hideyoshi-refuses-envoy": "1596-10-21", "ev-1598-sacheon-dong-attack": "1598-10-27", "ev-1598-ulsan-withdrawal": "1598-02-09", "ev-1593-japan-leaves-hanseong": "1593-05-18", "ev-1593-jinju-2": "1593-07-27", "ev-1597-namwon": "1597-09-26", "ev-1598-dosan-withdrawal": "1598-12-15", "ev-1598-yegyo-withdrawal": "1598-12-16" };
   for (const [id, g] of Object.entries(expect)) {
     const brs = eById[id].date.basis_records;
     assert.ok(brs.length > 0, id);
