@@ -2670,5 +2670,83 @@
       "ev-1598-fleet-departure",
       "rec-sillok-seonjo-31-08-24-005"
     ]
+  },
+  {
+    "id": "ev-1598-king-worries-over-chen",
+    "track": "yi",
+    "title_ko": "왕, 진 도독이 통제사의 공격을 막는 데 우려를 표하는 비망기 (실록 기록)",
+    "title_en": "King's memorandum worried about the Ming admiral blocking Yi Sun-sin",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 8,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-07",
+      "julian": "1598-09-27",
+      "computed_gregorian": "1598-10-07",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-09-08-001",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 104권 9/8(庚寅): '前後見統制使狀啓, 則陳都督所爲, 如果不許, 極爲寒心 … 自此舟師之事去矣'. 기록일 1598-10-07이다. 일기 7책(9/15~)이 시작되기 일주일 전이다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-yi-sea-battle-report",
+      "ev-1598-chen-claims-command",
+      "rec-sillok-seonjo-31-09-08-001"
+    ]
+  },
+  {
+    "id": "ev-1598-yi-complains-chen",
+    "track": "yi",
+    "title_ko": "이순신, 진 도독이 수군 출동을 억제한다고 치계 (실록 기록)",
+    "title_en": "Yi Sun-sin complains that the Ming admiral restrains his fleet",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 10,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-09",
+      "julian": "1598-09-29",
+      "computed_gregorian": "1598-10-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-09-10-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 104권 9/10(壬辰): '臣整齊舟師, 雖欲下海, 乘機勦賊, 每爲提督所抑止, 不勝悶慮'와 진 도독의 '水兵則俺當總制' 발언 인용. 기록일 1598-10-09이며 사건이 일어난 날이 아니다. 같은 날 비변사 기사는 진 도독이 분개해 일을 어렵게 할까 걱정한다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-king-worries-over-chen",
+      "ev-1598-fleet-departure",
+      "rec-sillok-seonjo-31-09-10-003"
+    ]
   }
 ]
