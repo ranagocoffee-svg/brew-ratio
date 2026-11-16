@@ -2168,5 +2168,125 @@
     ],
     "note": "이어 '우리 군이 혈전해 적의 시체가 언덕 아래 낭자하고 포개진 것도 있다'(我軍血戰, 賊屍狼藉岸下)와 '우리 병사가 탄환에 맞아 죽은 자 29명, 명군 5명'(我兵逢丸致死二十九名, 天兵五名云)이 있다(요약 확인). 월은 구절에 없어 기사와 같은 달로 읽었다(추론이며 일기 7책 10/2 과 일치). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
     "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 10월 일자별 목록과 10/4·10/13 기사, 8/20 흥양 전투 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-11-30-006",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 106권",
+    "entry_ref": "kna_13111030_006",
+    "url": "https://sillok.history.go.kr/id/kna_13111030_006",
+    "title_ko": "정원에 이순신의 증직과 장사 문제를 전교하다",
+    "title_note": "그날 기사 8건 중 6번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 30,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-27",
+      "julian": "1598-12-17",
+      "computed_gregorian": "1598-12-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 辛亥 가 1598-12-27 의 일간지와 일치."
+    },
+    "day_ganji": "辛亥",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "李舜臣贈職致賻, 官庇葬事",
+        "gloss_ko": "이순신에게 직을 추증하고 부의를 보내며 장사를 관에서 돌보아 주라.",
+        "about": "왕의 이순신 증직·부의·장사 전교",
+        "stated_lunar": {
+          "month": 11,
+          "day": 30
+        }
+      }
+    ],
+    "note": "같은 전교에서 '그 아들이 몇인가? 상을 마친 뒤 모두 벼슬을 주라'(且其子幾何? 喪畢之後, 盡爲除職可也), '바닷가에도 사당을 세울 만하니 이 조항은 비변사가 의논해 아뢰라'(海上亦可立祠), 그리고 '그 밖의 전사 장졸도 모두 휼전을 거행하고 추증할 만한 자는 추증하라'가 이어진다(요약 확인). 죽음·전투에 대한 서술은 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 11월 25일·30일 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-11-30-007",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 106권",
+    "entry_ref": "kna_13111030_007",
+    "url": "https://sillok.history.go.kr/id/kna_13111030_007",
+    "title_ko": "예조가 이순신의 제사 문제를 여쭙다",
+    "title_note": "그날 기사 8건 중 7번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 30,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-27",
+      "julian": "1598-12-17",
+      "computed_gregorian": "1598-12-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 辛亥 가 1598-12-27 의 일간지와 일치."
+    },
+    "day_ganji": "辛亥",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "邢軍門痛愍李舜臣之死, 已行差人致祭, 欲令我國, 亦爲致祭",
+        "gloss_ko": "형 군문이 이순신의 죽음을 애통해해 이미 사람을 보내 제사를 지냈고 우리나라에도 제사를 지내게 하려 한다.",
+        "about": "명 형개(邢軍門)의 이순신 치제와 예조의 제사 문의",
+        "stated_lunar": {
+          "month": 11,
+          "day": 30
+        }
+      }
+    ],
+    "note": "예조는 '이순신은 직이 정1품이니 법전에 따라 제사해야 하나 형 군문이 그리 말하니 특별 사제를 할지 예에 따를지', '등 총병도 같은 곳에서 죽었으니 제사해야 한다', '시신을 찾았는지 아직 알지 못하니 상구가 상경한 뒤에 할지'를 묻고 왕은 '본조가 살펴 하라'(本曹察爲)고 답한다(요약 확인). 전투 이름은 쓰지 않는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 11월 25일·30일 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-11-25-008",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 106권",
+    "entry_ref": "kna_13111025_008",
+    "url": "https://sillok.history.go.kr/id/kna_13111025_008",
+    "title_ko": "이시언을 통제사로 삼다",
+    "title_note": "그날 기사 10건 중 8번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-22",
+      "julian": "1598-12-12",
+      "computed_gregorian": "1598-12-22",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙午 가 1598-12-22 의 일간지와 일치."
+    },
+    "day_ganji": "丙午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "以李時言爲統制使",
+        "gloss_ko": "이시언을 통제사로 삼았다.",
+        "about": "이순신 사후 후임 통제사 이시언 임명",
+        "stated_lunar": {
+          "month": 11,
+          "day": 25
+        }
+      }
+    ],
+    "note": "기사에 사유는 없고 이순신 이름도 없다. 같은 날 다음 기사는 '진 도독이 통제사 직책의 후임을 원하는 게첩을 올리다'(제목만 확인)이며 11/24 정원의 '이순신의 후임을 정하는 문제' 기사 다음 날이다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 11월 25일·30일 기사를 열람(WebFetch 요약)"
   }
 ]

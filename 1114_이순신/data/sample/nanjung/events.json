@@ -415,7 +415,7 @@
       "converter": "korean-lunar-calendar@0.4.0",
       "precision": "day",
       "certainty": "verified",
-      "note": "선조실록 106권 11/27(戊申)의 이덕형 치계: '이달 19일 사천·남해·고성의 적선 300여 척이 노량도에 모였고, 통제사 이순신이 수군을 이끌고 맞아 싸웠다'(인용: 本月十九日 … 露梁島). 같은 달 19일이므로 1598-12-16이며 crosscheck·변환기와 일치한다. 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 11/25(丙午)의 진린 게첩 기사도 이순신이 탄환을 맞고 숨졌다고 적고 〔十九日〕을 표기하나 괄호 성격을 확인하지 못해 보조로만 쓴다. 12/4(乙卯) 군문 도감 기사에는 '十八日四更'에 원병이 이르러 200여 척을 불살랐다는 서술이 있어 날짜 표기가 하루 어긋난다(야간 시각의 일자 계산 차이일 수 있으나 미확인). 향년은 문서 표기상 세는나이 54, 만 53. 일기는 10/7에서 끝나 일간지 대조는 불가능하다.",
+      "note": "선조실록 106권 11/27(戊申)의 이덕형 치계: '이달 19일 사천·남해·고성의 적선 300여 척이 노량도에 모였고, 통제사 이순신이 수군을 이끌고 맞아 싸웠다'(인용: 本月十九日 … 露梁島). 같은 달 19일이므로 1598-12-16이며 crosscheck·변환기와 일치한다. 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 11/25(丙午)의 진린 게첩 기사도 이순신이 탄환을 맞고 숨졌다고 적고 〔十九日〕을 표기하나 괄호 성격을 확인하지 못해 보조로만 쓴다. 12/4(乙卯) 군문 도감 기사에는 '十八日四更'에 원병이 이르러 200여 척을 불살랐다는 서술이 있어 날짜 표기가 하루 어긋난다(야간 시각의 일자 계산 차이일 수 있으나 미확인). 향년은 문서 표기상 세는나이 54, 만 53. 일기는 10/7에서 끝나 일간지 대조는 불가능하다. 후속(선조실록 106권): 11/25(丙午) 이시언을 통제사로 삼음, 11/30(辛亥) 증직·부의·장사 지원 전교와 형 군문의 치제·예조의 제사 문의가 이어지며 예조는 '屍首覓得與否, 時未的知'(시신을 찾았는지 아직 모른다)고 적는다. 별도 사건으로 반영했다.",
       "basis_records": [
         {
           "record_id": "rec-sillok-seonjo-31-11-27-005",
@@ -437,7 +437,10 @@
       "ev-1598-dosan-withdrawal",
       "ev-1598-yi-death-mentioned",
       "rec-sillok-seonjo-31-11-27-005",
-      "rec-sillok-seonjo-31-11-25-009"
+      "rec-sillok-seonjo-31-11-25-009",
+      "ev-1598-yi-successor-appointed",
+      "ev-1598-posthumous-honors-ordered",
+      "ev-1598-ming-sacrifice-for-yi"
     ]
   },
   {
@@ -2827,6 +2830,123 @@
       "ev-1598-suncheon-siege",
       "de-autograph-b7-1598-10-02",
       "rec-sillok-seonjo-31-10-13-003"
+    ]
+  },
+  {
+    "id": "ev-1598-yi-successor-appointed",
+    "track": "yi",
+    "title_ko": "이시언을 통제사로 임명 (이순신 후임, 실록 인사 기록)",
+    "title_en": "Yi Si-eon appointed naval commander as Yi Sun-sin's successor",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-22",
+      "julian": "1598-12-12",
+      "computed_gregorian": "1598-12-22",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-11-25-008",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 106권 11/25(丙午): '以李時言爲統制使'. 인사 기록일 1598-12-22이며 사유는 적혀 있지 않다. 11/24 정원이 이순신의 후임 문제를 아뢴 다음 날이다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-noryang",
+      "ev-1598-yi-death-mentioned",
+      "rec-sillok-seonjo-31-11-25-008"
+    ]
+  },
+  {
+    "id": "ev-1598-posthumous-honors-ordered",
+    "track": "yi",
+    "title_ko": "왕, 이순신의 증직·부의·장사 지원과 사당 건립 논의를 전교 (실록 기록)",
+    "title_en": "King orders posthumous rank, funeral gift and burial aid for Yi Sun-sin",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 30,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-27",
+      "julian": "1598-12-17",
+      "computed_gregorian": "1598-12-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-11-30-006",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 106권 11/30(辛亥): '李舜臣贈職致賻, 官庇葬事 … 海上亦可立祠, 此一款, 令備邊司議啓'. 전교 기록일 1598-12-27이다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-noryang",
+      "ev-1598-yi-successor-appointed",
+      "rec-sillok-seonjo-31-11-30-006"
+    ]
+  },
+  {
+    "id": "ev-1598-ming-sacrifice-for-yi",
+    "track": "yi",
+    "title_ko": "명 형 군문이 이순신의 죽음을 애통해 치제, 예조가 조선의 제사 방식을 문의 (실록 기록)",
+    "title_en": "Ming commissioner Xing sacrifices for Yi Sun-sin; Rites ministry asks how to follow",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 30,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-27",
+      "julian": "1598-12-17",
+      "computed_gregorian": "1598-12-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-11-30-007",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 106권 11/30(辛亥): '邢軍門痛愍李舜臣之死, 已行差人致祭, 欲令我國, 亦爲致祭'. 기록일 1598-12-27이다. 예조는 시신 확인 여부가 아직 알려지지 않았고 등 총병도 같은 곳에서 죽었다고 적는다(요약 확인)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-posthumous-honors-ordered",
+      "ev-1598-noryang",
+      "rec-sillok-seonjo-31-11-30-007"
     ]
   }
 ]
