@@ -1,0 +1,13 @@
+{
+  "name": "throughput-accounting",
+  "version": "1.0.0",
+  "description": "Throughput Accounting (TA) analysis engine and CLI, based on the TOC-derived TA algorithm (Legacy Cost P&L -> Throughput P&L, productivity/ROI metrics, AtMAN cash-flow indicators).",
+  "main": "src/taEngine.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test test/taEngine.test.js test/dartZipXml.test.js test/dartMapping.test.js test/server.test.js",
+    "web": "node src/server.js"
+  },
+  "license": "UNLICENSED"
+}

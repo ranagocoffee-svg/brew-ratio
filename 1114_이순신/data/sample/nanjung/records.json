@@ -1,0 +1,3581 @@
+[
+  {
+    "id": "rec-sillok-seonjo-26-01-11-013",
+    "volume_title": "선조실록 34권",
+    "entry_ref": "kna_12601011_013",
+    "title_ko": null,
+    "title_note": "한국어 표제를 직접 확인하지 못했다(목록 요약: 평양 수복 전투의 전모를 적은 기사). 그날 기사 16건 중 13번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1593,
+        "month": 1,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1593-02-11",
+      "julian": "1593-02-01",
+      "computed_gregorian": "1593-02-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙寅 가 1593-02-11 의 일간지와 일치."
+    },
+    "day_ganji": "丙寅",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "初八日早朝, 提督焚香卜日, 傳食三軍訖, 與三營將領, 分統各該軍兵, 環城外西北面。",
+        "gloss_ko": "8일 이른 아침 제독(이여송)이 삼군을 먹이고 군을 나누어 평양성 서북면을 에워쌌다(총공격).",
+        "about": "평양성 총공격",
+        "stated_lunar": {
+          "month": 1,
+          "day": 8
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "初九日, 提督率諸軍入城, 先酹陣亡將卒, 身自痛哭, 慰問孤寡。",
+        "gloss_ko": "9일 제독이 군을 거느리고 성에 들어가 전사한 장졸에게 제사하고 고아·과부를 위문했다.",
+        "about": "제독의 평양성 입성",
+        "stated_lunar": {
+          "month": 1,
+          "day": 9
+        }
+      }
+    ],
+    "note": "8일 저녁·밤에 고니시(행장) 일행이 얼어붙은 대동강을 건너 탈출했다는 서술은 요약으로만 확인했고 원문 인용은 생략했다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_12601011_013",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-26-04-21-005",
+    "volume_title": "선조실록 37권",
+    "entry_ref": "kna_12604021_005",
+    "title_ko": "박진이 유 총병의 처소에서 돌아와 경성에 이 제독이 입성하였다고 아뢰다",
+    "title_note": "그날 기사 11건 중 5번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1593,
+        "month": 4,
+        "day": 21,
+        "leap_month": false
+      },
+      "gregorian": "1593-05-21",
+      "julian": "1593-05-11",
+      "computed_gregorian": "1593-05-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 乙巳 가 1593-05-21 의 일간지와 일치."
+    },
+    "day_ganji": "乙巳",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "京中倭賊, 今四月十八日, 盡爲出去, 李提督已爲入城。",
+        "gloss_ko": "서울의 왜적이 4월 18일에 모두 나갔고 이 제독이 이미 입성했다(유 총병 중군의 전언을 박진이 보고).",
+        "about": "일본군 한성 철수",
+        "stated_lunar": {
+          "month": 4,
+          "day": 18
+        }
+      }
+    ],
+    "note": "이 제독(이여송)의 입성일은 '이미 입성했다'고만 적혀 있어 알 수 없다. 4/21은 보고일이다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_12604021_005",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-26-07-16-005",
+    "volume_title": "선조실록 40권",
+    "entry_ref": "kna_12607016_005",
+    "title_ko": "6월 29일 함락된 진주성 싸움의 자세한 경과",
+    "title_note": "그날 기사 6건 중 5번째. 표제가 편집으로 붙은 것인지 원문인지는 확인하지 못했다.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1593,
+        "month": 7,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1593-08-12",
+      "julian": "1593-08-02",
+      "computed_gregorian": "1593-08-12",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 戊辰 가 1593-08-12 의 일간지와 일치."
+    },
+    "day_ganji": "戊辰",
+    "statements": [
+      {
+        "part": "표제",
+        "text_han": null,
+        "gloss_ko": "표제가 진주성 함락일을 6월 29일로 적었다.",
+        "about": "진주성 함락",
+        "stated_lunar": {
+          "month": 6,
+          "day": 29
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "二十二日辰時, 賊五百餘騎, 登北山列陣耀兵, 城中按兵不動.",
+        "gloss_ko": "6월 22일 아침 일본 기병 5백여 명이 북산에 진을 치고 위세를 보였다(공방 개시 서술).",
+        "about": "진주성 공방 개시",
+        "stated_lunar": {
+          "month": 6,
+          "day": 22
+        }
+      }
+    ],
+    "note": "본문은 29일 전투(동문 성벽이 비로 무너짐 등)를 서술하나 함락 일자를 본문에서 직접 명시하지는 않는다(요약 확인). 7/16은 보고·정리일이며 6월은 7월 직전 달이라 일기 2책 6/29(일간지 확정)로 날짜를 이었다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_12607016_005",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-08-18-002",
+    "volume_title": "선조실록 91권",
+    "entry_ref": "kna_13008018_002",
+    "title_ko": "남원성이 함락당하고 부총 양원을 비롯하여 10여 명만이 살아 돌아오다",
+    "title_note": "그날 기사 5건 중 2번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 8,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-28",
+      "julian": "1597-09-18",
+      "computed_gregorian": "1597-09-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙子 가 1597-09-28 의 일간지와 일치."
+    },
+    "day_ganji": "丙子",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "本月十二日, 賊圍南原, 日夜攻打, 副總兵馬, 矢盡力竭。",
+        "gloss_ko": "이달 12일 적이 남원을 포위해 밤낮으로 공격했고 부총(양원)의 군은 화살과 힘이 다했다.",
+        "about": "남원 포위 개시",
+        "stated_lunar": {
+          "month": 8,
+          "day": 12
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "於十六日夜, 賊扒上南門, 副總勢急, 只帶三百餘名, 殺出西門, 中二丸, 止剩十餘人而還。",
+        "gloss_ko": "16일 밤 적이 남문을 넘자 부총이 3백여 명을 이끌고 서문으로 빠져나왔고 10여 명만 돌아왔다.",
+        "about": "남문 돌파·남원성 함락",
+        "stated_lunar": {
+          "month": 8,
+          "day": 16
+        }
+      }
+    ],
+    "note": "함락 문장('倭賊攻陷南原城')에는 날짜가 없다. 16일 밤의 남문 돌파·양원 탈출을 함락 시점으로 읽는 것은 우리의 추론이다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_13008018_002",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-09-15-002",
+    "volume_title": "선조실록 104권",
+    "entry_ref": "kna_13109015_002",
+    "title_ko": "경상 우병사 정기룡이 왜병의 철수에 대해 치계하다",
+    "title_note": "그날 기사 3건 중 2번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-14",
+      "julian": "1598-10-04",
+      "computed_gregorian": "1598-10-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丁酉 가 1598-10-14 의 일간지와 일치."
+    },
+    "day_ganji": "丁酉",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "皆言關白已死",
+        "gloss_ko": "항복한 자들이 모두 '관백(히데요시)이 이미 죽었다'고 말한다(문장의 앞부분만 인용). 보고자는 직접 확인한 것이 아닌 전언으로 제시한다.",
+        "about": "히데요시 사망 풍문 보고(기사 날짜 기준)",
+        "stated_lunar": {
+          "month": 9,
+          "day": 15
+        }
+      }
+    ],
+    "note": "사망 '풍문'의 보고이며 사망일은 적혀 있지 않다. 기사에는 히데요시의 어린 아들이 즉위했으나 자리를 빼앗으려는 움직임이 있다는 전언, 10~15일 사이 철수를 정했다는 전언(월은 본문에 명시 없음), 철수가 헛소문만은 아닌 듯하다는 보고자의 판단도 실려 있다(요약 확인). 일기 7책 9/15(같은 날, 丁酉)에는 사망 언급이 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_13109015_002",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-11-23-004",
+    "volume_title": "선조실록 106권",
+    "entry_ref": "kna_13111023_004",
+    "title_ko": "좌의정 이덕형이 왜적이 철수하였다는 내용의 치계를 올리다",
+    "title_note": "그날 기사 6건 중 4번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 23,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-20",
+      "julian": "1598-12-10",
+      "computed_gregorian": "1598-12-20",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 甲辰 가 1598-12-20 의 일간지와 일치."
+    },
+    "day_ganji": "甲辰",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "本月十九日巳時, 曳橋之賊, 專數撤渡。",
+        "gloss_ko": "이달 19일 사시(오전 9~11시)에 예교(순천)의 적이 모두 바다를 건너 철수했다.",
+        "about": "예교(순천) 일본군 철수",
+        "stated_lunar": {
+          "month": 11,
+          "day": 19
+        }
+      }
+    ],
+    "note": "표기 '專數'는 확인 요약에서 '盡數'의 오기로 보인다고 했다(미확인). 같은 기사에는 유 제독이 성에 들어가 조선인 3명과 말 4필만 있었다는 서술과, 멀리 남해 쪽에서 포성이 들려 해전으로 짐작했으나 확인하지 못했다는 서술이 있다(요약 확인). 이순신·노량은 이 기사에 나오지 않는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_13111023_004",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-11-24-005",
+    "volume_title": "선조실록 106권",
+    "entry_ref": "kna_13111024_005",
+    "title_ko": "정원이 이순신의 후임을 정하는 문제에 대해 아뢰다",
+    "title_note": "그날 기사 5건 중 5번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-21",
+      "julian": "1598-12-11",
+      "computed_gregorian": "1598-12-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 乙巳 가 1598-12-21 의 일간지와 일치."
+    },
+    "day_ganji": "乙巳",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "且李舜臣則戰死矣",
+        "gloss_ko": "군문 도감 낭청의 말을 전하는 대목에 '이순신은 전사했다'는 서술이 있다.",
+        "about": "이순신 전사 언급(기사 날짜 기준)",
+        "stated_lunar": {
+          "month": 11,
+          "day": 24
+        }
+      }
+    ],
+    "note": "전사일은 적혀 있지 않다('十九日' 같은 날짜 표현 없음). 이 기사 날짜(11/24)는 전사가 조정에 언급된 날이지 전사일이 아니다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_13111024_005",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-11-25-007",
+    "volume_title": "선조실록 106권",
+    "entry_ref": "kna_13111025_007",
+    "title_ko": "마 제독 접반사 이광정이 왜적의 철수에 대해 치계를 올리다",
+    "title_note": "그날 기사 10건 중 7번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-22",
+      "julian": "1598-12-12",
+      "computed_gregorian": "1598-12-22",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙午 가 1598-12-22 의 일간지와 일치."
+    },
+    "day_ganji": "丙午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "本月十八日, 島山之賊, 盡焚窟穴, 無遺撤去。",
+        "gloss_ko": "이달 18일 도산(울산)의 적이 소굴을 모두 불사르고 남김없이 철수했다(마 제독이 성에 들어가며 추격 중이라고 보고).",
+        "about": "도산(울산) 일본군 철수",
+        "stated_lunar": {
+          "month": 11,
+          "day": 18
+        }
+      }
+    ],
+    "note": "원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_13111025_007",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-12-01-004",
+    "volume_title": "선조실록 107권",
+    "entry_ref": "kna_13112001_004",
+    "title_ko": "예조가 왜적이 물러간 사실을 아뢰다",
+    "title_note": "그날 기사 6건 중 4번째.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 12,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-28",
+      "julian": "1598-12-18",
+      "computed_gregorian": "1598-12-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬子 가 1598-12-28 의 일간지와 일치."
+    },
+    "day_ganji": "壬子",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "釜山之賊, 似亦已退",
+        "gloss_ko": "예조가 '부산의 적도 이미 물러간 듯하다'고 보고한다(철수일은 명시 없음).",
+        "about": "부산 방면 일본군 철수 보고(기사 날짜 기준)",
+        "stated_lunar": {
+          "month": 12,
+          "day": 1
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "三路賊退, 海上大捷",
+        "gloss_ko": "세 갈래 길의 적이 물러나고 바다에서 크게 이겼다(진하를 건의하는 근거).",
+        "about": "삼로 일본군 철수·해상 승첩 보고(기사 날짜 기준)",
+        "stated_lunar": {
+          "month": 12,
+          "day": 1
+        }
+      }
+    ],
+    "note": "철군일은 적혀 있지 않고 12/1은 기사 날짜다. 예조는 이를 근거로 명에 진하하는 것이 적절하다고 아뢰며 대신들의 의견을 구한다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "source_id": "src-seonjo-sillok",
+    "url": "https://sillok.history.go.kr/id/kna_13112001_004",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-26-02-24-006",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 35권",
+    "entry_ref": "kna_12602024_006",
+    "url": "https://sillok.history.go.kr/id/kna_12602024_006",
+    "title_ko": "평양 수복 후에 여러 장수가 경성으로 모인 일과 행주 산성의 대첩에 대한 기록",
+    "title_note": "그날 기사 9건 중 6번째(목록 제목).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1593,
+        "month": 2,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1593-03-26",
+      "julian": "1593-03-16",
+      "computed_gregorian": "1593-03-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 己酉 가 1593-03-26 의 일간지와 일치."
+    },
+    "day_ganji": "己酉",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "十二日黎明",
+        "gloss_ko": "(권율이 행주 성산으로 진을 옮긴 뒤 왜군이 공격해 온 것을 서술하는 대목에서) 12일 동틀 무렵.",
+        "about": "행주 전투 발발(왜군 공격 개시)",
+        "stated_lunar": {
+          "month": 2,
+          "day": 12
+        }
+      }
+    ],
+    "note": "본문에 '十二日'만 있고 월은 적혀 있지 않다. 기사 날짜(2월 24일)와 같은 달의 12일로 읽은 것은 우리의 추론이다(같은 날짜의 35권 24일자 다른 기사는 '十一日'에 모악현을 정탐했고 '그날 묘시부터 신시까지 싸웠다'고 적어 전후 맥락이 같지만 전투일을 직접 적지는 않음). 같은 권 2/23 기사('전라 감사가 보낸 행주 군공 계본')는 전투일이 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 일자별 목록(2월 목록, 2/23·2/24)과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-01-21-001",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 84권",
+    "entry_ref": "kna_13001021_001",
+    "url": "https://sillok.history.go.kr/id/kna_13001021_001",
+    "title_ko": "겸경상 등 사도 도체찰사 의정부 우의정 이원익의 서장",
+    "title_note": "그날 기사 7건 중 1번째(목록 제목).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 1,
+        "day": 21,
+        "leap_month": false
+      },
+      "gregorian": "1597-03-08",
+      "julian": "1597-02-26",
+      "computed_gregorian": "1597-03-08",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬子 가 1597-03-08 의 일간지와 일치."
+    },
+    "day_ganji": "壬子",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "淸正今月十三日多大浦到泊, 先來船二百餘隻。",
+        "gloss_ko": "가토 기요마사가 이달 13일 다대포에 와서 정박했고, 먼저 온 배가 200여 척이다.",
+        "about": "가토 기요마사 선단의 다대포 도착·정박",
+        "stated_lunar": {
+          "month": 1,
+          "day": 13
+        }
+      }
+    ],
+    "note": "'到泊'(도착해 정박)이며 상륙일이 아니다. 같은 서장에는 부산에 큰 배가 곧바로 이르렀다는 별도 보고(날짜 없음)와 15일자 보고가 섞여 있고, 같은 날 비변사 기사 2건은 '청정은 이미 바다를 건넜다'고만 적어 일자가 없다(요약 확인). 서장의 작성일은 1월 21일 이전이며, 날짜는 이 서장이 실록에 오른 날(기사일) 기준으로 같은 달 13일을 도출한 것이다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 1월 일자별 목록과 1/21 기사 3건을 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-11-27-005",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 106권",
+    "entry_ref": "kna_13111027_005",
+    "url": "https://sillok.history.go.kr/id/kna_13111027_005",
+    "title_ko": "좌의정 이덕형이 수군의 활약상에 관한 치계를 올리다",
+    "title_note": "그날 기사 5건 중 5번째(목록 제목).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 27,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-24",
+      "julian": "1598-12-14",
+      "computed_gregorian": "1598-12-24",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 戊申 가 1598-12-24 의 일간지와 일치."
+    },
+    "day_ganji": "戊申",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "本月十九日, 泗川、南海、固城之賊三百餘隻, 合勢來到露梁島",
+        "gloss_ko": "이달 19일 사천·남해·고성의 적선 300여 척이 합세해 노량도에 이르렀다.",
+        "about": "노량해전 발발(적선 집결)",
+        "stated_lunar": {
+          "month": 11,
+          "day": 19
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "統制使李舜臣領舟師, 直進逆戰",
+        "gloss_ko": "통제사 이순신이 수군을 거느리고 곧바로 나아가 맞아 싸웠다.",
+        "about": "이순신의 교전 (날짜는 앞 문장의 19일에 이어진 것으로 읽음, 우리의 추론)",
+        "stated_lunar": {
+          "month": 11,
+          "day": 19
+        }
+      }
+    ],
+    "note": "'十九日'의 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 11·12월 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-11-25-009",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 106권",
+    "entry_ref": "kna_13111025_009",
+    "url": "https://sillok.history.go.kr/id/kna_13111025_009",
+    "title_ko": "진 도독이 통제사 직책의 후임을 원하는 게첩을 올리다",
+    "title_note": "그날 기사 10건 중 9번째(목록 제목).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-22",
+      "julian": "1598-12-12",
+      "computed_gregorian": "1598-12-22",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙午 가 1598-12-22 의 일간지와 일치."
+    },
+    "day_ganji": "丙午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "統制使李舜臣, 身先士卒, 中丸而殞",
+        "gloss_ko": "통제사 이순신이 사졸보다 앞서 싸우다 탄환을 맞고 숨졌다.",
+        "about": "이순신 전사 (날짜는 편집 주기 〔十九日〕에 의존, 아래 메모 참조)",
+        "stated_lunar": {
+          "month": 11,
+          "day": 19
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "與釜山、泗川等賊舟, 大戰于露梁島",
+        "gloss_ko": "부산·사천 등지의 적선과 노량도에서 크게 싸웠다.",
+        "about": "노량도 교전",
+        "stated_lunar": {
+          "month": 11,
+          "day": 19
+        }
+      }
+    ],
+    "note": "이 기사에서 19일은 본문 괄호 안의 표기〔十九日〕로만 나타난다(확인 요약 기준: '九十日〔十九日〕'). 괄호가 원문 기록인지 편집 주기인지는 확인하지 못해 날짜의 근거로는 쓰지 않고 보조로만 둔다. 전투 시간은 '寅에서 巳까지'(오전 약 3~11시). 후임으로 거론된 인물 표기는 李純信(이순신과 다른 이름)이다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 11·12월 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-09-06-006",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 104권",
+    "entry_ref": "kna_13109006_006",
+    "url": "https://sillok.history.go.kr/id/kna_13109006_006",
+    "title_ko": "경상도 관찰사 정경세가 왜장들의 동태에 대해 치계하다",
+    "title_note": "그날 기사 7건 중 6번째(목록 제목).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-05",
+      "julian": "1598-09-25",
+      "computed_gregorian": "1598-10-05",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 戊子 가 1598-10-05 의 일간지와 일치."
+    },
+    "day_ganji": "戊子",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "關白七月初七日, 病死丁寧",
+        "gloss_ko": "관백이 7월 7일에 병으로 죽은 것이 분명하다(항복한 왜병의 말을 전한 보고).",
+        "about": "히데요시 사망일에 대한 당시 보고(7/7; 훗날의 8/18과 다름)",
+        "stated_lunar": {
+          "month": 7,
+          "day": 7
+        }
+      }
+    ],
+    "note": "항복한 왜병의 전언을 경상도 관찰사가 옮긴 2차 보고이며, 사망일을 7/7로 적어 1601년 기사(8/18)와 다르다. 기사는 관백을 직함으로만 적고 이름(秀吉)은 쓰지 않는다. 이 날짜는 사실로 채택하지 않는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB 선조 31년 9월 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-34-04-25-011",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 136권",
+    "entry_ref": "kna_13404025_011",
+    "url": "https://sillok.history.go.kr/id/kna_13404025_011",
+    "title_ko": "탈출한 강사준과 여진덕 등이 일본의 내란 상황을 보고하다",
+    "title_note": "그날 기사 15건 중 11번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1601,
+        "month": 4,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1601-05-26",
+      "julian": "1601-05-16",
+      "computed_gregorian": "1601-05-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬辰 가 1601-05-26 의 일간지와 일치."
+    },
+    "day_ganji": "壬辰",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "戊戌八月十八日, 平秀吉病死, 遺言其嬖奴石田治部卿。",
+        "gloss_ko": "무술년(1598) 8월 18일 히데요시가 병사하면서 총애하던 이시다 지부경 등에게 유언했다(일본에서 돌아온 포로 강사준·여진덕 등의 진술).",
+        "about": "히데요시 사망일 진술(1598-8/18)",
+        "stated_lunar": {
+          "month": 8,
+          "day": 18
+        }
+      }
+    ],
+    "note": "사건 후 약 2년 7개월 뒤(1601년)의 진술이며 일본에서 탈출한 포로의 말이다. 진술의 8/18이 일본 달력인지 조선 달력인지는 기사에 없다(1598년 8/18은 두 달력 모두 같은 양력 1598-09-18로 환산됨은 변환기 기준 참고). 인용은 기사 문장의 앞부분이다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 웹 검색으로 기사를 찾고 국사편찬위원회 조선왕조실록 DB 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-01-23-003",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 84권",
+    "entry_ref": "kna_13001023_003",
+    "url": "https://sillok.history.go.kr/id/kna_13001023_003",
+    "title_ko": "17일의 경상 우병사 김응서의 장계를 비변사에 계하하다",
+    "title_note": "그날 기사 4건 중 3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 1,
+        "day": 23,
+        "leap_month": false
+      },
+      "gregorian": "1597-03-10",
+      "julian": "1597-02-28",
+      "computed_gregorian": "1597-03-10",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 甲寅 가 1597-03-10 의 일간지와 일치."
+    },
+    "day_ganji": "甲寅",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "十二日風勢極順, 淸正管下船一百五十餘隻, 西生浦出來",
+        "gloss_ko": "12일 바람이 아주 순해 가토 휘하 배 150여 척이 서생포로 나왔다.",
+        "about": "가토 선단 150여 척의 서생포 출현(12일)",
+        "stated_lunar": {
+          "month": 1,
+          "day": 12
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "十四日, 多大浦指向, 看審陣基事來告",
+        "gloss_ko": "14일에 다대포로 향해 진을 칠 터를 살폈다고 알려 왔다.",
+        "about": "가토 측의 다대포 지향·진터 답사(14일)",
+        "stated_lunar": {
+          "month": 1,
+          "day": 14
+        }
+      }
+    ],
+    "note": "김응서가 요시라 등 왜 측과 왕래해 얻은 2차 정보를 전한 장계(17일자, 1/23 비변사에 내려짐)다. 130여 척이 풍세로 가덕에 머물렀다는 서술(날짜 없음)과 우리 수군이 정비되지 않아 요격하지 못했다는 서술도 있다. 상륙·하선 표현은 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB 선조 30년 1·2월 목록과 1/22·1/23 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-25-06-18-006",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 27권",
+    "entry_ref": "kna_12506018_006",
+    "url": "https://sillok.history.go.kr/id/kna_12506018_006",
+    "title_ko": "순검사 한응인이 평양 전투 상황을 보고하다",
+    "title_note": "그날 기사 7건 중 6번째(목록 제목).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1592,
+        "month": 6,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1592-07-26",
+      "julian": "1592-07-16",
+      "computed_gregorian": "1592-07-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙午 가 1592-07-26 의 일간지와 일치."
+    },
+    "day_ganji": "丙午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "十四日申時",
+        "gloss_ko": "14일 신시(오후 3~5시). 일본군이 왕성탄·능라도 쪽에서 강을 건넌 때로 서술되고 이후 방어군이 무너졌다(문장 앞부분의 시각 표현만 인용).",
+        "about": "일본군의 대동강(왕성탄) 도하",
+        "stated_lunar": {
+          "month": 6,
+          "day": 14
+        }
+      }
+    ],
+    "note": "평양이 이미 포위되었다는 서술이 있으나 평양성 함락·입성일은 적혀 있지 않다. 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 25년 6월 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-25-06-26-002",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 27권",
+    "entry_ref": "kna_12506026_002",
+    "url": "https://sillok.history.go.kr/id/kna_12506026_002",
+    "title_ko": "전 평안 감사 평양이 함락될 당시의 상황을 치계하다",
+    "title_note": "그날 기사 9건 중 2번째(목록 제목).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1592,
+        "month": 6,
+        "day": 26,
+        "leap_month": false
+      },
+      "gregorian": "1592-08-03",
+      "julian": "1592-07-24",
+      "computed_gregorian": "1592-08-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 甲寅 가 1592-08-03 의 일간지와 일치."
+    },
+    "day_ganji": "甲寅",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "十四日, 賊渡王城灘",
+        "gloss_ko": "14일 적이 왕성탄을 건넜다.",
+        "about": "일본군의 왕성탄 도하",
+        "stated_lunar": {
+          "month": 6,
+          "day": 14
+        }
+      }
+    ],
+    "note": "같은 기사에 '平壤失守之後'(평양을 잃은 뒤)가 있으나 함락일은 없고, 성에서 빠져나온 것은 '夜三更'(밤 3경)이라고만 적는다(요약 확인). 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 25년 6월 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-26-04-26-004",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 37권",
+    "entry_ref": "kna_12604026_004",
+    "url": "https://sillok.history.go.kr/id/kna_12604026_004",
+    "title_ko": "송 경략이 서울을 떠난 왜적을 초토하라고 조선 정부에 자문을 보내다",
+    "title_note": "그날 기사 13건 중 4번째(목록 제목).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1593,
+        "month": 4,
+        "day": 26,
+        "leap_month": false
+      },
+      "gregorian": "1593-05-26",
+      "julian": "1593-05-16",
+      "computed_gregorian": "1593-05-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 庚戌 가 1593-05-26 의 일간지와 일치."
+    },
+    "day_ganji": "庚戌",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "倭賊, 於本月十九日, 盡數起程",
+        "gloss_ko": "왜적이 이달 19일 모두 길을 떠났다(명 경략의 자문 속 서술).",
+        "about": "일본군의 한성 출발(명 측 서술)",
+        "stated_lunar": {
+          "month": 4,
+          "day": 19
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "已於二十日入王京",
+        "gloss_ko": "(명 측 지휘관이) 이미 20일에 왕경(한성)에 들어갔다.",
+        "about": "명군의 한성 입성(명 측 서술)",
+        "stated_lunar": {
+          "month": 4,
+          "day": 20
+        }
+      }
+    ],
+    "note": "명 경략의 자문을 옮긴 기사라 조선 쪽 보고(4/21 박진: '18일에 모두 나갔다')와 하루씩 다르다('出去'와 '起程'의 차이일 수 있으나 미확인). 두 구절 모두 월이 없어 기사와 같은 달로 읽었다(추론). 같은 날 유성룡 보고 기사에는 '提督自東坡入城', '倭賊已盡出去'가 있으나 날짜가 없고 '昨日'이 쓰였다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB 선조 26년 4월 일자별 목록과 4/23~4/26 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-12-28-004",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 95권",
+    "entry_ref": "kna_13012028_004",
+    "url": "https://sillok.history.go.kr/id/kna_13012028_004",
+    "title_ko": "장운익·권율·이덕형 등이 경상도에서 중국군의 승전보를 보고하다",
+    "title_note": "그날 기사 4건 중 4번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 12,
+        "day": 28,
+        "leap_month": false
+      },
+      "gregorian": "1598-02-03",
+      "julian": "1598-01-24",
+      "computed_gregorian": "1598-02-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 甲申 가 1598-02-03 의 일간지와 일치."
+    },
+    "day_ganji": "甲申",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "本月二十三日丑初, 三協天兵一時自慶州, 分三路前進",
+        "gloss_ko": "이달 23일 축시 초(새벽 1시 무렵), 세 갈래 명군이 한꺼번에 경주에서 세 길로 나뉘어 전진했다.",
+        "about": "조·명 연합군의 경주 출발·울산 진격(23일 새벽)",
+        "stated_lunar": {
+          "month": 12,
+          "day": 23
+        }
+      }
+    ],
+    "note": "이어서 새벽에 좌협 선봉이 울산의 적 소굴을 곧바로 쳤다는 서술이 있다. 이 날 승전 보고는 성 함락이 아니라 첫 교전의 성과다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 12월·31년 1월 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-01-09-003",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 96권",
+    "entry_ref": "kna_13101009_003",
+    "url": "https://sillok.history.go.kr/id/kna_13101009_003",
+    "title_ko": "이시발이 포위를 풀고 경주로 철수했다는 소식을 알리다",
+    "title_note": "그날 기사 3건 중 3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 1,
+        "day": 9,
+        "leap_month": false
+      },
+      "gregorian": "1598-02-14",
+      "julian": "1598-02-04",
+      "computed_gregorian": "1598-02-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 乙未 가 1598-02-14 의 일간지와 일치."
+    },
+    "day_ganji": "乙未",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "故不得已初四日解圍撤兵",
+        "gloss_ko": "그리하여 부득이 4일에 포위를 풀고 군을 물렸다.",
+        "about": "도산(울산) 포위 해제·철병",
+        "stated_lunar": {
+          "month": 1,
+          "day": 4
+        }
+      }
+    ],
+    "note": "같은 기사에 '天兵圍島山, 十日不得破'(명군이 도산을 포위하고 열흘이 되도록 깨지 못했다)와 경주 도착이 있다. 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 이 날 1/1 기사(96권 첫째 달 1일, 丁亥)는 '22일 밤 대군이 일제히 출발, 23일 낮 선봉이 적과 조우, 24일 새벽 성 아래로 진격'을 적는다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 12월·31년 1월 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-09-26-011",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 104권",
+    "entry_ref": "kna_13109026_011",
+    "url": "https://sillok.history.go.kr/id/kna_13109026_011",
+    "title_ko": "우의정 이덕형이 명나라 군사들의 공격 계획에 대해 치계하다",
+    "title_note": "그날 기사 12건 중 11번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 26,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-25",
+      "julian": "1598-10-15",
+      "computed_gregorian": "1598-10-25",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 戊申 이 1598-10-25 의 일간지와 일치."
+    },
+    "day_ganji": "戊申",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "本月二十日, 行長欲與劉提督相會, 提督以旗牌王文憲, 假稱提督, 虞候白翰南, 假稱都元帥, 方欲相見之際, 天兵徑先放砲, 行長大驚, 走入窟穴",
+        "gloss_ko": "이달 20일 고니시가 유 제독과 만나려 했고, 제독은 기패 왕문헌을 제독으로, 우후 백한남을 도원수로 가칭해 내보냈는데, 만나려는 순간 명군이 먼저 포를 쏘자 고니시가 크게 놀라 굴혈로 달아났다.",
+        "about": "순천 예교의 고니시 진영에 대한 명군의 첫 포격(교전 개시)",
+        "stated_lunar": {
+          "month": 9,
+          "day": 20
+        }
+      }
+    ],
+    "note": "같은 기사에 '天兵一時進薄賊窟, 舟師亦趁時來泊曳橋前洋'(명군이 한꺼번에 적 소굴에 육박하고 수군도 때맞춰 예교 앞바다에 정박)과 '時方造器械打柴木, 以爲攻城之計'(공성 준비 중)이 있다. 성(순천)이라는 지명은 쓰지 않고 예교로 적는다. 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 9~10월 일자별 목록과 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-10-01-006",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 105권",
+    "entry_ref": "kna_13110001_006",
+    "url": "https://sillok.history.go.kr/id/kna_13110001_006",
+    "title_ko": "군문 접반사 노직이 동 제독의 왜군에 대한 공격에 대해 아뢰다",
+    "title_note": "그날 기사 7건 중 6번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 10,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-30",
+      "julian": "1598-10-20",
+      "computed_gregorian": "1598-10-30",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 癸丑 이 1598-10-30 의 일간지와 일치."
+    },
+    "day_ganji": "癸丑",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "去二十八日, 董提督入攻泗川, 斬獲八十餘顆, 餘賊走入新寨",
+        "gloss_ko": "지난 28일 동 제독이 사천에 들어가 공격해 80여 급을 베었고 남은 적은 신채로 달아났다(중로 차관의 말을 전한 보고).",
+        "about": "명 동일원 군의 사천 공격(첫 교전)",
+        "stated_lunar": {
+          "month": 9,
+          "day": 28
+        }
+      }
+    ],
+    "note": "기사 날짜가 10월 1일이므로 '去二十八日'은 직전 달(9월) 28일로 읽었다(우리의 추론이며 일기 7책 9/28 庚戌과 이어 도출). 이 기사는 첫 교전 성과만 전하고 이후 신채 전투의 패배는 적지 않는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 10월 목록과 10/1·10/4·10/8·10/12 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-29-01-21-002",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 71권",
+    "entry_ref": "kna_12901021_002",
+    "url": "https://sillok.history.go.kr/id/kna_12901021_002",
+    "title_ko": "접반사 김수가 왜장들의 무례한 행동과 통신사 이외에 다른 요구사항이 있는 듯함을 보고하다",
+    "title_note": "그날 기사 2건 중 2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1596,
+        "month": 1,
+        "day": 21,
+        "leap_month": false
+      },
+      "gregorian": "1596-02-18",
+      "julian": "1596-02-08",
+      "computed_gregorian": "1596-02-18",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 戊子 가 1596-02-18 의 일간지와 일치."
+    },
+    "day_ganji": "戊子",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "遊擊雖云先過海, 而每言今日、明日, 尙未決去",
+        "gloss_ko": "유격(심유경)은 먼저 바다를 건너겠다고 하면서도 늘 오늘내일 하며 아직 떠나기로 결정하지 못했다.",
+        "about": "심유경의 도해 지연(보고 시점의 상태)",
+        "stated_lunar": {
+          "month": 1,
+          "day": 21
+        }
+      }
+    ],
+    "note": "접반사 김수의 보고를 옮긴 기사이며, 보고가 쓰인 날짜는 기사에 없어 stated_lunar 는 기사 날짜(1/21)로 둔 '보고 시점의 상태'를 뜻한다(보고 작성일은 이보다 앞설 수 있음). 같은 기사에 행장이 '본월 초8일' 연회를 베풀었다는 서술이 있다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 29년 1·2월 목록과 1/15·1/21·1/22·2/28 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-29-11-06-002",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 82권",
+    "entry_ref": "kna_12911006_002",
+    "url": "https://sillok.history.go.kr/id/kna_12911006_002",
+    "title_ko": "황신의 군관 조덕수·박정호에게 통신사의 동태에 관해 아뢰게 하다",
+    "title_note": "목록 제목. 같은 날 첫 기사(황신·박홍장의 비밀 서장)와 함께 헤더 일간지 戊戌.",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1596,
+        "month": 11,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1596-12-24",
+      "julian": "1596-12-14",
+      "computed_gregorian": "1596-12-24",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "같은 날 첫 기사(82권 11/6, 기사 본문에도 \"戊戌\"이 적힘)의 헤더 일간지 戊戌 이 1596-12-24 의 일간지와 일치. 이 기사 헤더 자체는 따로 읽지 않았다."
+    },
+    "day_ganji": "戊戌",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "閏八月二十九日, 關白來五沙蓋, 九月初一日, 副使先往五沙蓋, 關白不見",
+        "gloss_ko": "윤8월 29일 관백이 오사카에 왔고, 9월 1일 부사가 먼저 갔으나 관백이 만나주지 않았다(통신사 수행 군관의 진술).",
+        "about": "관백의 명 부사 접견 거부(9/1)",
+        "stated_lunar": {
+          "month": 9,
+          "day": 1
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "期初二日相見封受云",
+        "gloss_ko": "초2일에 만나 책봉을 받기로 기약했다고 한다(전언).",
+        "about": "책봉 접견 예정(9/2, 전언)",
+        "stated_lunar": {
+          "month": 9,
+          "day": 2
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "初四日, 兩使還來沙蓋",
+        "gloss_ko": "초4일 두 사신이 다시 오사카(沙蓋)에 돌아왔다.",
+        "about": "두 사신의 귀환(9/4)",
+        "stated_lunar": {
+          "month": 9,
+          "day": 4
+        }
+      }
+    ],
+    "note": "황신 일행의 군관이 아뢴 진술 기록이라 간접 증언이다. 같은 기사에는 3일 연회(전언)에서 부사가 철병을 말하자 관백이 답하지 않았고, 부사가 '誥勑封王'을 가져왔으나 쫓겨났다(날짜 없음), 9일 승선·10일 야반 출항, 관백이 행장에게 노했다(날짜 없음)는 서술이 있다. 철병·'封王禮' 서술은 요약으로만 확인했다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다. 같은 날 첫 기사(황신·박홍장의 비밀 서장)는 관백이 천사만 만나고 배신(통신사)은 접대하지 않았다, 관백이 \"무례가 심하다\"며 명에 조공하러 가는 길을 조선이 빌려주지 않은 것을 탓하고 \"한 번 싸워 승부를 결정하자\"고 위협했다, 이 시점에 두 천사는 이키(一岐)섬에 있었다(\"兩天使, 皆在一岐島\")고 전한다(요약 확인). 이 기사에는 9월 등 월일 표기가 없고 모두 \"云云\"으로 끝나는 전언이다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 29년 9~11월 목록과 11/3·11/6·11/15 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-10-17-001",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 105권",
+    "entry_ref": "kna_13110017_001",
+    "url": "https://sillok.history.go.kr/id/kna_13110017_001",
+    "title_ko": "감찰 어사 진효의 왜군과의 전투에 관한 제본",
+    "title_note": "그날 기사 2건 중 1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 10,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1598-11-15",
+      "julian": "1598-11-05",
+      "computed_gregorian": "1598-11-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 己巳 가 1598-11-15 의 일간지와 일치."
+    },
+    "day_ganji": "己巳",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "本月初一日, 各處敗倭, 盡歸沈安道大寨",
+        "gloss_ko": "이달 초1일 각처의 패한 왜군이 모두 심안도(沈安道, 시마즈)의 큰 진채로 돌아갔다.",
+        "about": "사천 신채: 일본군의 대채 집결(10/1)",
+        "stated_lunar": {
+          "month": 10,
+          "day": 1
+        }
+      }
+    ],
+    "note": "이어 '불의에 팽신고의 영중에서 불이 나 교활한 왜가 갑자기 뛰쳐나왔다'(不意彭信古營中失火, 狡倭垂突出)와 '공이 이루어지려던 참에 순식간에 무너졌다'(功在垂成, 壞於頃刻)가 나오지만 이 두 문장에는 날짜가 없다. 우리는 이것을 같은 날(초1일)의 연속 서술로 읽었다(추론). 지명으로 泗川·新寨는 쓰지 않고 '沈安道大寨'로 적는다(같은 시기 다른 기사의 '泗川之敗'와 동일 전투로 읽음, 추론). 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 10월 목록과 10/4·10/8·10/10·10/12·10/16·10/17·10/21·10/24 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-25-06-21-004",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 27권",
+    "entry_ref": "kna_12506021_004",
+    "url": "https://sillok.history.go.kr/id/kna_12506021_004",
+    "title_ko": "원균과 이순신이 한산도·당포에서 승전한 일에 대한 기록",
+    "title_note": "그날 기사 6건 중 4번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1592,
+        "month": 6,
+        "day": 21,
+        "leap_month": false
+      },
+      "gregorian": "1592-07-29",
+      "julian": "1592-07-19",
+      "computed_gregorian": "1592-07-29",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 己酉 가 1592-07-29 의 일간지와 일치."
+    },
+    "day_ganji": "己酉",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "二十九日, 舜臣、元均再會於露梁",
+        "gloss_ko": "(5월로 읽히는) 29일 이순신과 원균이 노량에서 다시 만났다. 이후 적선을 불사르고 거북선이 돌진해 적 함대를 무찔렀고 이순신은 왼쪽 어깨에 탄환을 맞았다는 서술이 이어진다(요약 확인).",
+        "about": "5/29 노량 합류와 교전(통상 사천해전으로 불리는 날)",
+        "stated_lunar": {
+          "month": 5,
+          "day": 29
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "初二日到唐浦, 賊船二十艘, 列泊江岸",
+        "gloss_ko": "(6월로 읽히는) 2일 당포에 이르러 보니 적선 20척이 강안에 늘어서 정박해 있었다.",
+        "about": "6/2 당포 도착",
+        "stated_lunar": {
+          "month": 6,
+          "day": 2
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "乃於是年五月初六日, 進至玉浦前洋",
+        "gloss_ko": "이해 5월 초6일 옥포 앞바다에 나아갔다.",
+        "about": "옥포 교전(이 기사의 일자는 6일로, 6/28 최원 치계의 7일과 다름)",
+        "stated_lunar": {
+          "month": 5,
+          "day": 6
+        }
+      }
+    ],
+    "note": "'二十九日'과 '初二日'에는 월이 적혀 있지 않다(5월 29일·6월 2일로 읽은 것은 앞뒤 서술에 따른 우리의 추론). 사천(泗川)·사량 등 사천해전을 가리키는 지명은 이 기사에 나오지 않고 29일 교전은 '露梁'(노량) 곳에서 서술된다(요약 확인). 기사에서 교전 날짜까지 일기로 이을 수 없다(현존 1592 일기는 5/4까지). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 25년 6·7월 목록과 6/21·6/28·7/9 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-07-22-002",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 90권",
+    "entry_ref": "kna_13007022_002",
+    "url": "https://sillok.history.go.kr/id/kna_13007022_002",
+    "title_ko": "선전관 김식이 한산의 사정을 탐지하고 돌아와서 보고하다",
+    "title_note": "그날 기사 5건 중 2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-03",
+      "julian": "1597-08-24",
+      "computed_gregorian": "1597-09-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 辛亥 가 1597-09-03 의 일간지와 일치."
+    },
+    "day_ganji": "辛亥",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "十五日二更, 倭船五六隻, 不意夜驚衝火, 我國戰船四隻, 全數燒沒",
+        "gloss_ko": "15일 2경(밤 9~11시경)에 왜선 5~6척이 뜻밖에 야간에 기습해 불을 질러 우리 전선 4척이 모두 불탔다.",
+        "about": "야간 기습으로 조선 전선 4척 소실(7/15 밤)",
+        "stated_lunar": {
+          "month": 7,
+          "day": 15
+        }
+      }
+    ],
+    "note": "이어서 '장수들이 황급히 배를 움직여 어렵게 진을 쳤고 닭이 울 때 왜선이 셀 수 없이 3~4겹으로 에워쌌다', '싸우며 물러나 고성 추원포로 물러나 주둔했다', '원균의 생사는 자세히 알 수 없다'가 나온다(요약 확인). 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 이 기사는 '칠천(漆川)'을 쓰지 않는다. 같은 날 다른 기사(비변사 논의)는 '七川島'에 이른 함대가 밤 2경 적이 몰래 들어와 전군이 괴멸했다고 적으나 날짜가 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 7월 목록과 7/22·7/25 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-02-04-001",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 85권",
+    "entry_ref": "kna_13002004_001",
+    "url": "https://sillok.history.go.kr/id/kna_13002004_001",
+    "title_ko": "통제사 이순신을 잡아 율에 따라 죄를 정할 것을 사헌부가 건의하다",
+    "title_note": "그날 기사 2건 중 1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 2,
+        "day": 4,
+        "leap_month": false
+      },
+      "gregorian": "1597-03-21",
+      "julian": "1597-03-11",
+      "computed_gregorian": "1597-03-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 乙丑 가 1597-03-21 의 일간지와 일치."
+    },
+    "day_ganji": "乙丑",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "請命拿鞫, 依律定罪",
+        "gloss_ko": "(통제사 이순신을) 잡아 국문하고 법률에 따라 죄를 정하게 해 달라고 청한다.",
+        "about": "사헌부의 이순신 체포·단죄 건의",
+        "stated_lunar": {
+          "month": 2,
+          "day": 4
+        }
+      }
+    ],
+    "note": "죄목은 '徒欲掠人之功, 欺罔狀啓'(남의 공을 가로채려 기망하는 장계를 올림)와 '縱賊不討'(적을 놓아주고 치지 않음)로 적혀 있고 왕은 '천천히 처분하겠다'고 답했다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 2~4월 일자별 목록과 2/4·2/6·3/13 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-02-06-003",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 85권",
+    "entry_ref": "kna_13002006_003",
+    "url": "https://sillok.history.go.kr/id/kna_13002006_003",
+    "title_ko": "이순신을 잡아오도록 김홍미에게 전교하다",
+    "title_note": "그날 기사 3건 중 3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 2,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1597-03-23",
+      "julian": "1597-03-13",
+      "computed_gregorian": "1597-03-23",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丁卯 가 1597-03-23 의 일간지와 일치."
+    },
+    "day_ganji": "丁卯",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "李舜臣拿來時, 以宣傳官標信及密符給送拿來, 而元均交代後, 拿來事言送",
+        "gloss_ko": "이순신을 잡아올 때 선전관에게 표신과 밀부를 주어 보내 잡아오되, 원균이 교대한 뒤에 잡아오는 일을 말해 보내라.",
+        "about": "왕의 이순신 체포 전교(원균 교대 후)",
+        "stated_lunar": {
+          "month": 2,
+          "day": 6
+        }
+      }
+    ],
+    "note": "이어 '이순신이 병사를 이끌고 적에 임해 있다면 잡아오는 것이 편치 않으니 전투가 끝난 틈에 잡아오라'는 단서(요약 확인). 죄목은 이 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 2~4월 일자별 목록과 2/4·2/6·3/13 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-03-13-002",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 86권",
+    "entry_ref": "kna_13003013_002",
+    "url": "https://sillok.history.go.kr/id/kna_13003013_002",
+    "title_ko": "이순신에게 벌하는 것을 대신들에게 의논하도록 하다",
+    "title_note": "그날 기사 3건 중 2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 3,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1597-04-28",
+      "julian": "1597-04-18",
+      "computed_gregorian": "1597-04-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 癸卯 가 1597-04-28 의 일간지와 일치."
+    },
+    "day_ganji": "癸卯",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "令將窮刑得情, 何以處之, 問于大臣",
+        "gloss_ko": "(이순신을) 엄히 신문해 실정을 얻었으니 어떻게 처분할지 대신들에게 물으라.",
+        "about": "왕의 이순신 처벌 논의 지시",
+        "stated_lunar": {
+          "month": 3,
+          "day": 13
+        }
+      }
+    ],
+    "note": "같은 기사에서 왕은 '신하로서 기망한 자는 반드시 죽이고 용서하지 않는다'(人臣而欺罔者, 必誅不赦)는 입장을 적는다. 대신들의 의견과 구금 장소는 이 기사에 없다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 2~4월 일자별 목록과 2/4·2/6·3/13 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-20-10-16-001",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 21권",
+    "entry_ref": "kna_12010016_001",
+    "url": "https://sillok.history.go.kr/id/kna_12010016_001",
+    "title_ko": "비변사가 이경록과 이순신을 잡아올 것을 청하자 백의종군 시키다",
+    "title_note": "그날 기사 1건 중 1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1587,
+        "month": 10,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1587-11-15",
+      "julian": "1587-11-05",
+      "computed_gregorian": "1587-11-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 辛未 가 1587-11-15 의 일간지와 일치."
+    },
+    "day_ganji": "辛未",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "與戰敗者有異。 令兵使決杖, 白衣從軍, 自效可也",
+        "gloss_ko": "(이경록·이순신은) 전투에서 패한 자들과는 다르다. 병사에게 장형을 집행하게 하고 백의종군하여 스스로 공을 세우게 함이 옳다.",
+        "about": "왕의 이순신 백의종군 전교(1587, 녹둔도 패전 후)",
+        "stated_lunar": {
+          "month": 10,
+          "day": 16
+        }
+      }
+    ],
+    "note": "비변사 공사 '李慶祿ㆍ李舜臣等拿來事'(이경록·이순신 등을 잡아오는 일)에 대한 왕의 답이다. 이 기사는 1597년이 아니라 1587년(선조 20년)이다. 사건 배경(녹둔도 사건)은 같은 해 수정실록 9/1 기사(녹둔도 함락)에 있다(검색 결과로만 확인, 열람하지 않음). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB에서 '白衣從軍' 검색 결과(43건)와 해당 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-07-22-005",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 90권",
+    "entry_ref": "kna_13007022_005",
+    "url": "https://sillok.history.go.kr/id/kna_13007022_005",
+    "title_ko": "조즙·이순신·권준에게 관직을 제수하다",
+    "title_note": "그날 기사 5건 중 5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-03",
+      "julian": "1597-08-24",
+      "computed_gregorian": "1597-09-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 辛亥 가 1597-09-03 의 일간지와 일치."
+    },
+    "day_ganji": "辛亥",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "李舜臣爲全羅左道水軍節度使兼慶尙、全羅、忠淸三道統制使",
+        "gloss_ko": "이순신을 전라좌도 수군절도사 겸 경상·전라·충청 삼도 통제사로 삼았다.",
+        "about": "이순신의 삼도수군통제사 재임명(인사 기록일)",
+        "stated_lunar": {
+          "month": 7,
+          "day": 22
+        }
+      }
+    ],
+    "note": "같은 인사 기사에서 조즙은 사간원 정언, 권준은 충청도 수군절도사로 임명된다. 이순신의 생몰년 등 인물 정보는 기사에 없으나 직함으로 보아 같은 인물로 읽는다(추론). 이 기사의 날짜는 인사 기록일이며 이순신이 교서를 받은 날이 아니다(일기 5책 8/3 辛亥). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 7·8월 목록과 7/22·7/26·7/27·7/28 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-10-13-003",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 93권",
+    "entry_ref": "kna_13010013_003",
+    "url": "https://sillok.history.go.kr/id/kna_13010013_003",
+    "title_ko": "이순신과 이시언에게 군법을 어기는 자는 선참 후계하라고 지시하다",
+    "title_note": "그날 기사 8건 중 3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 10,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-21",
+      "julian": "1597-11-11",
+      "computed_gregorian": "1597-11-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 庚午 가 1597-11-21 의 일간지와 일치."
+    },
+    "day_ganji": "庚午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "今後管下犯軍法之人, 一一先爲處斷後啓聞事, 下書于李舜臣、李時言",
+        "gloss_ko": "앞으로 관하에서 군법을 어기는 자는 일일이 먼저 처단한 뒤 보고하라는 내용을 이순신과 이시언에게 하서한다.",
+        "about": "왕의 이순신·이시언에 대한 선참후계 하서",
+        "stated_lunar": {
+          "month": 10,
+          "day": 13
+        }
+      }
+    ],
+    "note": "비망기를 한준겸에게 전한 끝 구절이다. 이 기사에는 해전·명량 언급이 없다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 9~11월 일자별 목록과 10/11·10/13·11/4·11/7 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-11-07-003",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 94권",
+    "entry_ref": "kna_13011007_003",
+    "url": "https://sillok.history.go.kr/id/kna_13011007_003",
+    "title_ko": "경리 접반사가 이순신 등 조선 장수들의 지체함을 꾸짖다",
+    "title_note": "그날 기사 6건 중 3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 11,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1597-12-15",
+      "julian": "1597-12-05",
+      "computed_gregorian": "1597-12-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 甲午 가 1597-12-15 의 일간지와 일치."
+    },
+    "day_ganji": "甲午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "李舜臣處, 使問駐兵處所及行兵之事, 而經月無回音",
+        "gloss_ko": "이순신에게 주둔처와 행병의 일을 물으러 보냈으나 한 달이 되도록 회답이 없다.",
+        "about": "경리 측의 이순신 회답 지체 질책",
+        "stated_lunar": {
+          "month": 11,
+          "day": 7
+        }
+      }
+    ],
+    "note": "같은 기사에 김응서가 급히 불렀는데도 오지 않고 권율이 기한이 지나도록 답이 없다는 불만이 이어지고 왕은 비변사에 내린다(요약 확인). 명량·승첩 언급은 이 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 9~11월 일자별 목록과 10/11·10/13·11/4·11/7 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-30-11-10-005",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 94권",
+    "entry_ref": "kna_13011010_005",
+    "url": "https://sillok.history.go.kr/id/kna_13011010_005",
+    "title_ko": "제독 총병부에 적군의 동태와 대비책, 우리 장수의 전과를 알리게 하다",
+    "title_note": "그날 기사 5건 중 5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 11,
+        "day": 10,
+        "leap_month": false
+      },
+      "gregorian": "1597-12-18",
+      "julian": "1597-12-08",
+      "computed_gregorian": "1597-12-18",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丁酉 가 1597-12-18 의 일간지와 일치."
+    },
+    "day_ganji": "丁酉",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "臣督水使金億秋、助防將裵興立、巨濟縣令安衛等, 各整兵船, 於珍島 碧波亭前洋, 與賊交鋒, 冒死力戰, 以大砲, 撞破賊船二十餘隻",
+        "gloss_ko": "(이순신의 장계) 신이 수사 김억추, 조방장 배흥립, 거제 현령 안위 등을 독려해 각기 병선을 정비하고 진도 벽파정 앞바다에서 적과 교전해 대포로 적선 20여 척을 쳐부수었다.",
+        "about": "이순신 장계가 전하는 진도 벽파정 앞바다 해전(명량해전에 해당하는 서술, 교전일은 본문에 없음)",
+        "stated_lunar": {
+          "month": 11,
+          "day": 10
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "收拾戰船一十三隻, 哨探船三十二隻, 於海南縣海路, 要口把截, 而有戰船一百三十餘隻, 從梨津浦前洋向來",
+        "gloss_ko": "전선 13척과 초탐선 32척을 수습해 해남 바닷길 요충을 막았는데, 적 전선 130여 척이 이진포 앞바다에서 다가왔다.",
+        "about": "이순신 장계가 전하는 아군 13척 대 적 130여 척",
+        "stated_lunar": {
+          "month": 11,
+          "day": 10
+        }
+      }
+    ],
+    "note": "stated_lunar 는 기사 날짜(11/10)로 둔 자리표시값이다: 교전일(9/16)은 본문에 없다. 이 기사는 명 마귀의 자문을 10월 28일에 받았다고 밝히며 이순신의 장계(수신 시점 미상)를 인용한다. 이어 '붉은 깃발의 큰 배를 가리키며 항왜가 안골의 적장 마다시(馬多時)라 확인했다'(有陣中投降倭, 指紅旗賊船, 認是安骨賊將馬多時), 녹도 만호 송여종·영등 만호 정응두가 이어 와서 적선 11척을 더 깨뜨렸고 참수 8급이라는 서술이 있다(요약 확인). '鳴梁'이라는 지명은 쓰지 않는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 30년 11월 일자별 목록(88건)과 11/4·11/7·11/10·11/12·11/22·11/28 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-03-18-004",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 98권",
+    "entry_ref": "kna_13103018_004",
+    "url": "https://sillok.history.go.kr/id/kna_13103018_004",
+    "title_ko": "통제사 이순신이 적 수군의 동태 및 아군의 준비상황을 아뢰다",
+    "title_note": "그날 기사 6건 중 4번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 3,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1598-04-23",
+      "julian": "1598-04-13",
+      "computed_gregorian": "1598-04-23",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 癸卯 가 1598-04-23 의 일간지와 일치."
+    },
+    "day_ganji": "癸卯",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "二月十六日領諸將, 自寶花島開船, 十七日康津境古今島移陣",
+        "gloss_ko": "(이순신의 장계) 2월 16일 여러 장수를 거느리고 보화도에서 배를 띄워 17일 강진 경내 고금도로 진을 옮겼다.",
+        "about": "이순신 수군의 보화도→고금도 이진(2/16 출발, 2/17 이진)",
+        "stated_lunar": {
+          "month": 2,
+          "day": 17
+        }
+      }
+    ],
+    "note": "같은 장계에 '고금도는 호남 좌우도에 걸쳐 안팎 바다를 누르고 봉우리가 겹쳐 망보기에 좋아 한산도보다 낫다'(形勢之勝, 有倍於閑山), '주변 섬에 농장이 많고 한가한 사람 1,500여 호가 농사짓게 했다', '2월 13일 평수가가 군을 이끌고 행장이 있는 예교에 합류했다'가 있다(요약 확인). 월(2월)은 본문에 명시되어 있으나 일기에 1598-2월이 없어 도출 검증은 못 한다. 전선 수는 적혀 있지 않다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 3월 일자별 목록(141건)과 3/18·3/22·3/27 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-03-18-005",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 98권",
+    "entry_ref": "kna_13103018_005",
+    "url": "https://sillok.history.go.kr/id/kna_13103018_005",
+    "title_ko": "전라 우수사 안위가 강진 고금도에서의 전투 준비상황을 아뢰다",
+    "title_note": "그날 기사 6건 중 5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 3,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1598-04-23",
+      "julian": "1598-04-13",
+      "computed_gregorian": "1598-04-23",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 癸卯 가 1598-04-23 의 일간지와 일치."
+    },
+    "day_ganji": "癸卯",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "臣本月十四日, 在寶花島到任, 同月十六日, 統制使李舜臣, 一時所屬各官浦戰船領率, 康津 古今島移陣",
+        "gloss_ko": "(안위의 장계) 신이 이달 14일 보화도에서 부임했고 같은 달 16일 통제사 이순신이 소속 관포의 전선을 한꺼번에 거느리고 강진 고금도로 진을 옮겼다.",
+        "about": "안위의 보화도 부임(14일)과 고금도 이진(16일, 이순신 장계의 2/16 출발·2/17 이진과 하루 차)",
+        "stated_lunar": {
+          "month": 2,
+          "day": 16
+        }
+      }
+    ],
+    "note": "'本月'·'同月'이 장계가 쓰인 2월을 가리킨다고 읽은 것은 우리의 추론이다(기사일은 3/18). 같은 기사에서 적중 포로의 말로 '예교에 적도들이 점차 들어와 군사를 늘리고 요새를 만들어 장기 주둔을 준비한다'(曳橋賊徒, 稍稍入來, 添兵設險, 作爲久據之計)고 전한다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 3월 일자별 목록(141건)과 3/18·3/22·3/27 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-04-14-003",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 99권",
+    "entry_ref": "kna_13104014_003",
+    "url": "https://sillok.history.go.kr/id/kna_13104014_003",
+    "title_ko": "이정구가 군공의 보고, 이순신의 포상, 축성 문제 등에 대해 아뢰다",
+    "title_note": "그날 기사 4건 중 3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 4,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1598-05-18",
+      "julian": "1598-05-08",
+      "computed_gregorian": "1598-05-18",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 戊辰 가 1598-05-18 의 일간지와 일치."
+    },
+    "day_ganji": "戊辰",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "李舜臣用力殺賊如此, 我甚嘉喜",
+        "gloss_ko": "(명 경리의 말을 전하는 대목) 이순신이 힘을 다해 적을 죽이기를 이와 같으니 내가 매우 기쁘다.",
+        "about": "명 경리의 이순신 칭찬과 속히 상을 주라는 권고",
+        "stated_lunar": {
+          "month": 4,
+          "day": 14
+        }
+      }
+    ],
+    "note": "같은 기사에 '속히 장려하고 상을 주어 고무하라', '상격을 속히 더 두텁게 하라'는 권고와 조선인이 얻은 수급도 중국 장수와 같이 상주하자는 말이 이어진다(요약 확인). 이순신의 구체적 전투·장소·날짜는 이 기사에 없다. 군공 보고에는 조선 왕이 '잔적을 잡아 베는 것은 변장의 본분'이라며 군공 상주를 사양하는 대목이 있다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 4월 일자별 목록(147건)과 4/3·4/14·4/15·4/28 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-04-28-006",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 99권",
+    "entry_ref": "kna_13104028_006",
+    "url": "https://sillok.history.go.kr/id/kna_13104028_006",
+    "title_ko": "정원이 이순신·김응함·우수 등을 포상토록 아뢰다",
+    "title_note": "그날 기사 6건 중 6번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 4,
+        "day": 28,
+        "leap_month": false
+      },
+      "gregorian": "1598-06-01",
+      "julian": "1598-05-22",
+      "computed_gregorian": "1598-06-01",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬午 가 1598-06-01 의 일간지와 일치."
+    },
+    "day_ganji": "壬午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "李舜臣等三人, 各加一資事判下, 李舜臣、金應緘, 則已爲折衝而陞嘉善",
+        "gloss_ko": "이순신 등 세 사람에게 각각 한 자급을 더하는 일을 판하했으며, 이순신과 김응함은 이미 절충장군이므로 가선대부로 올린다.",
+        "about": "이순신·김응함·우수의 가자 판하(이순신은 가선대부 승진)",
+        "stated_lunar": {
+          "month": 4,
+          "day": 28
+        }
+      }
+    ],
+    "note": "같은 기사에서 우수(禹壽)는 자급이 다해 당상으로 올리고, '한산 패전의 사람은 일단 장부에 올려 두고 조사 후 처분하라'고 하며, 우수는 가음조도 앞바다 접전에서 전선이 온전히 돌아왔고 김응함은 병 치료로 진에 머물렀다는 서술이 있다(요약 확인). 이순신의 구체적 전과·적선 수·참획 수는 이 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-15 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 4월 일자별 목록(147건)과 4/3·4/14·4/15·4/28 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-05-01-005",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 100권",
+    "entry_ref": "kna_13105001_005",
+    "url": "https://sillok.history.go.kr/id/kna_13105001_005",
+    "title_ko": "이정구가 한산 싸움의 상벌을 시행하자고 아뢰다",
+    "title_note": "그날 기사 7건 중 5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 5,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1598-06-04",
+      "julian": "1598-05-25",
+      "computed_gregorian": "1598-06-04",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 乙酉 가 1598-06-04 의 일간지와 일치."
+    },
+    "day_ganji": "乙酉",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "統制使李舜臣, 閑山戰軍功人等, 已爲磨鍊, 入啓允下",
+        "gloss_ko": "통제사 이순신이 한산 싸움의 군공인 등을 이미 마련해 입계하여 윤허를 받았다.",
+        "about": "이순신이 올린 한산 싸움 군공인 명단의 윤허",
+        "stated_lunar": {
+          "month": 5,
+          "day": 1
+        }
+      }
+    ],
+    "note": "같은 기사에서 한산 싸움에서 진 사람들의 공과는 아직 조사하지 않았으며 장부에 올려 두고 조사 후 처분하자는 건의에 왕이 따른다(依啓). 한산 전투는 칠천량을 가리키는 것으로 읽었다(추론). 날짜는 이 말이 실록에 오른 날이며 군공인 명단의 윤허일이 아니다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 5월 일자별 목록과 5/1·5/6·5/10 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-05-10-004",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 100권",
+    "entry_ref": "kna_13105010_004",
+    "url": "https://sillok.history.go.kr/id/kna_13105010_004",
+    "title_ko": "정원이 한산 전투의 군공의 공정한 평가를 하도록 아뢰다",
+    "title_note": "그날 기사 4건 중 4번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 5,
+        "day": 10,
+        "leap_month": false
+      },
+      "gregorian": "1598-06-13",
+      "julian": "1598-06-03",
+      "computed_gregorian": "1598-06-13",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 甲午 가 1598-06-13 의 일간지와 일치."
+    },
+    "day_ganji": "甲午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "統制使軍功告身, 盡爲査點, 今將下送矣, 但閑山戰敗之人, 姑待査覈, 故裵興立等三十餘人, 功在一等, 而未蒙賞典",
+        "gloss_ko": "통제사 군공의 고신은 모두 조사·점검하여 지금 내려보내려 하나, 한산 패전 관련자의 조사를 기다리느라 배흥립 등 30여 명이 일등공인데도 상전을 받지 못했다.",
+        "about": "통제사 군공 고신 하송과 배흥립 등 30여 명의 상전 보류",
+        "stated_lunar": {
+          "month": 5,
+          "day": 10
+        }
+      }
+    ],
+    "note": "이어 '군공 마련이 본진 보고와 등급이 크게 다르다', '은명이 한 번 내리면 공은 같은데 상이 다르다는 탄식이 없지 않을 것'이라며 이전 계사와 전교의 곡절을 자세히 논해 통제사에게 보내 진중에 알리자고 청하고 왕이 따른다(요약 확인). 이순신 이름은 이 기사에 없다. 날짜는 기사일이며 고신이 실제로 내려간 날이 아니다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 5월 일자별 목록과 5/1·5/6·5/10 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-06-24-003",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 101권",
+    "entry_ref": "kna_13106024_003",
+    "url": "https://sillok.history.go.kr/id/kna_13106024_003",
+    "title_ko": "비변사가 이순신이 있는 곳의 군량 대책에 대해 아뢰다",
+    "title_note": "그날 기사 5건 중 3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 6,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1598-07-26",
+      "julian": "1598-07-16",
+      "computed_gregorian": "1598-07-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丁丑 가 1598-07-26 의 일간지와 일치."
+    },
+    "day_ganji": "丁丑",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "李舜臣於蕩敗之後, 收拾流離避亂之人, 以爲軍兵, 駐在荒絶之地, 物力僅僅自給",
+        "gloss_ko": "이순신은 수군이 크게 패한 뒤 떠돌며 피난한 사람들을 거두어 군병으로 삼고 황량하고 외진 곳에 주둔해 물력을 겨우 자급하고 있다.",
+        "about": "비변사가 보고한 이순신 진영의 상황과 군량 부족",
+        "stated_lunar": {
+          "month": 6,
+          "day": 24
+        }
+      }
+    ],
+    "note": "같은 기사에서 '육로로는 양식이 운반되지 않아 부득이 우리 수군의 양식을 먼저 대 주고 있어 적은 저장이 곧 바닥난다', '본국 수군은 한산도 함락 후 선박·기계를 모두 잃어 남은 것이 얼마 없다', 지형을 얻으면 서로 바라보이는 땅에 나누어 주둔해 기각을 이루자는 제안이 이어진다(요약 확인). 고금도라는 지명은 쓰지 않는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 6월 일자별 목록(69건)과 6/24·6/27 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-06-27-002",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 101권",
+    "entry_ref": "kna_13106027_002",
+    "url": "https://sillok.history.go.kr/id/kna_13106027_002",
+    "title_ko": "비변사가 진 도독의 배신에 대한 군법 적용, 조선군 통솔 요구에 대해 아뢰다",
+    "title_note": "그날 기사 3건 중 2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 6,
+        "day": 27,
+        "leap_month": false
+      },
+      "gregorian": "1598-07-29",
+      "julian": "1598-07-19",
+      "computed_gregorian": "1598-07-29",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 庚辰 가 1598-07-29 의 일간지와 일치."
+    },
+    "day_ganji": "庚辰",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "俺受命天朝, 總領水兵, 舟師、邊將, 當爲節制。 陪臣等倘有違悞者, 一以軍法從事, 斷不饒貸",
+        "gloss_ko": "(진 도독의 말) 나는 천조의 명을 받아 수병을 총괄하니 수군과 변장을 마땅히 절제하겠다. 배신들이 어기는 자가 있으면 한결같이 군법으로 다스려 용서하지 않겠다.",
+        "about": "진 도독의 군법 적용 선언과 조선 수군 통솔 요구(비변사 보고)",
+        "stated_lunar": {
+          "month": 6,
+          "day": 27
+        }
+      }
+    ],
+    "note": "비변사는 '제독이 우리 군병을 직접 거느리려 한다면 통제사 이하가 모두 군대 없는 장수가 된다'며, 통제사 이순신·경상우수사 이순신(李純信)·전라우수사 안위·충청수사 오응태 등에게 각각 부하를 정비하라고 회유·하서하자고 청한다(요약 확인). 진 도독이 진린(陳璘)인지는 기사에서 확인되지 않는다(6/26 목록에는 '도독 진인을 동작강에서 전별'). 군법 선언의 날짜는 기사에 없고 stated_lunar 는 기사일(6/27)로 둔 자리표시값이다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 6월 일자별 목록(69건)과 6/24·6/27 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-08-13-004",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 103권",
+    "entry_ref": "kna_13108013_004",
+    "url": "https://sillok.history.go.kr/id/kna_13108013_004",
+    "title_ko": "통제사 이순신이 해상 전투 상황과 진 도독의 무례함을 치계하다",
+    "title_note": "그날 기사 5건 중 4번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 8,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1598-09-13",
+      "julian": "1598-09-03",
+      "computed_gregorian": "1598-09-13",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙寅 가 1598-09-13 의 일간지와 일치."
+    },
+    "day_ganji": "丙寅",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "頃日海中之戰, 我軍銃砲齊發, 撞破賊船, 賊屍滿海, 倉卒之際, 不得盡爲鉤斬, 只斬七十餘級",
+        "gloss_ko": "(이순신의 장계) 요사이 바다 한가운데의 싸움에서 우리 군이 총포를 일제히 쏘아 적선을 깨뜨려 적의 시체가 바다에 가득했으나 창졸간에 모두 건져 베지 못하고 겨우 70여 급을 베었다.",
+        "about": "이순신이 보고한 최근 해전의 전과(70여 급)",
+        "stated_lunar": {
+          "month": 8,
+          "day": 13
+        }
+      }
+    ],
+    "note": "'頃日'(요사이)이라고만 적혀 교전일·장소·적선 수는 없다. 같은 장계에서 명군은 적선을 보고 먼바다로 피해 아무것도 얻지 못했고, 진 도독이 우리 수급 수를 보고 배 가에 서서 발을 구르며 부하를 꾸짖고 이순신 등을 위협해 40여 급을 나눠 주었으며 계 유격에게도 5급을 보냈다고 한다(요약 확인). 진 도독은 6/27 기사의 진 도독과 같은 인물로 읽을 수 있으나 이름은 확인되지 않는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 8월 일자별 목록(129건)과 8/13·8/15·8/20·8/24 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-08-15-003",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 103권",
+    "entry_ref": "kna_13108015_003",
+    "url": "https://sillok.history.go.kr/id/kna_13108015_003",
+    "title_ko": "이순신의 승첩을 가지고 온 자에게 논상하도록 정원에 전교하다",
+    "title_note": "그날 기사 3건 중 3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 8,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1598-09-15",
+      "julian": "1598-09-05",
+      "computed_gregorian": "1598-09-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 戊辰 가 1598-09-15 의 일간지와 일치."
+    },
+    "day_ganji": "戊辰",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "傳于政院曰: 李舜臣捷音持來人, 論賞",
+        "gloss_ko": "정원에 전교하기를 '이순신의 승전 소식을 가지고 온 사람에게 논상하라'.",
+        "about": "왕이 이순신 승첩 보고를 가져온 사람에게 포상을 명령",
+        "stated_lunar": {
+          "month": 8,
+          "day": 15
+        }
+      }
+    ],
+    "note": "승첩의 장소·날짜는 이 기사에 없다. 8/13 장계(해상 전투 70여 급)에 대한 반응으로 읽을 수 있으나 같은 승첩인지는 확인하지 못했다(추론). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 8월 일자별 목록(129건)과 8/13·8/15·8/20·8/24 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-08-24-005",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 103권",
+    "entry_ref": "kna_13108024_005",
+    "url": "https://sillok.history.go.kr/id/kna_13108024_005",
+    "title_ko": "이덕형이 예교의 적정과 이순신의 동정을 치계하다",
+    "title_note": "그날 기사 6건 중 5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 8,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1598-09-24",
+      "julian": "1598-09-14",
+      "computed_gregorian": "1598-09-24",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丁丑 가 1598-09-24 의 일간지와 일치."
+    },
+    "day_ganji": "丁丑",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "統制使李舜臣與天將, 欲相機勦賊, 整齊舟師下海云",
+        "gloss_ko": "통제사 이순신이 명 장수와 더불어 기회를 보아 적을 토벌하고자 수군을 정비해 바다로 내려갔다고 한다.",
+        "about": "이순신의 수군 출동 보고(이덕형 전언)",
+        "stated_lunar": {
+          "month": 8,
+          "day": 24
+        }
+      }
+    ],
+    "note": "같은 기사에서 예교의 적은 성을 쌓고 횃불을 많이 마련해 밤 사격을 대비하고 있어 '철진(撤陣) 설은 모두 허보'라고 한다(曳橋之賊, 修築城子 … 撤陣之說, 都是虛報; 요약 확인). 출동 날짜는 이 기사에 없다. 일기 7책은 9/15부터라 이어 확인할 수 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 8월 일자별 목록(129건)과 8/13·8/15·8/20·8/24 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-09-10-003",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 104권",
+    "entry_ref": "kna_13109010_003",
+    "url": "https://sillok.history.go.kr/id/kna_13109010_003",
+    "title_ko": "통제사 이순신이 진 도독에 대해 치계하다",
+    "title_note": "그날 기사 3건 중 3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 10,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-09",
+      "julian": "1598-09-29",
+      "computed_gregorian": "1598-10-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬辰 가 1598-10-09 의 일간지와 일치."
+    },
+    "day_ganji": "壬辰",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "臣整齊舟師, 雖欲下海, 乘機勦賊, 每爲提督所抑止, 不勝悶慮",
+        "gloss_ko": "(이순신의 장계) 신이 수군을 정비해 바다로 내려가 기회를 타 적을 토벌하고자 하나 매번 제독에게 억제를 당하니 답답하고 걱정됨을 이기지 못합니다.",
+        "about": "이순신의 진 도독 억제 호소",
+        "stated_lunar": {
+          "month": 9,
+          "day": 10
+        }
+      }
+    ],
+    "note": "같은 장계에서 진 도독이 이순신을 불러 '육병은 유 제독이 총제하고 수병은 내가 총제할 터인데 유 제독이 수군을 관장하려 한다 하니 그러한가?'(陸兵則劉提督總制, 水兵則俺當總制)라고 물었고 이순신은 모른다고 대답했다는 서술이 있다(요약 확인). 전과·적선 수·수급 수·교전일은 이 기사에 없다. 진 도독의 이름(진린)은 기사에서 확인되지 않는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 9월 일자별 목록과 9/8·9/10 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-09-08-001",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 104권",
+    "entry_ref": "kna_13109008_001",
+    "url": "https://sillok.history.go.kr/id/kna_13109008_001",
+    "title_ko": "진 도독의 소행에 대해 비망기로 이르다",
+    "title_note": "그날 기사 3건 중 1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 8,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-07",
+      "julian": "1598-09-27",
+      "computed_gregorian": "1598-10-07",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 庚寅 가 1598-10-07 의 일간지와 일치."
+    },
+    "day_ganji": "庚寅",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "前後見統制使狀啓, 則陳都督所爲, 如果不許, 極爲寒心",
+        "gloss_ko": "(왕의 비망기) 통제사의 장계를 앞뒤로 보니 진 도독이 하는 일이 과연 불허한다면 몹시 한심하다.",
+        "about": "왕의 비망기: 진 도독이 통제사의 공격을 불허하는 데 대한 우려",
+        "stated_lunar": {
+          "month": 9,
+          "day": 8
+        }
+      }
+    ],
+    "note": "이어 '이로부터 수군의 일은 틀어지고 수로를 막아 협공하려는 계책은 어그러진다'(自此舟師之事去矣, 而水路遮截, 挾擊之計左矣)고 한다. 이순신 이름은 쓰지 않고 '통제사'로만 적는다(요약 확인). 같은 날 비변사(9/8 둘째 기사)와 9/10 비변사는 진 도독이 분개해 일을 어렵게 할까 걱정하며 대책을 논한다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 9월 일자별 목록과 9/8·9/10 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-10-04-005",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 105권",
+    "entry_ref": "kna_13110004_005",
+    "url": "https://sillok.history.go.kr/id/kna_13110004_005",
+    "title_ko": "비변사가 도독 진인이 거짓 장계를 올렸다고 아뢰다",
+    "title_note": "그날 기사 8건 중 5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 10,
+        "day": 4,
+        "leap_month": false
+      },
+      "gregorian": "1598-11-02",
+      "julian": "1598-10-23",
+      "computed_gregorian": "1598-11-02",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙辰 가 1598-11-02 의 일간지와 일치."
+    },
+    "day_ganji": "丙辰",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "李舜臣 折爾島之戰, 得斬七十一級, 而陳都督奪四十級, 季遊擊奪五級",
+        "gloss_ko": "이순신이 절이도 싸움에서 71급을 벴는데 진 도독이 40급을, 계 유격이 5급을 빼앗았다.",
+        "about": "비변사 보고: 절이도 전투 전과와 진 도독·계 유격의 수급 탈취",
+        "stated_lunar": {
+          "month": 10,
+          "day": 4
+        }
+      }
+    ],
+    "note": "같은 기사에서 진 도독이 이순신에게 26급만 베었다고 장계를 쓰라고 강요해 이순신이 26급의 거짓 장계를 올리고 따로 실제 장계를 올렸다(都督迫令舜臣, 以只斬二十六級, 成狀啓 … 別爲狀啓, 以實狀馳啓)고 한다. 기사의 주석은 진 도독을 진린(陳璘)으로 밝힌다(요약 확인). 절이도 싸움의 날짜는 이 기사에 없다. stated_lunar 는 기사일로 둔 자리표시값이다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 10월 일자별 목록과 10/4·10/13 기사, 8/20 흥양 전투 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-10-13-003",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 105권",
+    "entry_ref": "kna_13110013_003",
+    "url": "https://sillok.history.go.kr/id/kna_13110013_003",
+    "title_ko": "수군 통제사 이순신이 왜적과의 전투 상황에 관하여 치계하다",
+    "title_note": "그날 기사 4건 중 3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 10,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1598-11-11",
+      "julian": "1598-11-01",
+      "computed_gregorian": "1598-11-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 乙丑 가 1598-11-11 의 일간지와 일치."
+    },
+    "day_ganji": "乙丑",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "初二日, 舟師合勢討賊, 知陸兵觀望不進, 專力於舟師",
+        "gloss_ko": "(이순신의 장계) 초2일 수군이 합세해 적을 토벌했는데 육병이 관망하며 나아가지 않는 것을 알아 수군에 전력을 쏟았다.",
+        "about": "이순신 장계가 전하는 예교 방면 수군 합세 전투(10/2)",
+        "stated_lunar": {
+          "month": 10,
+          "day": 2
+        }
+      }
+    ],
+    "note": "이어 '우리 군이 혈전해 적의 시체가 언덕 아래 낭자하고 포개진 것도 있다'(我軍血戰, 賊屍狼藉岸下)와 '우리 병사가 탄환에 맞아 죽은 자 29명, 명군 5명'(我兵逢丸致死二十九名, 天兵五名云)이 있다(요약 확인). 월은 구절에 없어 기사와 같은 달로 읽었다(추론이며 일기 7책 10/2 과 일치). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 10월 일자별 목록과 10/4·10/13 기사, 8/20 흥양 전투 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-11-30-006",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 106권",
+    "entry_ref": "kna_13111030_006",
+    "url": "https://sillok.history.go.kr/id/kna_13111030_006",
+    "title_ko": "정원에 이순신의 증직과 장사 문제를 전교하다",
+    "title_note": "그날 기사 8건 중 6번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 30,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-27",
+      "julian": "1598-12-17",
+      "computed_gregorian": "1598-12-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 辛亥 가 1598-12-27 의 일간지와 일치."
+    },
+    "day_ganji": "辛亥",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "李舜臣贈職致賻, 官庇葬事",
+        "gloss_ko": "이순신에게 직을 추증하고 부의를 보내며 장사를 관에서 돌보아 주라.",
+        "about": "왕의 이순신 증직·부의·장사 전교",
+        "stated_lunar": {
+          "month": 11,
+          "day": 30
+        }
+      }
+    ],
+    "note": "같은 전교에서 '그 아들이 몇인가? 상을 마친 뒤 모두 벼슬을 주라'(且其子幾何? 喪畢之後, 盡爲除職可也), '바닷가에도 사당을 세울 만하니 이 조항은 비변사가 의논해 아뢰라'(海上亦可立祠), 그리고 '그 밖의 전사 장졸도 모두 휼전을 거행하고 추증할 만한 자는 추증하라'가 이어진다(요약 확인). 죽음·전투에 대한 서술은 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 11월 25일·30일 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-11-30-007",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 106권",
+    "entry_ref": "kna_13111030_007",
+    "url": "https://sillok.history.go.kr/id/kna_13111030_007",
+    "title_ko": "예조가 이순신의 제사 문제를 여쭙다",
+    "title_note": "그날 기사 8건 중 7번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 30,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-27",
+      "julian": "1598-12-17",
+      "computed_gregorian": "1598-12-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 辛亥 가 1598-12-27 의 일간지와 일치."
+    },
+    "day_ganji": "辛亥",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "邢軍門痛愍李舜臣之死, 已行差人致祭, 欲令我國, 亦爲致祭",
+        "gloss_ko": "형 군문이 이순신의 죽음을 애통해해 이미 사람을 보내 제사를 지냈고 우리나라에도 제사를 지내게 하려 한다.",
+        "about": "명 형개(邢軍門)의 이순신 치제와 예조의 제사 문의",
+        "stated_lunar": {
+          "month": 11,
+          "day": 30
+        }
+      }
+    ],
+    "note": "예조는 '이순신은 직이 정1품이니 법전에 따라 제사해야 하나 형 군문이 그리 말하니 특별 사제를 할지 예에 따를지', '등 총병도 같은 곳에서 죽었으니 제사해야 한다', '시신을 찾았는지 아직 알지 못하니 상구가 상경한 뒤에 할지'를 묻고 왕은 '본조가 살펴 하라'(本曹察爲)고 답한다(요약 확인). 전투 이름은 쓰지 않는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 11월 25일·30일 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-11-25-008",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 106권",
+    "entry_ref": "kna_13111025_008",
+    "url": "https://sillok.history.go.kr/id/kna_13111025_008",
+    "title_ko": "이시언을 통제사로 삼다",
+    "title_note": "그날 기사 10건 중 8번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-22",
+      "julian": "1598-12-12",
+      "computed_gregorian": "1598-12-22",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙午 가 1598-12-22 의 일간지와 일치."
+    },
+    "day_ganji": "丙午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "以李時言爲統制使",
+        "gloss_ko": "이시언을 통제사로 삼았다.",
+        "about": "이순신 사후 후임 통제사 이시언 임명",
+        "stated_lunar": {
+          "month": 11,
+          "day": 25
+        }
+      }
+    ],
+    "note": "기사에 사유는 없고 이순신 이름도 없다. 같은 날 다음 기사는 '진 도독이 통제사 직책의 후임을 원하는 게첩을 올리다'(제목만 확인)이며 11/24 정원의 '이순신의 후임을 정하는 문제' 기사 다음 날이다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 11월 25일·30일 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-12-01-005",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 107권",
+    "entry_ref": "kna_13112001_005",
+    "url": "https://sillok.history.go.kr/id/kna_13112001_005",
+    "title_ko": "비변사가 이순신의 사당을 세울 것을 요청하다",
+    "title_note": "그날 기사 6건 중 5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 12,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-28",
+      "julian": "1598-12-18",
+      "computed_gregorian": "1598-12-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬子 가 1598-12-28 의 일간지와 일치."
+    },
+    "day_ganji": "壬子",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "今此露梁, 達夜血戰, 使賊魁燒死, 至獲戰艦二百餘隻, 義氣大振於東南",
+        "gloss_ko": "이번 노량에서 밤새 혈전해 적의 우두머리를 불에 타 죽게 하고 전함 200여 척을 얻기에 이르러 의기가 동남에 크게 떨쳤다.",
+        "about": "비변사의 노량해전 서술(적 전함 200여 척 획득)과 사당 건립 건의",
+        "stated_lunar": {
+          "month": 12,
+          "day": 1
+        }
+      }
+    ],
+    "note": "같은 기사에서 사당은 '좌수영 본진에 세워 봄가을로 제사하자'(海邊立祠, 似當於左水營本陣設立, 春秋致祭), '지난날의 한산 승첩으로 이미 큰 공을 세웠다'(往日閑山之捷, 旣立大功), '불행히 탄환을 맞아 쓰러졌으나 임종에 침착히 처리해 옛 명장의 풍이 있었다'(從容處置)고 하며 왕이 따른다(上從之). 노량의 교전일·전사일은 이 기사에 없다. 실록에서 '露梁'과 교전 내용(밤샘 혈전)이 직접 나오는 가장 이른 기사로 읽힌다(열람 범위 기준). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 12월 일자별 목록과 12/1·12/2·12/7·12/11 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-12-02-005",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 107권",
+    "entry_ref": "kna_13112002_005",
+    "url": "https://sillok.history.go.kr/id/kna_13112002_005",
+    "title_ko": "진 제독이 이순신의 후임에 관한 게첩을 보내다",
+    "title_note": "그날 기사 7건 중 5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 12,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-29",
+      "julian": "1598-12-19",
+      "computed_gregorian": "1598-12-29",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 癸丑 가 1598-12-29 의 일간지와 일치."
+    },
+    "day_ganji": "癸丑",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "李舜臣員缺, 亟望簡命, 用紓引領",
+        "gloss_ko": "(진린의 게첩) 이순신의 자리가 비었으니 속히 임명하시기를 바라며 간절히 기다립니다.",
+        "about": "진 제독의 이순신 후임 통제사 임명 촉구",
+        "stated_lunar": {
+          "month": 12,
+          "day": 2
+        }
+      }
+    ],
+    "note": "특정 후보는 거명하지 않고 이순신의 죽음도 서술하지 않는다('員缺'만). 11/25 이시언 임명(별도 기사) 뒤에도 후임을 촉구한 점이 눈에 띄나 게첩의 작성일은 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 12월 일자별 목록과 12/1·12/2·12/7·12/11 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-12-07-005",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 107권",
+    "entry_ref": "kna_13112007_005",
+    "url": "https://sillok.history.go.kr/id/kna_13112007_005",
+    "title_ko": "좌의정 이덕형이 이순신의 포장을 요청하다",
+    "title_note": "그날 기사 6건 중 5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 12,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1599-01-03",
+      "julian": "1598-12-24",
+      "computed_gregorian": "1599-01-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 戊午 가 1599-01-03 의 일간지와 일치."
+    },
+    "day_ganji": "戊午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "報捷之日, 運糧夫丁, 得聞李舜臣身死, 不幸徑死鋒鏑",
+        "gloss_ko": "승첩을 보고하는 날 군량 운반 인부들이 이순신의 죽음을 들었으며 불행히 곧바로 칼날과 화살에 죽었다.",
+        "about": "이덕형의 이순신 포장 요청(전사 경위 서술)",
+        "stated_lunar": {
+          "month": 12,
+          "day": 7
+        }
+      }
+    ],
+    "note": "같은 장계에서 '그 4월에 비로소 고금도에 들어가 포진·시책이 매우 알맞았다고 듣는다'(又聞其四月, 始入古今島)와 신임 통제사를 특별히 명해 장졸을 어루만지게 하고 포장을 시행해 달라는 요청이 있다(요약 확인). '4월 고금도 입진'은 전해 들은 말로, 3/18 기사의 이순신 장계(2/17 고금도 이진)와 한 달 이상 어긋난다. 노량 지명은 이 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 12월 일자별 목록과 12/1·12/2·12/7·12/11 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-12-11-007",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 107권",
+    "entry_ref": "kna_13112011_007",
+    "url": "https://sillok.history.go.kr/id/kna_13112011_007",
+    "title_ko": "예조가 이순신의 장례문제에 대해 아뢰다",
+    "title_note": "그날 기사 7건 중 7번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 12,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1599-01-07",
+      "julian": "1598-12-28",
+      "computed_gregorian": "1599-01-07",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬戌 가 1599-01-07 의 일간지와 일치."
+    },
+    "day_ganji": "壬戌",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "聞李舜臣喪柩, 已離身死之地, 將到牙山葬所, 不與鄧喪, 同在一處云",
+        "gloss_ko": "들으니 이순신의 상구는 이미 죽은 곳을 떠나 아산 장소에 이르려 하며 등 총병의 상구와 한곳에 있지 않다고 한다.",
+        "about": "예조의 이순신 상구 이동(아산 장지) 보고와 치제 순서 논의",
+        "stated_lunar": {
+          "month": 12,
+          "day": 11
+        }
+      }
+    ],
+    "note": "왕은 '먼저 천장(명 장수)을 제사하고 다음에 우리 장수를 제사함이 예에 맞다'(先祭天將, 而次祭我國之將), '등 총병의 제관을 신속히 먼저 보내라'고 한다(요약 확인). 상구의 이동일은 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 12월 일자별 목록과 12/1·12/2·12/7·12/11 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-32-02-07-001",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 109권",
+    "entry_ref": "kna_13202007_001",
+    "url": "https://sillok.history.go.kr/id/kna_13202007_001",
+    "title_ko": "진 도독의 관사에 거둥하여 접견례를 행하다",
+    "title_note": "그날 기사 5건 중 1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1599,
+        "month": 2,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1599-03-03",
+      "julian": "1599-02-21",
+      "computed_gregorian": "1599-03-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丁巳 가 1599-03-03 의 일간지와 일치."
+    },
+    "day_ganji": "丁巳",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "方賊圍把時, 俺船懸鼓先登, 鄧子龍、李舜臣二將, 左右挾攻",
+        "gloss_ko": "(진린의 말) 적이 에워싸던 때 내 배가 북을 달고 앞서 올라갔고 등자룡과 이순신 두 장수가 좌우에서 협공했다.",
+        "about": "진린이 회고한 노량 전투 상황(진린 본인의 서술)",
+        "stated_lunar": {
+          "month": 2,
+          "day": 7
+        }
+      },
+      {
+        "part": "본문",
+        "text_han": "二將皆爲賊所斃, 而俺冒死直前, 不動聲色, 幸免其敗, 此亦數也",
+        "gloss_ko": "(진린의 말) 두 장수는 모두 적에게 죽었으나 나는 죽음을 무릅쓰고 곧바로 나아가 안색을 바꾸지 않아 다행히 패를 면했으니 이 또한 운수이다.",
+        "about": "진린이 말한 등자룡·이순신의 전사와 자신의 생존",
+        "stated_lunar": {
+          "month": 2,
+          "day": 7
+        }
+      }
+    ],
+    "note": "기사의 '陳都督'은 주석으로 진린(陳璘)임이 밝혀진다. 노량이라는 지명은 구절에 쓰이지 않고(요약에서 노량 전투로 읽음, 추론) 교전일도 없다. 진린 본인이 자기 공을 부각하는 발언이라 사실 서술로는 조심해서 읽어야 한다. stated_lunar 는 기사일(2/7)로 둔 자리표시값이다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 32년 2월 목록(120건)과 2/3·2/6·2/7 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-32-03-06-002",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 110권",
+    "entry_ref": "kna_13203006_002",
+    "url": "https://sillok.history.go.kr/id/kna_13203006_002",
+    "title_ko": "총병 등자룡의 상차에 거둥하여 치제례를 행하다",
+    "title_note": "그날 기사 6건 중 2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1599,
+        "month": 3,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1599-03-31",
+      "julian": "1599-03-21",
+      "computed_gregorian": "1599-03-31",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 乙酉 가 1599-03-31 의 일간지와 일치."
+    },
+    "day_ganji": "乙酉",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "上幸鄧總兵子龍喪次, 行致祭禮",
+        "gloss_ko": "왕이 등자룡 총병의 상차에 가서 치제의 예를 행했다.",
+        "about": "선조의 등자룡 치제(12/11 기사에서 정한 순서에 따라 명 장수를 먼저 제사)",
+        "stated_lunar": {
+          "month": 3,
+          "day": 6
+        }
+      }
+    ],
+    "note": "기사 안의 세주(후대 편찬자 주석으로 보임)는 '자룡은 진린의 부장으로 노량의 승첩에서 먼저 올라 돌격해 힘껏 싸우다 죽었다'(子龍以陳璘副將, 露梁之捷, 先登突擊, 力戰以死, 聞者哀之)고 적어 실록 안에서 '露梁之捷'이라는 표현이 쓰인다. 이순신은 이 기사에 나오지 않는다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 32년 3월 목록(113건)과 3/6·3/15 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-32-04-14-005",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 111권",
+    "entry_ref": "kna_13204014_005",
+    "url": "https://sillok.history.go.kr/id/kna_13204014_005",
+    "title_ko": "홍문관이 이순신의 사당을 건립하는 문제에 관해 아뢰다",
+    "title_note": "그날 기사 5건 중 5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1599,
+        "month": 4,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1599-05-08",
+      "julian": "1599-04-28",
+      "computed_gregorian": "1599-05-08",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 癸亥 가 1599-05-08 의 일간지와 일치."
+    },
+    "day_ganji": "癸亥",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "至如我東之事, 則考諸《三國》、《麗史》, 未見表表相近之例",
+        "gloss_ko": "우리나라의 일은 《삼국사기》·《고려사》를 살펴도 뚜렷이 비슷한 선례를 보지 못했다.",
+        "about": "홍문관의 이순신 사당 선례 조사 결과(국내 선례 없음)",
+        "stated_lunar": {
+          "month": 4,
+          "day": 14
+        }
+      }
+    ],
+    "note": "한(韓千秋)·송(姚興)·명(賀興隆)·당(田居邰)의 관립·민립 사당과 사액 선례를 들고, 《여지승람》에 있을 수 있으나 문적이 흩어져 고증할 수 없다고 하며, 왕은 '앞의 선례를 다시 살펴 아뢰라'(前例更察考啓)고 한다(요약 확인). 사당의 위치와 최종 결정은 이 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 32년 4월 목록(137건)과 4/14·4/25 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-32-04-25-004",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 111권",
+    "entry_ref": "kna_13204025_004",
+    "url": "https://sillok.history.go.kr/id/kna_13204025_004",
+    "title_ko": "홍문관이 이순신의 사당을 세우는 일에 관해 아뢰다",
+    "title_note": "그날 기사 5건 중 4번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1599,
+        "month": 4,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1599-05-19",
+      "julian": "1599-05-09",
+      "computed_gregorian": "1599-05-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 甲戌 가 1599-05-19 의 일간지와 일치."
+    },
+    "day_ganji": "甲戌",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "李舜臣立祠事, 前例更爲考啓事傳敎矣",
+        "gloss_ko": "이순신 사당을 세우는 일에 대해 앞의 선례를 다시 살펴 아뢰라는 전교가 있었다.",
+        "about": "홍문관의 재조사 보고(선례 3건, 그 밖에는 없음)",
+        "stated_lunar": {
+          "month": 4,
+          "day": 25
+        }
+      }
+    ],
+    "note": "선례로 고려 대장군 강민첨의 진주 사당(읍인이 제사), 기축년(1589) 감사 윤두수가 표창·입사하고 권징이 사액을 상주한 사례, 녹도 만호 이대원의 손죽도 전사 후 수군이 원해 입사하고 죽은 날 제사하는 사례를 들고 '此外無所考'(이 밖에는 고증할 것이 없다)라 한다. 왕은 '知'(알았다)라고만 답한다(요약 확인). 사당의 위치와 사액 여부는 이 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 32년 4월 목록(137건)과 4/14·4/25 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-33-01-29-001",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 121권",
+    "entry_ref": "kna_13301029_001",
+    "url": "https://sillok.history.go.kr/id/kna_13301029_001",
+    "title_ko": "이항복·이산해와 남방 방비책·마정·군공·봉화법·도적 대책·관왕묘 건립 등의 문제를 논의하다",
+    "title_note": "그날 기사 5건 중 1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1600,
+        "month": 1,
+        "day": 29,
+        "leap_month": false
+      },
+      "gregorian": "1600-03-14",
+      "julian": "1600-03-04",
+      "computed_gregorian": "1600-03-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 甲戌 가 1600-03-14 의 일간지와 일치."
+    },
+    "day_ganji": "甲戌",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "[李舜臣]立祠事, 曾已議之, 今不爲乎?",
+        "gloss_ko": "이순신 사당 일은 이미 논의했는데 지금은 하지 않는가?",
+        "about": "왕이 이순신 사당 건립이 진행되지 않음을 묻고 국가가 명해 세운 사당은 없다고 정리",
+        "stated_lunar": {
+          "month": 1,
+          "day": 29
+        }
+      }
+    ],
+    "note": "이항복은 전 왕조의 원충갑 사당과 진주의 김천일 사당을 선례로 들고, 왕은 '민간이 사사로이 세운 사당은 있어도 국가가 명해 세운 것은 없다. 이 일은 들어 보고 헤아려 하라'(民間私自立祠則有之, 自國家命立, 則無之。 此事聞見量爲)고 한다(요약 확인). 위치는 적혀 있지 않고 결정은 내려지지 않는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(608건, 선조실록 177건)에서 찾은 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-33-06-15-002",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 126권",
+    "entry_ref": "kna_13306015_002",
+    "url": "https://sillok.history.go.kr/id/kna_13306015_002",
+    "title_ko": "사도 도체찰사로 남방을 순찰한 이항복과 농황·요역·관방·수령·적정·전세 등에 대해 논의하다",
+    "title_note": "그날 기사 3건 중 2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1600,
+        "month": 6,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1600-07-24",
+      "julian": "1600-07-14",
+      "computed_gregorian": "1600-07-24",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙戌 가 1600-07-24 의 일간지와 일치."
+    },
+    "day_ganji": "丙戌",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "臣前於李舜臣時見之, 舟雖多, 而軍數不足, 充格之船無多",
+        "gloss_ko": "(이항복) 신이 전에 이순신 때 보았을 때 배는 많았으나 군사 수가 부족해 격군을 채운 배가 많지 않았다.",
+        "about": "이항복의 남방 순찰 보고 중 이순신 시절 수군 회고",
+        "stated_lunar": {
+          "month": 6,
+          "day": 15
+        }
+      }
+    ],
+    "note": "이항복은 지금은 배치가 정해져 격군도 정비된 듯하나 원래 인원이 적은 것이 걱정이라고 한다. 같은 보고에서 이시언은 육전을 하고자 한다는 서술이 있다(요약 확인). 이순신 시절을 본 시점은 적혀 있지 않다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(608건, 선조실록 177건)에서 찾은 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-34-01-17-001",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 133권",
+    "entry_ref": "kna_13401017_001",
+    "url": "https://sillok.history.go.kr/id/kna_13401017_001",
+    "title_ko": "체찰사 이덕형과 국방 문제 전반에 대해 논의하다",
+    "title_note": "그날 기사 1건(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1601,
+        "month": 1,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1601-02-19",
+      "julian": "1601-02-09",
+      "computed_gregorian": "1601-02-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙辰 가 1601-02-19 의 일간지와 일치."
+    },
+    "day_ganji": "丙辰",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "李舜臣水戰勝捷之後, 以爲舟師必勝。 不知何戰可以必戰乎?",
+        "gloss_ko": "(선조) 이순신이 수전에서 이긴 뒤에는 수군이 반드시 이긴다고 한다. 어떤 싸움이 반드시 이긴다는 것인지 모르겠다.",
+        "about": "선조의 수군 중심 방어론 비판과 원균·이순신 통제사 교체 경위 논의",
+        "stated_lunar": {
+          "month": 1,
+          "day": 17
+        }
+      }
+    ],
+    "note": "같은 기사에서 선조는 원균이 임진년에 이순신과 뜻을 같이해 싸웠고 '戰必先登'(싸움마다 먼저 올랐다)이라 평하고, 이덕형은 '李舜臣拿來後, 以均差送, 則諸將皆舜臣幕下, 不與相議, 而均勢孤立'(이순신을 잡아 온 뒤 원균을 보냈으나 여러 장수가 모두 이순신 막하라 원균과 상의하지 않아 원균이 고립됐다)고 설명한다(요약 확인). 2/10 기사(기묘, 134권)에도 '李舜臣戰勝之後, 皆致力於舟師, 勝敗無常' 비슷한 발언이 있다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(608건, 선조실록 177건)에서 찾은 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-34-04-30-004",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 136권",
+    "entry_ref": "kna_13404030_004",
+    "url": "https://sillok.history.go.kr/id/kna_13404030_004",
+    "title_ko": "대신들과 논공 행상에 대해 논의하다",
+    "title_note": "그날 기사 4건 중 4번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1601,
+        "month": 4,
+        "day": 30,
+        "leap_month": false
+      },
+      "gregorian": "1601-05-31",
+      "julian": "1601-05-21",
+      "computed_gregorian": "1601-05-31",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丁酉 가 1601-05-31 의 일간지와 일치."
+    },
+    "day_ganji": "丁酉",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "前日下敎, 李舜臣等, 俱已身死, 今無生存元勳, 可以主管磨鍊者",
+        "gloss_ko": "전날 하교하신 이순신 등은 모두 이미 죽었고 지금 살아 있는 원훈으로 마련을 주관할 만한 이가 없다.",
+        "about": "비변사의 공신 등급 마련 주관자 부재 보고",
+        "stated_lunar": {
+          "month": 4,
+          "day": 30
+        }
+      }
+    ],
+    "note": "이순신이 이미 죽어 공신 책정을 주관할 살아 있는 원훈이 없으므로 왕이 등급을 정해 달라는 취지다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(608건, 선조실록 177건)에서 찾은 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-36-06-26-002",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 163권",
+    "entry_ref": "kna_13606026_002",
+    "url": "https://sillok.history.go.kr/id/kna_13606026_002",
+    "title_ko": "원균의 등급에 대해 의논하다",
+    "title_note": "그날 기사 3건 중 2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1603,
+        "month": 6,
+        "day": 26,
+        "leap_month": false
+      },
+      "gregorian": "1603-08-03",
+      "julian": "1603-07-24",
+      "computed_gregorian": "1603-08-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 辛亥 가 1603-08-03 의 일간지와 일치."
+    },
+    "day_ganji": "辛亥",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "元均初以無軍將, 得參海上大戰, 而其後有敗衄舟師之失, 難可與李舜臣、權慄幷列, 故降錄二等, 今承上敎, 陞置一等",
+        "gloss_ko": "원균은 처음 군사 없는 장수로 해상 대전에 참여했고 그 뒤 수군을 패하게 한 잘못이 있어 이순신·권율과 나란히 하기 어려워 2등으로 낮췄으나 지금 왕의 분부를 받들어 1등으로 올립니다.",
+        "about": "공신 등급에서 원균을 2등에서 1등으로 올림",
+        "stated_lunar": {
+          "month": 6,
+          "day": 26
+        }
+      }
+    ],
+    "note": "왕의 비망기는 '임진 초 원균이 이순신에게 구원을 청한 것이지 이순신이 자진해 간 것이 아니다', '노획한 적괴·누선이 도리어 이순신에게 빼앗겼다'(其所獲賊魁樓船, 反爲舜臣所奪焉)며 2등이 억울하다고 한다. 왕은 '知'라고 답한다(요약 확인). 이 기사에 '선무공신 1등' 표현과 이순신의 등급은 직접 적히지 않는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(608건, 선조실록 177건)에서 찾은 개별 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-36-08-17-005",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 165권",
+    "entry_ref": "kna_13608017_005",
+    "url": "https://sillok.history.go.kr/id/kna_13608017_005",
+    "title_ko": "녹훈 삭제의 일로 공신 도감에 이르다",
+    "title_note": "그날 기사 중 5/10번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1603,
+        "month": 8,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1603-09-21",
+      "julian": "1603-09-11",
+      "computed_gregorian": "1603-09-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 庚子 가 1603-09-21 의 일간지와 일치."
+    },
+    "day_ganji": "庚子",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "征倭則李舜臣、元均、權慄, 當爲一等, 此外皆削去",
+        "gloss_ko": "왜를 친 쪽에서는 이순신·원균·권율이 일등이 되어야 하고 이 밖은 모두 삭제하라.",
+        "about": "왕의 비망기: 정왜 공신은 이순신·원균·권율만 1등으로, 나머지는 삭제",
+        "stated_lunar": {
+          "month": 8,
+          "day": 17
+        }
+      }
+    ],
+    "note": "이어 호종·청병 사신은 예외로 하고 신잡·안황·구성은 처음부터 호종한 점으로 3등에 두며 고언백은 적을 막고 능을 지킨 공으로 남기라고 하며, 도감에 전하라고 한다(요약 확인). 같은 날 3번째 기사(공신 도감 보고)는 김응함이 이순신의 중군으로 '露梁大戰'에 참가했으나 이순신·원균의 해전과 같은 반열로 논할 수 없다며 개정을 청한다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 공신 책정 기사 선조 36.8.17·37.6.25·37.10.29를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-37-06-25-007",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 175권",
+    "entry_ref": "kna_13706025_007",
+    "url": "https://sillok.history.go.kr/id/kna_13706025_007",
+    "title_ko": "대대적으로 공신을 봉하니 명칭은 호성 공신, 선무 공신, 청난 공신이다",
+    "title_note": "그날 기사 중 7/7번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1604,
+        "month": 6,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1604-07-21",
+      "julian": "1604-07-11",
+      "computed_gregorian": "1604-07-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 甲辰 가 1604-07-21 의 일간지와 일치."
+    },
+    "day_ganji": "甲辰",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "其宣武一等, 李舜臣、權慄、元均三大將, 爲効忠仗義迪毅協力宣武功臣",
+        "gloss_ko": "선무 일등은 이순신·권율·원균 세 대장으로 효충장의적의협력선무공신이 된다.",
+        "about": "공신 봉작 결정: 이순신·권율·원균을 선무공신 1등으로",
+        "stated_lunar": {
+          "month": 6,
+          "day": 25
+        }
+      }
+    ],
+    "note": "같은 기사에서 서울에서 의주까지 어가를 따른 이는 호성공신, 왜를 친 장수와 청병·군량 사신은 선무공신, 이몽학을 평정한 이는 청난공신(각 3등)이라 하고, 사관은 '李舜臣、元均、權慄, 有血戰之功'이라 평한다(요약 확인). 공신 호의 정확한 형태는 요약 기준이다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 공신 책정 기사 선조 36.8.17·37.6.25·37.10.29를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-37-10-29-006",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 180권",
+    "entry_ref": "kna_13710029_006",
+    "url": "https://sillok.history.go.kr/id/kna_13710029_006",
+    "title_ko": "선무 공신의 교서를 반급할 때에 선독한 별교서",
+    "title_note": "그날 기사 중 6/10번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1604,
+        "month": 10,
+        "day": 29,
+        "leap_month": false
+      },
+      "gregorian": "1604-12-19",
+      "julian": "1604-12-09",
+      "computed_gregorian": "1604-12-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 乙亥 가 1604-12-19 의 일간지와 일치."
+    },
+    "day_ganji": "乙亥",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "肆策勳李舜臣、權慄、元均爲一等, 圖形垂後, 超三階爵",
+        "gloss_ko": "이에 이순신·권율·원균을 책훈해 일등으로 삼아 화상을 그려 후세에 남기고 작위를 3계 뛰어올린다.",
+        "about": "선무공신 교서: 이순신 1등, 화상·3계 가자·부모처자 가자·세습",
+        "stated_lunar": {
+          "month": 10,
+          "day": 29
+        }
+      }
+    ],
+    "note": "같은 교서는 부모·처자도 3계를 올리고 자식이 없으면 생질·조카·사위가 2계를 올리며 적장자가 세습해 녹을 잃지 않게 한다(嫡長世襲, 不失其祿)고 하고 '合勢前驅, 克掃舳艫之衆', '專節制於四方, 服勤勞於七載'라는 공동 사유를 적는다(요약 확인). 증직은 언급되지 않으며 교서 본문에는 별도 날짜가 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 공신 책정 기사 선조 36.8.17·37.6.25·37.10.29를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-hyojong-10906011_001",
+    "source_id": "src-hyojong-sillok",
+    "volume_title": "효종실록 20권",
+    "entry_ref": "kqa_10906011_001",
+    "url": "https://sillok.history.go.kr/id/kqa_10906011_001",
+    "title_ko": "사냥하는 명은 정지하고 대군의 집에 가 제사지내는 일을 거행하라 명하다",
+    "title_note": "그날 기사 중 1/1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1658,
+        "month": 6,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1658-07-11",
+      "julian": "1658-07-01",
+      "computed_gregorian": "1658-07-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丁丑 가 1658-07-11 의 일간지와 일치."
+    },
+    "day_ganji": "丁丑",
+    "statements": [
+      {
+        "part": "본문",
+        "gloss_ko": "(김육) 우리나라 충신으로 드러나 일컬을 만한 이가 고 통제사 이순신만 한 이가 없는데 묘도에 석 자 비석도 없습니다.",
+        "about": "김육의 이순신 묘비 건립 건의",
+        "stated_lunar": {
+          "month": 6,
+          "day": 11
+        },
+        "text_han": "我國忠臣表著可稱者, 無如故統制使李舜臣, 而墓道尙無三尺之碣"
+      }
+    ],
+    "note": "건의자는 영돈녕부사 김육이며 '자손이 미약한 탓'이라 하고 '본도로 하여금 세우게 하면 풍성을 세우는 도리에 크게 보탬이 된다'(朝廷若令本道竪之)고 한다. 왕은 '從之'하고 그 자손을 녹용하라고 명한다(上從之, 仍命錄用其子孫; 요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 효종·현종·숙종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-hyojong-11003128_002",
+    "source_id": "src-hyojong-sillok",
+    "volume_title": "효종실록 21권",
+    "entry_ref": "kqa_11003128_002",
+    "url": "https://sillok.history.go.kr/id/kqa_11003128_002",
+    "title_ko": "남해의 싸움터에 충무공 이순신의 비를 세우다",
+    "title_note": "그날 기사 중 2/4번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1659,
+        "month": 3,
+        "day": 28,
+        "leap_month": true
+      },
+      "gregorian": "1659-05-18",
+      "julian": "1659-05-08",
+      "computed_gregorian": "1659-05-18",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 戊子 가 1659-05-18 의 일간지와 일치."
+    },
+    "day_ganji": "戊子",
+    "statements": [
+      {
+        "part": "본문",
+        "gloss_ko": "남해의 싸움터에 충무공 이순신의 비를 세웠다.",
+        "about": "남해 전장에 충무공 이순신 비 건립 기록",
+        "stated_lunar": {
+          "month": 3,
+          "day": 28
+        },
+        "text_han": "立忠武公李舜臣之碑于南海戰所"
+      }
+    ],
+    "note": "건립 주체·비문 찬자·건립 날짜는 기사에 없다. '충무공' 시호가 이 기사에서 쓰인다(시호 하사 시점은 별도 기록 필요). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 효종·현종·숙종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-hyeonjong-10302002_002",
+    "source_id": "src-hyeonjong-sillok",
+    "volume_title": "현종실록 5권",
+    "entry_ref": "kra_10302002_002",
+    "url": "https://sillok.history.go.kr/id/kra_10302002_002",
+    "title_ko": "예조가 남해 노량의 이순신을 위해 세운 사우의 액호와 교서를 예문관으로 하여금 속히 지어 올리게 하라고 아뢰다",
+    "title_note": "그날 기사 중 2/2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1662,
+        "month": 2,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1662-03-21",
+      "julian": "1662-03-11",
+      "computed_gregorian": "1662-03-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙午 가 1662-03-21 의 일간지와 일치."
+    },
+    "day_ganji": "丙午",
+    "statements": [
+      {
+        "part": "본문",
+        "gloss_ko": "마땅히 특별히 묘액을 내려 절의를 포장하고 후인을 격려하는 바탕으로 삼아야 한다.",
+        "about": "예조의 노량 이순신 사우 묘액 하사 건의",
+        "stated_lunar": {
+          "month": 2,
+          "day": 2
+        },
+        "text_han": "似當特賜廟額, 以爲褒節義、勵後人之地"
+      }
+    ],
+    "note": "교리 민유중이 경연에서 남해 노량이 고 통제사 이순신이 순절한 곳임을 아뢰었고, 그곳 사우를 통제사 정익이 중건했다고 한다. 예조는 '額號及敎書, 請令藝文館急速製進'을 청하고 왕이 '從之'한다. 이 기사에는 '충민사'라는 이름과 '賜額'이라는 용어가 쓰이지 않고 '廟額·額號'로만 적힌다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 효종·현종·숙종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-sukjong-13005016_002",
+    "source_id": "src-sukjong-sillok",
+    "volume_title": "숙종실록 39권",
+    "entry_ref": "ksa_13005016_002",
+    "url": "https://sillok.history.go.kr/id/ksa_13005016_002",
+    "title_ko": "충청도 유생 서후경이 아산에 충무공 이순신의 사당 건립을 청하다",
+    "title_note": "그날 기사 중 2/2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1704,
+        "month": 5,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1704-06-17",
+      "julian": null,
+      "computed_gregorian": "1704-06-17",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 甲寅 가 1704-06-17 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "甲寅",
+    "statements": [
+      {
+        "part": "본문",
+        "gloss_ko": "충청도 유생 서후경이 상소해 고 충무공 이순신을 위해 아산 땅에 사당을 세우자고 청했다.",
+        "about": "서후경의 아산 이순신 사당 건립 청원",
+        "stated_lunar": {
+          "month": 5,
+          "day": 16
+        },
+        "text_han": "忠淸道儒生徐後慶, 疏請爲故忠武公李舜臣, 立祠于牙山地"
+      }
+    ],
+    "note": "사유는 '그 태어나 자란 고향이고 구묘가 있는 곳'(以其生長之鄕, 而丘墓所在也)이며 왕은 '해당 조에 품처하라'(上令該曹稟處)고 한다. 사액·인정은 이 기사에 없다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 효종·현종·숙종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-sukjong-13302006_005",
+    "source_id": "src-sukjong-sillok",
+    "volume_title": "숙종실록 45권",
+    "entry_ref": "ksa_13302006_005",
+    "url": "https://sillok.history.go.kr/id/ksa_13302006_005",
+    "title_ko": "이순신·을지문덕 등의 사우에 호를 내리다",
+    "title_note": "그날 기사 중 5/5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1707,
+        "month": 2,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1707-03-09",
+      "julian": null,
+      "computed_gregorian": "1707-03-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 己丑 가 1707-03-09 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "己丑",
+    "statements": [
+      {
+        "part": "본문",
+        "gloss_ko": "충청도 아산 충무공 이순신의 사우에 '현충'이라는 호를 내렸다.",
+        "about": "아산 이순신 사우에 현충(顯忠) 사액",
+        "stated_lunar": {
+          "month": 2,
+          "day": 6
+        },
+        "text_han": "賜忠淸道 牙山 忠武公 李舜臣 祠宇號顯忠"
+      }
+    ],
+    "note": "같은 기사에서 안주의 을지문덕·최윤덕·이원익·김덕함을 함께 모신 사우에는 '청천'(淸川) 호를 내린다. 요청자는 기사에 없다(요약 확인). 현재의 '현충사'는 이 사액에서 비롯된 이름으로 알려져 있으나 이 기사는 '顯忠' 호만 적는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 효종·현종·숙종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-sukjong-13612017_002",
+    "source_id": "src-sukjong-sillok",
+    "volume_title": "숙종실록 49권",
+    "entry_ref": "ksa_13612017_002",
+    "url": "https://sillok.history.go.kr/id/ksa_13612017_002",
+    "title_ko": "전라도 고금도의 관왕묘에 진인과 이순신을 향사하는 일을 논의하다",
+    "title_note": "그날 기사 중 2/2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1710,
+        "month": 12,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1711-02-04",
+      "julian": null,
+      "computed_gregorian": "1711-02-04",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丁丑 가 1711-02-04 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "丁丑",
+    "statements": [
+      {
+        "part": "표제",
+        "gloss_ko": "고금도 관왕묘에 진린과 이순신을 함께 향사하는 문제를 논의해 좌의정의 의견대로 하기로 했다.",
+        "about": "고금도 관왕묘 진린·이순신 향사와 사액 논의",
+        "stated_lunar": {
+          "month": 12,
+          "day": 17
+        }
+      }
+    ],
+    "note": "원문 한자 문장은 확인하지 못했고 요약으로만 읽었다. 예조는 진린의 사당이 관왕묘 곁에 있어 사액하면 사실상 관왕묘 액이 된다고 반대하고, 대신들은 선무사·무열사 전례, 관왕묘에만 액을 걸고 이순신은 선비 또는 첨사가 제사, 매년 봄가을 관제 등 의견을 낸다. 왕은 좌의정 서종태의 의견을 따르고 예조는 경칩·상강에 관왕묘 제사에 진린·이순신을 배향한다(요약 확인). 앞서 가을에 사액이 윤허되었다는 서술이 있다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 효종·현종·숙종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-jeongjo-11609005_003",
+    "source_id": "src-jeongjo-sillok",
+    "volume_title": "정조실록 35권",
+    "entry_ref": "kva_11609005_003",
+    "url": "https://sillok.history.go.kr/id/kva_11609005_003",
+    "title_ko": "각신 서유방이 이순신의 아들들의 증직과 정려를 청하다",
+    "title_note": "그날 기사 중 3/13번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1792,
+        "month": 9,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1792-10-20",
+      "julian": null,
+      "computed_gregorian": "1792-10-20",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 辛丑 가 1792-10-20 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "辛丑",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "閣臣徐有防啓言: 忠武公李舜臣子葂, 死於倭, 庶子薰、藎, 或死於虜, 或死适變",
+        "gloss_ko": "각신 서유방이 아뢰기를 충무공 이순신의 아들 면은 왜에게 죽었고 서자 훈·신은 혹 오랑캐에게, 혹 이괄의 변에 죽었다고 했다.",
+        "about": "서유방의 이순신 아들들 증직·정려 청원",
+        "stated_lunar": {
+          "month": 9,
+          "day": 5
+        }
+      }
+    ],
+    "note": "채제공은 '충무가 통영에 있을 때 면이 고향에서 왜적과 싸워 셋을 죽이고 죽었다'고 하나 '충무가 순국하기 전의 일이라 효자로도 충신으로도 정려할 수 없다'(事在忠武未殉國前, 不可以孝子旌, 又不可以忠臣旌)고 하며, 훈은 정묘년·신은 안현에서 죽었으나 후사·신주가 없다. 왕은 '命置之'(그대로 두라)라고 한다. 같은 기사에서 이양원의 아들 이시경의 정려는 '從之'(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(6~7쪽) 중 정조실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-jeongjo-11707021_001",
+    "source_id": "src-jeongjo-sillok",
+    "volume_title": "정조실록 38권",
+    "entry_ref": "kva_11707021_001",
+    "url": "https://sillok.history.go.kr/id/kva_11707021_001",
+    "title_ko": "충무공 이순신을 의정부 영의정으로 추증한다고 전교하다",
+    "title_note": "그날 기사 중 1/3번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1793,
+        "month": 7,
+        "day": 21,
+        "leap_month": false
+      },
+      "gregorian": "1793-08-27",
+      "julian": null,
+      "computed_gregorian": "1793-08-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬子 가 1793-08-27 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "壬子",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "加贈議政府領議政",
+        "gloss_ko": "의정부 영의정을 더하여 추증한다.",
+        "about": "정조의 이순신 영의정 추증 전교",
+        "stated_lunar": {
+          "month": 7,
+          "day": 21
+        }
+      }
+    ],
+    "note": "전교는 '沒後尙闕首相之加贈, 實爲欠事'(죽은 뒤 아직 수상 추증이 없는 것은 실로 흠이다)를 이유로 들고, 이미 좌의정·덕풍부원군 등의 증직이 있었음을 열거하며 '竪碑日致祭 … 贈官宣誥, 幷行於伊日'(비를 세우는 날 치제하고 증관 선고를 함께 행한다)고 한다. 시호(諡) 서술은 없다. 전교의 기록일이며 선고일이 아니다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(6~7쪽) 중 정조실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-jeongjo-11905011_002",
+    "source_id": "src-jeongjo-sillok",
+    "volume_title": "정조실록 42권",
+    "entry_ref": "kva_11905011_002",
+    "url": "https://sillok.history.go.kr/id/kva_11905011_002",
+    "title_ko": "임금이 지은 고 충신 이순신의 상충 정무비 인본을 나누어 주다",
+    "title_note": "그날 기사 중 2/2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1795,
+        "month": 5,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1795-06-27",
+      "julian": null,
+      "computed_gregorian": "1795-06-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 辛酉 가 1795-06-27 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "辛酉",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "上念忠武公李舜臣功節之卓然, 親製神道碑銘",
+        "gloss_ko": "왕이 충무공 이순신의 공과 절의가 탁월함을 생각해 친히 신도비명을 지었다.",
+        "about": "정조가 지은 이순신 신도비명과 인본 분장",
+        "stated_lunar": {
+          "month": 5,
+          "day": 11
+        }
+      }
+    ],
+    "note": "비 머리는 송 부필 묘비의 전수 사례를 따라 '상충정무지비'(尙忠旌武之碑)로 하고 안진경 가묘비 글자를 모아 쓰게 했으며, 내각이 탁본을 올리자 5곳 사고와 관각·태학에 나누어 보관하게 했다. 비는 호남 관찰사 관할로 세워져 '甲寅'(1794)에 공사를 마쳤다고 한다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(6~7쪽) 중 정조실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-jeongjo-11909014_001",
+    "source_id": "src-jeongjo-sillok",
+    "volume_title": "정조실록 43권",
+    "entry_ref": "kva_11909014_001",
+    "url": "https://sillok.history.go.kr/id/kva_11909014_001",
+    "title_ko": "《충무공이순신전서》를 발간하다",
+    "title_note": "그날 기사 중 1/1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1795,
+        "month": 9,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1795-10-26",
+      "julian": null,
+      "computed_gregorian": "1795-10-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬戌 가 1795-10-26 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "壬戌",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "先是, 命內閣, 裒輯舜臣故實及遺稿, 勒成一書, 至是編進",
+        "gloss_ko": "앞서 내각에 명해 이순신의 고실과 유고를 모아 한 책으로 만들게 했는데 이때 편찬해 올렸다.",
+        "about": "《충무공이순신전서》 편찬·진상",
+        "stated_lunar": {
+          "month": 9,
+          "day": 14
+        }
+      }
+    ],
+    "note": "인쇄비로 내탕전 500꿰미와 어영전 500꿰미를 내린다(今下內帑錢五百緡, 御營錢五百緡). 시호·증직 서술은 없다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(6~7쪽) 중 정조실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-jeongjo-11912005_001",
+    "source_id": "src-jeongjo-sillok",
+    "volume_title": "정조실록 43권",
+    "entry_ref": "kva_11912005_001",
+    "url": "https://sillok.history.go.kr/id/kva_11912005_001",
+    "title_ko": "충무공 이순신의 치제문을 친히 짓고, 통영의 충렬사에 제사를 올리게 하다",
+    "title_note": "그날 기사 중 1/1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1795,
+        "month": 12,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1796-01-14",
+      "julian": null,
+      "computed_gregorian": "1796-01-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬午 가 1796-01-14 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "壬午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "親製忠武公李舜臣致祭文, 命統制使李得濟, 致祭于統營 忠烈祠",
+        "gloss_ko": "충무공 이순신의 치제문을 친히 짓고 통제사 이득제에게 통영 충렬사에서 치제하게 했다.",
+        "about": "정조의 이순신 치제문 친제와 통영 충렬사 치제 명령",
+        "stated_lunar": {
+          "month": 12,
+          "day": 5
+        }
+      }
+    ],
+    "note": "시호·증직 서술은 없다(요약 확인). 치제가 시행된 날짜는 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(6~7쪽) 중 정조실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-gwanghae-10711018_002",
+    "source_id": "src-gwanghae-ilgi",
+    "volume_title": "광해군일기[중초본] 97권",
+    "entry_ref": "koa_10711018_002",
+    "url": "https://sillok.history.go.kr/id/koa_10711018_002",
+    "title_ko": "이대원·이순신·원균 등을 충신 대열에 수록할 것인지 의논하게 하다",
+    "title_note": "그날 기사 중 2/5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1615,
+        "month": 11,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1616-01-06",
+      "julian": "1615-12-27",
+      "computed_gregorian": "1616-01-06",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 庚寅 가 1616-01-06 의 일간지와 일치."
+    },
+    "day_ganji": "庚寅",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "金千鎰等收錄於忠臣之列, 則如李大元、李舜臣、元均、李億祺、崔湖、李福男、任鉉等, 死於國事之人, 何不收錄乎",
+        "gloss_ko": "김천일 등을 충신의 반열에 수록한다면 이대원·이순신·원균·이억기·최호·이복남·임현 등 나라 일로 죽은 사람을 어찌 수록하지 않는가.",
+        "about": "광해군의 이순신 등 충신 수록 하교",
+        "stated_lunar": {
+          "month": 11,
+          "day": 18
+        }
+      }
+    ],
+    "note": "왕의 전교로 '이 사람들을 자세히 의논해 결정해 아뢰라'(此人等詳議定奪以啓)고 한다. 포상·정려·사당 등 구체 조치는 이 기사에 없다. 중초본 기사이며 정초본(kob_10711018_002)에도 같은 기사가 실린다(검색 목록 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 광해군일기[중초본]·인조실록·효종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-gwanghae-10711023_004",
+    "source_id": "src-gwanghae-ilgi",
+    "volume_title": "광해군일기[중초본] 97권",
+    "entry_ref": "koa_10711023_004",
+    "url": "https://sillok.history.go.kr/id/koa_10711023_004",
+    "title_ko": "전 부사 첨사 정발을 충신 대열에 수록하게 하다",
+    "title_note": "그날 기사 중 4/9번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1615,
+        "month": 11,
+        "day": 23,
+        "leap_month": false
+      },
+      "gregorian": "1616-01-11",
+      "julian": "1616-01-01",
+      "computed_gregorian": "1616-01-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 乙未 가 1616-01-11 의 일간지와 일치."
+    },
+    "day_ganji": "乙未",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "右七人等事迹, 依前鄭期遠等例, 令禮曹速爲訪問, 入啓定奪",
+        "gloss_ko": "위 일곱 사람의 사적은 앞의 정기원 등의 예에 따라 예조로 하여금 속히 탐문해 입계·결정하게 한다.",
+        "about": "찬집청의 이순신 등 일곱 명 사적 조사 요청과 윤허",
+        "stated_lunar": {
+          "month": 11,
+          "day": 23
+        }
+      }
+    ],
+    "note": "찬집청이 앞서 왕이 말한 일곱 사람(이대원·이순신·원균·이억기·최호·이복남·임현)과 정발의 사적을 예조가 조사해 올리게 하자고 청하고 왕이 '允'한다(요약 확인). 이 시점에 시호·증직은 적히지 않는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 광해군일기[중초본]·인조실록·효종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-gwanghae-11407022_004",
+    "source_id": "src-gwanghae-ilgi",
+    "volume_title": "광해군일기[중초본] 179권",
+    "entry_ref": "koa_11407022_004",
+    "url": "https://sillok.history.go.kr/id/koa_11407022_004",
+    "title_ko": "비변사가 수군에서 거북선을 만들고 기계 갖추기를 청하자 허락하다",
+    "title_note": "그날 기사 중 4/4번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1622,
+        "month": 7,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1622-08-28",
+      "julian": "1622-08-18",
+      "computed_gregorian": "1622-08-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙辰 가 1622-08-28 의 일간지와 일치."
+    },
+    "day_ganji": "丙辰",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "一依舜臣防倭之規, 造龜船、設器械事, 全羅左右水使, 請明白指授",
+        "gloss_ko": "한결같이 이순신의 방왜 규정에 따라 거북선을 만들고 기계를 갖추는 일을 전라 좌우 수사에게 분명히 지시하게 하자.",
+        "about": "비변사의 이순신 방식 거북선 제작 건의와 허락",
+        "stated_lunar": {
+          "month": 7,
+          "day": 22
+        }
+      }
+    ],
+    "note": "'昔在壬丁年間, 李舜臣出奇禦倭, 海防諸務, 逐一備至'(임진·정유 연간 이순신이 기이한 계책으로 왜를 막고 해방의 일을 하나하나 갖췄다)로 시작하고 왕은 '亟造舜臣龜船修器械, 鍊習士卒 … 一如舜臣所爲'라 한다(요약 확인). 이순신이 후대 해방 제도의 기준으로 인용된다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 광해군일기[중초본]·인조실록·효종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-hyojong-10806007_001",
+    "source_id": "src-hyojong-sillok",
+    "volume_title": "효종실록 18권",
+    "entry_ref": "kqa_10806007_001",
+    "url": "https://sillok.history.go.kr/id/kqa_10806007_001",
+    "title_ko": "대사헌 민응형 등이 폐단에 관해 아뢰다(목록 요약 제목 기준; 정확한 헤더 제목은 열람 요약에서 확인하지 못함)",
+    "title_note": "그날 기사 중 1/1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1657,
+        "month": 6,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1657-07-17",
+      "julian": "1657-07-07",
+      "computed_gregorian": "1657-07-17",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 戊寅 가 1657-07-17 의 일간지와 일치."
+    },
+    "day_ganji": "戊寅",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "至於趙憲、李舜臣、金悌甲、金應河、金浚等子孫, 俱宜見恤, 而未聞有錄用之人",
+        "gloss_ko": "조헌·이순신·김제갑·김응하·김준 등의 자손도 모두 돌보아야 하는데 등용된 사람이 있다는 말을 듣지 못했습니다.",
+        "about": "대사헌 민응형의 이순신 등 자손 등용 건의",
+        "stated_lunar": {
+          "month": 6,
+          "day": 7
+        }
+      }
+    ],
+    "note": "대사헌 민응형의 상소에서 '장차 무엇으로 후인을 격려하겠는가'라 하고 왕은 가상히 여겨 받아들인다. 구체 조치는 기사에 없다(요약 확인). 시호·증직 서술은 없다. 제목은 열람 요약에 정확한 문구가 없어 목록 요약을 따랐다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 광해군일기[중초본]·인조실록·효종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-injo-12005013_001",
+    "source_id": "src-injo-sillok",
+    "volume_title": "인조실록 43권",
+    "entry_ref": "kpa_12005013_001",
+    "url": "https://sillok.history.go.kr/id/kpa_12005013_001",
+    "title_ko": "고경명·이순신·조헌 등의 증시 문제 논의(목록 요약 제목 기준)",
+    "title_note": "그날 기사 중 1/1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1642,
+        "month": 5,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1642-06-09",
+      "julian": "1642-05-30",
+      "computed_gregorian": "1642-06-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 辛巳 가 1642-06-09 의 일간지와 일치."
+    },
+    "day_ganji": "辛巳",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "而至於高敬命、李舜臣、趙憲, 尙未蒙贈諡, 是誠欠典也",
+        "gloss_ko": "그러나 고경명·이순신·조헌에게는 아직 증시(贈諡)가 내려지지 않았으니 이는 참으로 빠진 의전입니다.",
+        "about": "공조 판서 윤휘의 이순신 증시 촉구",
+        "stated_lunar": {
+          "month": 5,
+          "day": 13
+        }
+      }
+    ],
+    "note": "윤휘는 증시가 오랜 관례인데 세 사람이 아직 받지 못했다고 하며 왕은 '令禮曹稟處'(예조가 품처하라)고 한다. 결과는 이 기사에 없다. 이로써 이순신의 시호는 1642년 5월 13일(음력)까지 내려지지 않았고 효종 10년(1659) 기사에서 이미 '충무공'으로 쓰이므로 그 사이에 내려졌다(시호 하사 기사는 찾지 못함). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 광해군일기[중초본]·인조실록·효종실록 기사를 열람(WebFetch 요약)"
+  }
+]

@@ -1,0 +1,4218 @@
+[
+  {
+    "id": "ev-1597-imprisonment",
+    "track": "yi",
+    "title_ko": "파직·투옥 후 백의종군",
+    "title_en": "Dismissal, imprisonment, and service as a commoner",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 3,
+        "day": null,
+        "leap_month": false
+      },
+      "gregorian": null,
+      "julian": null,
+      "precision": "month",
+      "certainty": "unverified",
+      "note": "crosscheck 문서 표기 '1597.3(음)'. 일 단위 날짜와 양력 환산은 미확인. 선조실록 대조(30년 2~4월): 2/4(1597-03-21) 사헌부의 체포·단죄 건의, 2/6(03-23) 왕의 체포 전교(원균 교대 후), 3/13(04-28) 신문 후 처분 하문이 확인된다(각각 별도 사건). 일기 5책 4/1(辛酉, 1597-05-16)에 '得出圓門'(옥에서 나옴)이 있다. 입옥일·석방일은 실록 목록 제목에서 찾지 못했다(4월 목록에는 이순신 제목 없음). 이 사건의 날짜는 월 수준 unverified로 유지. 석방 재조사: 선조실록 30년 3월 12~30일과 4월 1~10일 일자별 목록에 이순신 석방·방면·백의종군 제목이 없다(황정욱 방면 논의 제목만 있음). 4/14 기사(87권)는 왕의 침 치료 기사로 이순신과 무관했다. 선조수정실록 31권 2/1(壬戌)은 \"統制使李舜臣을 옥에 내리고 원균으로 대신했다\"(命下統制使李舜臣于獄, 以元均代之)와 \"不遵朝命으로 하옥·고신\"을 적을 뿐 석방·백의종군·정탁 구원을 적지 않는다(수정실록은 후대 편찬이며 날짜는 월 첫날로 모아 둔 것일 수 있어 하옥일로 쓰지 않음). 석방 시점의 근거는 일기 5책 4/1(辛酉, 1597-05-16) \"得出圓門\" 하나뿐이다. 백의종군 전교 재조사: 실록 '白衣從軍' 검색 43건(연산~고종) 중 선조 30년(1597) 기사는 없다. 앞서 웹 요약이 전한 '병사로 하여금 장형을 집행하게 한 다음 백의종군으로 공을 세우게 하라'는 전교는 1597년이 아니라 1587년(선조 20년 10/16, 辛未)의 것이며 별도 사건 ev-1587-first-baekui로 추가했다. 1597년 4월의 백의종군을 명한 실록 전교는 찾지 못했다. 석방 전교 재조사: 선조실록 30년 4월 11~30일·5월 목록에도 이순신·정탁·석방·백의종군 제목이 없다(황정욱 방면 논의만 있음). 3/30(86권) 도원수 권율 장계, 6/28(89권) 원균 가덕도 기사, 9/13(92권) 권율 인견 기사는 열람했으나 이순신·정탁·석방 언급이 없었다. 석방 전교는 찾지 못했다(제목만 본 기사와 열람하지 않은 기사가 남음)."
+    },
+    "source_ids": [
+      "src-crosscheck-md",
+      "src-seonjo-sillok"
+    ],
+    "verified": false,
+    "note": null,
+    "relates_to": [
+      "ev-1597-arrest-requested",
+      "ev-1597-arrest-ordered",
+      "ev-1597-punishment-deliberation",
+      "ev-1587-first-baekui"
+    ]
+  },
+  {
+    "id": "ev-1597-chilcheollyang",
+    "track": "yi",
+    "title_ko": "칠천량 해전 (원균 지휘 조선 수군 패전)",
+    "title_en": "Battle of Chilcheollyang",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": null,
+        "day": null,
+        "leap_month": false
+      },
+      "gregorian": "1597",
+      "julian": null,
+      "precision": "year",
+      "certainty": "unverified",
+      "note": "crosscheck 문서에 정확한 날짜 없음. 별도 확인 필요. 선조실록 조사(30년 7월): 90권 7/22(辛亥) 김식 보고는 15일 2경 야간 기습으로 전선 4척이 불타고 닭 울 무렵 대규모 포위, 추원포 퇴각이라 적고(별도 사건), 같은 날 비변사 기사는 '七川島'에 이른 함대가 밤 2경 괴멸했다고 적되 날짜가 없다. 통상 7/16(1597-08-28)로 알려진 괴멸일은 실록 어디에도 날짜로 적혀 있지 않다(미확인). 이 사건의 날짜 정밀도는 연도 수준으로 둔다. 칠천량 이후 대조: 일기 5책 7/18(丁酉)은 '十六日曉 舟師夜驚, 統制元均 … 被害 舟師大敗'(16일 새벽 야습)를 전해 들었다고 적어 통상의 7/16과 맞는다(전언). 선조실록 7/26(乙卯, 성첩 7/21) 권율 보고는 한산도의 군민·군기를 창선도로 옮겼고 '元均免死, 向晋州'(전언)와 이순신을 사량으로 보내 흩어진 배를 수습하게 하자는 건의를 적고, 7/27 사간원 건의는 '舟師敗衂, 已過十日'(패전 후 10일이 지남), 7/28(丁巳) 권율 보고는 진주 목사의 치보로 '統制使가 見乃梁에서 하륙해 추격당했다'(전언)를 적는다. 괴멸일 자체는 실록에 날짜로 적히지 않았다."
+    },
+    "source_ids": [
+      "src-crosscheck-md",
+      "src-seonjo-sillok"
+    ],
+    "verified": false,
+    "note": null,
+    "relates_to": [
+      "ev-1597-chilcheollyang-night-attack",
+      "rec-sillok-seonjo-30-07-22-002",
+      "ev-1597-yi-reappointed",
+      "de-autograph-b5-1597-07-18"
+    ]
+  },
+  {
+    "id": "ev-1597-myeongnyang",
+    "track": "yi",
+    "title_ko": "명량해전",
+    "title_en": "Battle of Myeongnyang",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 9,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1597-10-26",
+      "julian": "1597-10-16",
+      "computed_gregorian": "1597-10-25",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_entry_ids": [
+        "de-autograph-b6-1597-09-16"
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "양력 10.26 확정(일간지 근거). 6책 속정유일기 '九月初一日己丑'(=10/11)과 9/16 '十六日甲辰'(=10/26)의 일간지가 모두 정확히 맞고, 변환기(10.25)는 표 오류(9월 초하루를 10/10으로, 8월을 29일로 봄). 천문 계산(9/1=10/11)과도 일치. 5책 9/16의 甲午는 지지 +2 오기. 근거 텍스트는 포털 판독문(미검수). 상세: docs/investigations/myeongnyang-date.md. 율리우스력은 gregorian 기준 -10일. 실록 대조(30년 9~11월): 9월 일자별 목록(140건)에는 이순신·통제사·수군·해전·명량 제목이 없고, 10월(10/13 이순신·이시언에게 선참후계 하서, 10/11 배설 도망 처벌 논의)·11월(11/4 명 수군장 계금이 이순신과 논의하려 함, 11/7 경리 측의 이순신 회답 지체 질책) 기사에도 명량·승첩 서술이 없다(열람한 기사 기준). 명량해전 서술은 11월 대조에서 11/10 기사로 발견했다(위 9월·10월 목록 제목에는 없었음; 별도 기록 rec-sillok-seonjo-30-11-10-005). 선조실록 서술 발견(30년 11월): 94권 11/10(丁酉) 기사가 이순신의 장계를 인용해 '전선 13척·초탐선 32척으로 해남 바닷길을 막았고 적 전선 130여 척이 이진포 앞바다에서 다가와 진도 벽파정 앞바다에서 교전, 적선 20여 척을 깨뜨리고 적 대장선(안골의 마다시)을 가리킨 항왜의 확인, 녹도·영등 만호가 이어 와 11척을 더 깨뜨리고 참수 8급'이라 적는다(별도 기록 rec-sillok-seonjo-30-11-10-005). 교전일은 적히지 않았고 '鳴梁' 지명도 쓰지 않아 실록만으로는 9/16(1597-10-26)을 확정하지 못한다. 이 사건의 verified 근거는 일기 6책이다."
+    },
+    "source_ids": [
+      "src-crosscheck-md",
+      "src-wiki-chronology",
+      "src-heritage-portal"
+    ],
+    "verified": true,
+    "note": "일본 함선 수는 출처별로 다름 (claims 참조).",
+    "relates_to": [
+      "ev-1597-namwon",
+      "ev-1597-military-law-order",
+      "ev-1597-ming-rebukes-yi-delay",
+      "rec-sillok-seonjo-30-11-10-005"
+    ]
+  },
+  {
+    "id": "ev-1594-1598-dutch-asia-routes",
+    "track": "world",
+    "region": "global",
+    "title_ko": "네덜란드 원거리무역회사들의 아시아 항로 개척",
+    "title_en": "Dutch 'far-trading' companies open Asia routes",
+    "category": "trade",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1594,
+        "month": null,
+        "day": null,
+        "leap_month": false
+      },
+      "gregorian": "1594",
+      "julian": null,
+      "precision": "range",
+      "end_year": 1598,
+      "certainty": "unverified",
+      "note": "표준 지식 기준(별도 확인 안 함). VOC 설립(1602)과 구분할 것. 원거리회사(Compagnie van Verre) 설립 연도는 위키(하우트만 문서)가 1592년이라 적어 통상의 1594년과 다르다."
+    },
+    "source_ids": [
+      "src-standard-chronology",
+      "src-wiki-houtman"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "네덜란드가 아시아 바다에 본격 등장하는 흐름이다. 임진왜란과 직접 연결은 없다. 문서 연표(1597 칸의 '네덜란드 동인도회사 설립 전야, 대서양 무역 재편')는 부정확했다: VOC는 1602년 설립된 아시아 무역 회사이고 이 시기 회사들은 아시아 항로를 개척했다(문서 스스로의 점검).",
+    "relates_to": [
+      "ev-1595-houtman-departs",
+      "ev-1596-houtman-bantam"
+    ]
+  },
+  {
+    "id": "ev-1592-war-begins",
+    "track": "yi",
+    "title_ko": "임진왜란 개전 (일본군 상륙)",
+    "title_en": "Japanese invasion begins",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1592,
+        "month": 4,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1592-05-23",
+      "julian": "1592-05-13",
+      "computed_gregorian": "1592-05-23",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "crosscheck 문서(음력 4월 13일, 양력 5.23)와 변환기가 일치. 현존 초고본 일기는 5/1부터이고 4/13은 없다(1592 5/1 앞은 결락)."
+    },
+    "source_ids": [
+      "src-crosscheck-md",
+      "src-wiki-chronology"
+    ],
+    "verified": false,
+    "note": null
+  },
+  {
+    "id": "ev-1592-okpo",
+    "track": "yi",
+    "title_ko": "옥포해전 (첫 승전)",
+    "title_en": "Battle of Okpo",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1592,
+        "month": 5,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1592-06-16",
+      "julian": "1592-06-06",
+      "computed_gregorian": "1592-06-16",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "crosscheck 문서는 양력 6.16만 적었다. 음력 5월 7일은 변환기 역산값. 현존 일기에 5/5~5/28이 없어 일간지로 대조할 수 없다. 선조실록 대조: 27권 6/21 기사는 옥포 진출을 '5월 초6일'로, 27권 6/28(丙辰) 최원 치계는 '5월 초7일 옥포 앞바다에서 적선을 만났다'고 적어 실록 안에서 하루가 다르다(변환기 5/7=1592-06-16과 맞는 것은 7일 쪽). 확정하지 못했다."
+    },
+    "source_ids": [
+      "src-crosscheck-md",
+      "src-wiki-chronology"
+    ],
+    "verified": false,
+    "note": null,
+    "relates_to": [
+      "rec-sillok-seonjo-25-06-21-004"
+    ]
+  },
+  {
+    "id": "ev-1592-hansando",
+    "track": "yi",
+    "title_ko": "한산도 대첩",
+    "title_en": "Battle of Hansan Island",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1592,
+        "month": 7,
+        "day": 8,
+        "leap_month": false
+      },
+      "gregorian": "1592-08-14",
+      "julian": "1592-08-04",
+      "computed_gregorian": "1592-08-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "crosscheck 문서(음력 7월 8일, 양력 8.14)와 변환기가 일치. 현존 일기에 6/10~8/23이 없어 일간지로 대조할 수 없다."
+    },
+    "source_ids": [
+      "src-crosscheck-md",
+      "src-wiki-chronology"
+    ],
+    "verified": false,
+    "note": null
+  },
+  {
+    "id": "ev-1592-busanpo",
+    "track": "yi",
+    "title_ko": "부산포 해전",
+    "title_en": "Battle of Busanpo",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1592,
+        "month": 9,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1592-10-05",
+      "julian": "1592-09-25",
+      "computed_gregorian": "1592-10-05",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "crosscheck 문서는 양력 10.5만 적었다. 음력 9월 1일은 변환기 역산값. 현존 일기에 8/29~12/30이 없어 일간지로 대조할 수 없다."
+    },
+    "source_ids": [
+      "src-crosscheck-md",
+      "src-wiki-chronology"
+    ],
+    "verified": false,
+    "note": null
+  },
+  {
+    "id": "ev-1598-fleet-departure",
+    "track": "yi",
+    "title_ko": "진 도독과 함께 출병, 나로도 도착",
+    "title_en": "Sets out with Commander Chen; reaches Naro Island",
+    "category": "campaign",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-14",
+      "julian": "1598-10-04",
+      "computed_gregorian": "1598-10-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_entry_ids": [
+        "de-autograph-b7-1598-09-15"
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "7책 무술일기 첫 일기 '戊戌九月十五日丁酉 晴 與陳都督一時行師 到羅老島宿'. 일간지 丁酉가 1598-10-14와 일치, 변환기와도 일치. 근거 텍스트는 포털 판독문(미검수)."
+    },
+    "source_ids": [
+      "src-heritage-portal"
+    ],
+    "verified": true,
+    "note": "일기 본문의 '陳都督'을 명 수군 도독으로 보는 해석은 기록 밖 지식(진린)에 기댄 것으로 미검증."
+  },
+  {
+    "id": "ev-1598-joint-assault",
+    "track": "yi",
+    "title_ko": "육군 유 제독 진병과 수륙 협공",
+    "title_en": "Joint land-sea assault with the army of Commander Liu",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 20,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-19",
+      "julian": "1598-10-09",
+      "computed_gregorian": "1598-10-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_entry_ids": [
+        "de-autograph-b7-1598-09-20"
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "7책 9/20 '壬寅 晴 辰時到… 陸天將劉提督 已爲進兵 水陸俱挾 賊氣大挫… 舟師出入放炮'. 9/21~10/3에 교전 기록이 이어지며 10/3 밤 '沙船十九隻 唬船二十餘隻被焚' 등이 나온다. 일간지 壬寅가 1598-10-19와 일치. 선조실록 104권 9/26(戊申)도 같은 20일에 명군이 예교의 고니시 진영에 포를 쏘았다고 적어 일기와 독립적으로 일치한다."
+    },
+    "source_ids": [
+      "src-heritage-portal"
+    ],
+    "verified": true,
+    "note": "개시일만 기록. 이후 교전 일정·피해 수치는 일기 안에서도 명 측 보고문이 섞여 있어 사건별 분리 정리 전.",
+    "relates_to": [
+      "ev-1598-suncheon-siege",
+      "rec-sillok-seonjo-31-09-26-011"
+    ]
+  },
+  {
+    "id": "ev-1598-hideyoshi-death",
+    "track": "world",
+    "region": "east_asia",
+    "title_ko": "도요토미 히데요시 사망",
+    "title_en": "Death of Toyotomi Hideyoshi",
+    "category": "politics",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1598,
+        "month": 9,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1598-09-18",
+      "julian": "1598-09-08",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "crosscheck 문서 표기 '1598.9.18'이고 위키 연표도 같은 날짜다(달력 미명시). 선조실록 136권 선조 34년 4/25(壬辰)의 일본 탈출 포로 진술에 '戊戌八月十八日 平秀吉病死'가 있고, 1598년 음력 8/18은 변환기로 양력 1598-09-18(辛未)이라 위키와 맞는다. 그러나 이 진술은 사건 약 2년 7개월 뒤의 2차 증언 하나뿐이고(8/18이 일본 달력인지도 미확인), 당시 보고인 선조실록 104권 9/6(戊子)의 정경세 치계는 항복한 왜병의 전언으로 '7월 7일 병사'라고 적어 서로 다르다. 독립된 일차 근거가 없어 날짜는 unverified로 둔다. 율리우스력은 gregorian 기준 -10일. 일본 측 대조: 일본어판 위키는 慶長3年8月18日(1598-09-18)을 적고 사망이 비밀에 부쳐졌다가 慶長4年正月5日 공표됐다고 하며, 사망일의 근거로 梵舜日記 8/18 조를 든다(일기 원문은 직접 확인하지 못함). 8/18은 조선·일본 달력으로 같은 양력이라 선조실록 136권의 8/18과도 맞지만 모두 2차 서술이거나 후대 증언이라 독립 일차 근거로는 확인하지 못했다. 따라서 unverified 유지. 일본 사료 원문(梵舜日記 등)은 열람하지 않았다. 사망 전의 풍문: 선조실록 97권 2/24(己卯, 1598-03-30)에 양산 군수의 치보로 \"평수길이 이미 죽었다\"(平秀吉已故)는 소문이 명 경리를 통해 전해지나 왕은 \"설령 수길이 진짜 죽었어도 수길 같은 자는 끝이 없다\"며 적의 속임수로 본다(실제 사망 7개월 전의 오보, 요약 확인). 3월 후속(선조실록 98권): 3/27(壬子)에 '秀吉之死, 이사립이 이미 첩보했고 명나라 사람의 보고에도 나오며 경리도 들었다 … 요언의 주벌을 면하기 어렵다'며 이사립과 황응정을 잡아 죄를 다스리게 하고(妖言之誅), 3/29에는 평수길의 죽음과 양산 군수의 보고를 조사·확인하게 한다(제목 기준). 사망 풍문은 2~3월에 조정이 오보로 처벌한 사안이었다. 8월 후속(선조실록 103권, 1598): 8/20(癸酉) 기사 '전라 수사 이순신이 수길의 사망과 왜적의 철수 상황을 치계하다'의 본문은 '全羅水使[李純信]秘密馳啓'로, 보고자는 이순신(李舜臣)이 아니라 전라 수사 이순신(李純信)이다(번역에서 같은 표기). 일본에서 도망 돌아온 사람이 '秀吉七月初病死, 兇賊將欲撤歸'(수길이 7월 초 병사, 철수하려 한다)라고 했다고 전한다. 같은 날 8/20 성윤문의 보고는 '관백의 병이 위중하다'이고 8/17 기사에는 '관백의 사망' 논의가 있어, 조선 조정은 8월 중순~하순에 사망설을 접했으나 일자는 7월 초(7/7로 알려진 정경세 보고와 유사)로 서로 달랐다. 실제 사망일 8/18(1598-09-18)과도 다르다."
+    },
+    "source_ids": [
+      "src-crosscheck-md",
+      "src-standard-chronology",
+      "src-wiki-imjin-timeline",
+      "src-wiki-ja-hideyoshi"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "일본군 철수(12/24)로 이어지는 전환점이다. 현존 일기 7책(1598 음력 9/15~10/7 = 양력 10/14~11/5)은 사망 직후의 기록이지만 사망 소식의 언급은 찾지 못했다('秀吉' 미검출). 1596년 일기에는 사망설(오보)이 적혀 있다.",
+    "relates_to": [
+      "ev-1596-hideyoshi-rumor",
+      "ev-1598-japan-leaves",
+      "ev-1598-hideyoshi-death-rumor",
+      "rec-sillok-seonjo-34-04-25-011",
+      "rec-sillok-seonjo-31-09-06-006"
+    ]
+  },
+  {
+    "id": "ev-1598-nantes",
+    "track": "world",
+    "region": "europe",
+    "title_ko": "낭트 칙령 반포 (앙리 4세)",
+    "title_en": "Edict of Nantes",
+    "category": "politics",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1598,
+        "month": 4,
+        "day": null,
+        "leap_month": false
+      },
+      "gregorian": "1598-04",
+      "julian": null,
+      "precision": "month",
+      "certainty": "unverified",
+      "note": "crosscheck 문서 표기 '1598.4'. 일자는 확정하지 못했다: 위키(낭트 칙령 문서)는 같은 문서 안에서 서명일을 4/18, 공포를 '4/30경'으로 병기하고 앙리 4세 문서는 연도만 적었다. 통상 알려진 날짜와도 다를 수 있어 월 단위로만 둔다."
+    },
+    "source_ids": [
+      "src-crosscheck-md",
+      "src-standard-chronology",
+      "src-wiki-nantes"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "임진왜란이 끝난 해에 유럽에서도 종교전쟁이 마무리됐다(교차검증 문서의 서술). 직접 연결은 없다.",
+    "relates_to": [
+      "ev-1593-henry-converts",
+      "ev-1598-vervins"
+    ]
+  },
+  {
+    "id": "ev-1598-noryang",
+    "track": "yi",
+    "title_ko": "노량해전, 이순신 전사",
+    "title_en": "Battle of Noryang; death of Yi Sun-sin",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 19,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-16",
+      "julian": "1598-12-06",
+      "computed_gregorian": "1598-12-16",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 106권 11/27(戊申)의 이덕형 치계: '이달 19일 사천·남해·고성의 적선 300여 척이 노량도에 모였고, 통제사 이순신이 수군을 이끌고 맞아 싸웠다'(인용: 本月十九日 … 露梁島). 같은 달 19일이므로 1598-12-16이며 crosscheck·변환기와 일치한다. 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 11/25(丙午)의 진린 게첩 기사도 이순신이 탄환을 맞고 숨졌다고 적고 〔十九日〕을 표기하나 괄호 성격을 확인하지 못해 보조로만 쓴다. 12/4(乙卯) 군문 도감 기사에는 '十八日四更'에 원병이 이르러 200여 척을 불살랐다는 서술이 있어 날짜 표기가 하루 어긋난다(야간 시각의 일자 계산 차이일 수 있으나 미확인). 향년은 문서 표기상 세는나이 54, 만 53. 일기는 10/7에서 끝나 일간지 대조는 불가능하다. 후속(선조실록 106권): 11/25(丙午) 이시언을 통제사로 삼음, 11/30(辛亥) 증직·부의·장사 지원 전교와 형 군문의 치제·예조의 제사 문의가 이어지며 예조는 '屍首覓得與否, 時未的知'(시신을 찾았는지 아직 모른다)고 적는다. 별도 사건으로 반영했다. 12월 후속(선조실록 107권): 12/1(壬子) 비변사가 '今此露梁, 達夜血戰, 使賊魁燒死, 至獲戰艦二百餘隻'라 적어 실록에서 '露梁'이 직접 나오는 기사이며, 12/7 이덕형은 '報捷之日, 運糧夫丁, 得聞李舜臣身死'라 하고, 12/11 예조는 상구가 이미 죽은 곳을 떠나 아산 장지로 향한다고 보고한다(각각 별도 사건). 1599년 2월 후속: 선조실록 109권 2/7(丁巳)에서 진 도독(진린)이 '鄧子龍、李舜臣二將, 左右挾攻 … 二將皆爲賊所斃'(두 장수는 모두 적에게 죽었다)라고 회고한다(별도 사건, 진린 본인의 서술). 3월 후속: 선조실록 110권 3/6(乙酉)의 등자룡 치제 기사 세주가 '露梁之捷'이라는 표현을 쓴다(별도 사건 ev-1599-king-sacrifice-deng).",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-11-27-005",
+          "statement": 0
+        }
+      ]
+    },
+    "source_ids": [
+      "src-crosscheck-md",
+      "src-wiki-chronology",
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-japan-leaves",
+      "ev-1598-sacheon",
+      "ev-1598-yegyo-withdrawal",
+      "ev-1598-dosan-withdrawal",
+      "ev-1598-yi-death-mentioned",
+      "rec-sillok-seonjo-31-11-27-005",
+      "rec-sillok-seonjo-31-11-25-009",
+      "ev-1598-yi-successor-appointed",
+      "ev-1598-posthumous-honors-ordered",
+      "ev-1598-ming-sacrifice-for-yi",
+      "ev-1598-shrine-proposed",
+      "ev-1598-deokhyeong-requests-honors",
+      "ev-1598-funeral-ritual-order",
+      "ev-1599-chen-recounts-noryang",
+      "ev-1599-king-sacrifice-deng"
+    ]
+  },
+  {
+    "id": "ev-1545-potosi",
+    "track": "world",
+    "region": "global",
+    "title_ko": "포토시(세로 리코) 은광 발견",
+    "title_en": "Silver found at Cerro Rico, Potosí",
+    "category": "trade",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1545,
+        "month": null,
+        "day": null,
+        "leap_month": false
+      },
+      "gregorian": "1545",
+      "julian": null,
+      "precision": "year",
+      "certainty": "unverified",
+      "note": "위키: 디에고 우알파가 1545년에 발견했다고 전하며(일·월 미기재) 도시 창건일은 1545-04-01. 16세기 후반 세계 은 생산의 약 60%를 냈다고 추정한다."
+    },
+    "source_ids": [
+      "src-wiki-potosi",
+      "src-crosscheck-md"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "이순신이 태어난 해(1545)와 같은 해다. 위키는 이 은이 마닐라 갤리온을 거쳐 중국의 은 수요를 채웠다고 설명한다. ⚠ 교차검증 문서의 '1545년에 은이 명·일본으로 대량 유입'은 시대착오다: 중국 유입은 마닐라 교역(1571~) 이후이고 일본에는 자체 은광(이와미 등)이 있었다(문서 스스로의 점검, 표준 지식 기준)."
+  },
+  {
+    "id": "ev-1545-trent",
+    "track": "world",
+    "region": "europe",
+    "title_ko": "트리엔트 공의회 개막",
+    "title_en": "Council of Trent opens",
+    "category": "religion",
+    "date": {
+      "original": {
+        "calendar": "julian",
+        "year": 1545,
+        "month": 12,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1545-12-23",
+      "julian": "1545-12-13",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키는 '13 December 1545'만 적고 달력을 밝히지 않는다. 1582년 이전 이탈리아 사건이라 율리우스력으로 읽는 것이 관례이나 미확인이어서 그레고리력 환산은 참고값이다. 그레고리력 환산(+10일): 1545-12-23."
+    },
+    "source_ids": [
+      "src-wiki-trent",
+      "src-crosscheck-md"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "이순신 출생(1545-04-28)과 같은 해의 유럽 사건이다. 직접 연결은 없다(교차검증 문서의 동시대 항목)."
+  },
+  {
+    "id": "ev-1571-manila",
+    "track": "world",
+    "region": "global",
+    "title_ko": "마닐라, 스페인령 필리핀의 수도로 건설",
+    "title_en": "Manila founded as the Spanish capital",
+    "category": "trade",
+    "date": {
+      "original": {
+        "calendar": "julian",
+        "year": 1571,
+        "month": 6,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1571-07-04",
+      "julian": "1571-06-24",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키: 1571-06-24 레가스피가 마닐라에 도착해 수도로 삼았다. 달력은 명시되지 않아 1582년 이전 관례(율리우스력)로 읽었으며 미확인이다. 그레고리력 환산(+10일): 1571-07-04."
+    },
+    "source_ids": [
+      "src-wiki-manila",
+      "src-crosscheck-md"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "위키는 마닐라가 멕시코·페루의 은을 아시아로 보내 중국 비단 등과 교환하는 태평양 교역의 거점이었다고 설명한다. 갤리온 교역이 시작된 해는 읽은 범위에서 확인하지 못했다. 교차검증 문서는 이 시점부터 아메리카 은의 중국 유입이 본격화된다고 본다(미확인)."
+  },
+  {
+    "id": "ev-1571-lepanto",
+    "track": "world",
+    "region": "europe",
+    "title_ko": "레판토 해전",
+    "title_en": "Battle of Lepanto",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "julian",
+        "year": 1571,
+        "month": 10,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1571-10-17",
+      "julian": "1571-10-07",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키: 1571-10-07, 파트라스 만. 신성 동맹(스페인·베네치아 등)과 오스만 제국의 해전. 달력은 명시되지 않아 율리우스력으로 읽었으며 미확인이다. 그레고리력 환산(+10일): 1571-10-17."
+    },
+    "source_ids": [
+      "src-wiki-lepanto",
+      "src-crosscheck-md"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "노 젓는 갤리선의 대규모 해전이다. 판옥선·거북선의 함포 중심 해전(1592)과 견주는 비교 맥락일 뿐 직접 연결은 없다."
+  },
+  {
+    "id": "ev-1582-gregorian",
+    "track": "world",
+    "region": "global",
+    "title_ko": "그레고리력 시행 (스페인·포르투갈·이탈리아 대부분 등)",
+    "title_en": "Gregorian calendar introduced",
+    "category": "calendar",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1582,
+        "month": 10,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1582-10-15",
+      "julian": "1582-10-05",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키: 교황 칙서(1582-02-24)에 따라 1582-10-04(목, 율리우스력) 다음 날이 1582-10-15(금)가 되었다(스페인·포르투갈·이탈리아 대부분·폴란드-리투아니아). 프랑스는 12-09 다음이 12-20. 영국·영제국은 1752, 러시아 1918, 일본 1873."
+    },
+    "source_ids": [
+      "src-wiki-gregorian",
+      "src-crosscheck-md"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "이 연표에서 날짜를 견줄 때 달력을 구분해야 하는 이유다. 같은 날이 영국(율리우스력)에서는 10일 이르게 적힌다(예: 1588 무적함대). 조선·명·일본은 이때 음력을 쓰고 있었다(일본의 그레고리력 채택은 1873)."
+  },
+  {
+    "id": "ev-1588-armada",
+    "track": "world",
+    "region": "europe",
+    "title_ko": "스페인 무적함대, 영국 해협에 접근",
+    "title_en": "Spanish Armada sighted off the Lizard",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1588,
+        "month": 7,
+        "day": 29,
+        "leap_month": false
+      },
+      "gregorian": "1588-07-29",
+      "julian": "1588-07-19",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키: 리스본 출항 1588-07-21(N.S.), 영국 콘월 리저드곶 앞바다에서 발견 07-29(N.S.). 영국은 같은 날을 율리우스력 07-19로 적었다(-10일, 계산값). 원정 기간은 1588년 7~8월이며 그라블린 해전의 일자는 읽은 범위에서 확인하지 못했다."
+    },
+    "source_ids": [
+      "src-wiki-armada",
+      "src-crosscheck-md"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "임진왜란 4년 전 대서양의 범선 포격전이다. 해전사 비교 맥락일 뿐 이순신과 직접 연결은 없다. ⚠ 교차검증 문서의 '칼레 해전'은 부정확하다: 통상 그라블린 해전이라 하고 칼레는 화공선 야습 지점이다(문서 스스로의 점검, 표준 지식 기준이라 미확인)."
+  },
+  {
+    "id": "ev-1590-odawara",
+    "track": "world",
+    "region": "east_asia",
+    "title_ko": "오다와라 정벌 종결 (호조 씨 굴복)",
+    "title_en": "Siege of Odawara ends",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1590,
+        "month": 8,
+        "day": null,
+        "leap_month": false
+      },
+      "gregorian": "1590-08",
+      "julian": null,
+      "precision": "month",
+      "certainty": "unverified",
+      "note": "위키: 포위는 1590년 5월경 시작해 8월 4일에 끝났고 호조 씨 영지는 도쿠가와 이에야스에게 주어졌다. 항복 날짜는 따로 적히지 않았다. 위키는 '1588년 재통일 이후'의 정벌로 서술하는 반면 교차검증 문서는 1590.8을 통일 마무리로 적어 통일 시점 서술이 자료마다 다르다."
+    },
+    "source_ids": [
+      "src-wiki-odawara",
+      "src-crosscheck-md"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "히데요시가 일본 내 지배를 마무리한 뒤 대륙 침략(1592)으로 나아간 정세다. 인과 설명이 아니라 시간 순서상 맥락이다."
+  },
+  {
+    "id": "ev-1592-ningxia",
+    "track": "world",
+    "region": "east_asia",
+    "title_ko": "닝샤(오르도스) 반란 진압 — 만력삼대정의 첫 원정",
+    "title_en": "Ningxia (Ordos) campaign",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1592,
+        "month": null,
+        "day": null,
+        "leap_month": false
+      },
+      "gregorian": "1592",
+      "julian": null,
+      "precision": "year",
+      "certainty": "unverified",
+      "note": "날짜 출처 불일치: 한 서술은 1592년 3~10월, 10월 20일 성 함락(진압)이라 하고 다른 서술은 2월 18일 요새 점령, 9월 18일 진압이라 한다. 학술 문헌으로 재확인 필요."
+    },
+    "source_ids": [
+      "src-wiki-ordos",
+      "src-wiki-wanli3"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "명 만력제의 '삼대정'(닝샤, 임진왜란 조선 원정, 보저우 전역) 중 첫 번째로, 같은 해 임진왜란 파병과 겹쳐 치른 원정이다. 세 원정이 명 재정에 큰 부담이 되었다고 서술된다. 보저우 전역의 시기는 확인하지 못했다."
+  },
+  {
+    "id": "ev-1595-hidetsugu",
+    "track": "world",
+    "region": "east_asia",
+    "title_ko": "도요토미 히데쓰구 할복",
+    "title_en": "Toyotomi Hidetsugu ordered to commit seppuku",
+    "category": "politics",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1595,
+        "month": 8,
+        "day": 20,
+        "leap_month": false
+      },
+      "gregorian": "1595-08-20",
+      "julian": "1595-08-10",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키 정보상자의 사망일 1595-08-20. 달력은 명시되지 않았으나 서력으로 보인다. 역모 혐의로 고야산에서 할복을 명받았고 현대 사학자는 그 혐의를 의심한다고 서술된다. 음력 환산(변환기, 참고): 1595년 7월 15일."
+    },
+    "source_ids": [
+      "src-wiki-hidetsugu"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "히데요시의 후계 구도(1593 히데요리 출생 뒤 악화)가 전쟁 중 일본 지배층 내부에서 정리된 사건이다(맥락)."
+  },
+  {
+    "id": "ev-1597-martyrs",
+    "track": "world",
+    "region": "east_asia",
+    "title_ko": "나가사키에서 26성인 처형",
+    "title_en": "Twenty-six Martyrs of Japan executed",
+    "category": "religion",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1597,
+        "month": 2,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1597-02-05",
+      "julian": "1597-01-26",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키: 1597-02-05 나가사키(달력 미명시). 1596년 산 펠리페 사건의 여파로 체포되었다고만 서술한다. 음력 환산(변환기, 참고): 1596년 12월 19일."
+    },
+    "source_ids": [
+      "src-wiki-martyrs"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "정유재란 개시(1597-03-01)를 약 3주 앞둔 때 일본의 대외·종교 정책을 보여 주는 사건이다(맥락)."
+  },
+  {
+    "id": "ev-1592-hanseong-falls",
+    "track": "world",
+    "region": "war",
+    "title_ko": "일본군, 한성 점령",
+    "title_en": "Japanese take Hanseong (Seoul)",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1592,
+        "month": 6,
+        "day": 12,
+        "leap_month": false
+      },
+      "gregorian": "1592-06-12",
+      "julian": "1592-06-02",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "음력 환산(변환기, 참고): 1592년 5월 3일."
+    },
+    "source_ids": [
+      "src-wiki-imjin-timeline"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "음력 5/3. 같은 달 이순신의 첫 출전인 옥포해전(양력 6/16, 음력 5/7)이 4일 뒤다(교차검증 문서 연표).",
+    "relates_to": [
+      "ev-1592-okpo"
+    ]
+  },
+  {
+    "id": "ev-1592-pyongyang-falls",
+    "track": "world",
+    "region": "war",
+    "title_ko": "일본군, 평양 점령",
+    "title_en": "Japanese take Pyeongyang",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1592,
+        "month": 7,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1592-07-24",
+      "julian": "1592-07-14",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "음력 환산(변환기, 참고): 1592년 6월 16일. 선조실록 조사: 평양 점령일은 확정하지 못했다. 6/18·6/26 기사는 일본군의 대동강 도하를 14일(양력 1592-07-22)로 적고, 6/15 기사는 이미 강여울 방어가 무너졌다고 보고하며, 6/19 기사는 '平壤旣陷'(평양이 이미 함락)이라고 적지만 함락·입성일은 어디에도 없다. 위키의 07-24(음력 6/16)가 도하 이틀 뒤라는 점은 실록과 모순되지 않으나 확인되지 않는다(미확인)."
+    },
+    "source_ids": [
+      "src-wiki-imjin-timeline"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "한산도 대첩(양력 8/14)보다 3주 앞선다. 육전의 급박한 정세와 같은 시기의 수군 승전을 견주는 맥락이다.",
+    "relates_to": [
+      "ev-1592-hansando",
+      "ev-1592-daedong-crossing"
+    ]
+  },
+  {
+    "id": "ev-1593-pyongyang-retaken",
+    "track": "world",
+    "region": "war",
+    "title_ko": "조·명 연합군, 평양 수복",
+    "title_en": "Ming–Joseon forces retake Pyeongyang",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1593,
+        "month": 2,
+        "day": 8,
+        "leap_month": false
+      },
+      "gregorian": "1593-02-08",
+      "julian": "1593-01-29",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "위키: 조·명 연합군의 평양 포위 1593-02-06~08, 고니시 제1진이 02-08 퇴각. 음력 환산(변환기, 참고): 1593년 1월 8일. 선조실록 34권 1/11(丙寅)이 총공격을 '초8일'(양력 2/8)로, 제독의 입성을 '초9일'(2/9)로 적었다(근거 기록). 8일 밤 고니시 일행이 탈출했다는 서술은 요약으로만 확인했다. 확정한 날짜는 총공격·일본군 이탈일(2/8)이다.",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-26-01-11-013",
+          "statement": 0
+        }
+      ]
+    },
+    "source_ids": [
+      "src-wiki-imjin-timeline",
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "일기 1책 1593-2/15·2/16(양력 3/17·3/18)에 '天兵'(명군)의 진격과 입경 소식이 전언·소문으로 적혀 있다(수복 약 5주 뒤).",
+    "relates_to": [
+      "de-autograph-b1-1593-02-15",
+      "de-autograph-b1-1593-02-16",
+      "rec-sillok-seonjo-26-01-11-013"
+    ]
+  },
+  {
+    "id": "ev-1593-haengju",
+    "track": "world",
+    "region": "war",
+    "title_ko": "행주 전투",
+    "title_en": "Battle of Haengju",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1593,
+        "month": 2,
+        "day": 12,
+        "leap_month": false
+      },
+      "gregorian": "1593-03-14",
+      "julian": "1593-03-04",
+      "computed_gregorian": "1593-03-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-26-02-24-006",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 35권 2/24(己酉)의 기사: 권율이 행주 성산으로 진을 옮겨 '12일 동틀 무렵' 왜군과 교전(인용: 十二日黎明). 월은 본문에 없어 기사와 같은 달로 읽었다(추론). 이 12일은 기사 날짜에서 12일 앞이라 1593-03-14이며 위키 연표와 일치한다. 2/23(戊申)에 행주 군공 계본이 내려지고 2/24에 신경희가 승첩을 보고했다. 이 사건의 이전 메모: 음력 환산(변환기) 1593년 2월 12일과도 같다."
+    },
+    "source_ids": [
+      "src-wiki-imjin-timeline",
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "일기 2책 1593-7/13(양력 8/9)에 '幸州之勝捷' 이야기를 들었다는 기록이 있다(약 5개월 뒤).",
+    "relates_to": [
+      "de-autograph-b2-1593-07-13",
+      "rec-sillok-seonjo-26-02-24-006"
+    ]
+  },
+  {
+    "id": "ev-1593-hanseong-retaken",
+    "track": "world",
+    "region": "war",
+    "title_ko": "명군, 한성 수복",
+    "title_en": "Ming army retakes Hanseong",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1593,
+        "month": 5,
+        "day": 19,
+        "leap_month": false
+      },
+      "gregorian": "1593-05-19",
+      "julian": "1593-05-09",
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "위키: 일본군이 05-18 한성을 버렸고 명군이 05-19 입성. 음력 환산(변환기, 참고): 1593년 4월 19일. 선조실록 37권 4/21(乙巳)은 '일본군이 4월 18일에 모두 나갔고 이 제독이 이미 입성했다'고만 적어 명군의 입성일(4/19)은 실록으로 확인되지 않는다(위키 연표의 5/19와 모순은 없음). 확인된 것은 일본군 철수일(4/18=05-18)이며 별도 사건으로 뒀다. 재조사(선조실록 37권 4/26, 庚戌): 명 경략의 자문이 '倭賊, 於本月十九日, 盡數起程'(19일 출발)과 '已於二十日入王京'(20일 입성)이라고 적어, 위키의 5/19(음력 4/19) 입성과 하루 다르다(음력 4/20 = 1593-05-20). 입성일을 직접 적은 근거는 이 명 측 서술 하나뿐이고 조선 측 보고는 날짜 없이 '이미 입성'이라고만 적어 날짜를 확정하지 못하고 disputed로 둔다."
+    },
+    "source_ids": [
+      "src-wiki-imjin-timeline",
+      "src-seonjo-sillok"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "일기 2책 1593-5/14(양력 6/12)에 행조(조정)의 일과 '天兵所爲'(명군의 행적)를 물어 탄식했다는 기록이 있다(한성 수복 직후).",
+    "relates_to": [
+      "de-autograph-b2-1593-05-14",
+      "ev-1593-japan-leaves-hanseong",
+      "rec-sillok-seonjo-26-04-21-005",
+      "rec-sillok-seonjo-26-04-26-004"
+    ]
+  },
+  {
+    "id": "ev-1593-nagoya-talks",
+    "track": "world",
+    "region": "war",
+    "title_ko": "명 사절과 고니시, 나고야에서 강화 교섭",
+    "title_en": "Ming envoys negotiate at Nagoya",
+    "category": "diplomacy",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1593,
+        "month": 6,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1593-06-22",
+      "julian": "1593-06-12",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키 연표: 1593-06-22 사용재·서일관 등이 나고야에서 고니시 유키나가와 교섭. 인물·성격은 연표 문구 그대로이며 세부는 확인하지 못했다. 음력 환산(변환기, 참고): 1593년 5월 24일. 선조실록 조사(26년 5~8월 목록과 6/4·7/12·7/18·8/6 기사): 교섭 일자를 적은 곳은 없다. 40권 6/4(丁亥)의 東報는 심유경이 바다를 건너 관백이 있는 곳에 갔고 관백이 사용재·서일관을 천사로 공손히 대접했다고만 전하고(名護屋·行長 미언급), 40권 7/12(甲子)는 심유경과 小西飛가 竹山에서 계책을 정했다는 풍문을, 7/18(庚午)은 7/8 小西飛와 심유경이 제독을 만났다는 것을, 41권 8/6(丁亥)은 사용재·서일관이 왕자들을 모시고 적진에서 나왔다는 것을 적는다. 어느 것도 6/22(음력 5/24) 교섭을 확인하거나 반박하지 않는다. 미확인."
+    },
+    "source_ids": [
+      "src-wiki-imjin-timeline"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "일기 2책 1593-8/26(양력 9/20)에 '秀吉上書于皇朝草'(히데요시가 명 황제에게 올리는 글의 초안)를 보내와 분통해했다는 기록이 있다.",
+    "relates_to": [
+      "de-autograph-b2-1593-08-26"
+    ]
+  },
+  {
+    "id": "ev-1593-jinju-2",
+    "track": "world",
+    "region": "war",
+    "title_ko": "제2차 진주성 함락",
+    "title_en": "Second siege of Jinju",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1593,
+        "month": 7,
+        "day": 27,
+        "leap_month": false
+      },
+      "gregorian": "1593-07-27",
+      "julian": "1593-07-17",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "음력 환산(변환기, 참고): 1593년 6월 29일. 선조실록 40권 7/16(戊辰) 기사의 표제가 '6월 29일 함락'이라 적었고(본문은 29일 전투를 서술하나 함락일을 직접 명시하지는 않음) 일기 2책 6/29(壬子, 양력 7/27)의 주석 '晋陽陷沒'과 같은 날이다.",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-26-07-16-005",
+          "statement": 0,
+          "bridge_entry_id": "de-autograph-b2-1593-06-29"
+        }
+      ]
+    },
+    "source_ids": [
+      "src-wiki-imjin-timeline",
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "음력 6/29. 일기 2책 1593-6/29(양력 7/27, 일간지로 확정)의 주석【】에 '晋陽陷沒'과 전사자 명단이 적혀 있어 위키의 함락일과 같은 날이다(전언이거나 나중에 보충한 주기일 수 있음). 6/17(함안의 장수들이 진주로 물러나 지킨다는 말)과 7/19(진주 전사 장졸 명단을 전해 받음)에도 관련 기록이 있다.",
+    "relates_to": [
+      "de-autograph-b2-1593-06-29",
+      "de-autograph-b2-1593-06-17",
+      "de-autograph-b2-1593-07-19",
+      "rec-sillok-seonjo-26-07-16-005"
+    ]
+  },
+  {
+    "id": "ev-1596-talks-collapse",
+    "track": "world",
+    "region": "war",
+    "title_ko": "명·일 강화 교섭 결렬",
+    "title_en": "Ming–Japan negotiations collapse",
+    "category": "diplomacy",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1596,
+        "month": 10,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1596-10-22",
+      "julian": "1596-10-12",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키 연표: 히데요시가 명·조선 사절이 신종의 예를 갖추러 온 것이 아님을 깨달아 결렬. 일자는 연표 문구 그대로이며 다른 자료와 대조하지 못했다. 음력 환산(변환기, 참고): 1596년 9월 2일. 선조실록 대조(29년 9~11월): 일자를 '결렬'로 특정한 기사는 없다. 82권 11/6(戊戌)의 황신 군관 진술은 9/1 관백이 부사를 만나주지 않았고(별도 사건), 9/2 책봉 접견이 예정되었다고(전언) 하며, 9/3 연회에서 부사가 철병을 말하자 관백이 답하지 않았고, 9/4 두 사신이 돌아와 명 사신이 '이제 주인이 나를 손님으로 대하지 않으니 떠난다'고 했으며 9/9 승선·9/10 출항했다고 한다. 82권 11/3 김응서 보고는 관백이 통신사를 푸대접하고 노해 '천사를 보낸 뒤 대군을 일으켜 조선을 치겠다'고 했다고 전하고(날짜 없음), 11/15 이항복은 '封事不成'을 논한다. 위키의 10-22(음력 9/2)는 이 진술 속 접견 예정일과 같으나 실제 결렬의 순간은 서술이 다양해 하루로 확정하지 못했다(unverified). 같은 날 82권 11/6의 첫 기사(황신·박홍장 비밀 서장, 戊戌)는 날짜 표기 없이 관백이 천사만 만나고 통신사는 접대하지 않았으며 \"조공 길을 빌려주지 않은 것\"을 탓하며 \"한 번 싸워 승부를 결정하자\"고 했고 두 천사는 이키섬에 있었다고 전한다(전언). 결렬일 확정에는 도움이 되지 않는다. 사후 보고(선조실록 83권 12월) 대조: 12/21(癸未) 황신 인견 기사는 관백이 \"내일은 천사만 접대하라\"고 했고 \"다음 날 두 천사가 봉(封)을 행했다\", 관백이 뜰에 서서 오배삼고두했다고 적는다(인용: 翌日兩天使行封 / 關白立於庭上, 五拜三扣頭; 날짜 표기 없음, 요약 확인). 12/7 기사 \"관백의 사은 표문\"은 고명·금인에 감사하고 천사가 먼저 돌아간다고 적는다(진위는 미확인). 12/21 서계장은 \"어제 관백이 조선 일로 노했다\"(昨關白怒朝鮮事)와 이듬해 2월 무렵 대군 출동 전망을 적는다. 따라서 위키의 10-22(음력 9/2)는 \"결렬\"의 날이 아니라 11/6 진술의 책봉 접견 예정일(9/2)이자 \"행봉\" 다음 날에 해당할 가능성이 있다(우리의 추론, 확인 못 함). 결렬(관백의 분노)은 책봉례 뒤의 일로 서술된다."
+    },
+    "source_ids": [
+      "src-wiki-imjin-timeline"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "교섭 결렬이 정유재란(1597)의 배경으로 서술된다. 일기 4책 1596-1/19에는 이 교섭의 한 장면이 소식으로 적혀 있다.",
+    "relates_to": [
+      "ev-1596-shen-crossing",
+      "ev-1596-hideyoshi-refuses-envoy",
+      "rec-sillok-seonjo-29-11-06-002"
+    ]
+  },
+  {
+    "id": "ev-1597-second-invasion",
+    "track": "world",
+    "region": "war",
+    "title_ko": "정유재란 개시 (가토 기요마사, 죽도 상륙)",
+    "title_en": "Second invasion begins",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1597,
+        "month": 3,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1597-03-01",
+      "julian": "1597-02-19",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키 연표: 1597-03-01 가토 기요마사가 1만 명으로 죽도에 상륙, 03-02 고니시가 부산에 도착. 음력 환산(변환기, 참고): 1597년 1월 14일. 선조실록 84권 1/21(壬子): 가토는 음력 1/13 다대포 도착·정박(별도 사건 ev-1597-kato-tadaepo, verified). 위키의 1/14 '죽도 상륙'은 실록으로 확인되지 않아 미확인으로 남긴다. 같은 날 비변사 기사는 가토가 이미 바다를 건넜다고만 적는다. 상륙일 재조사: 1~2월 목록과 1/22·1/23 기사를 확인했으나 상륙·하선 일자를 적은 곳이 없다. 김응서 장계(1/17자)는 12일 서생포 출현, 14일 '다대포를 향해 진터를 살폈다'고만 적어 위키의 1/14과 같은 날이 나오지만 상륙으로 읽을 수 없다(미확인). 2월 1~29일 목록 제목에는 가토·상륙 관련 기사가 없었다. 고니시의 부산 도착(위키 03-02) 재조사: 1/19·1/22·1/23·1/25~1/27 기사와 2/17(85권) 권율 서장까지 확인했으나 도착 일자를 적은 곳이 없다(행장은 강화 교섭·요시라 전언·가토 공격 계획 맥락으로만 나오고, 2/17 서장은 행장이 강가에 직접 나와 총포를 말렸다고만 적음). 미확인."
+    },
+    "source_ids": [
+      "src-wiki-imjin-timeline"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "이순신은 이 무렵 파직·투옥 후 백의종군 중이었다(교차검증 문서 연표). 현존 일기 5책은 음력 4/1(양력 5/16)부터 시작한다.",
+    "relates_to": [
+      "ev-1597-kato-tadaepo",
+      "rec-sillok-seonjo-30-01-23-003"
+    ]
+  },
+  {
+    "id": "ev-1597-namwon",
+    "track": "world",
+    "region": "war",
+    "title_ko": "남원성 함락",
+    "title_en": "Siege of Namwon",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1597,
+        "month": 9,
+        "day": 26,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-26",
+      "julian": "1597-09-16",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "위키 연표: 남원 포위 1597-09-23~26, 09-26 함락. 음력 환산(변환기, 참고): 1597년 8월 16일. 선조실록 91권 8/18(丙子)이 '16일 밤 적이 남문을 넘고 부총 양원이 서문으로 탈출'(양력 9/26)이라 적었다. 함락 문장 자체에는 날짜가 없어 16일 밤을 함락 시점으로 읽은 것은 추론이다. 일기 6책 8/16(甲戌, 양력 9/26)과 같은 날이다. 포위 개시는 실록 12일(9/22)로 위키 연표(9/23)와 하루 차이다.",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-08-18-002",
+          "statement": 1
+        }
+      ]
+    },
+    "source_ids": [
+      "src-wiki-imjin-timeline",
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "명량해전(양력 10/26, 일간지로 확정)을 한 달 앞둔 때다.",
+    "relates_to": [
+      "ev-1597-myeongnyang",
+      "rec-sillok-seonjo-30-08-18-002"
+    ]
+  },
+  {
+    "id": "ev-1598-ulsan-siege",
+    "track": "world",
+    "region": "war",
+    "title_ko": "울산성 공방 (조·명 연합군, 실패 후 퇴각)",
+    "title_en": "Allied siege of Ulsan",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 12,
+        "day": 23,
+        "leap_month": false
+      },
+      "gregorian": "1598-01-29",
+      "julian": "1598-01-19",
+      "computed_gregorian": "1598-01-29",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-12-28-004",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 95권 12/28(甲申): '이달 23일 축시 초 세 갈래 명군이 경주에서 전진'(인용: 本月二十三日丑初 … 分三路前進), 새벽에 울산 적 소굴을 침. 기사일에서 5일 앞이라 음력 12/23 = 1598-01-29이며 위키의 시작일과 일치한다. 확정한 것은 연합군의 진격 개시(23일)이고, 96권 1/1 기사는 24일 새벽 성 아래로 진격했다고 적는다. 위키의 종료일 02-19는 실록과 다르다: 96권 1/9 기사는 '초4일 포위를 풀고 철병'(음력 1/4 = 1598-02-09)이라 적는다(별도 사건)."
+    },
+    "source_ids": [
+      "src-wiki-imjin-timeline",
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "일기 6책 1597-11/16(양력 12/24)에 '唐將楊經理'가 이순신에게 붉은 비단을 보냈다는 기록이 있어 같은 시기 명군 지휘부와의 교류가 보인다. 楊經理가 울산성 공략의 지휘관이었는지는 이번에 확인하지 못했다.",
+    "relates_to": [
+      "de-autograph-b6-1597-11-16",
+      "ev-1598-ulsan-withdrawal",
+      "rec-sillok-seonjo-30-12-28-004"
+    ]
+  },
+  {
+    "id": "ev-1598-suncheon-siege",
+    "track": "world",
+    "region": "war",
+    "title_ko": "순천(예교) 공방 개시",
+    "title_en": "Siege of Suncheon begins",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 20,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-19",
+      "julian": "1598-10-09",
+      "computed_gregorian": "1598-10-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-09-26-011",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 104권 9/26(戊申)의 이덕형 치계: '이달 20일 …명군이 먼저 포를 쏘아 고니시가 굴혈로 달아났다'(인용: 本月二十日 … 天兵徑先放砲). 기사일에서 6일 앞이라 음력 9/20 = 1598-10-19이며 위키의 개시일과 일치하고 일기 7책 9/20(壬寅)의 '劉提督 已爲進兵'과도 같은 날이다. 확정한 것은 교전 개시(첫 포격)이며 포위전 전체의 기간·종료일은 확인하지 못했다. 이전 메모: 위키 연표: 1598-10-19 개시. 음력 환산(변환기, 참고): 1598년 9월 20일."
+    },
+    "source_ids": [
+      "src-wiki-imjin-timeline",
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "이순신 수군이 명 수군·육군과 협공한 시기다. 일기 7책 1598-9/20(양력 10/19, 일간지 壬寅로 확정)의 '陸天將劉提督 已爲進兵 水陸俱挾'와 같은 날이며, 일간지로 확정한 날짜가 위키의 개시일과 독립적으로 일치한다.",
+    "relates_to": [
+      "ev-1598-joint-assault",
+      "rec-sillok-seonjo-31-09-26-011"
+    ]
+  },
+  {
+    "id": "ev-1598-sacheon",
+    "track": "world",
+    "region": "war",
+    "title_ko": "사천 전투 (조·명 연합군 포위 후 퇴각)",
+    "title_en": "Battle of Sacheon",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1598,
+        "month": 11,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1598-11-06",
+      "julian": "1598-10-27",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키 연표: 1598-11-06~11. 음력 환산(변환기, 참고): 1598년 10월 8일. 선조실록 조사: 동일원 군의 사천 첫 공격은 음력 9/28(1598-10-27)로 적혀 있다(105권 10/1, 별도 사건). 신채 전투의 패배는 105권 10/8(庚申)·10/12 기사가 '대군이 창황히 무너졌고 제독은 진주로 물러났다' / '삼로의 군사가 모두 무너졌다'고 보고하나 전투일은 적지 않는다. 위키의 11-06은 음력 10/8로, 이 패전 보고가 실록에 오른 날(10/8, 庚申=11-06)과 같아 전투일이 아니라 보고일일 가능성이 있다(미확인). 이순신의 치계(10/13)의 '初二日' 수군 교전은 일기 7책 10/2(甲寅)과 일치하나 이는 예교 쪽이다. 재조사(선조실록 105권 10/17 己巳 진효 제본): '本月初一日 … 盡歸沈安道大寨'와 이어지는 명군 붕괴 서술을 근거로 신채 전투·패주를 음력 10/1(1598-10-30)로 읽을 수 있다(별도 사건 ev-1598-sacheon-sinchae-defeat, 붕괴일은 연속 서술로 읽은 추론). 위키의 11-06은 이보다 7일 늦고 패전 보고가 오른 10/8과 같아 보고일일 가능성이 있다. 위키가 적는 11-06~11 전체(포위·퇴각 기간)는 실록으로 확인하지 못해 이 사건은 unverified로 둔다."
+    },
+    "source_ids": [
+      "src-wiki-imjin-timeline"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "이순신의 마지막 해전(노량, 양력 12/16)을 약 6주 앞둔 때다.",
+    "relates_to": [
+      "ev-1598-noryang",
+      "ev-1598-sacheon-dong-attack",
+      "ev-1598-sacheon-sinchae-defeat"
+    ]
+  },
+  {
+    "id": "ev-1598-japan-leaves",
+    "track": "world",
+    "region": "war",
+    "title_ko": "마지막 일본 함선, 조선에서 철수",
+    "title_en": "Last Japanese ships leave Korea",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1598,
+        "month": 12,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-24",
+      "julian": "1598-12-14",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키 연표: 1598-12-24. 음력 환산(변환기, 참고): 1598년 11월 27일. 실록은 이보다 앞선 철수 일자를 적는다: 도산(울산) 11/18(1598-12-15), 순천 예교 11/19(12-16). 12/1(12-28) 예조 보고는 '부산의 적도 이미 물러간 듯하다'고만 적어 철수일이 없다. 위키의 12-24는 실록으로 확인되지 않으며 부산 방면 마지막 선박의 날짜로만 읽을 수 있다(미확인). 위키의 12-24는 실록상 이덕형이 수군의 활약상을 치계한 11/27(戊申)과 같은 날이다(철수일이 아니라 보고일일 가능성, 미확인)."
+    },
+    "source_ids": [
+      "src-wiki-imjin-timeline",
+      "src-seonjo-sillok"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "노량해전(양력 12/16, 이순신 전사)의 8일 뒤다. 실록은 일본군이 울산(11/18)·순천(11/19)에서 먼저 철수했다고 적어 '마지막' 철수는 이 사건(부산 방면)으로 한정해야 한다.",
+    "relates_to": [
+      "ev-1598-noryang",
+      "ev-1598-dosan-withdrawal",
+      "ev-1598-yegyo-withdrawal",
+      "rec-sillok-seonjo-31-12-01-004"
+    ]
+  },
+  {
+    "id": "ev-1596-shen-crossing",
+    "track": "world",
+    "region": "war",
+    "title_ko": "심유경·고니시 일행 도해 소식 (일기 기록)",
+    "title_en": "Shen Weijing and Konishi reported crossing the sea",
+    "category": "diplomacy",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1596,
+        "month": 1,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1596-02-13",
+      "julian": "1596-02-03",
+      "computed_gregorian": "1596-02-13",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "disputed",
+      "note": "일기 4책 1596-1/19(양력 2/16, 일간지 丙戌로 확정)의 전언: 부산에서 온 사람들이 '심유경이 고니시 유키나가 등과 이달 16일 새벽 바다를 건넜다'고 전했다. 16일이라는 날짜는 일기의 서술(전언)이며 다른 자료와 대조하지 못했다. 선조실록 대조(29년 1~2월): 1/15(71권) 황신은 심유격이 '먼저 일본으로 가려 한다'고 보고하고(의도), 1/21(戊子) 김수의 보고는 '먼저 건너겠다 하면서 매번 오늘내일 하며 아직 떠나기로 결정하지 못했다'고 적으며(인용: 尙未決去), 1/22(己丑) 행장의 서신은 심유경에게 먼저 건너오라고 조건을 단다. 2/28 기사에는 '沈遊擊渡海後'(이미 건넌 뒤)가 나온다. 어느 기사도 도해 날짜를 적지 않는다. 일기의 '16일 새벽 도해'는 부산에서 온 사람의 전언이고 1/21 보고(작성일은 더 앞섰을 수 있음)와 어긋나므로 날짜를 확정하지 못해 disputed로 둔다."
+    },
+    "source_ids": [
+      "src-heritage-portal",
+      "src-seonjo-sillok"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "명·일 강화 교섭의 한 장면이 일기에 소식으로 들어와 있다(위키 연표의 1596-10-22 결렬 약 8개월 전).",
+    "relates_to": [
+      "de-autograph-b4-1596-01-19",
+      "ev-1596-talks-collapse",
+      "rec-sillok-seonjo-29-01-21-002"
+    ]
+  },
+  {
+    "id": "ev-1596-hideyoshi-rumor",
+    "track": "world",
+    "region": "east_asia",
+    "title_ko": "히데요시 사망설을 일기에 적음 (오보)",
+    "title_en": "Hideyoshi's death rumor recorded in the diary",
+    "category": "politics",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1596,
+        "month": 4,
+        "day": 19,
+        "leap_month": false
+      },
+      "gregorian": "1596-05-15",
+      "julian": "1596-05-05",
+      "computed_gregorian": "1596-05-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_entry_ids": [
+        "de-autograph-b4-1596-04-19"
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "일기 4책 1596-4/19(양력 5/15, 일간지 乙卯로 확정): 남여문에게 '秀吉之死'를 듣고 기뻐 날뛰었으나 믿을 수 없다고 적었다(원문 '忭躍不已 但未可信也'). 날짜는 이 서술이 일기에 적힌 날로 확정된 것이며 소문 자체는 사실이 아니었다(실제 사망은 2년 뒤)."
+    },
+    "source_ids": [
+      "src-heritage-portal"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "일기가 소문·불확실한 정보를 적는 방식을 보여 준다. 실제 사망(1598-09-18)이 담긴 시기의 일기 7책(1598-9/15~10/7)에서는 '秀吉'이 검출되지 않아 사망 소식의 언급을 찾지 못했다. 같은 해 5/12 일기에는 히데요시가 강화·철병을 바란다는 부산 쪽 전언이 있다.",
+    "relates_to": [
+      "ev-1598-hideyoshi-death",
+      "de-autograph-b4-1596-04-19",
+      "de-autograph-b4-1596-05-12"
+    ]
+  },
+  {
+    "id": "ev-1593-henry-converts",
+    "track": "world",
+    "region": "europe",
+    "title_ko": "앙리 4세, 가톨릭으로 개종",
+    "title_en": "Henry IV converts to Catholicism",
+    "category": "religion",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1593,
+        "month": 7,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1593-07-25",
+      "julian": "1593-07-15",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키: 1593-07-25 (달력 미명시. 프랑스는 1582-12에 그레고리력을 채택했으므로 그레고리력으로 보이나 미확인)."
+    },
+    "source_ids": [
+      "src-wiki-henry4"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "프랑스 종교전쟁을 끝낸 낭트 칙령(1598)으로 이어지는 정치적 전환으로 서술된다. 이순신·임진왜란과 직접 연결은 없다(교차검증 문서의 동시대 흐름)."
+  },
+  {
+    "id": "ev-1594-henry-crowned",
+    "track": "world",
+    "region": "europe",
+    "title_ko": "앙리 4세, 샤르트르에서 대관",
+    "title_en": "Henry IV crowned at Chartres",
+    "category": "politics",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1594,
+        "month": 2,
+        "day": 27,
+        "leap_month": false
+      },
+      "gregorian": "1594-02-27",
+      "julian": "1594-02-17",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키: 1594-02-27 샤르트르 대성당 (달력 미명시)."
+    },
+    "source_ids": [
+      "src-wiki-henry4"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "직접 연결은 없다. 낭트 칙령(1598)에 이르는 프랑스 정세의 한 단계다."
+  },
+  {
+    "id": "ev-1595-houtman-departs",
+    "track": "world",
+    "region": "global",
+    "title_ko": "하우트만 원정대, 암스테르담 출항 (네덜란드 첫 동인도 항해)",
+    "title_en": "Houtman expedition leaves Amsterdam",
+    "category": "trade",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1595,
+        "month": 4,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1595-04-02",
+      "julian": "1595-03-23",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키: 1595-04-02 네 척이 암스테르담을 떠났다. 달력 미명시. 위키는 원거리회사(Compagnie van Verre) 설립을 1592년으로 적어 통상의 1594년(교차검증 문서)과 다르다."
+    },
+    "source_ids": [
+      "src-wiki-houtman",
+      "src-crosscheck-md"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "문서가 '1594~98 네덜란드 원거리무역회사들의 아시아 항로 개척'으로 묶은 흐름의 첫 항해다. 네덜란드가 아시아 바다에 본격 등장하는 시기지만 임진왜란과 직접 연결은 없다.",
+    "relates_to": [
+      "ev-1594-1598-dutch-asia-routes"
+    ]
+  },
+  {
+    "id": "ev-1596-houtman-bantam",
+    "track": "world",
+    "region": "global",
+    "title_ko": "하우트만 원정대, 반탐(자바) 도착",
+    "title_en": "Houtman expedition reaches Bantam",
+    "category": "trade",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1596,
+        "month": 6,
+        "day": null,
+        "leap_month": false
+      },
+      "gregorian": "1596-06",
+      "julian": null,
+      "precision": "month",
+      "certainty": "unverified",
+      "note": "위키: 1596년 6월 반탐(Banten)에 도착. 일자는 읽은 범위에 없었다."
+    },
+    "source_ids": [
+      "src-wiki-houtman"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "직접 연결은 없다.",
+    "relates_to": [
+      "ev-1595-houtman-departs"
+    ]
+  },
+  {
+    "id": "ev-1598-vervins",
+    "track": "world",
+    "region": "europe",
+    "title_ko": "베르뱅 평화 조약 (프랑스–스페인)",
+    "title_en": "Peace of Vervins",
+    "category": "diplomacy",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1598,
+        "month": 5,
+        "day": null,
+        "leap_month": false
+      },
+      "gregorian": "1598-05",
+      "julian": null,
+      "precision": "month",
+      "certainty": "unverified",
+      "note": "위키(필리프 2세 문서): 1598년 5월. 일자는 적혀 있지 않다."
+    },
+    "source_ids": [
+      "src-wiki-philip2"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "직접 연결은 없다. 낭트 칙령과 같은 해 유럽의 전쟁 종결 흐름이다(문서는 '유라시아 동서에서 대규모 전쟁이 같은 해 종결'로 서술)."
+  },
+  {
+    "id": "ev-1598-philip2-dies",
+    "track": "world",
+    "region": "europe",
+    "title_ko": "스페인 펠리페 2세 사망",
+    "title_en": "Death of Philip II of Spain",
+    "category": "politics",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1598,
+        "month": 9,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1598-09-13",
+      "julian": "1598-09-03",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "위키: 1598-09-13 엘 에스코리알 (달력 미명시. 스페인은 1582년부터 그레고리력)."
+    },
+    "source_ids": [
+      "src-wiki-philip2"
+    ],
+    "verified": false,
+    "note": null,
+    "connection": "히데요시 사망(1598-09-18)과 5일 차이다. 동·서 양쪽 통치자가 같은 주에 사망한 것은 우연이며 인과 관계는 없다.",
+    "relates_to": [
+      "ev-1598-hideyoshi-death"
+    ]
+  },
+  {
+    "id": "ev-1593-japan-leaves-hanseong",
+    "track": "world",
+    "region": "war",
+    "title_ko": "일본군, 한성에서 철수",
+    "title_en": "Japanese abandon Hanseong",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "gregorian",
+        "year": 1593,
+        "month": 5,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1593-05-18",
+      "julian": "1593-05-08",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-26-04-21-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 37권 4/21(乙巳)의 보고: '서울의 왜적이 4월 18일에 모두 나갔고 이 제독이 이미 입성했다'(인용: 今四月十八日 盡爲出去). 일간지로 확정한 4/21에서 3일 앞이라 4/18 = 1593-05-18이며 위키 연표('5월 18일 철수')와 일치한다. 음력 4월 18일. 같은 시기 명 경략의 자문(4/26, 庚戌)은 일본군이 '19일 모두 길을 떠났다'고 적어 하루 다르다. '나갔다(出去)'와 '출발했다(起程)'의 차이일 가능성이 있으나 확인하지 못했다. 이 사건은 조선 측 보고의 날짜(4/18)를 따른다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok",
+      "src-wiki-imjin-timeline"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "한성 수복 과정의 첫 단계로, 일본군이 먼저 물러난 날이다. 명군의 입성일은 실록에 적혀 있지 않다('이미 입성'). 일기 1책 1593-2/15·2/16의 '天兵' 소식과 2책 5/14(양력 6/12)의 '天兵所爲' 기록과 같은 국면의 정보다.",
+    "relates_to": [
+      "ev-1593-hanseong-retaken",
+      "rec-sillok-seonjo-26-04-21-005",
+      "de-autograph-b2-1593-05-14",
+      "rec-sillok-seonjo-26-04-26-004"
+    ]
+  },
+  {
+    "id": "ev-1598-hideyoshi-death-rumor",
+    "track": "world",
+    "region": "east_asia",
+    "title_ko": "조선 조정에 히데요시 사망 풍문 보고 (정기룡 치계)",
+    "title_en": "Rumor of Hideyoshi's death reported to the Joseon court",
+    "category": "politics",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-14",
+      "julian": "1598-10-04",
+      "computed_gregorian": "1598-10-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-09-15-002",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 104권 9/15(丁酉)의 치계: 항복한 자들이 '관백이 이미 죽었다'고 말한다(인용: 皆言關白已死). 날짜는 이 보고가 실록에 오른 날(보고일)이며 히데요시의 사망일이 아니다. 사망일(위키 1598-09-18)은 실록에서 확인하지 못했다. 일기 7책 9/15(같은 날, 丁酉)와 일간지가 일치한다. 같은 달 9/6(戊子, 1598-10-05) 정경세 치계(104권)가 이미 '관백이 7월 7일 병사했다'고 보고하므로 9/15가 첫 보고라는 뜻은 아니다(이번 조사는 9월 목록 제목과 일부 기사만 확인)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "실제 사망(위키 1598-09-18)을 조선 쪽이 풍문으로 접한 기록의 날짜다(사망 약 26일 뒤). 이순신은 이 날 명 수군과 함께 출병한 때이며(일기 7책 첫 일기) 일기 7책 전체에 '秀吉'은 없다. 1596년 일기의 사망설(오보)과 달리 이쪽은 사실과 맞는 풍문이다.",
+    "relates_to": [
+      "ev-1598-hideyoshi-death",
+      "ev-1596-hideyoshi-rumor",
+      "rec-sillok-seonjo-31-09-15-002",
+      "de-autograph-b7-1598-09-15",
+      "rec-sillok-seonjo-31-09-06-006"
+    ]
+  },
+  {
+    "id": "ev-1598-dosan-withdrawal",
+    "track": "world",
+    "region": "war",
+    "title_ko": "울산 도산의 일본군 철수",
+    "title_en": "Japanese withdraw from Dosan (Ulsan)",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-15",
+      "julian": "1598-12-05",
+      "computed_gregorian": "1598-12-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-11-25-007",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 106권 11/25(丙午)의 치계: '이달 18일 도산의 적이 소굴을 모두 불사르고 남김없이 철수'(인용: 本月十八日 島山之賊 盡焚窟穴 無遺撤去). 일간지로 확정한 11/25에서 7일 앞이라 11/18 = 1598-12-15다. 위키 연표에는 이 일자가 없다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "이순신의 마지막 해전(노량, 같은 달 19일)의 하루 전이다. 실록은 일본군 철수가 울산(11/18)·순천 예교(11/19)에서 차례로 이뤄졌음을 적는다.",
+    "relates_to": [
+      "ev-1598-yegyo-withdrawal",
+      "ev-1598-japan-leaves",
+      "rec-sillok-seonjo-31-11-25-007"
+    ]
+  },
+  {
+    "id": "ev-1598-yegyo-withdrawal",
+    "track": "world",
+    "region": "war",
+    "title_ko": "순천 예교의 일본군 철수",
+    "title_en": "Japanese withdraw from Yegyo (Suncheon)",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 19,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-16",
+      "julian": "1598-12-06",
+      "computed_gregorian": "1598-12-16",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-11-23-004",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 106권 11/23(甲辰)의 치계: '이달 19일 사시에 예교의 적이 모두 바다를 건너 철수'(인용: 本月十九日巳時 曳橋之賊 專數撤渡). 일간지로 확정한 11/23에서 4일 앞이라 11/19 = 1598-12-16이며 노량해전 날짜와 같다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "일기 7책(~10/7)이 적은 순천(예교) 협공의 결말이다. 같은 기사에는 유 제독이 성에 들어갔을 때 조선인 3명과 말 4필뿐이었고 멀리 남해 쪽에서 포성이 들려 해전으로 짐작했다는 서술이 있다(요약 확인). 같은 날 노량해전(이순신 전사)이 있었다는 위키·문서의 날짜와 맞지만 이 기사는 이순신·노량을 언급하지 않는다.",
+    "relates_to": [
+      "ev-1598-suncheon-siege",
+      "ev-1598-joint-assault",
+      "ev-1598-noryang",
+      "ev-1598-dosan-withdrawal",
+      "rec-sillok-seonjo-31-11-23-004"
+    ]
+  },
+  {
+    "id": "ev-1598-yi-death-mentioned",
+    "track": "yi",
+    "title_ko": "조정, 이순신의 전사를 언급 (실록 기록)",
+    "title_en": "Court refers to Yi Sun-sin's death",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-21",
+      "julian": "1598-12-11",
+      "computed_gregorian": "1598-12-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-11-24-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 106권 11/24(乙巳) 기사 중 군문 도감 낭청의 말을 전하는 대목에 '이순신은 전사했다'는 서술(인용: 且李舜臣則戰死矣). 날짜는 이 말이 실록에 오른 날(1598-12-21)이며 전사일이 아니다. 전사일(11/19)은 11/27 이덕형 치계에서 확인했다(ev-1598-noryang)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": "11월 18~30일·12월 목록의 제목과 일부 기사만 확인했으며, 실록의 가장 이른 언급이라는 뜻이 아니다.",
+    "relates_to": [
+      "ev-1598-noryang",
+      "rec-sillok-seonjo-31-11-24-005"
+    ]
+  },
+  {
+    "id": "ev-1597-kato-tadaepo",
+    "track": "world",
+    "region": "war",
+    "title_ko": "가토 기요마사 선단, 다대포 도착·정박",
+    "title_en": "Kato Kiyomasa's fleet anchors at Tadaepo",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 1,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1597-02-28",
+      "julian": "1597-02-18",
+      "computed_gregorian": "1597-02-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-01-21-001",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 84권 1/21(壬子)에 실린 이원익 서장: '가토가 이달 13일 다대포에 도착해 정박, 먼저 온 배 200여 척'(인용: 淸正今月十三日多大浦到泊). 같은 달 13일이므로 1597-02-28. 위키의 '03-01(음력 1/14) 죽도 상륙'과는 하루 차이이며, 실록은 정박일만 적고 상륙일은 적지 않아 상륙일은 확인하지 못했다. 김응서 장계(1/17자, 1/23 기사)는 14일에 다대포로 향해 진터를 살폈다고 적어, 이원익 서장의 13일 도착·정박과 하루 차이가 난다(서로 다른 경로의 2차 정보로 보이며 어느 쪽이 맞는지 확인하지 못했다)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "정유재란 개시를 알리는 첫 실록 보고로 읽을 수 있다(우리의 해석). 이순신은 당시 한성에서 투옥 중이었다(교차검증 문서 연표, 이 데이터에는 해당 일기 없음).",
+    "relates_to": [
+      "ev-1597-second-invasion",
+      "rec-sillok-seonjo-30-01-21-001",
+      "rec-sillok-seonjo-30-01-23-003"
+    ]
+  },
+  {
+    "id": "ev-1592-daedong-crossing",
+    "track": "world",
+    "region": "war",
+    "title_ko": "일본군, 대동강(왕성탄) 도하 — 평양 방어선 붕괴",
+    "title_en": "Japanese cross the Taedong River at Wangseongtan",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1592,
+        "month": 6,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1592-07-22",
+      "julian": "1592-07-12",
+      "computed_gregorian": "1592-07-22",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-25-06-18-006",
+          "statement": 0
+        },
+        {
+          "record_id": "rec-sillok-seonjo-25-06-26-002",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 27권 6/18(丙午)·6/26(甲寅) 두 기사가 '14일'(6/18 기사는 신시) 일본군이 왕성탄을 건넜다고 적는다(인용: 十四日申時 / 十四日, 賊渡王城灘). 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 기사일에서 4일·12일 앞이라 둘 다 1592-07-22로 맞는다. 평양 함락·입성일 자체는 적혀 있지 않다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "평양 점령(위키 07-24)의 직전 사건이다. 6/15 기사는 이미 강여울 방어가 무너졌다고 보고하고, 6/19 기사는 '평양이 이미 함락되었다'고 적는다. 한산도 대첩(양력 8/14)보다 3주 앞선다.",
+    "relates_to": [
+      "ev-1592-pyongyang-falls",
+      "ev-1592-hansando",
+      "rec-sillok-seonjo-25-06-18-006",
+      "rec-sillok-seonjo-25-06-26-002"
+    ]
+  },
+  {
+    "id": "ev-1598-ulsan-withdrawal",
+    "track": "world",
+    "region": "war",
+    "title_ko": "조·명 연합군, 울산(도산) 포위 해제·철병",
+    "title_en": "Allied forces lift the siege of Ulsan (Dosan)",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 1,
+        "day": 4,
+        "leap_month": false
+      },
+      "gregorian": "1598-02-09",
+      "julian": "1598-01-30",
+      "computed_gregorian": "1598-02-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-01-09-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 96권 1/9(乙未): '부득이 초4일 포위를 풀고 철병'(인용: 故不得已初四日解圍撤兵). 월은 구절에 없어 기사와 같은 달로 읽었다(추론). 기사일에서 5일 앞이라 1598-02-09. 위키의 종료일(02-19)과 10일 차이가 난다(위키 종료일의 의미는 확인하지 못함)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "울산성 공방 개시(1598-01-29)로부터 약 11일 뒤다. 실록은 열흘이 되도록 도산을 깨지 못했다고 적는다.",
+    "relates_to": [
+      "ev-1598-ulsan-siege",
+      "rec-sillok-seonjo-31-01-09-003"
+    ]
+  },
+  {
+    "id": "ev-1598-sacheon-dong-attack",
+    "track": "world",
+    "region": "war",
+    "title_ko": "명 동일원 군, 사천 공격(첫 교전)",
+    "title_en": "Ming forces under Dong Yiyuan attack Sacheon",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 28,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-27",
+      "julian": "1598-10-17",
+      "computed_gregorian": "1598-10-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-10-01-006",
+          "statement": 0,
+          "bridge_entry_id": "de-autograph-b7-1598-09-28"
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 105권 10/1(癸丑): '지난 28일 동 제독이 사천에 들어가 공격해 80여 급을 베었다'(인용: 去二十八日, 董提督入攻泗川). 직전 달(9월) 28일은 일간지로 확정된 일기 7책 9/28(庚戌)과 이어 1598-10-27이다(월은 추론). 위키의 사천 전투(11-06~11)와는 일자가 다르다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "순천 공방(1598-10-19) 8일 뒤, 노량해전(12-16)에 7주 앞선다. 같은 시기 이순신은 순천 예교 앞바다에서 수군을 지휘하고 있었다(일기 7책 9/28 '大小船不得出入' 등, 사천 언급은 없음).",
+    "relates_to": [
+      "ev-1598-sacheon",
+      "ev-1598-suncheon-siege",
+      "de-autograph-b7-1598-09-28",
+      "rec-sillok-seonjo-31-10-01-006"
+    ]
+  },
+  {
+    "id": "ev-1596-hideyoshi-refuses-envoy",
+    "track": "world",
+    "region": "war",
+    "title_ko": "관백(히데요시), 명 부사의 접견을 거부 (오사카)",
+    "title_en": "Hideyoshi refuses to receive the Ming deputy envoy",
+    "category": "diplomacy",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1596,
+        "month": 9,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1596-10-21",
+      "julian": "1596-10-11",
+      "computed_gregorian": "1596-10-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-29-11-06-002",
+          "statement": 0,
+          "bridge_entry_id": "de-autograph-b4-1596-09-01"
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 82권 11/6(戊戌)에 실린 황신 군관의 진술: '윤8월 29일 관백이 오사카에 왔고 9월 1일 부사가 먼저 갔으나 관백이 만나주지 않았다'(인용: 九月初一日, 副使先往五沙蓋, 關白不見). 다른 달이라 일간지로 확정된 일기 4책 9/1(甲午)과 이어 1596-10-21이다. 통신사 일행의 간접 증언이다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "위키가 교섭 결렬로 적은 1596-10-22(음력 9/2)의 전날이다. 같은 기사는 9/2 접견(책봉) 예정이 있었다고 전한다(전언).",
+    "relates_to": [
+      "ev-1596-talks-collapse",
+      "de-autograph-b4-1596-09-01",
+      "rec-sillok-seonjo-29-11-06-002"
+    ]
+  },
+  {
+    "id": "ev-1598-sacheon-sinchae-defeat",
+    "track": "world",
+    "region": "war",
+    "title_ko": "사천 신채 전투·명군 패주 (진효 제본의 10/1)",
+    "title_en": "Ming rout at the Sacheon fortress camp",
+    "category": "war",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 10,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-30",
+      "julian": "1598-10-20",
+      "computed_gregorian": "1598-10-30",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-10-17-001",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 105권 10/17(己巳) 진효 제본: '이달 초1일 각처의 패한 왜군이 모두 심안도(시마즈)의 대채로 돌아갔다'(인용: 本月初一日, 各處敗倭, 盡歸沈安道大寨), 이어 팽신고 영의 화재로 왜군이 돌출하고 명군이 순식간에 무너졌다고 서술. 기사일에서 16일 앞이라 1598-10-30. 명군이 무너진 날을 같은 날의 연속 서술로 읽은 것은 우리의 추론이다(그 두 문장에는 날짜가 없음). 위키의 11-06(음력 10/8)과 7일 다르다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "connection": "9/28 동일원 군의 사천 첫 공격(별도 사건) 이틀 뒤다. 같은 날 일기 7책 10/1(癸丑)에는 이순신이 새벽 유 제독 처소에 갔다는 기록만 있고 사천 언급은 없다.",
+    "relates_to": [
+      "ev-1598-sacheon",
+      "ev-1598-sacheon-dong-attack",
+      "de-autograph-b7-1598-10-01",
+      "rec-sillok-seonjo-31-10-17-001"
+    ]
+  },
+  {
+    "id": "ev-1592-sacheon-naval",
+    "track": "yi",
+    "title_ko": "사천해전 (거북선 첫 실전 투입, 통상 음력 5/29)",
+    "title_en": "Battle of Sacheon (naval), 1592",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1592,
+        "month": 5,
+        "day": 29,
+        "leap_month": false
+      },
+      "gregorian": "1592-07-08",
+      "julian": "1592-06-28",
+      "computed_gregorian": "1592-07-08",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "음력 5/29(1592-07-08)는 통용되는 날짜의 변환기 역산값이다. 선조실록 27권 6/21(己酉)에 '二十九日, 舜臣、元均再會於露梁' 이후 거북선 돌진·적선 소각·이순신의 어깨 부상이 서술되나 월이 적혀 있지 않고 지명은 '노량'이며 사천은 나오지 않는다. 일기에는 5/5~5/28이 없어 이을 수 없다. 5/29의 달 추론과 사천=노량 대응은 우리의 해석이라 unverified로 둔다. (요청의 '1597년'은 사천해전이 일어난 1592년으로 읽었다.)"
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": false,
+    "note": null,
+    "relates_to": [
+      "ev-1592-okpo",
+      "ev-1592-hansando",
+      "rec-sillok-seonjo-25-06-21-004"
+    ]
+  },
+  {
+    "id": "ev-1597-chilcheollyang-night-attack",
+    "track": "yi",
+    "title_ko": "칠천량 해전 전단계: 야간 기습으로 조선 전선 4척 소실 (7/15 밤 2경)",
+    "title_en": "Night raid on the Joseon fleet before Chilcheollyang",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1597-08-27",
+      "julian": "1597-08-17",
+      "computed_gregorian": "1597-08-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-07-22-002",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 90권 7/22(辛亥)의 선전관 김식 보고: '15일 2경 왜선 5~6척이 야간 기습, 전선 4척 소실'(인용: 十五日二更, 倭船五六隻 … 全數燒沒). 기사일에서 7일 앞이라 1597-08-27이다(월은 추론). 이어 닭 울 무렵 대규모 포위, 추원포로 퇴각이 서술된다. 이 날짜는 칠천량 대패의 '전단계' 서술로 한정하며, 전군 괴멸일 자체는 확정하지 않았다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-chilcheollyang",
+      "rec-sillok-seonjo-30-07-22-002"
+    ]
+  },
+  {
+    "id": "ev-1597-arrest-requested",
+    "track": "yi",
+    "title_ko": "사헌부, 통제사 이순신의 체포·단죄를 건의",
+    "title_en": "Censorate asks for Yi Sun-sin's arrest",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 2,
+        "day": 4,
+        "leap_month": false
+      },
+      "gregorian": "1597-03-21",
+      "julian": "1597-03-11",
+      "computed_gregorian": "1597-03-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-02-04-001",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 85권 2/4(乙丑): '請命拿鞫, 依律定罪'. 기사일 그대로의 건의일(1597-03-21)이다. 죄목은 기망 장계와 縱賊不討."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-imprisonment",
+      "rec-sillok-seonjo-30-02-04-001"
+    ]
+  },
+  {
+    "id": "ev-1597-arrest-ordered",
+    "track": "yi",
+    "title_ko": "왕, 이순신 체포를 전교(원균 교대 후)",
+    "title_en": "King orders Yi Sun-sin's arrest after Won Gyun takes over",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 2,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1597-03-23",
+      "julian": "1597-03-13",
+      "computed_gregorian": "1597-03-23",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-02-06-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 85권 2/6(丁卯): '이순신을 잡아올 때 선전관에게 표신과 밀부를 주어… 원균이 교대한 뒤'. 전교일(1597-03-23)이며 실제 체포·압송일이 아니다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-imprisonment",
+      "rec-sillok-seonjo-30-02-06-003",
+      "ev-1597-arrest-requested"
+    ]
+  },
+  {
+    "id": "ev-1597-punishment-deliberation",
+    "track": "yi",
+    "title_ko": "왕, 신문 후 이순신의 처분을 대신들에게 하문",
+    "title_en": "King asks ministers how to punish Yi Sun-sin",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 3,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1597-04-28",
+      "julian": "1597-04-18",
+      "computed_gregorian": "1597-04-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-03-13-002",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 86권 3/13(癸卯): '令將窮刑得情, 何以處之, 問于大臣'. 하문일(1597-04-28)이며 석방일이 아니다. 일기 5책 4/1(辛酉)에는 옥에서 풀려나 나온 기록이 있다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-imprisonment",
+      "rec-sillok-seonjo-30-03-13-002",
+      "ev-1597-arrest-ordered",
+      "de-autograph-b5-1597-04-01"
+    ]
+  },
+  {
+    "id": "ev-1587-first-baekui",
+    "track": "yi",
+    "title_ko": "첫 백의종군 전교 (1587, 이경록·이순신 체포 건의 후)",
+    "title_en": "First order of service as a commoner (1587)",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1587,
+        "month": 10,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1587-11-15",
+      "julian": "1587-11-05",
+      "computed_gregorian": "1587-11-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-20-10-16-001",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 21권 선조 20년 10/16(辛未): 비변사가 이경록·이순신 등을 잡아오자고 하자 왕이 '병사에게 장형을 집행하게 하고 백의종군하여 공을 세우게 하라'고 전교(인용: 令兵使決杖, 白衣從軍, 自效可也). 전교일(1587-11-15)이며 실제 집행일이 아니다. 1597년의 백의종군과는 별개의 첫 번째 사례다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-imprisonment",
+      "rec-sillok-seonjo-20-10-16-001"
+    ]
+  },
+  {
+    "id": "ev-1597-yi-reappointed",
+    "track": "yi",
+    "title_ko": "조정, 이순신을 삼도수군통제사로 재임명 (실록 인사 기록)",
+    "title_en": "Court reappoints Yi Sun-sin as Naval Commander of the Three Provinces",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 7,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1597-09-03",
+      "julian": "1597-08-24",
+      "computed_gregorian": "1597-09-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-07-22-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 90권 7/22(辛亥): '李舜臣爲全羅左道水軍節度使兼慶尙、全羅、忠淸三道統制使'. 같은 날 선전관 김식의 한산 보고와 패전 대책 논의가 있었다. 이 날짜(1597-09-03)는 인사 기록일이며, 일기 5책 8/3(辛亥, 1597-09-13)에 선전관 양호가 '兼三道統制使之命'의 교유서를 가져와 받았다고 적어 11일 뒤다. 8월 대조: 선조실록 30년 8월 1~29일 목록(137건)에 이순신 제목이 없고, 8/5(癸亥)·8/18(丙子)·8/29(丁亥) 기사 3건을 열람했으나 이순신 언급이 없었다. 8/5는 \"배설은 병선을 거느리고 바다에 있다\"(裵楔則領率兵船, 方在海洋)며 원균 등의 처벌을 미루고, 8/18은 한산 해전에서 주장을 구하지 않고 도망친 장수들을 법대로 참하라는 사헌부 건의를 왕이 받아들인다. 이순신의 8월 행적(일기 5책 8/3~8/28)을 실록이 별도로 적은 곳은 찾지 못했다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-chilcheollyang",
+      "ev-1597-imprisonment",
+      "de-autograph-b5-1597-08-03",
+      "rec-sillok-seonjo-30-07-22-005"
+    ]
+  },
+  {
+    "id": "ev-1597-military-law-order",
+    "track": "yi",
+    "title_ko": "왕, 이순신·이시언에게 군법 위반자 선참후계를 하서",
+    "title_en": "King authorizes Yi Sun-sin and Yi Si-eon to punish violators before reporting",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 10,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1597-11-21",
+      "julian": "1597-11-11",
+      "computed_gregorian": "1597-11-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-10-13-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 93권 10/13(庚午): '今後管下犯軍法之人, 一一先爲處斷後啓聞事, 下書于李舜臣、李時言'. 하서일(1597-11-21)이며 이행·전달일이 아니다. 명량해전(양력 10-26) 약 26일 뒤다. 10월 전체 대조: 일자별 목록(149건)에서 이순신이 제목에 나오는 기사는 10/13 이 하서뿐이며, 수군·해상·왜선·명량·승첩 제목도 없다. 10/11(戊辰) 기사는 한산 패전 후 관곡과 처자를 배에 싣고 도망친 전라 좌우후 이몽구(李夢龜)의 처단을 논하고(도주일 없음), 10/12 기사는 경상 우수사로 제수된 이응표를 \"주사에 있던 사람은 모두 패군장\"이라며 교체하라 하며, 10/6·10/21의 호남 보고는 육상 작전만 다룬다(이순신·명량 미언급)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-myeongnyang",
+      "ev-1597-yi-reappointed",
+      "rec-sillok-seonjo-30-10-13-003"
+    ]
+  },
+  {
+    "id": "ev-1597-ming-rebukes-yi-delay",
+    "track": "yi",
+    "title_ko": "경리 측, 이순신 등의 회답 지체를 질책",
+    "title_en": "Ming side rebukes Yi Sun-sin and others for slow replies",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1597,
+        "month": 11,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1597-12-15",
+      "julian": "1597-12-05",
+      "computed_gregorian": "1597-12-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-30-11-07-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 94권 11/7(甲午): '李舜臣處, 使問駐兵處所及行兵之事, 而經月無回音'. 질책이 실록에 오른 날(1597-12-15)이며 이순신이 회답하지 않은 기간을 하루로 확정한 것이 아니다. 같은 시기 11/4 기사(辛卯)에는 명 수군장 계금이 이순신을 만나려 하나 이순신이 해남 쪽 육로가 막혀 올라오기 어렵다고 한다는 서술이 있다(요약 확인). 같은 달 11/10(丁酉) 기사는 이순신의 장계가 벽파정 앞바다 해전을 전했다고 적어, 11/7의 '한 달 무회답' 질책 직후 명 측에 이순신의 보고가 알려졌음을 보인다(별도 기록). 12월 대조: 선조실록 30년 12월 일자별 목록(109건)에 이순신·통제사·수군 제목이 없고, 12/10(丙寅)·12/16(壬申) 기사 3건(황신 전라 보고, 비변사 호남 방어, 황신 승전 보고)도 육상·방어 논의뿐이며 이순신·수군 언급이 없었다. 이 시기 이순신의 행적(고하도 이동 등)은 실록에서 확인되지 않는다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-yi-reappointed",
+      "rec-sillok-seonjo-30-11-07-003",
+      "rec-sillok-seonjo-30-11-10-005"
+    ]
+  },
+  {
+    "id": "ev-1598-gogeumdo-move",
+    "track": "yi",
+    "title_ko": "이순신 수군, 보화도에서 고금도로 진을 옮김 (음력 2/17)",
+    "title_en": "Yi Sun-sin's fleet moves from Bohwado to Gogeumdo",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 2,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1598-03-23",
+      "julian": "1598-03-13",
+      "computed_gregorian": "1598-03-23",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "unverified",
+      "note": "선조실록 98권 3/18(癸卯)에 실린 이순신 장계: '2월 16일 보화도에서 배를 띄워 17일 강진 경내 고금도로 진을 옮겼다'(인용: 二月十六日領諸將, 自寶花島開船, 十七日康津境古今島移陣). 월이 본문에 명시되어 있어 음력 2/17 = 1598-03-23 로 환산했으나, 이 시기 일기가 없어(현존 1598 일기는 9/15부터) 일간지 기반 도출 검증이 불가능해 unverified로 둔다. 안위의 같은 날 기사는 이순신이 16일에 고금도로 진을 옮겼다고 적어 하루 차이가 난다('本月·同月'이 2월이라는 읽기는 추론)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": false,
+    "note": null,
+    "relates_to": [
+      "ev-1597-myeongnyang",
+      "ev-1598-fleet-departure",
+      "rec-sillok-seonjo-31-03-18-004",
+      "rec-sillok-seonjo-31-03-18-005"
+    ]
+  },
+  {
+    "id": "ev-1598-yi-praised-by-ming",
+    "track": "yi",
+    "title_ko": "명 경리, 이순신의 살적을 칭찬하며 속히 포상하라고 권고 (실록 기록)",
+    "title_en": "Ming commissioner praises Yi Sun-sin and urges a reward",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 4,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1598-05-18",
+      "julian": "1598-05-08",
+      "computed_gregorian": "1598-05-18",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-04-14-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 99권 4/14(戊辰): 이정구가 전한 명 경리의 말 '李舜臣用力殺賊如此, 我甚嘉喜'와 '급속히 장상하여 고무하라'. 날짜는 이 칭찬이 실록에 오른 날(1598-05-18)이며 칭찬의 계기가 된 전투일이 아니다(기사에 전투·날짜 없음)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-gogeumdo-move",
+      "rec-sillok-seonjo-31-04-14-003"
+    ]
+  },
+  {
+    "id": "ev-1598-yi-promoted-gaseon",
+    "track": "yi",
+    "title_ko": "이순신 등 3인에게 한 자급을 더하는 가자 판하 (이순신은 가선대부로 승진)",
+    "title_en": "Yi Sun-sin promoted to Gaseon daebu",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 4,
+        "day": 28,
+        "leap_month": false
+      },
+      "gregorian": "1598-06-01",
+      "julian": "1598-05-22",
+      "computed_gregorian": "1598-06-01",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-04-28-006",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 99권 4/28(壬午): '李舜臣等三人, 各加一資事判下, 李舜臣、金應緘, 則已爲折衝而陞嘉善'. 4/15(비변사)에는 '舟師蕩敗之後, 能措置糧餉、船隻, 有此捷報, 爲經理所稱賞'로 이순신을 포상할 사유를 적고 왕이 '褒奬은 옳으나 가자는 과하다'(李舜臣誠可褒奬, 但欲加資, 則似過)고 한 뒤의 결정이다(4/15 기사 헤더 일간지는 읽지 않아 기록으로 두지 않음). 판하일(1598-06-01)이며 가자의 구체적 전과는 기사에 없다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-yi-praised-by-ming",
+      "ev-1598-gogeumdo-move",
+      "rec-sillok-seonjo-31-04-28-006"
+    ]
+  },
+  {
+    "id": "ev-1598-merit-list-approved",
+    "track": "yi",
+    "title_ko": "이순신이 올린 한산 싸움 군공인 명단 윤허 (실록 기록)",
+    "title_en": "Yi Sun-sin's merit list for the Hansan battle approved",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 5,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1598-06-04",
+      "julian": "1598-05-25",
+      "computed_gregorian": "1598-06-04",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-05-01-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 100권 5/1(乙酉): '統制使李舜臣, 閑山戰軍功人等, 已爲磨鍊, 入啓允下'. 기록일 1598-06-04이며 윤허일이 아니다. 한산 패전 관련자는 장부에 올려 조사 후 처분하기로 한다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-yi-promoted-gaseon",
+      "rec-sillok-seonjo-31-05-01-005"
+    ]
+  },
+  {
+    "id": "ev-1598-merit-warrants-sent",
+    "track": "yi",
+    "title_ko": "통제사 군공 고신을 내려보내려 함, 배흥립 등 30여 명 상전 보류 (실록 기록)",
+    "title_en": "Merit warrants for the naval command to be sent; Bae Heung-rip's group left unrewarded",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 5,
+        "day": 10,
+        "leap_month": false
+      },
+      "gregorian": "1598-06-13",
+      "julian": "1598-06-03",
+      "computed_gregorian": "1598-06-13",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-05-10-004",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 100권 5/10(甲午): '統制使軍功告身, 盡爲査點, 今將下送矣 … 裵興立等三十餘人, 功在一等, 而未蒙賞典'. 기록일 1598-06-13이며 고신이 내려간 날이 아니다. 이순신 이름은 기사에 없다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-merit-list-approved",
+      "rec-sillok-seonjo-31-05-10-004"
+    ]
+  },
+  {
+    "id": "ev-1598-yi-supply-shortage",
+    "track": "yi",
+    "title_ko": "비변사, 이순신 진영의 군량 부족과 병력 상황을 보고 (실록 기록)",
+    "title_en": "Border Council reports Yi Sun-sin's supply shortage",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 6,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1598-07-26",
+      "julian": "1598-07-16",
+      "computed_gregorian": "1598-07-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-06-24-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 101권 6/24(丁丑): '李舜臣於蕩敗之後, 收拾流離避亂之人, 以爲軍兵, 駐在荒絶之地, 物力僅僅自給'. 기록일 1598-07-26이며 사태의 시점이 아니다. 육로로 양식이 오지 않아 수군의 양식을 먼저 대 주고 있어 곧 바닥난다고 한다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-gogeumdo-move",
+      "ev-1598-yi-promoted-gaseon",
+      "rec-sillok-seonjo-31-06-24-003"
+    ]
+  },
+  {
+    "id": "ev-1598-chen-claims-command",
+    "track": "yi",
+    "title_ko": "진 도독, 조선 수군에 군법 적용·통솔을 요구했다는 비변사 보고 (실록 기록)",
+    "title_en": "Chen's demand to command the Joseon navy reported",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 6,
+        "day": 27,
+        "leap_month": false
+      },
+      "gregorian": "1598-07-29",
+      "julian": "1598-07-19",
+      "computed_gregorian": "1598-07-29",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-06-27-002",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 101권 6/27(庚辰): 비변사가 진 도독의 '俺受命天朝, 總領水兵 … 陪臣等倘有違悞者, 一以軍法從事'와 조선군 통솔 요구를 보고하며 통제사 이순신 등을 회유·하서할 것을 청한다. 기록일 1598-07-29이며 진 도독의 발언일(전날 6/26 전별 자리로 추정, 확인 못 함)이 아니다. 진 도독이 진린인지는 확인하지 못했다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-yi-supply-shortage",
+      "rec-sillok-seonjo-31-06-27-002"
+    ]
+  },
+  {
+    "id": "ev-1598-yi-sea-battle-report",
+    "track": "yi",
+    "title_ko": "이순신, 최근 해전의 전과(70여 급)와 진 도독의 무례를 치계 (실록 기록)",
+    "title_en": "Yi Sun-sin reports a recent sea battle and the Ming admiral's rudeness",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 8,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1598-09-13",
+      "julian": "1598-09-03",
+      "computed_gregorian": "1598-09-13",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-08-13-004",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 103권 8/13(丙寅): '頃日海中之戰, 我軍銃砲齊發, 撞破賊船, 賊屍滿海 … 只斬七十餘級'와 진 도독이 수급 수를 보고 발을 구르며 위협해 40여 급을 나눠 받았다는 서술. 기록일 1598-09-13이며 교전일은 '頃日'로만 적혀 있어 확정하지 못했다. 10/4(丙辰) 비변사 기사가 '李舜臣 折爾島之戰, 得斬七十一級, 而陳都督奪四十級, 季遊擊奪五級'라 적어 이 장계의 '頃日海中之戰'은 절이도 싸움으로 읽힌다(수치 일치, 추론). 절이도 싸움의 날짜는 열람한 기사에 없다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-chen-claims-command",
+      "ev-1598-gogeumdo-move",
+      "rec-sillok-seonjo-31-08-13-004",
+      "ev-1598-jeoridpo-merit-seized"
+    ]
+  },
+  {
+    "id": "ev-1598-yi-victory-reward-order",
+    "track": "yi",
+    "title_ko": "왕, 이순신 승첩을 가져온 사람에게 논상하라 전교 (실록 기록)",
+    "title_en": "King orders a reward for the bearer of Yi Sun-sin's victory report",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 8,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1598-09-15",
+      "julian": "1598-09-05",
+      "computed_gregorian": "1598-09-15",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-08-15-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 103권 8/15(戊辰): '李舜臣捷音持來人, 論賞'. 기록일 1598-09-15이며 승첩의 날짜·장소는 기사에 없다. 8/13 장계에 대한 반응으로 읽을 수 있으나 같은 승첩인지는 확인하지 못했다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-yi-sea-battle-report",
+      "rec-sillok-seonjo-31-08-15-003"
+    ]
+  },
+  {
+    "id": "ev-1598-yi-sorties-with-ming",
+    "track": "yi",
+    "title_ko": "이덕형 보고: 이순신이 명 장수와 수군을 정비해 바다로 내려감 (실록 기록)",
+    "title_en": "Yi Deok-hyeong reports Yi Sun-sin's fleet putting to sea with the Ming",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 8,
+        "day": 24,
+        "leap_month": false
+      },
+      "gregorian": "1598-09-24",
+      "julian": "1598-09-14",
+      "computed_gregorian": "1598-09-24",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-08-24-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 103권 8/24(丁丑): '統制使李舜臣與天將, 欲相機勦賊, 整齊舟師下海云'. 기록일 1598-09-24이며 출동일이 아니다. 같은 기사는 예교의 적이 성을 쌓고 횃불을 쌓아 철진 설은 허보라고 적는다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-yi-victory-reward-order",
+      "ev-1598-fleet-departure",
+      "rec-sillok-seonjo-31-08-24-005"
+    ]
+  },
+  {
+    "id": "ev-1598-king-worries-over-chen",
+    "track": "yi",
+    "title_ko": "왕, 진 도독이 통제사의 공격을 막는 데 우려를 표하는 비망기 (실록 기록)",
+    "title_en": "King's memorandum worried about the Ming admiral blocking Yi Sun-sin",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 8,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-07",
+      "julian": "1598-09-27",
+      "computed_gregorian": "1598-10-07",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-09-08-001",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 104권 9/8(庚寅): '前後見統制使狀啓, 則陳都督所爲, 如果不許, 極爲寒心 … 自此舟師之事去矣'. 기록일 1598-10-07이다. 일기 7책(9/15~)이 시작되기 일주일 전이다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-yi-sea-battle-report",
+      "ev-1598-chen-claims-command",
+      "rec-sillok-seonjo-31-09-08-001"
+    ]
+  },
+  {
+    "id": "ev-1598-yi-complains-chen",
+    "track": "yi",
+    "title_ko": "이순신, 진 도독이 수군 출동을 억제한다고 치계 (실록 기록)",
+    "title_en": "Yi Sun-sin complains that the Ming admiral restrains his fleet",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 9,
+        "day": 10,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-09",
+      "julian": "1598-09-29",
+      "computed_gregorian": "1598-10-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-09-10-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 104권 9/10(壬辰): '臣整齊舟師, 雖欲下海, 乘機勦賊, 每爲提督所抑止, 不勝悶慮'와 진 도독의 '水兵則俺當總制' 발언 인용. 기록일 1598-10-09이며 사건이 일어난 날이 아니다. 같은 날 비변사 기사는 진 도독이 분개해 일을 어렵게 할까 걱정한다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-king-worries-over-chen",
+      "ev-1598-fleet-departure",
+      "rec-sillok-seonjo-31-09-10-003"
+    ]
+  },
+  {
+    "id": "ev-1598-jeoridpo-merit-seized",
+    "track": "yi",
+    "title_ko": "비변사 보고: 절이도 전투 전과(71급)를 진 도독이 40급 빼앗고 26급 장계를 강요 (실록 기록)",
+    "title_en": "Border Council: the Ming admiral seized heads from Yi's Jeoridpo victory",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 10,
+        "day": 4,
+        "leap_month": false
+      },
+      "gregorian": "1598-11-02",
+      "julian": "1598-10-23",
+      "computed_gregorian": "1598-11-02",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-10-04-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 105권 10/4(丙辰): '李舜臣 折爾島之戰, 得斬七十一級, 而陳都督奪四十級, 季遊擊奪五級', 진 도독이 이순신에게 26급 장계를 강요(都督迫令舜臣 …). 기록일 1598-11-02이며 절이도 싸움의 날짜는 적혀 있지 않다. 8/13 장계의 '70여 급·40여 급을 나눠 줌·계 유격 5급'과 수치가 맞아 같은 싸움으로 읽는다(추론)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-yi-sea-battle-report",
+      "ev-1598-chen-claims-command",
+      "rec-sillok-seonjo-31-10-04-005"
+    ]
+  },
+  {
+    "id": "ev-1598-yegyo-naval-oct2",
+    "track": "yi",
+    "title_ko": "이순신 장계: 10/2 예교 방면 수군 합세 전투 (아군 29명·명군 5명 전사)",
+    "title_en": "Yi Sun-sin's fleet fights alongside the Ming at Yegyo on 10/2",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 10,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-31",
+      "julian": "1598-10-21",
+      "computed_gregorian": "1598-10-31",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-10-13-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 105권 10/13(乙丑)의 이순신 장계: '初二日, 舟師合勢討賊, 知陸兵觀望不進, 專力於舟師 … 我兵逢丸致死二十九名, 天兵五名云'. 같은 달 13일 기사에서 11일 앞이라 1598-10-31이며 일기 7책 10/2(甲寅 '卯時進兵 我舟師先登 … 蛇渡僉使逢丸戰亡')와 독립적으로 일치한다. 월은 구절에 없어 기사와 같은 달로 읽었다(추론)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-joint-assault",
+      "ev-1598-suncheon-siege",
+      "de-autograph-b7-1598-10-02",
+      "rec-sillok-seonjo-31-10-13-003"
+    ]
+  },
+  {
+    "id": "ev-1598-yi-successor-appointed",
+    "track": "yi",
+    "title_ko": "이시언을 통제사로 임명 (이순신 후임, 실록 인사 기록)",
+    "title_en": "Yi Si-eon appointed naval commander as Yi Sun-sin's successor",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-22",
+      "julian": "1598-12-12",
+      "computed_gregorian": "1598-12-22",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-11-25-008",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 106권 11/25(丙午): '以李時言爲統制使'. 인사 기록일 1598-12-22이며 사유는 적혀 있지 않다. 11/24 정원이 이순신의 후임 문제를 아뢴 다음 날이다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-noryang",
+      "ev-1598-yi-death-mentioned",
+      "rec-sillok-seonjo-31-11-25-008"
+    ]
+  },
+  {
+    "id": "ev-1598-posthumous-honors-ordered",
+    "track": "yi",
+    "title_ko": "왕, 이순신의 증직·부의·장사 지원과 사당 건립 논의를 전교 (실록 기록)",
+    "title_en": "King orders posthumous rank, funeral gift and burial aid for Yi Sun-sin",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 30,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-27",
+      "julian": "1598-12-17",
+      "computed_gregorian": "1598-12-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-11-30-006",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 106권 11/30(辛亥): '李舜臣贈職致賻, 官庇葬事 … 海上亦可立祠, 此一款, 令備邊司議啓'. 전교 기록일 1598-12-27이다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-noryang",
+      "ev-1598-yi-successor-appointed",
+      "rec-sillok-seonjo-31-11-30-006"
+    ]
+  },
+  {
+    "id": "ev-1598-ming-sacrifice-for-yi",
+    "track": "yi",
+    "title_ko": "명 형 군문이 이순신의 죽음을 애통해 치제, 예조가 조선의 제사 방식을 문의 (실록 기록)",
+    "title_en": "Ming commissioner Xing sacrifices for Yi Sun-sin; Rites ministry asks how to follow",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 11,
+        "day": 30,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-27",
+      "julian": "1598-12-17",
+      "computed_gregorian": "1598-12-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-11-30-007",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 106권 11/30(辛亥): '邢軍門痛愍李舜臣之死, 已行差人致祭, 欲令我國, 亦爲致祭'. 기록일 1598-12-27이다. 예조는 시신 확인 여부가 아직 알려지지 않았고 등 총병도 같은 곳에서 죽었다고 적는다(요약 확인)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-posthumous-honors-ordered",
+      "ev-1598-noryang",
+      "rec-sillok-seonjo-31-11-30-007"
+    ]
+  },
+  {
+    "id": "ev-1598-shrine-proposed",
+    "track": "yi",
+    "title_ko": "비변사, 이순신 사당 건립을 건의하며 노량해전을 서술 (실록 기록)",
+    "title_en": "Border Council proposes a shrine for Yi Sun-sin and describes Noryang",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 12,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-28",
+      "julian": "1598-12-18",
+      "computed_gregorian": "1598-12-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-12-01-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 107권 12/1(壬子): '海邊立祠, 似當於左水營本陣設立, 春秋致祭'와 '今此露梁, 達夜血戰, 使賊魁燒死, 至獲戰艦二百餘隻'(왕이 따름). 기록일 1598-12-28이며 노량의 교전일은 기사에 없다. 후속(선조실록 111권): 1599년 4/14·4/25 홍문관이 사당의 관립·민립 선례를 조사해 보고하며(별도 사건) 최종 결정은 열람한 기사에 없다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-noryang",
+      "ev-1598-posthumous-honors-ordered",
+      "rec-sillok-seonjo-31-12-01-005",
+      "ev-1599-shrine-precedent-query",
+      "ev-1599-shrine-precedents-reported"
+    ]
+  },
+  {
+    "id": "ev-1598-chen-requests-successor",
+    "track": "yi",
+    "title_ko": "진 제독, 이순신의 후임 통제사 임명을 촉구하는 게첩 (실록 기록)",
+    "title_en": "Chen Lin presses for a successor to Yi Sun-sin",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 12,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-29",
+      "julian": "1598-12-19",
+      "computed_gregorian": "1598-12-29",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-12-02-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 107권 12/2(癸丑): '李舜臣員缺, 亟望簡命'. 기록일 1598-12-29이다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-yi-successor-appointed",
+      "ev-1598-shrine-proposed",
+      "rec-sillok-seonjo-31-12-02-005"
+    ]
+  },
+  {
+    "id": "ev-1598-deokhyeong-requests-honors",
+    "track": "yi",
+    "title_ko": "이덕형, 이순신 포장을 요청하며 전사 소식과 고금도 주둔을 서술 (실록 기록)",
+    "title_en": "Yi Deok-hyeong asks for honors for Yi Sun-sin",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 12,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1599-01-03",
+      "julian": "1598-12-24",
+      "computed_gregorian": "1599-01-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-12-07-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 107권 12/7(戊午): '報捷之日, 運糧夫丁, 得聞李舜臣身死, 不幸徑死鋒鏑 … 褒奬之擧, 自朝廷, 別爲施行事'. 기록일 1599-01-03이다. '其四月, 始入古今島'는 전해 들은 말로 3/18 장계(2/17 이진)와 어긋난다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-gogeumdo-move",
+      "ev-1598-posthumous-honors-ordered",
+      "rec-sillok-seonjo-31-12-07-005"
+    ]
+  },
+  {
+    "id": "ev-1598-funeral-ritual-order",
+    "track": "yi",
+    "title_ko": "예조, 이순신 상구의 아산 이동을 보고하고 왕이 치제 순서(명 장수 먼저)를 정함 (실록 기록)",
+    "title_en": "Rites ministry reports Yi's coffin heading for Asan; sacrifice order set",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 12,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1599-01-07",
+      "julian": "1598-12-28",
+      "computed_gregorian": "1599-01-07",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-12-11-007",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 107권 12/11(壬戌): '聞李舜臣喪柩, 已離身死之地, 將到牙山葬所' 및 '先祭天將, 而次祭我國之將, 於禮爲得'. 기록일 1599-01-07이며 상구의 이동일이 아니다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-ming-sacrifice-for-yi",
+      "ev-1598-deokhyeong-requests-honors",
+      "rec-sillok-seonjo-31-12-11-007"
+    ]
+  },
+  {
+    "id": "ev-1599-chen-recounts-noryang",
+    "track": "yi",
+    "title_ko": "진린, 선조 앞에서 노량 전투를 회고하며 등자룡·이순신의 전사를 말함 (실록 기록)",
+    "title_en": "Chen Lin recounts Noryang, saying Deng and Yi were both killed",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1599,
+        "month": 2,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1599-03-03",
+      "julian": "1599-02-21",
+      "computed_gregorian": "1599-03-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-32-02-07-001",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 109권 2/7(丁巳): 진 도독(진린)의 말 '方賊圍把時, 俺船懸鼓先登, 鄧子龍、李舜臣二將, 左右挾攻 … 二將皆爲賊所斃, 而俺冒死直前 … 幸免其敗'. 기록일 1599-03-03이며 노량 교전일이 아니다. 진린 본인의 자기 공 부각 발언으로 읽어야 한다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-noryang",
+      "ev-1598-ming-sacrifice-for-yi",
+      "rec-sillok-seonjo-32-02-07-001"
+    ]
+  },
+  {
+    "id": "ev-1599-king-sacrifice-deng",
+    "track": "yi",
+    "title_ko": "선조, 노량에서 전사한 명 총병 등자룡의 상차에 가서 치제 (실록 기록)",
+    "title_en": "King performs the sacrifice for Deng Zilong, killed at Noryang",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1599,
+        "month": 3,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1599-03-31",
+      "julian": "1599-03-21",
+      "computed_gregorian": "1599-03-31",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-32-03-06-002",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 110권 3/6(乙酉): '上幸鄧總兵子龍喪次, 行致祭禮'. 기록일 1599-03-31이다. 12/11 예조 기사에서 왕이 정한 '먼저 명 장수, 다음 우리 장수' 순서에 따른 치제로 읽을 수 있다(추론). 이순신의 치제는 이 기사에 없다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-funeral-ritual-order",
+      "ev-1598-noryang",
+      "ev-1599-chen-recounts-noryang",
+      "rec-sillok-seonjo-32-03-06-002"
+    ]
+  },
+  {
+    "id": "ev-1599-shrine-precedent-query",
+    "track": "yi",
+    "title_ko": "홍문관, 이순신 사당의 선례 조사 결과를 아룀(국내 선례 없음), 왕이 다시 살피라 함 (실록 기록)",
+    "title_en": "Hongmungwan reports no domestic precedent for a shrine; king orders a recheck",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1599,
+        "month": 4,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1599-05-08",
+      "julian": "1599-04-28",
+      "computed_gregorian": "1599-05-08",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-32-04-14-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 111권 4/14(癸亥): '至如我東之事, 則考諸《三國》、《麗史》, 未見表表相近之例', 왕은 '前例更察考啓'. 기록일 1599-05-08이며 사당이 세워진 날이 아니다. 앞서 12/1(음력) 비변사가 건의하고 왕이 따른 사당 건립(ev-1598-shrine-proposed)을 이어 다룬다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-shrine-proposed",
+      "rec-sillok-seonjo-32-04-14-005"
+    ]
+  },
+  {
+    "id": "ev-1599-shrine-precedents-reported",
+    "track": "yi",
+    "title_ko": "홍문관, 사당 선례 3건(강민첨·1589 사례·이대원)을 보고, 왕은 '알았다'고 답함 (실록 기록)",
+    "title_en": "Hongmungwan reports three shrine precedents; king replies he understands",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1599,
+        "month": 4,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1599-05-19",
+      "julian": "1599-05-09",
+      "computed_gregorian": "1599-05-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-32-04-25-004",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 111권 4/25(甲戌): '李舜臣立祠事, 前例更爲考啓事傳敎矣 … 此外無所考', 왕은 '知'. 기록일 1599-05-19이며 최종 결정(위치·사액)은 기사에 없다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1599-shrine-precedent-query",
+      "ev-1598-shrine-proposed",
+      "rec-sillok-seonjo-32-04-25-004"
+    ]
+  },
+  {
+    "id": "ev-1600-shrine-not-state-ordered",
+    "track": "yi",
+    "title_ko": "왕, 이순신 사당 건립 진행을 묻고 '국가가 명해 세운 사당은 없다'며 보류 (실록 기록)",
+    "title_en": "King asks about Yi's shrine and notes no state-ordered precedent",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1600,
+        "month": 1,
+        "day": 29,
+        "leap_month": false
+      },
+      "gregorian": "1600-03-14",
+      "julian": "1600-03-04",
+      "computed_gregorian": "1600-03-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-33-01-29-001",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 121권 1/29(甲戌): '[李舜臣]立祠事, 曾已議之, 今不爲乎?'. 기록일 1600-03-14이며 언급된 사건의 시점이 아니다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1599-shrine-precedents-reported",
+      "ev-1598-shrine-proposed",
+      "rec-sillok-seonjo-33-01-29-001"
+    ]
+  },
+  {
+    "id": "ev-1600-yi-hangbok-recalls-yi-navy",
+    "track": "yi",
+    "title_ko": "이항복, 남방 순찰 보고에서 이순신 시절 수군의 병력 부족을 회고 (실록 기록)",
+    "title_en": "Yi Hang-bok recalls the navy's manpower shortage in Yi's day",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1600,
+        "month": 6,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1600-07-24",
+      "julian": "1600-07-14",
+      "computed_gregorian": "1600-07-24",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-33-06-15-002",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 126권 6/15(丙戌): '臣前於李舜臣時見之, 舟雖多, 而軍數不足, 充格之船無多'. 기록일 1600-07-24이며 언급된 사건의 시점이 아니다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-gogeumdo-move",
+      "rec-sillok-seonjo-33-06-15-002"
+    ]
+  },
+  {
+    "id": "ev-1601-king-doubts-navy-focus",
+    "track": "yi",
+    "title_ko": "선조, 이순신 승전 이후의 수군 중심론을 비판, 이덕형은 원균 패전 경위를 설명 (실록 기록)",
+    "title_en": "King doubts the navy-first doctrine born of Yi's victories",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1601,
+        "month": 1,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1601-02-19",
+      "julian": "1601-02-09",
+      "computed_gregorian": "1601-02-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-34-01-17-001",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 133권 1/17(丙辰): '李舜臣水戰勝捷之後, 以爲舟師必勝。 不知何戰可以必戰乎?'. 기록일 1601-02-19이며 언급된 사건의 시점이 아니다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-chilcheollyang",
+      "ev-1597-imprisonment",
+      "rec-sillok-seonjo-34-01-17-001"
+    ]
+  },
+  {
+    "id": "ev-1601-merit-list-yi-already-dead",
+    "track": "yi",
+    "title_ko": "비변사, 공신 등급을 주관할 원훈 이순신 등이 이미 죽었다고 보고 (실록 기록)",
+    "title_en": "Border Council notes Yi and other founders of merit are dead",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1601,
+        "month": 4,
+        "day": 30,
+        "leap_month": false
+      },
+      "gregorian": "1601-05-31",
+      "julian": "1601-05-21",
+      "computed_gregorian": "1601-05-31",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-34-04-30-004",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 136권 4/30(丁酉): '前日下敎, 李舜臣等, 俱已身死, 今無生存元勳, 可以主管磨鍊者'. 기록일 1601-05-31이며 언급된 사건의 시점이 아니다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-merit-list-approved",
+      "rec-sillok-seonjo-34-04-30-004"
+    ]
+  },
+  {
+    "id": "ev-1603-won-gyun-first-class",
+    "track": "yi",
+    "title_ko": "공신 책정에서 원균을 2등에서 1등으로 올림 (이순신·권율과 나란히 하기 어렵다던 근거 폐기, 실록 기록)",
+    "title_en": "Won Gyun raised from second to first class in the merit list",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1603,
+        "month": 6,
+        "day": 26,
+        "leap_month": false
+      },
+      "gregorian": "1603-08-03",
+      "julian": "1603-07-24",
+      "computed_gregorian": "1603-08-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-36-06-26-002",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 163권 6/26(辛亥): '元均初以無軍將, 得參海上大戰, 而其後有敗衄舟師之失, 難可與李舜臣、權慄幷列, 故降錄二等, 今承上敎, 陞置一等'. 기록일 1603-08-03이며 언급된 사건의 시점이 아니다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1601-merit-list-yi-already-dead",
+      "ev-1597-chilcheollyang",
+      "rec-sillok-seonjo-36-06-26-002"
+    ]
+  },
+  {
+    "id": "ev-1603-seonmu-first-class-ordered",
+    "track": "yi",
+    "title_ko": "왕, 정왜 공신 1등을 이순신·원균·권율로 한정하고 나머지는 삭제하라 비망기 (실록 기록)",
+    "title_en": "King limits first-class Japan-campaign merit to Yi, Won and Kwon",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1603,
+        "month": 8,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1603-09-21",
+      "julian": "1603-09-11",
+      "computed_gregorian": "1603-09-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-36-08-17-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 165권 8/17(庚子): '征倭則李舜臣、元均、權慄, 當爲一等, 此外皆削去'. 기록일 1603-09-21."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1603-won-gyun-first-class",
+      "ev-1601-merit-list-yi-already-dead",
+      "rec-sillok-seonjo-36-08-17-005"
+    ]
+  },
+  {
+    "id": "ev-1604-seonmu-first-class-decided",
+    "track": "yi",
+    "title_ko": "호성·선무·청난 공신 봉작 결정: 이순신·권율·원균을 선무공신 1등으로 (실록 기록)",
+    "title_en": "Seonmu merit titles awarded: Yi, Kwon, Won in first class",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1604,
+        "month": 6,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1604-07-21",
+      "julian": "1604-07-11",
+      "computed_gregorian": "1604-07-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-37-06-25-007",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 175권 6/25(甲辰): '其宣武一等, 李舜臣、權慄、元均三大將, 爲効忠仗義迪毅協力宣武功臣'. 기록일 1604-07-21."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1603-seonmu-first-class-ordered",
+      "rec-sillok-seonjo-37-06-25-007"
+    ]
+  },
+  {
+    "id": "ev-1604-seonmu-edict-read",
+    "track": "yi",
+    "title_ko": "선무공신 교서 반급·선독: 이순신 일등, 화상·3계 가자·세습 (실록 기록)",
+    "title_en": "Seonmu merit edict read: Yi in first class with portrait and three-step promotion",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1604,
+        "month": 10,
+        "day": 29,
+        "leap_month": false
+      },
+      "gregorian": "1604-12-19",
+      "julian": "1604-12-09",
+      "computed_gregorian": "1604-12-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-37-10-29-006",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 180권 10/29(乙亥): '肆策勳李舜臣、權慄、元均爲一等, 圖形垂後, 超三階爵'. 기록일 1604-12-19."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1604-seonmu-first-class-decided",
+      "rec-sillok-seonjo-37-10-29-006"
+    ]
+  },
+  {
+    "id": "ev-1658-grave-marker-ordered",
+    "track": "yi",
+    "title_ko": "효종, 김육의 건의로 이순신 묘에 비석을 세우게 하고 자손을 녹용하라 명함 (실록 기록)",
+    "title_en": "Hyojong orders a marker for Yi Sun-sin's grave and employment of his descendants",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1658,
+        "month": 6,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1658-07-11",
+      "julian": "1658-07-01",
+      "computed_gregorian": "1658-07-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-hyojong-10906011_001",
+          "statement": 0
+        }
+      ],
+      "note": "효종실록 20권 6/11(丁丑) 기사. 기록일 1658-07-11이며 사건이 실행된 날이 아니다."
+    },
+    "source_ids": [
+      "src-hyojong-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1604-seonmu-edict-read",
+      "rec-sillok-hyojong-10906011_001"
+    ]
+  },
+  {
+    "id": "ev-1659-namhae-monument",
+    "track": "yi",
+    "title_ko": "남해 싸움터에 충무공 이순신의 비를 세움 (실록 기록)",
+    "title_en": "Monument to Yi Sun-sin erected at the Namhae battle site",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1659,
+        "month": 3,
+        "day": 28,
+        "leap_month": true
+      },
+      "gregorian": "1659-05-18",
+      "julian": "1659-05-08",
+      "computed_gregorian": "1659-05-18",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "효종실록 21권 윤3/28(戊子) 기사. 기록일 1659-05-18이며 사건이 실행된 날이 아니다. 윤달(윤3월)이라 인용 날짜 월과 기록 월 일치 검사(basis_records)를 쓰지 못해 근거 기록은 relates_to 로만 잇고 날짜는 기록 헤더(일간지 확인)의 날짜 그대로다."
+    },
+    "source_ids": [
+      "src-hyojong-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1658-grave-marker-ordered",
+      "ev-1598-noryang",
+      "rec-sillok-hyojong-11003128_002"
+    ]
+  },
+  {
+    "id": "ev-1662-noryang-shrine-plaque",
+    "track": "yi",
+    "title_ko": "예조, 노량 이순신 사우의 묘액·교서를 속히 지어 올리게 하자고 아뢰고 왕이 따름 (실록 기록)",
+    "title_en": "Rites ministry asks for a plaque and royal letter for the Noryang shrine; king agrees",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1662,
+        "month": 2,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1662-03-21",
+      "julian": "1662-03-11",
+      "computed_gregorian": "1662-03-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-hyeonjong-10302002_002",
+          "statement": 0
+        }
+      ],
+      "note": "현종실록 5권 2/2(丙午) 기사. 기록일 1662-03-21이며 사건이 실행된 날이 아니다."
+    },
+    "source_ids": [
+      "src-hyeonjong-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1659-namhae-monument",
+      "ev-1598-shrine-proposed",
+      "rec-sillok-hyeonjong-10302002_002"
+    ]
+  },
+  {
+    "id": "ev-1704-asan-shrine-petition",
+    "track": "yi",
+    "title_ko": "충청도 유생 서후경, 아산에 충무공 이순신 사당 건립을 청원, 왕은 해당 조에 품처를 명함 (실록 기록)",
+    "title_en": "A Chungcheong scholar petitions for a Yi Sun-sin shrine at Asan",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1704,
+        "month": 5,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1704-06-17",
+      "julian": null,
+      "computed_gregorian": "1704-06-17",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-sukjong-13005016_002",
+          "statement": 0
+        }
+      ],
+      "note": "숙종실록 39권 5/16(甲寅) 기사. 기록일 1704-06-17이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-sukjong-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1662-noryang-shrine-plaque",
+      "rec-sillok-sukjong-13005016_002"
+    ]
+  },
+  {
+    "id": "ev-1707-hyeonchung-plaque",
+    "track": "yi",
+    "title_ko": "아산 이순신 사우에 '현충' 사액 (실록 기록)",
+    "title_en": "The Asan shrine of Yi Sun-sin is granted the name Hyeonchung",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1707,
+        "month": 2,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1707-03-09",
+      "julian": null,
+      "computed_gregorian": "1707-03-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-sukjong-13302006_005",
+          "statement": 0
+        }
+      ],
+      "note": "숙종실록 45권 2/6(己丑) 기사. 기록일 1707-03-09이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-sukjong-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1704-asan-shrine-petition",
+      "rec-sillok-sukjong-13302006_005"
+    ]
+  },
+  {
+    "id": "ev-1710-gogeumdo-shrine-rites",
+    "track": "yi",
+    "title_ko": "고금도 관왕묘에 진린·이순신을 배향하는 제례 방식을 논의, 왕이 좌의정 의견을 따름 (실록 기록)",
+    "title_en": "Gogeumdo shrine rites for Chen Lin and Yi Sun-sin decided",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1710,
+        "month": 12,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1711-02-04",
+      "julian": null,
+      "computed_gregorian": "1711-02-04",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-sukjong-13612017_002",
+          "statement": 0
+        }
+      ],
+      "note": "숙종실록 49권 12/17(丁丑) 기사. 기록일 1711-02-04이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-sukjong-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1707-hyeonchung-plaque",
+      "ev-1598-gogeumdo-move",
+      "rec-sillok-sukjong-13612017_002"
+    ]
+  },
+  {
+    "id": "ev-1792-yi-sons-honor-shelved",
+    "track": "yi",
+    "title_ko": "서유방, 이순신 아들들의 증직·정려를 청하나 왕이 그대로 두라 함 (실록 기록)",
+    "title_en": "Petition for posthumous office and a commemorative gate for Yi's sons shelved",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1792,
+        "month": 9,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1792-10-20",
+      "julian": null,
+      "computed_gregorian": "1792-10-20",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-jeongjo-11609005_003",
+          "statement": 0
+        }
+      ],
+      "note": "정조실록 35권 9/5(辛丑) 기사. 기록일 1792-10-20이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-jeongjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1707-hyeonchung-plaque",
+      "rec-sillok-jeongjo-11609005_003"
+    ]
+  },
+  {
+    "id": "ev-1793-posthumous-yeonguijeong",
+    "track": "yi",
+    "title_ko": "정조, 충무공 이순신을 영의정으로 추증하라 전교 (실록 기록)",
+    "title_en": "Jeongjo orders the posthumous rank of Chief State Councillor for Yi Sun-sin",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1793,
+        "month": 7,
+        "day": 21,
+        "leap_month": false
+      },
+      "gregorian": "1793-08-27",
+      "julian": null,
+      "computed_gregorian": "1793-08-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-jeongjo-11707021_001",
+          "statement": 0
+        }
+      ],
+      "note": "정조실록 38권 7/21(壬子) 기사. 기록일 1793-08-27이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-jeongjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1792-yi-sons-honor-shelved",
+      "ev-1604-seonmu-edict-read",
+      "rec-sillok-jeongjo-11707021_001"
+    ]
+  },
+  {
+    "id": "ev-1795-shindobi-printed",
+    "track": "yi",
+    "title_ko": "정조가 친히 지은 이순신 신도비명(상충정무비) 인본을 사고·관각·태학에 분장 (실록 기록)",
+    "title_en": "Jeongjo distributes rubbings of his self-composed stele inscription for Yi Sun-sin",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1795,
+        "month": 5,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1795-06-27",
+      "julian": null,
+      "computed_gregorian": "1795-06-27",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-jeongjo-11905011_002",
+          "statement": 0
+        }
+      ],
+      "note": "정조실록 42권 5/11(辛酉) 기사. 기록일 1795-06-27이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-jeongjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1793-posthumous-yeonguijeong",
+      "rec-sillok-jeongjo-11905011_002"
+    ]
+  },
+  {
+    "id": "ev-1795-complete-works-compiled",
+    "track": "yi",
+    "title_ko": "내각이 《충무공이순신전서》를 편찬해 올리고 인쇄비를 하사 (실록 기록)",
+    "title_en": "The Complete Works of Yi Sun-sin compiled and presented",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1795,
+        "month": 9,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1795-10-26",
+      "julian": null,
+      "computed_gregorian": "1795-10-26",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-jeongjo-11909014_001",
+          "statement": 0
+        }
+      ],
+      "note": "정조실록 43권 9/14(壬戌) 기사. 기록일 1795-10-26이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-jeongjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1795-shindobi-printed",
+      "rec-sillok-jeongjo-11909014_001"
+    ]
+  },
+  {
+    "id": "ev-1795-sacrifice-text-written",
+    "track": "yi",
+    "title_ko": "정조, 이순신 치제문을 친히 짓고 통제사에게 통영 충렬사 치제를 명함 (실록 기록)",
+    "title_en": "Jeongjo writes a sacrificial text for Yi and orders rites at the Tongyeong shrine",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1795,
+        "month": 12,
+        "day": 5,
+        "leap_month": false
+      },
+      "gregorian": "1796-01-14",
+      "julian": null,
+      "computed_gregorian": "1796-01-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-jeongjo-11912005_001",
+          "statement": 0
+        }
+      ],
+      "note": "정조실록 43권 12/5(壬午) 기사. 기록일 1796-01-14이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-jeongjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1795-complete-works-compiled",
+      "rec-sillok-jeongjo-11912005_001"
+    ]
+  },
+  {
+    "id": "ev-1615-king-adds-yi-to-loyal-list",
+    "track": "yi",
+    "title_ko": "광해군, 김천일 등을 충신으로 수록한다면 이순신·원균·이억기 등도 수록하라 하교 (광해군일기 기록)",
+    "title_en": "Gwanghae orders Yi Sun-sin and others added to the list of loyal subjects",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1615,
+        "month": 11,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1616-01-06",
+      "julian": "1615-12-27",
+      "computed_gregorian": "1616-01-06",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-gwanghae-10711018_002",
+          "statement": 0
+        }
+      ],
+      "note": "광해군일기[중초본] 97권 11/18(庚寅) 기사. 기록일 1616-01-06이며 사건이 실행된 날이 아니다."
+    },
+    "source_ids": [
+      "src-gwanghae-ilgi"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1604-seonmu-edict-read",
+      "rec-sillok-gwanghae-10711018_002"
+    ]
+  },
+  {
+    "id": "ev-1615-loyal-list-investigation-approved",
+    "track": "yi",
+    "title_ko": "찬집청, 이순신 등 일곱 명의 사적을 예조가 조사해 올리게 하자고 청하고 왕이 윤허 (광해군일기 기록)",
+    "title_en": "Compilation office asks the Rites ministry to investigate Yi and six others; king approves",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1615,
+        "month": 11,
+        "day": 23,
+        "leap_month": false
+      },
+      "gregorian": "1616-01-11",
+      "julian": "1616-01-01",
+      "computed_gregorian": "1616-01-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-gwanghae-10711023_004",
+          "statement": 0
+        }
+      ],
+      "note": "광해군일기[중초본] 97권 11/23(乙未) 기사. 기록일 1616-01-11이며 사건이 실행된 날이 아니다."
+    },
+    "source_ids": [
+      "src-gwanghae-ilgi"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1615-king-adds-yi-to-loyal-list",
+      "rec-sillok-gwanghae-10711023_004"
+    ]
+  },
+  {
+    "id": "ev-1622-turtle-ships-per-yi-method",
+    "track": "yi",
+    "title_ko": "비변사, 이순신의 방식대로 거북선을 만들고 기계를 갖추자고 청하고 광해군이 허락 (광해군일기 기록)",
+    "title_en": "Border Council asks for turtle ships built after Yi's method; Gwanghae approves",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1622,
+        "month": 7,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1622-08-28",
+      "julian": "1622-08-18",
+      "computed_gregorian": "1622-08-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-gwanghae-11407022_004",
+          "statement": 0
+        }
+      ],
+      "note": "광해군일기[중초본] 179권 7/22(丙辰) 기사. 기록일 1622-08-28이며 사건이 실행된 날이 아니다."
+    },
+    "source_ids": [
+      "src-gwanghae-ilgi"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1615-loyal-list-investigation-approved",
+      "rec-sillok-gwanghae-11407022_004"
+    ]
+  },
+  {
+    "id": "ev-1657-descendants-employment-urged",
+    "track": "yi",
+    "title_ko": "대사헌 민응형, 이순신 등 충신 자손의 등용을 건의하고 왕이 받아들임 (효종실록 기록)",
+    "title_en": "Min Eung-hyeong urges employing the descendants of Yi and other loyal officers",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1657,
+        "month": 6,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1657-07-17",
+      "julian": "1657-07-07",
+      "computed_gregorian": "1657-07-17",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-hyojong-10806007_001",
+          "statement": 0
+        }
+      ],
+      "note": "효종실록 18권 6/7(戊寅) 기사. 기록일 1657-07-17이며 사건이 실행된 날이 아니다."
+    },
+    "source_ids": [
+      "src-hyojong-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1658-grave-marker-ordered",
+      "rec-sillok-hyojong-10806007_001"
+    ]
+  },
+  {
+    "id": "ev-1642-posthumous-title-urged",
+    "track": "yi",
+    "title_ko": "공조 판서 윤휘, 이순신·고경명·조헌에게 아직 증시가 없다며 촉구, 인조가 예조에 품처를 명함 (인조실록 기록)",
+    "title_en": "Yun Hwi notes Yi has not yet received a posthumous title; Injo refers it to the Rites ministry",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1642,
+        "month": 5,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1642-06-09",
+      "julian": "1642-05-30",
+      "computed_gregorian": "1642-06-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-injo-12005013_001",
+          "statement": 0
+        }
+      ],
+      "note": "인조실록 43권 5/13(辛巳) 기사. 기록일 1642-06-09이며 사건이 실행된 날이 아니다. 시호 하사 기사 탐색(실록 DB 전문 검색 \"舜臣 諡\" 22건, \"舜臣 忠武\" 80건, \"賜諡 統制使\" 2건, \"贈諡 忠武\" 6건): 인조 21~27년·효종 1~10년의 하사 기사는 검색 결과에 나타나지 않았다. 통설의 인조 21년(1643) 시호 하사가 실록에 실려 있는지, 다른 표기로 실려 있는지는 확인하지 못했다. 이차 자료(국가기록원 뉴스레터의 '충무공 증시교지' 캡션)는 시호 하사를 1643년 인조 때로 적는다(별도 사건 ev-1643-posthumous-title-chungmu, 연 단위·미확인)."
+    },
+    "source_ids": [
+      "src-injo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1659-namhae-monument",
+      "ev-1615-loyal-list-investigation-approved",
+      "rec-sillok-injo-12005013_001",
+      "ev-1643-posthumous-title-chungmu"
+    ]
+  },
+  {
+    "id": "ev-1643-posthumous-title-chungmu",
+    "track": "yi",
+    "title_ko": "이순신에게 시호 '충무'가 내려짐 (통설 1643년, 인조 21년)",
+    "title_en": "Yi Sun-sin receives the posthumous title Chungmu (traditionally 1643)",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1643,
+        "month": null,
+        "day": null,
+        "leap_month": false
+      },
+      "gregorian": "1643",
+      "julian": null,
+      "precision": "year",
+      "certainty": "unverified",
+      "note": "국가기록원 뉴스레터의 '충무공 증시교지' 캡션(1643년 인조)과 아주경제 기고(1643년 시호)에 근거한 연 단위 값이다. 교지 원물·월일·연호는 확인하지 못했고, 인조실록 21~22년 목록과 \"舜臣 諡\" 등 전문 검색에서 하사 기사는 찾지 못했다(실록 인조 20.5.13에는 아직 증시가 없다고 적힘). 효종 10년(1659) 실록에는 이미 '충무공'이 쓰인다."
+    },
+    "source_ids": [
+      "src-archives-theme-yi",
+      "src-ajunews-yi-honors"
+    ],
+    "verified": false,
+    "note": null,
+    "relates_to": [
+      "ev-1642-posthumous-title-urged",
+      "ev-1659-namhae-monument"
+    ]
+  }
+]
