@@ -3267,5 +3267,198 @@
       "ev-1598-shrine-proposed",
       "rec-sillok-seonjo-32-04-25-004"
     ]
+  },
+  {
+    "id": "ev-1600-shrine-not-state-ordered",
+    "track": "yi",
+    "title_ko": "왕, 이순신 사당 건립 진행을 묻고 '국가가 명해 세운 사당은 없다'며 보류 (실록 기록)",
+    "title_en": "King asks about Yi's shrine and notes no state-ordered precedent",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1600,
+        "month": 1,
+        "day": 29,
+        "leap_month": false
+      },
+      "gregorian": "1600-03-14",
+      "julian": "1600-03-04",
+      "computed_gregorian": "1600-03-14",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-33-01-29-001",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 121권 1/29(甲戌): '[李舜臣]立祠事, 曾已議之, 今不爲乎?'. 기록일 1600-03-14이며 언급된 사건의 시점이 아니다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1599-shrine-precedents-reported",
+      "ev-1598-shrine-proposed",
+      "rec-sillok-seonjo-33-01-29-001"
+    ]
+  },
+  {
+    "id": "ev-1600-yi-hangbok-recalls-yi-navy",
+    "track": "yi",
+    "title_ko": "이항복, 남방 순찰 보고에서 이순신 시절 수군의 병력 부족을 회고 (실록 기록)",
+    "title_en": "Yi Hang-bok recalls the navy's manpower shortage in Yi's day",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1600,
+        "month": 6,
+        "day": 15,
+        "leap_month": false
+      },
+      "gregorian": "1600-07-24",
+      "julian": "1600-07-14",
+      "computed_gregorian": "1600-07-24",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-33-06-15-002",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 126권 6/15(丙戌): '臣前於李舜臣時見之, 舟雖多, 而軍數不足, 充格之船無多'. 기록일 1600-07-24이며 언급된 사건의 시점이 아니다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-gogeumdo-move",
+      "rec-sillok-seonjo-33-06-15-002"
+    ]
+  },
+  {
+    "id": "ev-1601-king-doubts-navy-focus",
+    "track": "yi",
+    "title_ko": "선조, 이순신 승전 이후의 수군 중심론을 비판, 이덕형은 원균 패전 경위를 설명 (실록 기록)",
+    "title_en": "King doubts the navy-first doctrine born of Yi's victories",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1601,
+        "month": 1,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1601-02-19",
+      "julian": "1601-02-09",
+      "computed_gregorian": "1601-02-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-34-01-17-001",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 133권 1/17(丙辰): '李舜臣水戰勝捷之後, 以爲舟師必勝。 不知何戰可以必戰乎?'. 기록일 1601-02-19이며 언급된 사건의 시점이 아니다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1597-chilcheollyang",
+      "ev-1597-imprisonment",
+      "rec-sillok-seonjo-34-01-17-001"
+    ]
+  },
+  {
+    "id": "ev-1601-merit-list-yi-already-dead",
+    "track": "yi",
+    "title_ko": "비변사, 공신 등급을 주관할 원훈 이순신 등이 이미 죽었다고 보고 (실록 기록)",
+    "title_en": "Border Council notes Yi and other founders of merit are dead",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1601,
+        "month": 4,
+        "day": 30,
+        "leap_month": false
+      },
+      "gregorian": "1601-05-31",
+      "julian": "1601-05-21",
+      "computed_gregorian": "1601-05-31",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-34-04-30-004",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 136권 4/30(丁酉): '前日下敎, 李舜臣等, 俱已身死, 今無生存元勳, 可以主管磨鍊者'. 기록일 1601-05-31이며 언급된 사건의 시점이 아니다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-merit-list-approved",
+      "rec-sillok-seonjo-34-04-30-004"
+    ]
+  },
+  {
+    "id": "ev-1603-won-gyun-first-class",
+    "track": "yi",
+    "title_ko": "공신 책정에서 원균을 2등에서 1등으로 올림 (이순신·권율과 나란히 하기 어렵다던 근거 폐기, 실록 기록)",
+    "title_en": "Won Gyun raised from second to first class in the merit list",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1603,
+        "month": 6,
+        "day": 26,
+        "leap_month": false
+      },
+      "gregorian": "1603-08-03",
+      "julian": "1603-07-24",
+      "computed_gregorian": "1603-08-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-36-06-26-002",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 163권 6/26(辛亥): '元均初以無軍將, 得參海上大戰, 而其後有敗衄舟師之失, 難可與李舜臣、權慄幷列, 故降錄二等, 今承上敎, 陞置一等'. 기록일 1603-08-03이며 언급된 사건의 시점이 아니다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1601-merit-list-yi-already-dead",
+      "ev-1597-chilcheollyang",
+      "rec-sillok-seonjo-36-06-26-002"
+    ]
   }
 ]
