@@ -135,7 +135,7 @@ function recordsHtml(e) {
     const rc = D.byId[br.record_id], st = rc.statements[br.statement], ro = rc.date.original;
     const bridge = br.bridge_entry_id ? D.byId[br.bridge_entry_id] : null;
     return `<div style="border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-bottom:8px">
-      <div><b>${esc(rc.volume_title)}</b> · 선조 ${ro.year - 1567}년 ${ro.month}월 ${ro.day}일 <b>${esc(rc.day_ganji)}</b> ${chip("verified", `일간지로 확정 → 양력 ${rc.date.gregorian}`)}
+      <div><b>${esc(rc.volume_title)}</b> · 음력 ${ro.year}년 ${ro.leap_month ? "윤" : ""}${ro.month}월 ${ro.day}일 <b>${esc(rc.day_ganji)}</b> ${chip("verified", `일간지로 확정 → 양력 ${rc.date.gregorian}`)}
         <a href="${esc(rc.url)}" target="_blank" rel="noopener noreferrer" class="note">실록 원문 보기 ↗</a></div>
       ${rc.title_ko ? `<div class="note">표제: ${esc(rc.title_ko)}</div>` : ""}
       ${st.text_han ? `<p style="font-family:'Noto Serif KR','Batang',serif;line-height:1.9;margin:6px 0">${esc(st.text_han)}</p>` : ""}
@@ -197,6 +197,30 @@ function detail() {
     ${diaryFor(e)}
     <h3>출처</h3><table><tr><th>출처</th><th>층위</th><th>국가</th><th>상태</th></tr>${srcHtml}</table>
     ${d.certainty === "disputed" ? `<p class="note">📎 조사: docs/investigations/myeongnyang-date.md — 일기 9/16 일간지 甲辰=10/26, 癸卯=10/25 로 확정할 수 있습니다.</p>` : ""}`;
+}
+
+/* ---------- 사후 기록·배경 (연도 탭 밖의 이순신 트랙 사건) ---------- */
+const outsideYears = (e) => e.track === "yi" && !YEARS.includes(evYear(e));
+const ERAS = [
+  ["배경 (1592년 이전)", (y) => y < 1592],
+  ["전쟁 직후와 선조 후반 (1599~1608)", (y) => y >= 1599 && y <= 1608],
+  ["광해군·인조 (1609~1649)", (y) => y >= 1609 && y <= 1649],
+  ["효종·현종 (1650~1674)", (y) => y >= 1650 && y <= 1674],
+  ["숙종 이후 (1675~)", (y) => y >= 1675],
+];
+function afterlife() {
+  const all = D.events.filter(outsideYears).sort((a, b) => (sortKey(a) > sortKey(b) ? 1 : sortKey(a) < sortKey(b) ? -1 : 0));
+  const row = (e) => `<tr><td style="width:120px;white-space:nowrap">${esc(e.date.gregorian ?? "")}<div class="note">음력 ${esc(lunarText(e.date.original))}</div></td>
+    <td><button data-ev="${e.id}" aria-pressed="${e.id === state.eventId}" style="text-align:left">${esc(e.title_ko)}</button></td>
+    <td style="width:96px">${certChip(e.date.certainty)}</td></tr>`;
+  const sections = ERAS.map(([label, test]) => {
+    const es = all.filter((e) => test(evYear(e)));
+    return es.length ? `<h3>${label} · ${es.length}건</h3><table><tr><th>양력</th><th>사건</th><th>날짜 상태</th></tr>${es.map(row).join("")}</table>` : "";
+  }).join("");
+  return `<section class="card"><h2>사후 기록·배경 — 연도 탭(1592~1598) 밖의 이순신 트랙</h2>
+    <p class="note">전쟁이 끝난 뒤의 기록(공신 책정·사당·묘비·시호·증직)과 1592년 이전 배경을 모았습니다. 날짜는 대부분 <b>실록에 오른 기록일</b>이며 사건이 일어난 날이 아닙니다. 1700-03-01 이후는 율리우스력 환산을 지원하지 않아 비어 있습니다. 음력 1598년 12월 일부 기록은 양력으로 1599년 1월이라 여기에 있습니다.</p>
+    <p class="note">${all.length}건 · 확인됨 ${all.filter((e) => e.date.certainty === "verified").length} · 미검증 ${all.filter((e) => e.date.certainty === "unverified").length}</p>${sections}</section>
+    <section class="card" id="detail">${outsideYears(D.byId[state.eventId] ?? {}) ? detail() : '<p class="empty">위 목록에서 사건을 선택하세요.</p>'}</section>`;
 }
 
 /* ---------- 세계 연표 ---------- */
@@ -319,7 +343,7 @@ function issues() {
 
 function render() {
   document.querySelectorAll("nav button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === state.tab)));
-  document.getElementById("app").innerHTML = { timeline, world: worldTab, sources, editions, issues }[state.tab]();
+  document.getElementById("app").innerHTML = { timeline, afterlife, world: worldTab, sources, editions, issues }[state.tab]();
 }
 
 document.addEventListener("click", (ev) => {
@@ -332,7 +356,8 @@ document.addEventListener("click", (ev) => {
   if (t.dataset.ev) {
     state.eventId = t.dataset.ev; state.tab = "timeline";
     const target = D.byId[t.dataset.ev];
-    if (target?.date && YEARS.includes(evYear(target))) state.year = evYear(target); // 해당 해로 이동(1592 이전 배경 사건은 현재 해 유지)
+    if (target?.date && YEARS.includes(evYear(target))) state.year = evYear(target); // 해당 해로 이동(1592 이전 세계 배경 사건은 현재 해 유지)
+    else if (target && outsideYears(target)) state.tab = "afterlife"; // 연도 탭 밖의 이순신 트랙 사건은 사후 기록 탭에서 연다
   }
   render();
   if (t.dataset.ev) document.getElementById("detail")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
