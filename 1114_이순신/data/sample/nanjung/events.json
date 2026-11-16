@@ -2401,5 +2401,81 @@
       "ev-1598-gogeumdo-move",
       "rec-sillok-seonjo-31-04-28-006"
     ]
+  },
+  {
+    "id": "ev-1598-merit-list-approved",
+    "track": "yi",
+    "title_ko": "이순신이 올린 한산 싸움 군공인 명단 윤허 (실록 기록)",
+    "title_en": "Yi Sun-sin's merit list for the Hansan battle approved",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 5,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1598-06-04",
+      "julian": "1598-05-25",
+      "computed_gregorian": "1598-06-04",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-05-01-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 100권 5/1(乙酉): '統制使李舜臣, 閑山戰軍功人等, 已爲磨鍊, 入啓允下'. 기록일 1598-06-04이며 윤허일이 아니다. 한산 패전 관련자는 장부에 올려 조사 후 처분하기로 한다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-yi-promoted-gaseon",
+      "rec-sillok-seonjo-31-05-01-005"
+    ]
+  },
+  {
+    "id": "ev-1598-merit-warrants-sent",
+    "track": "yi",
+    "title_ko": "통제사 군공 고신을 내려보내려 함, 배흥립 등 30여 명 상전 보류 (실록 기록)",
+    "title_en": "Merit warrants for the naval command to be sent; Bae Heung-rip's group left unrewarded",
+    "category": "career",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 5,
+        "day": 10,
+        "leap_month": false
+      },
+      "gregorian": "1598-06-13",
+      "julian": "1598-06-03",
+      "computed_gregorian": "1598-06-13",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-05-10-004",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 100권 5/10(甲午): '統制使軍功告身, 盡爲査點, 今將下送矣 … 裵興立等三十餘人, 功在一等, 而未蒙賞典'. 기록일 1598-06-13이며 고신이 내려간 날이 아니다. 이순신 이름은 기사에 없다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-merit-list-approved",
+      "rec-sillok-seonjo-31-05-10-004"
+    ]
   }
 ]
