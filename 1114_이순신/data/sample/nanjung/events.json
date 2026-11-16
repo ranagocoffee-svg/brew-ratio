@@ -3575,5 +3575,230 @@
       "ev-1604-seonmu-first-class-decided",
       "rec-sillok-seonjo-37-10-29-006"
     ]
+  },
+  {
+    "id": "ev-1658-grave-marker-ordered",
+    "track": "yi",
+    "title_ko": "효종, 김육의 건의로 이순신 묘에 비석을 세우게 하고 자손을 녹용하라 명함 (실록 기록)",
+    "title_en": "Hyojong orders a marker for Yi Sun-sin's grave and employment of his descendants",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1658,
+        "month": 6,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1658-07-11",
+      "julian": "1658-07-01",
+      "computed_gregorian": "1658-07-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-hyojong-10906011_001",
+          "statement": 0
+        }
+      ],
+      "note": "효종실록 20권 6/11(丁丑) 기사. 기록일 1658-07-11이며 사건이 실행된 날이 아니다."
+    },
+    "source_ids": [
+      "src-hyojong-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1604-seonmu-edict-read",
+      "rec-sillok-hyojong-10906011_001"
+    ]
+  },
+  {
+    "id": "ev-1659-namhae-monument",
+    "track": "yi",
+    "title_ko": "남해 싸움터에 충무공 이순신의 비를 세움 (실록 기록)",
+    "title_en": "Monument to Yi Sun-sin erected at the Namhae battle site",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1659,
+        "month": 3,
+        "day": 28,
+        "leap_month": true
+      },
+      "gregorian": "1659-05-18",
+      "julian": "1659-05-08",
+      "computed_gregorian": "1659-05-18",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "효종실록 21권 윤3/28(戊子) 기사. 기록일 1659-05-18이며 사건이 실행된 날이 아니다. 윤달(윤3월)이라 인용 날짜 월과 기록 월 일치 검사(basis_records)를 쓰지 못해 근거 기록은 relates_to 로만 잇고 날짜는 기록 헤더(일간지 확인)의 날짜 그대로다."
+    },
+    "source_ids": [
+      "src-hyojong-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1658-grave-marker-ordered",
+      "ev-1598-noryang",
+      "rec-sillok-hyojong-11003128_002"
+    ]
+  },
+  {
+    "id": "ev-1662-noryang-shrine-plaque",
+    "track": "yi",
+    "title_ko": "예조, 노량 이순신 사우의 묘액·교서를 속히 지어 올리게 하자고 아뢰고 왕이 따름 (실록 기록)",
+    "title_en": "Rites ministry asks for a plaque and royal letter for the Noryang shrine; king agrees",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1662,
+        "month": 2,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1662-03-21",
+      "julian": "1662-03-11",
+      "computed_gregorian": "1662-03-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-hyeonjong-10302002_002",
+          "statement": 0
+        }
+      ],
+      "note": "현종실록 5권 2/2(丙午) 기사. 기록일 1662-03-21이며 사건이 실행된 날이 아니다."
+    },
+    "source_ids": [
+      "src-hyeonjong-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1659-namhae-monument",
+      "ev-1598-shrine-proposed",
+      "rec-sillok-hyeonjong-10302002_002"
+    ]
+  },
+  {
+    "id": "ev-1704-asan-shrine-petition",
+    "track": "yi",
+    "title_ko": "충청도 유생 서후경, 아산에 충무공 이순신 사당 건립을 청원, 왕은 해당 조에 품처를 명함 (실록 기록)",
+    "title_en": "A Chungcheong scholar petitions for a Yi Sun-sin shrine at Asan",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1704,
+        "month": 5,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1704-06-17",
+      "julian": null,
+      "computed_gregorian": "1704-06-17",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-sukjong-13005016_002",
+          "statement": 0
+        }
+      ],
+      "note": "숙종실록 39권 5/16(甲寅) 기사. 기록일 1704-06-17이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-sukjong-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1662-noryang-shrine-plaque",
+      "rec-sillok-sukjong-13005016_002"
+    ]
+  },
+  {
+    "id": "ev-1707-hyeonchung-plaque",
+    "track": "yi",
+    "title_ko": "아산 이순신 사우에 '현충' 사액 (실록 기록)",
+    "title_en": "The Asan shrine of Yi Sun-sin is granted the name Hyeonchung",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1707,
+        "month": 2,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1707-03-09",
+      "julian": null,
+      "computed_gregorian": "1707-03-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-sukjong-13302006_005",
+          "statement": 0
+        }
+      ],
+      "note": "숙종실록 45권 2/6(己丑) 기사. 기록일 1707-03-09이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-sukjong-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1704-asan-shrine-petition",
+      "rec-sillok-sukjong-13302006_005"
+    ]
+  },
+  {
+    "id": "ev-1710-gogeumdo-shrine-rites",
+    "track": "yi",
+    "title_ko": "고금도 관왕묘에 진린·이순신을 배향하는 제례 방식을 논의, 왕이 좌의정 의견을 따름 (실록 기록)",
+    "title_en": "Gogeumdo shrine rites for Chen Lin and Yi Sun-sin decided",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1710,
+        "month": 12,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1711-02-04",
+      "julian": null,
+      "computed_gregorian": "1711-02-04",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-sukjong-13612017_002",
+          "statement": 0
+        }
+      ],
+      "note": "숙종실록 49권 12/17(丁丑) 기사. 기록일 1711-02-04이며 사건이 실행된 날이 아니다. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "source_ids": [
+      "src-sukjong-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1707-hyeonchung-plaque",
+      "ev-1598-gogeumdo-move",
+      "rec-sillok-sukjong-13612017_002"
+    ]
   }
 ]

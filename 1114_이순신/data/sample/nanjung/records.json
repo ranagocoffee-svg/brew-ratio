@@ -2938,5 +2938,244 @@
     ],
     "note": "같은 교서는 부모·처자도 3계를 올리고 자식이 없으면 생질·조카·사위가 2계를 올리며 적장자가 세습해 녹을 잃지 않게 한다(嫡長世襲, 不失其祿)고 하고 '合勢前驅, 克掃舳艫之衆', '專節制於四方, 服勤勞於七載'라는 공동 사유를 적는다(요약 확인). 증직은 언급되지 않으며 교서 본문에는 별도 날짜가 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
     "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 공신 책정 기사 선조 36.8.17·37.6.25·37.10.29를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-hyojong-10906011_001",
+    "source_id": "src-hyojong-sillok",
+    "volume_title": "효종실록 20권",
+    "entry_ref": "kqa_10906011_001",
+    "url": "https://sillok.history.go.kr/id/kqa_10906011_001",
+    "title_ko": "사냥하는 명은 정지하고 대군의 집에 가 제사지내는 일을 거행하라 명하다",
+    "title_note": "그날 기사 중 1/1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1658,
+        "month": 6,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1658-07-11",
+      "julian": "1658-07-01",
+      "computed_gregorian": "1658-07-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丁丑 가 1658-07-11 의 일간지와 일치."
+    },
+    "day_ganji": "丁丑",
+    "statements": [
+      {
+        "part": "본문",
+        "gloss_ko": "(김육) 우리나라 충신으로 드러나 일컬을 만한 이가 고 통제사 이순신만 한 이가 없는데 묘도에 석 자 비석도 없습니다.",
+        "about": "김육의 이순신 묘비 건립 건의",
+        "stated_lunar": {
+          "month": 6,
+          "day": 11
+        },
+        "text_han": "我國忠臣表著可稱者, 無如故統制使李舜臣, 而墓道尙無三尺之碣"
+      }
+    ],
+    "note": "건의자는 영돈녕부사 김육이며 '자손이 미약한 탓'이라 하고 '본도로 하여금 세우게 하면 풍성을 세우는 도리에 크게 보탬이 된다'(朝廷若令本道竪之)고 한다. 왕은 '從之'하고 그 자손을 녹용하라고 명한다(上從之, 仍命錄用其子孫; 요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 효종·현종·숙종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-hyojong-11003128_002",
+    "source_id": "src-hyojong-sillok",
+    "volume_title": "효종실록 21권",
+    "entry_ref": "kqa_11003128_002",
+    "url": "https://sillok.history.go.kr/id/kqa_11003128_002",
+    "title_ko": "남해의 싸움터에 충무공 이순신의 비를 세우다",
+    "title_note": "그날 기사 중 2/4번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1659,
+        "month": 3,
+        "day": 28,
+        "leap_month": true
+      },
+      "gregorian": "1659-05-18",
+      "julian": "1659-05-08",
+      "computed_gregorian": "1659-05-18",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 戊子 가 1659-05-18 의 일간지와 일치."
+    },
+    "day_ganji": "戊子",
+    "statements": [
+      {
+        "part": "본문",
+        "gloss_ko": "남해의 싸움터에 충무공 이순신의 비를 세웠다.",
+        "about": "남해 전장에 충무공 이순신 비 건립 기록",
+        "stated_lunar": {
+          "month": 3,
+          "day": 28
+        },
+        "text_han": "立忠武公李舜臣之碑于南海戰所"
+      }
+    ],
+    "note": "건립 주체·비문 찬자·건립 날짜는 기사에 없다. '충무공' 시호가 이 기사에서 쓰인다(시호 하사 시점은 별도 기록 필요). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 효종·현종·숙종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-hyeonjong-10302002_002",
+    "source_id": "src-hyeonjong-sillok",
+    "volume_title": "현종실록 5권",
+    "entry_ref": "kra_10302002_002",
+    "url": "https://sillok.history.go.kr/id/kra_10302002_002",
+    "title_ko": "예조가 남해 노량의 이순신을 위해 세운 사우의 액호와 교서를 예문관으로 하여금 속히 지어 올리게 하라고 아뢰다",
+    "title_note": "그날 기사 중 2/2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1662,
+        "month": 2,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1662-03-21",
+      "julian": "1662-03-11",
+      "computed_gregorian": "1662-03-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙午 가 1662-03-21 의 일간지와 일치."
+    },
+    "day_ganji": "丙午",
+    "statements": [
+      {
+        "part": "본문",
+        "gloss_ko": "마땅히 특별히 묘액을 내려 절의를 포장하고 후인을 격려하는 바탕으로 삼아야 한다.",
+        "about": "예조의 노량 이순신 사우 묘액 하사 건의",
+        "stated_lunar": {
+          "month": 2,
+          "day": 2
+        },
+        "text_han": "似當特賜廟額, 以爲褒節義、勵後人之地"
+      }
+    ],
+    "note": "교리 민유중이 경연에서 남해 노량이 고 통제사 이순신이 순절한 곳임을 아뢰었고, 그곳 사우를 통제사 정익이 중건했다고 한다. 예조는 '額號及敎書, 請令藝文館急速製進'을 청하고 왕이 '從之'한다. 이 기사에는 '충민사'라는 이름과 '賜額'이라는 용어가 쓰이지 않고 '廟額·額號'로만 적힌다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 효종·현종·숙종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-sukjong-13005016_002",
+    "source_id": "src-sukjong-sillok",
+    "volume_title": "숙종실록 39권",
+    "entry_ref": "ksa_13005016_002",
+    "url": "https://sillok.history.go.kr/id/ksa_13005016_002",
+    "title_ko": "충청도 유생 서후경이 아산에 충무공 이순신의 사당 건립을 청하다",
+    "title_note": "그날 기사 중 2/2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1704,
+        "month": 5,
+        "day": 16,
+        "leap_month": false
+      },
+      "gregorian": "1704-06-17",
+      "julian": null,
+      "computed_gregorian": "1704-06-17",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 甲寅 가 1704-06-17 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "甲寅",
+    "statements": [
+      {
+        "part": "본문",
+        "gloss_ko": "충청도 유생 서후경이 상소해 고 충무공 이순신을 위해 아산 땅에 사당을 세우자고 청했다.",
+        "about": "서후경의 아산 이순신 사당 건립 청원",
+        "stated_lunar": {
+          "month": 5,
+          "day": 16
+        },
+        "text_han": "忠淸道儒生徐後慶, 疏請爲故忠武公李舜臣, 立祠于牙山地"
+      }
+    ],
+    "note": "사유는 '그 태어나 자란 고향이고 구묘가 있는 곳'(以其生長之鄕, 而丘墓所在也)이며 왕은 '해당 조에 품처하라'(上令該曹稟處)고 한다. 사액·인정은 이 기사에 없다(요약 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 효종·현종·숙종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-sukjong-13302006_005",
+    "source_id": "src-sukjong-sillok",
+    "volume_title": "숙종실록 45권",
+    "entry_ref": "ksa_13302006_005",
+    "url": "https://sillok.history.go.kr/id/ksa_13302006_005",
+    "title_ko": "이순신·을지문덕 등의 사우에 호를 내리다",
+    "title_note": "그날 기사 중 5/5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1707,
+        "month": 2,
+        "day": 6,
+        "leap_month": false
+      },
+      "gregorian": "1707-03-09",
+      "julian": null,
+      "computed_gregorian": "1707-03-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 己丑 가 1707-03-09 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "己丑",
+    "statements": [
+      {
+        "part": "본문",
+        "gloss_ko": "충청도 아산 충무공 이순신의 사우에 '현충'이라는 호를 내렸다.",
+        "about": "아산 이순신 사우에 현충(顯忠) 사액",
+        "stated_lunar": {
+          "month": 2,
+          "day": 6
+        },
+        "text_han": "賜忠淸道 牙山 忠武公 李舜臣 祠宇號顯忠"
+      }
+    ],
+    "note": "같은 기사에서 안주의 을지문덕·최윤덕·이원익·김덕함을 함께 모신 사우에는 '청천'(淸川) 호를 내린다. 요청자는 기사에 없다(요약 확인). 현재의 '현충사'는 이 사액에서 비롯된 이름으로 알려져 있으나 이 기사는 '顯忠' 호만 적는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 효종·현종·숙종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-sukjong-13612017_002",
+    "source_id": "src-sukjong-sillok",
+    "volume_title": "숙종실록 49권",
+    "entry_ref": "ksa_13612017_002",
+    "url": "https://sillok.history.go.kr/id/ksa_13612017_002",
+    "title_ko": "전라도 고금도의 관왕묘에 진인과 이순신을 향사하는 일을 논의하다",
+    "title_note": "그날 기사 중 2/2번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1710,
+        "month": 12,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1711-02-04",
+      "julian": null,
+      "computed_gregorian": "1711-02-04",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丁丑 가 1711-02-04 의 일간지와 일치. 1700-03-01 이후라 율리우스력 환산은 이 도구의 지원 범위 밖이어서 julian 을 비웠다."
+    },
+    "day_ganji": "丁丑",
+    "statements": [
+      {
+        "part": "표제",
+        "gloss_ko": "고금도 관왕묘에 진린과 이순신을 함께 향사하는 문제를 논의해 좌의정의 의견대로 하기로 했다.",
+        "about": "고금도 관왕묘 진린·이순신 향사와 사액 논의",
+        "stated_lunar": {
+          "month": 12,
+          "day": 17
+        }
+      }
+    ],
+    "note": "원문 한자 문장은 확인하지 못했고 요약으로만 읽었다. 예조는 진린의 사당이 관왕묘 곁에 있어 사액하면 사실상 관왕묘 액이 된다고 반대하고, 대신들은 선무사·무열사 전례, 관왕묘에만 액을 걸고 이순신은 선비 또는 첨사가 제사, 매년 봄가을 관제 등 의견을 낸다. 왕은 좌의정 서종태의 의견을 따르고 예조는 경칩·상강에 관왕묘 제사에 진린·이순신을 배향한다(요약 확인). 앞서 가을에 사액이 윤허되었다는 서술이 있다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 효종·현종·숙종실록 기사를 열람(WebFetch 요약)"
   }
 ]

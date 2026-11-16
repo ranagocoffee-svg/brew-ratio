@@ -328,5 +328,38 @@
     "citation": null,
     "url": "https://ja.wikipedia.org/wiki/豊臣秀吉",
     "note": "사망일 慶長3年8月18日(1598-09-18), 사망 비밀 유지와 慶長4年正月5日 공표를 서술. 사망일의 근거 사료로 梵舜日記 8/18 조를 든다고 WebFetch 요약에서 확인했으나 일기 원문은 직접 보지 못했다. 문서 약 26만 자 중 앞 20만 자만 읽음. 원문 재확인 필요."
+  },
+  {
+    "id": "src-hyojong-sillok",
+    "title": "효종실록 (국사편찬위원회 조선왕조실록 DB)",
+    "layer": "compiled_later",
+    "origin": "kr",
+    "reliability": "B",
+    "status": "confirmed",
+    "citation": null,
+    "url": "https://sillok.history.go.kr/",
+    "note": "후대 편찬 관찬 사료. WebFetch 요약으로 개별 기사를 확인했으며 원문 전문과 국역은 수록하지 않는다. 날짜는 기사 헤더(일간지 포함) 기준."
+  },
+  {
+    "id": "src-hyeonjong-sillok",
+    "title": "현종실록 (국사편찬위원회 조선왕조실록 DB; 개수실록 별도)",
+    "layer": "compiled_later",
+    "origin": "kr",
+    "reliability": "B",
+    "status": "confirmed",
+    "citation": null,
+    "url": "https://sillok.history.go.kr/",
+    "note": "후대 편찬 관찬 사료. WebFetch 요약으로 개별 기사를 확인했으며 원문 전문과 국역은 수록하지 않는다. 날짜는 기사 헤더(일간지 포함) 기준."
+  },
+  {
+    "id": "src-sukjong-sillok",
+    "title": "숙종실록 (국사편찬위원회 조선왕조실록 DB)",
+    "layer": "compiled_later",
+    "origin": "kr",
+    "reliability": "B",
+    "status": "confirmed",
+    "citation": null,
+    "url": "https://sillok.history.go.kr/",
+    "note": "후대 편찬 관찬 사료. WebFetch 요약으로 개별 기사를 확인했으며 원문 전문과 국역은 수록하지 않는다. 날짜는 기사 헤더(일간지 포함) 기준."
   }
 ]
