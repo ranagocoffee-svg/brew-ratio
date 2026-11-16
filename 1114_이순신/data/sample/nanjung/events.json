@@ -2581,7 +2581,7 @@
       ],
       "precision": "day",
       "certainty": "verified",
-      "note": "선조실록 103권 8/13(丙寅): '頃日海中之戰, 我軍銃砲齊發, 撞破賊船, 賊屍滿海 … 只斬七十餘級'와 진 도독이 수급 수를 보고 발을 구르며 위협해 40여 급을 나눠 받았다는 서술. 기록일 1598-09-13이며 교전일은 '頃日'로만 적혀 있어 확정하지 못했다."
+      "note": "선조실록 103권 8/13(丙寅): '頃日海中之戰, 我軍銃砲齊發, 撞破賊船, 賊屍滿海 … 只斬七十餘級'와 진 도독이 수급 수를 보고 발을 구르며 위협해 40여 급을 나눠 받았다는 서술. 기록일 1598-09-13이며 교전일은 '頃日'로만 적혀 있어 확정하지 못했다. 10/4(丙辰) 비변사 기사가 '李舜臣 折爾島之戰, 得斬七十一級, 而陳都督奪四十級, 季遊擊奪五級'라 적어 이 장계의 '頃日海中之戰'은 절이도 싸움으로 읽힌다(수치 일치, 추론). 절이도 싸움의 날짜는 열람한 기사에 없다."
     },
     "source_ids": [
       "src-seonjo-sillok"
@@ -2591,7 +2591,8 @@
     "relates_to": [
       "ev-1598-chen-claims-command",
       "ev-1598-gogeumdo-move",
-      "rec-sillok-seonjo-31-08-13-004"
+      "rec-sillok-seonjo-31-08-13-004",
+      "ev-1598-jeoridpo-merit-seized"
     ]
   },
   {
@@ -2747,6 +2748,85 @@
       "ev-1598-king-worries-over-chen",
       "ev-1598-fleet-departure",
       "rec-sillok-seonjo-31-09-10-003"
+    ]
+  },
+  {
+    "id": "ev-1598-jeoridpo-merit-seized",
+    "track": "yi",
+    "title_ko": "비변사 보고: 절이도 전투 전과(71급)를 진 도독이 40급 빼앗고 26급 장계를 강요 (실록 기록)",
+    "title_en": "Border Council: the Ming admiral seized heads from Yi's Jeoridpo victory",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 10,
+        "day": 4,
+        "leap_month": false
+      },
+      "gregorian": "1598-11-02",
+      "julian": "1598-10-23",
+      "computed_gregorian": "1598-11-02",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-10-04-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 105권 10/4(丙辰): '李舜臣 折爾島之戰, 得斬七十一級, 而陳都督奪四十級, 季遊擊奪五級', 진 도독이 이순신에게 26급 장계를 강요(都督迫令舜臣 …). 기록일 1598-11-02이며 절이도 싸움의 날짜는 적혀 있지 않다. 8/13 장계의 '70여 급·40여 급을 나눠 줌·계 유격 5급'과 수치가 맞아 같은 싸움으로 읽는다(추론)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-yi-sea-battle-report",
+      "ev-1598-chen-claims-command",
+      "rec-sillok-seonjo-31-10-04-005"
+    ]
+  },
+  {
+    "id": "ev-1598-yegyo-naval-oct2",
+    "track": "yi",
+    "title_ko": "이순신 장계: 10/2 예교 방면 수군 합세 전투 (아군 29명·명군 5명 전사)",
+    "title_en": "Yi Sun-sin's fleet fights alongside the Ming at Yegyo on 10/2",
+    "category": "battle",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 10,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1598-10-31",
+      "julian": "1598-10-21",
+      "computed_gregorian": "1598-10-31",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-31-10-13-003",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 105권 10/13(乙丑)의 이순신 장계: '初二日, 舟師合勢討賊, 知陸兵觀望不進, 專力於舟師 … 我兵逢丸致死二十九名, 天兵五名云'. 같은 달 13일 기사에서 11일 앞이라 1598-10-31이며 일기 7책 10/2(甲寅 '卯時進兵 我舟師先登 … 蛇渡僉使逢丸戰亡')와 독립적으로 일치한다. 월은 구절에 없어 기사와 같은 달로 읽었다(추론)."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-joint-assault",
+      "ev-1598-suncheon-siege",
+      "de-autograph-b7-1598-10-02",
+      "rec-sillok-seonjo-31-10-13-003"
     ]
   }
 ]
