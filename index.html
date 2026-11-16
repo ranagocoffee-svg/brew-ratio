@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>김커피 | 자기소개</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: linear-gradient(160deg, #F5F3FF 0%, #DDD6FE 100%);
+    color: #1E2938;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 48px 32px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 24px;
+    box-shadow: 0 20px 45px rgba(14, 165, 233, 0.15), 0 4px 12px rgba(30, 41, 56, 0.06);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 28px 55px rgba(14, 165, 233, 0.2), 0 6px 16px rgba(30, 41, 56, 0.08);
+  }
+
+  .avatar {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0EA5E9, #38BDF8);
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    box-shadow: 0 8px 20px rgba(14, 165, 233, 0.35);
+    margin-bottom: 20px;
+  }
+
+  .name {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    color: #1E2938;
+  }
+
+  .bio {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #1E2938;
+    opacity: 0.75;
+    margin: 0 0 24px;
+  }
+
+  .tags {
+    list-style: none;
+    margin: 0 0 28px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .tags li {
+    list-style-type: none;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    background: rgba(14, 165, 233, 0.1);
+    color: #0EA5E9;
+    border: 1px solid rgba(14, 165, 233, 0.25);
+    transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+    cursor: default;
+  }
+
+  .tag:hover {
+    background: #0EA5E9;
+    color: #ffffff;
+    transform: translateY(-2px);
+  }
+
+  .socials {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #1E2938;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid rgba(30, 41, 56, 0.1);
+    box-shadow: 0 2px 8px rgba(30, 41, 56, 0.06);
+    transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .social-link:hover {
+    background: #0EA5E9;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(14, 165, 233, 0.3);
+  }
+
+  .social-link svg {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+  }
+
+  @media (max-width: 480px) {
+    .card {
+      padding: 36px 24px;
+      border-radius: 20px;
+    }
+
+    .avatar {
+      width: 76px;
+      height: 76px;
+      font-size: 28px;
+    }
+
+    .name {
+      font-size: 21px;
+    }
+
+    .bio {
+      font-size: 14px;
+    }
+
+    .socials {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .social-link {
+      justify-content: center;
+      width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">김</div>
+    <h1 class="name">김커피</h1>
+    <p class="bio">코드와 커피, 책과 산책을 좋아합니다.</p>
+    <ul class="tags">
+      <li><span class="tag">독서</span></li>
+      <li><span class="tag">여행</span></li>
+      <li><span class="tag">사진</span></li>
+      <li><span class="tag">커피</span></li>
+    </ul>
+    <div class="socials">
+      <a class="social-link" href="https://github.com/claudecode-gilbut" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.833.092-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.269 2.75 1.026A9.548 9.548 0 0 1 12 6.844c.85.004 1.705.115 2.504.338 1.909-1.295 2.747-1.026 2.747-1.026.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.749 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"/></svg>
+        GitHub
+      </a>
+      <a class="social-link" href="https://linkedin.com/in/claudecode-gilbut" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.114 20.452H3.559V9h3.555v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+    </div>
+  </div>
+</body>
+</html>
