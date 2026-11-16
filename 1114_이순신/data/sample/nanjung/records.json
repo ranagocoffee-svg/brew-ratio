@@ -2288,5 +2288,165 @@
     ],
     "note": "기사에 사유는 없고 이순신 이름도 없다. 같은 날 다음 기사는 '진 도독이 통제사 직책의 후임을 원하는 게첩을 올리다'(제목만 확인)이며 11/24 정원의 '이순신의 후임을 정하는 문제' 기사 다음 날이다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
     "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 11월 25일·30일 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-12-01-005",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 107권",
+    "entry_ref": "kna_13112001_005",
+    "url": "https://sillok.history.go.kr/id/kna_13112001_005",
+    "title_ko": "비변사가 이순신의 사당을 세울 것을 요청하다",
+    "title_note": "그날 기사 6건 중 5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 12,
+        "day": 1,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-28",
+      "julian": "1598-12-18",
+      "computed_gregorian": "1598-12-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬子 가 1598-12-28 의 일간지와 일치."
+    },
+    "day_ganji": "壬子",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "今此露梁, 達夜血戰, 使賊魁燒死, 至獲戰艦二百餘隻, 義氣大振於東南",
+        "gloss_ko": "이번 노량에서 밤새 혈전해 적의 우두머리를 불에 타 죽게 하고 전함 200여 척을 얻기에 이르러 의기가 동남에 크게 떨쳤다.",
+        "about": "비변사의 노량해전 서술(적 전함 200여 척 획득)과 사당 건립 건의",
+        "stated_lunar": {
+          "month": 12,
+          "day": 1
+        }
+      }
+    ],
+    "note": "같은 기사에서 사당은 '좌수영 본진에 세워 봄가을로 제사하자'(海邊立祠, 似當於左水營本陣設立, 春秋致祭), '지난날의 한산 승첩으로 이미 큰 공을 세웠다'(往日閑山之捷, 旣立大功), '불행히 탄환을 맞아 쓰러졌으나 임종에 침착히 처리해 옛 명장의 풍이 있었다'(從容處置)고 하며 왕이 따른다(上從之). 노량의 교전일·전사일은 이 기사에 없다. 실록에서 '露梁'과 교전 내용(밤샘 혈전)이 직접 나오는 가장 이른 기사로 읽힌다(열람 범위 기준). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 12월 일자별 목록과 12/1·12/2·12/7·12/11 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-12-02-005",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 107권",
+    "entry_ref": "kna_13112002_005",
+    "url": "https://sillok.history.go.kr/id/kna_13112002_005",
+    "title_ko": "진 제독이 이순신의 후임에 관한 게첩을 보내다",
+    "title_note": "그날 기사 7건 중 5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 12,
+        "day": 2,
+        "leap_month": false
+      },
+      "gregorian": "1598-12-29",
+      "julian": "1598-12-19",
+      "computed_gregorian": "1598-12-29",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 癸丑 가 1598-12-29 의 일간지와 일치."
+    },
+    "day_ganji": "癸丑",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "李舜臣員缺, 亟望簡命, 用紓引領",
+        "gloss_ko": "(진린의 게첩) 이순신의 자리가 비었으니 속히 임명하시기를 바라며 간절히 기다립니다.",
+        "about": "진 제독의 이순신 후임 통제사 임명 촉구",
+        "stated_lunar": {
+          "month": 12,
+          "day": 2
+        }
+      }
+    ],
+    "note": "특정 후보는 거명하지 않고 이순신의 죽음도 서술하지 않는다('員缺'만). 11/25 이시언 임명(별도 기사) 뒤에도 후임을 촉구한 점이 눈에 띄나 게첩의 작성일은 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 12월 일자별 목록과 12/1·12/2·12/7·12/11 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-12-07-005",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 107권",
+    "entry_ref": "kna_13112007_005",
+    "url": "https://sillok.history.go.kr/id/kna_13112007_005",
+    "title_ko": "좌의정 이덕형이 이순신의 포장을 요청하다",
+    "title_note": "그날 기사 6건 중 5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 12,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1599-01-03",
+      "julian": "1598-12-24",
+      "computed_gregorian": "1599-01-03",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 戊午 가 1599-01-03 의 일간지와 일치."
+    },
+    "day_ganji": "戊午",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "報捷之日, 運糧夫丁, 得聞李舜臣身死, 不幸徑死鋒鏑",
+        "gloss_ko": "승첩을 보고하는 날 군량 운반 인부들이 이순신의 죽음을 들었으며 불행히 곧바로 칼날과 화살에 죽었다.",
+        "about": "이덕형의 이순신 포장 요청(전사 경위 서술)",
+        "stated_lunar": {
+          "month": 12,
+          "day": 7
+        }
+      }
+    ],
+    "note": "같은 장계에서 '그 4월에 비로소 고금도에 들어가 포진·시책이 매우 알맞았다고 듣는다'(又聞其四月, 始入古今島)와 신임 통제사를 특별히 명해 장졸을 어루만지게 하고 포장을 시행해 달라는 요청이 있다(요약 확인). '4월 고금도 입진'은 전해 들은 말로, 3/18 기사의 이순신 장계(2/17 고금도 이진)와 한 달 이상 어긋난다. 노량 지명은 이 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 12월 일자별 목록과 12/1·12/2·12/7·12/11 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-seonjo-31-12-11-007",
+    "source_id": "src-seonjo-sillok",
+    "volume_title": "선조실록 107권",
+    "entry_ref": "kna_13112011_007",
+    "url": "https://sillok.history.go.kr/id/kna_13112011_007",
+    "title_ko": "예조가 이순신의 장례문제에 대해 아뢰다",
+    "title_note": "그날 기사 7건 중 7번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1598,
+        "month": 12,
+        "day": 11,
+        "leap_month": false
+      },
+      "gregorian": "1599-01-07",
+      "julian": "1598-12-28",
+      "computed_gregorian": "1599-01-07",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 壬戌 가 1599-01-07 의 일간지와 일치."
+    },
+    "day_ganji": "壬戌",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "聞李舜臣喪柩, 已離身死之地, 將到牙山葬所, 不與鄧喪, 同在一處云",
+        "gloss_ko": "들으니 이순신의 상구는 이미 죽은 곳을 떠나 아산 장소에 이르려 하며 등 총병의 상구와 한곳에 있지 않다고 한다.",
+        "about": "예조의 이순신 상구 이동(아산 장지) 보고와 치제 순서 논의",
+        "stated_lunar": {
+          "month": 12,
+          "day": 11
+        }
+      }
+    ],
+    "note": "왕은 '먼저 천장(명 장수)을 제사하고 다음에 우리 장수를 제사함이 예에 맞다'(先祭天將, 而次祭我國之將), '등 총병의 제관을 신속히 먼저 보내라'고 한다(요약 확인). 상구의 이동일은 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 선조 31년 12월 일자별 목록과 12/1·12/2·12/7·12/11 기사를 열람(WebFetch 요약)"
   }
 ]
