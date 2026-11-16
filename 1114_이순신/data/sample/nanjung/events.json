@@ -3991,5 +3991,196 @@
       "ev-1795-complete-works-compiled",
       "rec-sillok-jeongjo-11912005_001"
     ]
+  },
+  {
+    "id": "ev-1615-king-adds-yi-to-loyal-list",
+    "track": "yi",
+    "title_ko": "광해군, 김천일 등을 충신으로 수록한다면 이순신·원균·이억기 등도 수록하라 하교 (광해군일기 기록)",
+    "title_en": "Gwanghae orders Yi Sun-sin and others added to the list of loyal subjects",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1615,
+        "month": 11,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1616-01-06",
+      "julian": "1615-12-27",
+      "computed_gregorian": "1616-01-06",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-gwanghae-10711018_002",
+          "statement": 0
+        }
+      ],
+      "note": "광해군일기[중초본] 97권 11/18(庚寅) 기사. 기록일 1616-01-06이며 사건이 실행된 날이 아니다."
+    },
+    "source_ids": [
+      "src-gwanghae-ilgi"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1604-seonmu-edict-read",
+      "rec-sillok-gwanghae-10711018_002"
+    ]
+  },
+  {
+    "id": "ev-1615-loyal-list-investigation-approved",
+    "track": "yi",
+    "title_ko": "찬집청, 이순신 등 일곱 명의 사적을 예조가 조사해 올리게 하자고 청하고 왕이 윤허 (광해군일기 기록)",
+    "title_en": "Compilation office asks the Rites ministry to investigate Yi and six others; king approves",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1615,
+        "month": 11,
+        "day": 23,
+        "leap_month": false
+      },
+      "gregorian": "1616-01-11",
+      "julian": "1616-01-01",
+      "computed_gregorian": "1616-01-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-gwanghae-10711023_004",
+          "statement": 0
+        }
+      ],
+      "note": "광해군일기[중초본] 97권 11/23(乙未) 기사. 기록일 1616-01-11이며 사건이 실행된 날이 아니다."
+    },
+    "source_ids": [
+      "src-gwanghae-ilgi"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1615-king-adds-yi-to-loyal-list",
+      "rec-sillok-gwanghae-10711023_004"
+    ]
+  },
+  {
+    "id": "ev-1622-turtle-ships-per-yi-method",
+    "track": "yi",
+    "title_ko": "비변사, 이순신의 방식대로 거북선을 만들고 기계를 갖추자고 청하고 광해군이 허락 (광해군일기 기록)",
+    "title_en": "Border Council asks for turtle ships built after Yi's method; Gwanghae approves",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1622,
+        "month": 7,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1622-08-28",
+      "julian": "1622-08-18",
+      "computed_gregorian": "1622-08-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-gwanghae-11407022_004",
+          "statement": 0
+        }
+      ],
+      "note": "광해군일기[중초본] 179권 7/22(丙辰) 기사. 기록일 1622-08-28이며 사건이 실행된 날이 아니다."
+    },
+    "source_ids": [
+      "src-gwanghae-ilgi"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1615-loyal-list-investigation-approved",
+      "rec-sillok-gwanghae-11407022_004"
+    ]
+  },
+  {
+    "id": "ev-1657-descendants-employment-urged",
+    "track": "yi",
+    "title_ko": "대사헌 민응형, 이순신 등 충신 자손의 등용을 건의하고 왕이 받아들임 (효종실록 기록)",
+    "title_en": "Min Eung-hyeong urges employing the descendants of Yi and other loyal officers",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1657,
+        "month": 6,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1657-07-17",
+      "julian": "1657-07-07",
+      "computed_gregorian": "1657-07-17",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-hyojong-10806007_001",
+          "statement": 0
+        }
+      ],
+      "note": "효종실록 18권 6/7(戊寅) 기사. 기록일 1657-07-17이며 사건이 실행된 날이 아니다."
+    },
+    "source_ids": [
+      "src-hyojong-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1658-grave-marker-ordered",
+      "rec-sillok-hyojong-10806007_001"
+    ]
+  },
+  {
+    "id": "ev-1642-posthumous-title-urged",
+    "track": "yi",
+    "title_ko": "공조 판서 윤휘, 이순신·고경명·조헌에게 아직 증시가 없다며 촉구, 인조가 예조에 품처를 명함 (인조실록 기록)",
+    "title_en": "Yun Hwi notes Yi has not yet received a posthumous title; Injo refers it to the Rites ministry",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1642,
+        "month": 5,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1642-06-09",
+      "julian": "1642-05-30",
+      "computed_gregorian": "1642-06-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-injo-12005013_001",
+          "statement": 0
+        }
+      ],
+      "note": "인조실록 43권 5/13(辛巳) 기사. 기록일 1642-06-09이며 사건이 실행된 날이 아니다."
+    },
+    "source_ids": [
+      "src-injo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1659-namhae-monument",
+      "ev-1615-loyal-list-investigation-approved",
+      "rec-sillok-injo-12005013_001"
+    ]
   }
 ]

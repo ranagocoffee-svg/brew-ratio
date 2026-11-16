@@ -3377,5 +3377,205 @@
     ],
     "note": "시호·증직 서술은 없다(요약 확인). 치제가 시행된 날짜는 기사에 없다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
     "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과(6~7쪽) 중 정조실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-gwanghae-10711018_002",
+    "source_id": "src-gwanghae-ilgi",
+    "volume_title": "광해군일기[중초본] 97권",
+    "entry_ref": "koa_10711018_002",
+    "url": "https://sillok.history.go.kr/id/koa_10711018_002",
+    "title_ko": "이대원·이순신·원균 등을 충신 대열에 수록할 것인지 의논하게 하다",
+    "title_note": "그날 기사 중 2/5번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1615,
+        "month": 11,
+        "day": 18,
+        "leap_month": false
+      },
+      "gregorian": "1616-01-06",
+      "julian": "1615-12-27",
+      "computed_gregorian": "1616-01-06",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 庚寅 가 1616-01-06 의 일간지와 일치."
+    },
+    "day_ganji": "庚寅",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "金千鎰等收錄於忠臣之列, 則如李大元、李舜臣、元均、李億祺、崔湖、李福男、任鉉等, 死於國事之人, 何不收錄乎",
+        "gloss_ko": "김천일 등을 충신의 반열에 수록한다면 이대원·이순신·원균·이억기·최호·이복남·임현 등 나라 일로 죽은 사람을 어찌 수록하지 않는가.",
+        "about": "광해군의 이순신 등 충신 수록 하교",
+        "stated_lunar": {
+          "month": 11,
+          "day": 18
+        }
+      }
+    ],
+    "note": "왕의 전교로 '이 사람들을 자세히 의논해 결정해 아뢰라'(此人等詳議定奪以啓)고 한다. 포상·정려·사당 등 구체 조치는 이 기사에 없다. 중초본 기사이며 정초본(kob_10711018_002)에도 같은 기사가 실린다(검색 목록 확인). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 광해군일기[중초본]·인조실록·효종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-gwanghae-10711023_004",
+    "source_id": "src-gwanghae-ilgi",
+    "volume_title": "광해군일기[중초본] 97권",
+    "entry_ref": "koa_10711023_004",
+    "url": "https://sillok.history.go.kr/id/koa_10711023_004",
+    "title_ko": "전 부사 첨사 정발을 충신 대열에 수록하게 하다",
+    "title_note": "그날 기사 중 4/9번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1615,
+        "month": 11,
+        "day": 23,
+        "leap_month": false
+      },
+      "gregorian": "1616-01-11",
+      "julian": "1616-01-01",
+      "computed_gregorian": "1616-01-11",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 乙未 가 1616-01-11 의 일간지와 일치."
+    },
+    "day_ganji": "乙未",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "右七人等事迹, 依前鄭期遠等例, 令禮曹速爲訪問, 入啓定奪",
+        "gloss_ko": "위 일곱 사람의 사적은 앞의 정기원 등의 예에 따라 예조로 하여금 속히 탐문해 입계·결정하게 한다.",
+        "about": "찬집청의 이순신 등 일곱 명 사적 조사 요청과 윤허",
+        "stated_lunar": {
+          "month": 11,
+          "day": 23
+        }
+      }
+    ],
+    "note": "찬집청이 앞서 왕이 말한 일곱 사람(이대원·이순신·원균·이억기·최호·이복남·임현)과 정발의 사적을 예조가 조사해 올리게 하자고 청하고 왕이 '允'한다(요약 확인). 이 시점에 시호·증직은 적히지 않는다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 광해군일기[중초본]·인조실록·효종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-gwanghae-11407022_004",
+    "source_id": "src-gwanghae-ilgi",
+    "volume_title": "광해군일기[중초본] 179권",
+    "entry_ref": "koa_11407022_004",
+    "url": "https://sillok.history.go.kr/id/koa_11407022_004",
+    "title_ko": "비변사가 수군에서 거북선을 만들고 기계 갖추기를 청하자 허락하다",
+    "title_note": "그날 기사 중 4/4번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1622,
+        "month": 7,
+        "day": 22,
+        "leap_month": false
+      },
+      "gregorian": "1622-08-28",
+      "julian": "1622-08-18",
+      "computed_gregorian": "1622-08-28",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 丙辰 가 1622-08-28 의 일간지와 일치."
+    },
+    "day_ganji": "丙辰",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "一依舜臣防倭之規, 造龜船、設器械事, 全羅左右水使, 請明白指授",
+        "gloss_ko": "한결같이 이순신의 방왜 규정에 따라 거북선을 만들고 기계를 갖추는 일을 전라 좌우 수사에게 분명히 지시하게 하자.",
+        "about": "비변사의 이순신 방식 거북선 제작 건의와 허락",
+        "stated_lunar": {
+          "month": 7,
+          "day": 22
+        }
+      }
+    ],
+    "note": "'昔在壬丁年間, 李舜臣出奇禦倭, 海防諸務, 逐一備至'(임진·정유 연간 이순신이 기이한 계책으로 왜를 막고 해방의 일을 하나하나 갖췄다)로 시작하고 왕은 '亟造舜臣龜船修器械, 鍊習士卒 … 一如舜臣所爲'라 한다(요약 확인). 이순신이 후대 해방 제도의 기준으로 인용된다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 광해군일기[중초본]·인조실록·효종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-hyojong-10806007_001",
+    "source_id": "src-hyojong-sillok",
+    "volume_title": "효종실록 18권",
+    "entry_ref": "kqa_10806007_001",
+    "url": "https://sillok.history.go.kr/id/kqa_10806007_001",
+    "title_ko": "대사헌 민응형 등이 폐단에 관해 아뢰다(목록 요약 제목 기준; 정확한 헤더 제목은 열람 요약에서 확인하지 못함)",
+    "title_note": "그날 기사 중 1/1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1657,
+        "month": 6,
+        "day": 7,
+        "leap_month": false
+      },
+      "gregorian": "1657-07-17",
+      "julian": "1657-07-07",
+      "computed_gregorian": "1657-07-17",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 戊寅 가 1657-07-17 의 일간지와 일치."
+    },
+    "day_ganji": "戊寅",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "至於趙憲、李舜臣、金悌甲、金應河、金浚等子孫, 俱宜見恤, 而未聞有錄用之人",
+        "gloss_ko": "조헌·이순신·김제갑·김응하·김준 등의 자손도 모두 돌보아야 하는데 등용된 사람이 있다는 말을 듣지 못했습니다.",
+        "about": "대사헌 민응형의 이순신 등 자손 등용 건의",
+        "stated_lunar": {
+          "month": 6,
+          "day": 7
+        }
+      }
+    ],
+    "note": "대사헌 민응형의 상소에서 '장차 무엇으로 후인을 격려하겠는가'라 하고 왕은 가상히 여겨 받아들인다. 구체 조치는 기사에 없다(요약 확인). 시호·증직 서술은 없다. 제목은 열람 요약에 정확한 문구가 없어 목록 요약을 따랐다. 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 광해군일기[중초본]·인조실록·효종실록 기사를 열람(WebFetch 요약)"
+  },
+  {
+    "id": "rec-sillok-injo-12005013_001",
+    "source_id": "src-injo-sillok",
+    "volume_title": "인조실록 43권",
+    "entry_ref": "kpa_12005013_001",
+    "url": "https://sillok.history.go.kr/id/kpa_12005013_001",
+    "title_ko": "고경명·이순신·조헌 등의 증시 문제 논의(목록 요약 제목 기준)",
+    "title_note": "그날 기사 중 1/1번째(헤더 표기).",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1642,
+        "month": 5,
+        "day": 13,
+        "leap_month": false
+      },
+      "gregorian": "1642-06-09",
+      "julian": "1642-05-30",
+      "computed_gregorian": "1642-06-09",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "precision": "day",
+      "certainty": "verified",
+      "note": "실록 헤더 일간지 辛巳 가 1642-06-09 의 일간지와 일치."
+    },
+    "day_ganji": "辛巳",
+    "statements": [
+      {
+        "part": "본문",
+        "text_han": "而至於高敬命、李舜臣、趙憲, 尙未蒙贈諡, 是誠欠典也",
+        "gloss_ko": "그러나 고경명·이순신·조헌에게는 아직 증시(贈諡)가 내려지지 않았으니 이는 참으로 빠진 의전입니다.",
+        "about": "공조 판서 윤휘의 이순신 증시 촉구",
+        "stated_lunar": {
+          "month": 5,
+          "day": 13
+        }
+      }
+    ],
+    "note": "윤휘는 증시가 오랜 관례인데 세 사람이 아직 받지 못했다고 하며 왕은 '令禮曹稟處'(예조가 품처하라)고 한다. 결과는 이 기사에 없다. 이로써 이순신의 시호는 1642년 5월 13일(음력)까지 내려지지 않았고 효종 10년(1659) 기사에서 이미 '충무공'으로 쓰이므로 그 사이에 내려졌다(시호 하사 기사는 찾지 못함). 원문 전문과 한국고전번역원 국역은 수록하지 않고 짧은 원문 인용과 우리 요약만 둔다.",
+    "checked": "2026-11-16 · 국사편찬위원회 조선왕조실록 DB의 '李舜臣' 전문 검색 결과 중 광해군일기[중초본]·인조실록·효종실록 기사를 열람(WebFetch 요약)"
   }
 ]
