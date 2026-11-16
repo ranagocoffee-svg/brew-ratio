@@ -3460,5 +3460,120 @@
       "ev-1597-chilcheollyang",
       "rec-sillok-seonjo-36-06-26-002"
     ]
+  },
+  {
+    "id": "ev-1603-seonmu-first-class-ordered",
+    "track": "yi",
+    "title_ko": "왕, 정왜 공신 1등을 이순신·원균·권율로 한정하고 나머지는 삭제하라 비망기 (실록 기록)",
+    "title_en": "King limits first-class Japan-campaign merit to Yi, Won and Kwon",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1603,
+        "month": 8,
+        "day": 17,
+        "leap_month": false
+      },
+      "gregorian": "1603-09-21",
+      "julian": "1603-09-11",
+      "computed_gregorian": "1603-09-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-36-08-17-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 165권 8/17(庚子): '征倭則李舜臣、元均、權慄, 當爲一等, 此外皆削去'. 기록일 1603-09-21."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1603-won-gyun-first-class",
+      "ev-1601-merit-list-yi-already-dead",
+      "rec-sillok-seonjo-36-08-17-005"
+    ]
+  },
+  {
+    "id": "ev-1604-seonmu-first-class-decided",
+    "track": "yi",
+    "title_ko": "호성·선무·청난 공신 봉작 결정: 이순신·권율·원균을 선무공신 1등으로 (실록 기록)",
+    "title_en": "Seonmu merit titles awarded: Yi, Kwon, Won in first class",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1604,
+        "month": 6,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1604-07-21",
+      "julian": "1604-07-11",
+      "computed_gregorian": "1604-07-21",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-37-06-25-007",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 175권 6/25(甲辰): '其宣武一等, 李舜臣、權慄、元均三大將, 爲効忠仗義迪毅協力宣武功臣'. 기록일 1604-07-21."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1603-seonmu-first-class-ordered",
+      "rec-sillok-seonjo-37-06-25-007"
+    ]
+  },
+  {
+    "id": "ev-1604-seonmu-edict-read",
+    "track": "yi",
+    "title_ko": "선무공신 교서 반급·선독: 이순신 일등, 화상·3계 가자·세습 (실록 기록)",
+    "title_en": "Seonmu merit edict read: Yi in first class with portrait and three-step promotion",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1604,
+        "month": 10,
+        "day": 29,
+        "leap_month": false
+      },
+      "gregorian": "1604-12-19",
+      "julian": "1604-12-09",
+      "computed_gregorian": "1604-12-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-37-10-29-006",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 180권 10/29(乙亥): '肆策勳李舜臣、權慄、元均爲一等, 圖形垂後, 超三階爵'. 기록일 1604-12-19."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1604-seonmu-first-class-decided",
+      "rec-sillok-seonjo-37-10-29-006"
+    ]
   }
 ]
