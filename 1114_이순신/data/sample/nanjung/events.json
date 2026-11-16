@@ -2980,7 +2980,7 @@
       ],
       "precision": "day",
       "certainty": "verified",
-      "note": "선조실록 107권 12/1(壬子): '海邊立祠, 似當於左水營本陣設立, 春秋致祭'와 '今此露梁, 達夜血戰, 使賊魁燒死, 至獲戰艦二百餘隻'(왕이 따름). 기록일 1598-12-28이며 노량의 교전일은 기사에 없다."
+      "note": "선조실록 107권 12/1(壬子): '海邊立祠, 似當於左水營本陣設立, 春秋致祭'와 '今此露梁, 達夜血戰, 使賊魁燒死, 至獲戰艦二百餘隻'(왕이 따름). 기록일 1598-12-28이며 노량의 교전일은 기사에 없다. 후속(선조실록 111권): 1599년 4/14·4/25 홍문관이 사당의 관립·민립 선례를 조사해 보고하며(별도 사건) 최종 결정은 열람한 기사에 없다."
     },
     "source_ids": [
       "src-seonjo-sillok"
@@ -2990,7 +2990,9 @@
     "relates_to": [
       "ev-1598-noryang",
       "ev-1598-posthumous-honors-ordered",
-      "rec-sillok-seonjo-31-12-01-005"
+      "rec-sillok-seonjo-31-12-01-005",
+      "ev-1599-shrine-precedent-query",
+      "ev-1599-shrine-precedents-reported"
     ]
   },
   {
@@ -3187,6 +3189,83 @@
       "ev-1598-noryang",
       "ev-1599-chen-recounts-noryang",
       "rec-sillok-seonjo-32-03-06-002"
+    ]
+  },
+  {
+    "id": "ev-1599-shrine-precedent-query",
+    "track": "yi",
+    "title_ko": "홍문관, 이순신 사당의 선례 조사 결과를 아룀(국내 선례 없음), 왕이 다시 살피라 함 (실록 기록)",
+    "title_en": "Hongmungwan reports no domestic precedent for a shrine; king orders a recheck",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1599,
+        "month": 4,
+        "day": 14,
+        "leap_month": false
+      },
+      "gregorian": "1599-05-08",
+      "julian": "1599-04-28",
+      "computed_gregorian": "1599-05-08",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-32-04-14-005",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 111권 4/14(癸亥): '至如我東之事, 則考諸《三國》、《麗史》, 未見表表相近之例', 왕은 '前例更察考啓'. 기록일 1599-05-08이며 사당이 세워진 날이 아니다. 앞서 12/1(음력) 비변사가 건의하고 왕이 따른 사당 건립(ev-1598-shrine-proposed)을 이어 다룬다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1598-shrine-proposed",
+      "rec-sillok-seonjo-32-04-14-005"
+    ]
+  },
+  {
+    "id": "ev-1599-shrine-precedents-reported",
+    "track": "yi",
+    "title_ko": "홍문관, 사당 선례 3건(강민첨·1589 사례·이대원)을 보고, 왕은 '알았다'고 답함 (실록 기록)",
+    "title_en": "Hongmungwan reports three shrine precedents; king replies he understands",
+    "category": "record",
+    "date": {
+      "original": {
+        "calendar": "lunisolar",
+        "year": 1599,
+        "month": 4,
+        "day": 25,
+        "leap_month": false
+      },
+      "gregorian": "1599-05-19",
+      "julian": "1599-05-09",
+      "computed_gregorian": "1599-05-19",
+      "converter": "korean-lunar-calendar@0.4.0",
+      "basis_records": [
+        {
+          "record_id": "rec-sillok-seonjo-32-04-25-004",
+          "statement": 0
+        }
+      ],
+      "precision": "day",
+      "certainty": "verified",
+      "note": "선조실록 111권 4/25(甲戌): '李舜臣立祠事, 前例更爲考啓事傳敎矣 … 此外無所考', 왕은 '知'. 기록일 1599-05-19이며 최종 결정(위치·사액)은 기사에 없다."
+    },
+    "source_ids": [
+      "src-seonjo-sillok"
+    ],
+    "verified": true,
+    "note": null,
+    "relates_to": [
+      "ev-1599-shrine-precedent-query",
+      "ev-1598-shrine-proposed",
+      "rec-sillok-seonjo-32-04-25-004"
     ]
   }
 ]
